@@ -1,0 +1,10 @@
+{
+    "img":{
+        "Fales_size":[4000,4000],
+        "interval_clear":0,
+        "interval_transition":50,
+        "interval_blurry":100,
+        "img":{}
+    },
+    "sound":{}
+}

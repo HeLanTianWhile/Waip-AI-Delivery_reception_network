@@ -1,5 +1,5 @@
 import psutil
-
+import copy
 
 
 def Waip_AGI(user, data):
@@ -76,19 +76,49 @@ def Waip_AGI(user, data):
         printf(f"激活递接元：{activated_Delivery_reception_unit}")
         
         number_branches_associative_tree = Calculation_formula_number_branches_associative_tree(Text, data)
-        index = {"main_index": 0,"Undetermined_Root_unit_index": 0, "Undetermined_Confirmed_unit_index": 0}
+        index = {"main_index": 0,"Undetermined_Root_unit_index": 0, "Confirmed_Root_unit_index": 0}
         
         for i in list(Text):
+            if index["main_index"] == number_branches_associative_tree:
+                break
             associative_tree[str(index["main_index"])] = {"IP": ["Undetermined unit", "Root unit", index["Undetermined_Root_unit_index"]], "content": i}
             index["main_index"] += 1
             index["Undetermined_Root_unit_index"] += 1
         for i in activated_Delivery_reception_unit:
-            associative_tree[str(index["main_index"])] = {"IP": ["Undetermined unit", "Confirmed unit", index["Undetermined_Confirmed_unit_index"]], "correspond to": ["activated memory", i]}
+            if index["main_index"] == number_branches_associative_tree:
+                break
+            associative_tree[str(index["main_index"])] = {"IP": ["Confirmed unit", "Root unit", index["Confirmed_Root_unit_index"]], "correspond to": ["activated memory", i]}
             index["main_index"] += 1
-            index["Undetermined_Confirmed_unit_index"] += 1
-        for i in range(number_branches_associative_tree):
-            for j in associative_tree:
-                pass
+            index["Confirmed_Root_unit_index"] += 1
+
+        临时index = 0
+        临时associative_tree = copy.deepcopy(associative_tree)
+        while True:
+
+            临时index += 1
+
+            for i in data["associative network"]:
+                printf(data["associative network"][i])
+                Receive_pass_the_parent_unit_dictionary={}
+                for j in associative_tree:
+                    #########
+                    if index["main_index"] == number_branches_associative_tree:
+                        break
+
+                    if "Undetermined unit" in associative_tree[i]["IP"]:
+                        if (associative_tree[i]["content"] in data["associative network"][i]) or (data["associative network"][i]["correspond to"] in associative_tree[i]["content"]):
+                            Receive_pass_the_parent_unit_dictionary[i] = data["associative network"][i]
+
+                associative_tree = copy.deepcopy(临时associative_tree)
+
+                if index["main_index"] == number_branches_associative_tree:
+                        break
+            if index["main_index"] == number_branches_associative_tree:
+                break
+
+            if 临时index == number_branches_associative_tree:
+                printf(f"此临时循环已执行{临时index}次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序")
+                break
 
 
         return associative_tree

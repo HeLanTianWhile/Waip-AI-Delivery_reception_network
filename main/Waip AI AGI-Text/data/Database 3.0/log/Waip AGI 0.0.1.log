@@ -3501,3 +3501,380 @@ FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\HW\\Desktop\
 2026-06-03 20:51:58,458 - Waip AGI 0.0.1 - INFO - 数据已更新
 2026-06-03 20:52:47,292 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-06-03 20:53:47,293 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:48:31,667 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-04 18:48:31,669 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-04 18:48:31,670 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-04 18:48:40,703 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-04 18:48:40,704 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-04 18:48:40,706 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-04 18:48:40,707 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-04 18:48:40,709 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-04 18:48:40,713 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-04 18:48:40,716 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-04 18:48:40,717 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-04 18:48:40,717 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-04 18:48:44,179 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-04 18:48:44,179 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 18:48:44,180 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-04 18:48:44,180 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-04 18:48:44,181 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-04 18:48:44,181 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-04 18:48:44,181 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-04 18:48:44,181 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-04 18:48:44,182 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-04 18:48:44,182 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-04 18:48:44,182 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 18:48:44,183 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-04 18:48:44,191 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-04 18:49:31,670 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:50:31,672 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:51:31,673 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:52:31,675 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:53:31,677 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:54:31,678 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:55:31,680 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:56:31,682 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:57:31,684 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 18:57:53,056 - Waip AGI 0.0.1 - INFO - 你：
+2026-06-04 18:57:53,056 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 18:57:53,057 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-04 18:57:53,057 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-04 18:57:53,057 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-04 18:57:53,058 - Waip AGI 0.0.1 - INFO - 文字注意力内容：
+2026-06-04 18:57:53,058 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-04 18:57:53,058 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-04 18:57:53,058 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-04 18:57:53,058 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '1': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '2': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-04 18:57:53,059 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 18:57:53,059 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-04 18:57:53,066 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-04 19:05:24,001 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-04 19:05:24,003 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-04 19:05:24,003 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-04 19:05:32,268 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-04 19:05:32,269 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-04 19:05:32,272 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-04 19:05:32,275 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-04 19:05:32,278 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-04 19:05:32,282 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-04 19:05:32,285 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-04 19:05:32,288 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-04 19:05:32,289 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-04 19:05:36,331 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-04 19:05:36,332 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:05:36,347 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-04 19:05:36,348 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-04 19:05:36,348 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-04 19:05:36,348 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-04 19:05:36,348 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-04 19:05:36,349 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-04 19:05:36,349 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-04 19:05:36,349 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-04 19:05:36,349 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:05:36,349 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-04 19:05:36,353 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-04 19:06:24,003 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:06:35,109 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-04 19:06:35,110 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-04 19:06:35,110 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-04 19:06:45,476 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-04 19:06:45,477 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-04 19:06:45,480 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-04 19:06:45,483 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-04 19:06:45,487 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-04 19:06:45,491 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-04 19:06:45,497 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-04 19:06:45,499 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-04 19:06:45,499 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-04 19:06:47,947 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-04 19:06:47,947 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-04 19:06:47,966 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:06:47,967 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-04 19:06:47,970 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-04 19:07:35,111 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:08:35,112 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:09:35,114 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:10:35,116 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:11:35,118 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:12:35,120 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:13:35,127 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:14:35,128 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:15:35,130 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:15:55,765 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-04 19:15:55,766 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-04 19:15:55,766 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-04 19:16:03,265 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：你好
+2026-06-04 19:16:03,266 - Waip AGI 0.0.1 - INFO - 此意识体已不被支持或不存在，请重新输入意识体名称
+2026-06-04 19:16:13,255 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-04 19:16:13,256 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-04 19:16:13,260 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-04 19:16:13,263 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-04 19:16:13,267 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-04 19:16:13,271 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-04 19:16:13,277 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-04 19:16:13,280 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-04 19:16:13,280 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-04 19:16:17,240 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-04 19:16:17,241 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:16:55,776 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:17:55,803 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:18:55,835 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:19:55,857 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:20:55,876 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:21:10,878 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-04 19:21:10,880 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-04 19:21:10,880 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-04 19:21:20,089 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-04 19:21:20,090 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-04 19:21:20,093 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-04 19:21:20,096 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-04 19:21:20,100 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-04 19:21:20,108 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-04 19:21:20,112 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-04 19:21:20,114 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-04 19:21:20,115 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-04 19:21:44,300 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-04 19:21:44,300 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:21:44,301 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-04 19:21:44,301 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-04 19:21:44,302 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-04 19:21:44,302 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-04 19:21:44,302 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-04 19:21:44,303 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-04 19:21:44,303 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-04 19:21:44,303 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,303 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,304 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,304 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,304 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,304 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,304 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,304 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,305 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,305 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,305 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,305 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,305 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,306 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,306 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,306 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,306 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,306 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,307 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,307 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,307 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,307 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,308 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,308 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,308 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,308 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,308 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,308 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,309 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,309 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,309 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,309 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,309 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,309 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,309 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,310 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,310 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,310 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,310 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,310 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,310 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,311 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,312 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,312 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,312 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,312 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,312 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,312 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,312 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,313 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,313 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,313 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,313 - Waip AGI 0.0.1 - INFO - 1
+2026-06-04 19:21:44,313 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-04 19:21:44,314 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-04 19:21:44,314 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:21:44,314 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-04 19:21:44,320 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-04 19:22:10,881 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:22:25,939 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-04 19:22:25,942 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-04 19:22:25,942 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-04 19:22:34,983 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2哈O
+2026-06-04 19:22:34,984 - Waip AGI 0.0.1 - INFO - 此意识体已不被支持或不存在，请重新输入意识体名称
+2026-06-04 19:22:43,154 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-04 19:22:43,155 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-04 19:22:43,158 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-04 19:22:43,161 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-04 19:22:43,164 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-04 19:22:43,171 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-04 19:22:43,175 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-04 19:22:43,177 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-04 19:22:43,177 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-04 19:22:46,689 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-04 19:22:46,689 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:22:46,690 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-04 19:22:46,690 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-04 19:22:46,690 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-04 19:22:46,691 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-04 19:22:46,691 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-04 19:22:46,691 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-04 19:22:46,691 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-04 19:22:46,692 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,692 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,692 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,693 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,693 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,693 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,693 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,693 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,694 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,694 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,694 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,694 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,695 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,695 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,695 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,695 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,696 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,696 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,696 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,696 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,696 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,697 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,697 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,697 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,697 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,697 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,698 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,698 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,698 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,698 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,698 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,699 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,699 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,699 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,699 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,699 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,699 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,700 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,700 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,700 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,700 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,700 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,700 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,701 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,701 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,701 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,701 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,701 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,702 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,702 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,702 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,702 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,702 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,702 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,703 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,703 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,703 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,703 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,703 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,703 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-04 19:22:46,704 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-04 19:22:46,704 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-04 19:22:46,704 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-04 19:22:46,704 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-04 19:22:46,709 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-04 19:23:25,943 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:24:25,945 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:25:25,947 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:26:25,948 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:27:25,948 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:28:25,950 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:29:25,950 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:30:25,951 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:31:25,959 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:32:25,968 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:33:25,970 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:34:25,972 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:35:25,974 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:36:25,975 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:37:25,977 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:38:25,978 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:39:25,990 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:40:25,991 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:41:25,993 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:42:25,994 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:43:25,996 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:44:25,997 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:45:25,998 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:46:26,000 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:47:26,002 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:48:26,003 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:49:26,004 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:50:26,006 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:51:26,008 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:52:26,009 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:53:26,018 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:54:26,019 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:55:26,020 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:56:26,021 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:57:26,022 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:58:26,023 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 19:59:26,025 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:00:26,026 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:01:26,027 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:02:26,028 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:03:26,030 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:04:26,031 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:05:26,032 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:06:26,033 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:07:26,035 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:08:26,036 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:09:26,037 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:10:26,039 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:11:26,041 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:12:26,042 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:13:26,044 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:14:26,045 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:15:26,046 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:16:26,048 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:17:26,050 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:18:26,052 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:19:26,053 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:20:26,054 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:21:26,055 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:22:26,057 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-04 20:23:26,058 - Waip AGI 0.0.1 - INFO - 程序运行正常

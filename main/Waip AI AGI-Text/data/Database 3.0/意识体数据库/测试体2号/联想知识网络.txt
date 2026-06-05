@@ -7,10 +7,12 @@
         ],
         content: [
             [
+                "cognitive database",
                 "basic",
                 1,
             ],
             [
+                "cognitive database",
                 "basic",
                 4,
             ],

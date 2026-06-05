@@ -47,6 +47,9 @@ def Waip_AGI(user, data):
         associative_tree = association_layer(Text, data, data_processed)
         printf(f"关联树：{associative_tree}")
         reply = reply_layer(Text, data, associative_tree)
+        output_layer(reply)
+        executive = Executive_level(Text, data, associative_tree)
+        connection = Connection_layer(Text, data, associative_tree, reply, executive)
     
     def association_layer(Text, data, data_processed):
 
@@ -100,14 +103,15 @@ def Waip_AGI(user, data):
             for i in data["associative network"]:
                 printf(data["associative network"][i])
                 Receive_pass_the_parent_unit_dictionary={}
-                for j in associative_tree:
+                associative_unit = {}
+
+                if "two-way line" == data["associative network"][i]["type"]:
+                    pass
+
                     #########
                     if index["main_index"] == number_branches_associative_tree:
                         break
 
-                    if "Undetermined unit" in associative_tree[i]["IP"]:
-                        if (associative_tree[i]["content"] in data["associative network"][i]) or (data["associative network"][i]["correspond to"] in associative_tree[i]["content"]):
-                            Receive_pass_the_parent_unit_dictionary[i] = data["associative network"][i]
 
                 associative_tree = copy.deepcopy(临时associative_tree)
 
@@ -146,7 +150,14 @@ def Waip_AGI(user, data):
         printf(f"激活阀值：{activate_valve}")
         return activate_valve
 
-    def output_layer(ai_reply, data, data_processed):
+    def output_layer(reply):
+        pass
+
+    def Executive_level(Text, data, associative_tree):
+        executive = {}
+        return executive
+
+    def Connection_layer(Text, data, associative_tree, reply, executive):
         pass
 
     ai_reply = ""

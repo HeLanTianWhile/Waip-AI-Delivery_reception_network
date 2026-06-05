@@ -3878,3 +3878,251 @@ FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\HW\\Desktop\
 2026-06-04 20:21:26,055 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-06-04 20:22:26,057 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-06-04 20:23:26,058 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 18:49:38,988 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-05 18:49:38,990 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-05 18:49:38,990 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-05 18:49:45,033 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-05 18:49:45,034 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-05 18:49:45,043 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-05 18:49:45,045 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-05 18:49:45,049 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-05 18:49:45,054 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-05 18:49:45,059 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-05 18:49:45,061 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-05 18:49:45,061 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-05 18:49:49,049 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-05 18:49:49,050 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-05 18:49:49,050 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-05 18:49:49,051 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-05 18:49:49,051 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-05 18:49:49,051 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-05 18:49:49,051 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-05 18:49:49,052 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-05 18:49:49,052 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-05 18:49:49,053 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['basic', 1], ['basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 18:49:49,059 - Waip AGI 0.0.1 - INFO - 错误：'correspond to'
+2026-06-05 18:49:49,059 - Waip AGI 0.0.1 - INFO - 错误类型：KeyError
+2026-06-05 18:49:49,063 - Waip AGI 0.0.1 - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 204, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 187, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.3.py", line 166, in Waip_AGI
+    yield from call(Text, data, data_processed)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.3.py", line 45, in call
+    associative_tree = yield from association_layer(Text, data, data_processed)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.3.py", line 107, in association_layer
+    if (associative_tree[i]["content"] in data["associative network"][i]) or (data["associative network"][i]["correspond to"] in associative_tree[i]["content"]):
+                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'correspond to'
+
+2026-06-05 20:33:06,479 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-05 20:33:06,486 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-05 20:33:06,486 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-05 20:33:18,517 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-05 20:33:18,518 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-05 20:33:18,520 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-05 20:33:18,521 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-05 20:33:18,523 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-05 20:33:18,530 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-05 20:33:18,533 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-05 20:33:18,535 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-05 20:33:18,535 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-05 20:33:22,160 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-05 20:33:22,160 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-05 20:33:22,163 - Waip AGI 0.0.1 - INFO - 错误：Waip_AGI.<locals>.output_layer() missing 2 required positional arguments: 'data' and 'data_processed'
+2026-06-05 20:33:22,163 - Waip AGI 0.0.1 - INFO - 错误类型：TypeError
+2026-06-05 20:33:22,165 - Waip AGI 0.0.1 - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 198, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 183, in main
+    ai_reply, data, msg = Waip_AGI_0_0_3.Waip_AGI(user, data)
+                          ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.3.py", line 178, in Waip_AGI
+    call(Text, data, data_processed)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.3.py", line 50, in call
+    output_layer(reply)
+    ~~~~~~~~~~~~^^^^^^^
+TypeError: Waip_AGI.<locals>.output_layer() missing 2 required positional arguments: 'data' and 'data_processed'
+
+2026-06-05 20:34:59,560 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-05 20:34:59,562 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-05 20:34:59,562 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-05 20:35:05,814 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-05 20:35:05,815 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-05 20:35:05,818 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-05 20:35:05,821 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-05 20:35:05,825 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-05 20:35:05,831 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-05 20:35:05,837 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-05 20:35:05,840 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-05 20:35:05,840 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-05 20:35:08,233 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-05 20:35:08,233 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-05 20:35:08,236 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-05 20:35:08,236 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-05 20:35:08,237 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-05 20:35:08,237 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-05 20:35:08,237 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-05 20:35:08,237 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-05 20:35:08,238 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-05 20:35:08,238 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,238 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,238 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,239 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,239 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,239 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,239 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,240 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,240 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,240 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,241 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,241 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,241 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,241 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,242 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,242 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,242 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,242 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,242 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,243 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,243 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,243 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,243 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,244 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,244 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,244 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,244 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,244 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,245 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,245 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,245 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,245 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,245 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,246 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,246 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,246 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,246 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,246 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,246 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,247 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,248 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,249 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,249 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,249 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,249 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:35:08,249 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-05 20:35:08,250 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-05 20:35:08,250 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-05 20:35:08,250 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-05 20:35:08,255 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-05 20:35:59,564 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 20:36:59,566 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 20:37:59,567 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 20:38:59,569 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 20:39:59,571 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 20:40:59,573 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 20:41:59,575 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-05 20:42:20,574 - Waip AGI 0.0.1 - INFO - 你：&& 2
+2026-06-05 20:42:22,561 - Waip AGI 0.0.1 - INFO - 你：
+2026-06-05 20:42:22,562 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-05 20:42:22,564 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-05 20:42:22,564 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-05 20:42:22,564 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-05 20:42:22,564 - Waip AGI 0.0.1 - INFO - 文字注意力内容：
+2026-06-05 20:42:22,565 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-05 20:42:22,565 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-05 20:42:22,565 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-05 20:42:22,565 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,565 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,566 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,566 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,566 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,566 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,566 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,567 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,567 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,567 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,567 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,568 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,568 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,568 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,569 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,569 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,569 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,569 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,570 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,570 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,570 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,571 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,571 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,571 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,572 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,572 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,572 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,572 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,573 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,573 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,573 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,574 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,574 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,574 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,574 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,574 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,574 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,575 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,575 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,575 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,575 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,576 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,576 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,576 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,577 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,577 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,577 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,577 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,577 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,577 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,577 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,578 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,578 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,578 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,578 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,578 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,578 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,579 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,579 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,579 - Waip AGI 0.0.1 - INFO - {'IP': ['line', 'two-way line', 1], 'content': [['cognitive database', 'basic', 1], ['cognitive database', 'basic', 4]], 'type': 'two-way line', '权重': 142}
+2026-06-05 20:42:22,579 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-05 20:42:22,579 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '1': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '2': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-05 20:42:22,579 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-05 20:42:22,579 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-05 20:42:22,583 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-05 20:42:28,192 - Waip AGI 0.0.1 - INFO - 你：&&&&&

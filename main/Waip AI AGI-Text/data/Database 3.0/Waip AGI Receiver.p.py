@@ -1,5 +1,5 @@
 import os
-# import random # 你为什么导入了random模块
+import random
 import numpy as np
 import json5
 import logging
@@ -8,17 +8,21 @@ import time
 import threading
 import traceback  # 添加 traceback 模块
 from importlib.machinery import SourceFileLoader
+from time import sleep
 
 current_dir = os.path.dirname(__file__)
 module_dir = os.path.abspath(os.path.join(current_dir, '..', '..', 'main'))
-module_file_path = os.path.join(module_dir, 'Waip AGI 0.0.3.py')
 
-Waip_AGI_0_0_3 = SourceFileLoader('Waip_AGI_0_0_3', module_file_path).load_module()
+# 定义支持的版本列表
+AGI_VERSIONS = {
+    "0.0.3": "Waip AGI 0.0.3.py"
+}
 
 # 在全局作用域先声明变量
 logger = None
 ai_name = None
 data = None
+Waip_AGI = None  # 动态加载的模块
 
 def printf(msg):
     print("\033[92m" + str(msg) + "\033[0m")
@@ -91,6 +95,22 @@ def into():
     
     logger.info(f"意识体已启动，以下为输出内容：")
     
+    # 版本选择
+    global Waip_AGI
+    printf("\n支持的 Waip AGI 版本：")
+    for version in AGI_VERSIONS:
+        printf(f"  - {version}")
+    
+    while True:
+        version = inputf("请选择版本：")
+        if version in AGI_VERSIONS:
+            module_file_path = os.path.join(module_dir, AGI_VERSIONS[version])
+            Waip_AGI = SourceFileLoader(f'Waip_AGI_{version}', module_file_path).load_module()
+            printf(f"已加载 Waip AGI {version}")
+            break
+        else:
+            printf(f"错误：此版本 \"{version}\" 不存在或不受支持")
+    
     # 启动后台日志线程
     status_thread = threading.Thread(target=log_status_thread, daemon=True)
     status_thread.start()
@@ -100,6 +120,7 @@ def into():
 
     # 询问意识体名称，加上支持判断：如果存在但对应的数据中包含“支持.txt”，则提醒用户此意识体已不被支持
     global ai_name
+    ai_name = None
     while str(ai_name) not in os_library("意识体数据库") or "支持.txt" in os_library(f"意识体数据库/{ai_name}"):
         if ai_name != None:
             printf("此意识体已不被支持或不存在，请重新输入意识体名称")
@@ -180,9 +201,16 @@ def main():
             pass
     else:
         printf("\n")
-        ai_reply, data, msg = Waip_AGI_0_0_3.Waip_AGI(user, data)
-        for message in msg:
-            printf(message)
+        # 流式输出：逐步接收 yield 的消息
+        gen = Waip_AGI.Waip_AGI(user, data)
+        try:
+            while True:
+                sleep(0.1)
+                message = next(gen)
+                printf(message)
+        except StopIteration as e:
+            # 获取 return 返回的值
+            ai_reply, data = e.value
         printf("\n")
         printf(f"{ai_name}回复：{ai_reply}")
         update_database(data,ai_name)

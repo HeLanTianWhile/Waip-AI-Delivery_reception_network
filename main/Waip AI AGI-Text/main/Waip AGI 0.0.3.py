@@ -1,13 +1,14 @@
 import psutil
 import copy
-
+# import random # 你为什么导入了random模
 
 def Waip_AGI(user, data):
 
     msg = []
 
     def printf(message):
-        msg.append(message)
+        #msg.append(message)
+        yield message
 
     # 定义文字注意力算法
     def Text_Attention_Algorithm(text, data):
@@ -32,20 +33,20 @@ def Waip_AGI(user, data):
         Glamic_acid_processing = float(Glamic_acid) / 10000# 比较复杂先不管
         ##########
         text_range = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 10)
-        printf(f"文字注意力范围：{text_range}")
+        yield from printf(f"文字注意力范围：{text_range}")
         return text_range
     
     # 定义输入层
     def input_layer(user, data, index):
-        text_range = Text_Attention_Algorithm(user, data)
+        text_range = yield from Text_Attention_Algorithm(user, data)
         Text = user[index:index+text_range]
-        printf(f"文字注意力内容：{Text}")
-        printf(f"当前截止：{index+text_range}")
+        yield from printf(f"文字注意力内容：{Text}")
+        yield from printf(f"当前截止：{index+text_range}")
         return Text, text_range
 
     def call(Text, data, data_processed):
-        associative_tree = association_layer(Text, data, data_processed)
-        printf(f"关联树：{associative_tree}")
+        associative_tree = yield from association_layer(Text, data, data_processed)
+        yield from printf(f"关联树：{associative_tree}")
         reply = reply_layer(Text, data, associative_tree)
         output_layer(reply)
         executive = Executive_level(Text, data, associative_tree)
@@ -65,7 +66,7 @@ def Waip_AGI(user, data):
             Glamic_acid_processing = float(100000 - data["status database"]["谷氨酸Glutamic acid"]) / 1000
             ##########
             number_branches_associative_tree = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9)
-            printf(f"关联树分支数：{number_branches_associative_tree}")
+            yield from printf(f"关联树分支数：{number_branches_associative_tree}")
             return number_branches_associative_tree 
             
 
@@ -76,9 +77,9 @@ def Waip_AGI(user, data):
             if "associative network" not in data["activated memory"][i]["IP"]:
                 activated_Delivery_reception_unit.append(i)
         
-        printf(f"激活递接元：{activated_Delivery_reception_unit}")
+        yield from printf(f"激活递接元：{activated_Delivery_reception_unit}")
         
-        number_branches_associative_tree = Calculation_formula_number_branches_associative_tree(Text, data)
+        number_branches_associative_tree = yield from Calculation_formula_number_branches_associative_tree(Text, data)
         index = {"main_index": 0,"Undetermined_Root_unit_index": 0, "Confirmed_Root_unit_index": 0}
         
         for i in list(Text):
@@ -101,7 +102,6 @@ def Waip_AGI(user, data):
             临时index += 1
 
             for i in data["associative network"]:
-                printf(data["associative network"][i])
                 Receive_pass_the_parent_unit_dictionary={}
                 associative_unit = {}
 
@@ -121,7 +121,7 @@ def Waip_AGI(user, data):
                 break
 
             if 临时index == number_branches_associative_tree:
-                printf(f"此临时循环已执行{临时index}次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序")
+                yield from printf(f"此临时循环已执行{临时index}次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序")
                 break
 
 
@@ -147,7 +147,7 @@ def Waip_AGI(user, data):
         Glamic_acid_processing = float((100000 - data["谷氨酸Glutamic acid"]) / 5)
 
         activate_valve = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 10)
-        printf(f"激活阀值：{activate_valve}")
+        yield from printf(f"激活阀值：{activate_valve}")
         return activate_valve
 
     def output_layer(reply):
@@ -164,20 +164,20 @@ def Waip_AGI(user, data):
     data_processed = {"activated memory": {}}
 
     activatad = []
-    activate_valve = calculate_activation_valve(data["status database"])
+    activate_valve = yield from calculate_activation_valve(data["status database"])
     for i in data["activated memory"]:
         if int(data["activated memory"][i]["权重"]) > activate_valve:
             activatad.append(i)
     data_processed["activated memory"] = activatad
-    printf(f"激活记忆：{activatad}")
+    yield from printf(f"激活记忆：{activatad}")
 
     TF = True
     index = 0
     while TF:
-        Text, Text_Range = input_layer(user, data, index)
-        call(Text, data, data_processed)
+        Text, Text_Range = yield from input_layer(user, data, index)
+        yield from call(Text, data, data_processed)
         index += Text_Range
         if index >= len(user):
             TF = False
     
-    return ai_reply, data, msg
+    return ai_reply, data#, msg

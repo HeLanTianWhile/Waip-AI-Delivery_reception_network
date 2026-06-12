@@ -15,7 +15,8 @@ module_dir = os.path.abspath(os.path.join(current_dir, '..', '..', 'main'))
 
 # 定义支持的版本列表
 AGI_VERSIONS = {
-    "0.0.3": "Waip AGI 0.0.3.py"
+    "0.0.3": "Waip AGI 0.0.3.py",
+    "0.0.4": "Waip AGI 0.0.4.py"
 }
 
 # 在全局作用域先声明变量

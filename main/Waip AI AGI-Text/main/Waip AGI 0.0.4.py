@@ -107,12 +107,9 @@ def Waip_AGI(user, data):
 
                 if "two-way line" == data["associative network"][i]["type"]:
                     for j in range(len(data["associative network"][i]["content"])):
-                        associative_unit[j] = data["associative network"][i]["content"][j]
-
-                    #########
-                    if index["main_index"] == number_branches_associative_tree:
-                        break
-
+                        associative_unit[j] = {"IP":data["associative network"][i]["content"][j], "type":"two-way head"}
+                
+                yield from printf(f"关联单元：{associative_unit}")
 
                 associative_tree = copy.deepcopy(临时associative_tree)
 

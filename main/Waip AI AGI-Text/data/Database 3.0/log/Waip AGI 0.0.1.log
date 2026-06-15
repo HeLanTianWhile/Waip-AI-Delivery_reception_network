@@ -8073,3 +8073,149 @@ NameError: name 'AGI_VERSIONS' is not defined
 2026-06-12 20:10:07,234 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-06-12 20:11:07,234 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-06-12 20:12:07,234 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:18:59,461 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-14 20:18:59,461 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-06-14 20:18:59,461 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-06-14 20:18:59,461 - Waip AGI 0.0.1 - INFO -   - 0.0.4
+2026-06-14 20:19:04,870 - Waip AGI 0.0.1 - INFO - 请选择版本：0.0.4
+2026-06-14 20:19:04,906 - Waip AGI 0.0.1 - INFO - 已加载 Waip AGI 0.0.4
+2026-06-14 20:19:04,908 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-14 20:19:04,908 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-14 20:19:07,828 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：nihao
+2026-06-14 20:19:07,829 - Waip AGI 0.0.1 - INFO - 此意识体已不被支持或不存在，请重新输入意识体名称
+2026-06-14 20:19:20,346 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-14 20:19:20,347 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-14 20:19:20,351 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-14 20:19:20,354 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-14 20:19:20,358 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-14 20:19:20,364 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-14 20:19:20,369 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-14 20:19:20,371 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-14 20:19:20,372 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-14 20:19:24,269 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-14 20:19:24,269 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-14 20:19:24,371 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-14 20:19:24,472 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-14 20:19:24,573 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-14 20:19:24,674 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-14 20:19:24,776 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-14 20:19:24,877 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-14 20:19:24,978 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-14 20:19:25,081 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-14 20:19:25,182 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-14 20:19:25,284 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-14 20:19:25,285 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-14 20:19:25,300 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-14 20:20:04,912 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:21:04,913 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:22:04,914 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:22:31,196 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-14 20:22:31,196 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-06-14 20:22:31,196 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-06-14 20:22:31,197 - Waip AGI 0.0.1 - INFO -   - 0.0.4
+2026-06-14 20:22:36,313 - Waip AGI 0.0.1 - INFO - 请选择版本：0.0.4
+2026-06-14 20:22:36,342 - Waip AGI 0.0.1 - INFO - 已加载 Waip AGI 0.0.4
+2026-06-14 20:22:36,343 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-14 20:22:36,343 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-14 20:22:48,374 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：车实体2更好
+2026-06-14 20:22:48,375 - Waip AGI 0.0.1 - INFO - 此意识体已不被支持或不存在，请重新输入意识体名称
+2026-06-14 20:22:57,473 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-14 20:22:57,474 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-14 20:22:57,477 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-14 20:22:57,480 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-14 20:22:57,483 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-14 20:22:57,489 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-14 20:22:57,492 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-14 20:22:57,494 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-14 20:22:57,494 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-14 20:23:01,167 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-14 20:23:01,167 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-14 20:23:01,268 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-14 20:23:01,368 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-14 20:23:01,470 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-14 20:23:01,571 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-14 20:23:01,672 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-14 20:23:01,774 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-14 20:23:01,875 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-14 20:23:01,976 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,077 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,178 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,279 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,380 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,483 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,584 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,685 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,788 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,890 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:02,991 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,091 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,192 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,293 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,394 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,496 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,597 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,698 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,799 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:03,902 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,004 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,105 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,206 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,306 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,407 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,510 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,610 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,711 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,812 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:04,916 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,017 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,117 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,218 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,322 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,432 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,605 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,744 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,844 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:05,946 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,047 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,148 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,249 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,349 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,450 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,551 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,652 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,753 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,855 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:06,956 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,058 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,159 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,260 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,362 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,463 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,564 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,664 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,766 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,867 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:07,968 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:08,069 - Waip AGI 0.0.1 - INFO - 关联单元：{0: ['cognitive database', 'basic', 1], 1: ['cognitive database', 'basic', 4]}
+2026-06-14 20:23:08,172 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-14 20:23:08,273 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-14 20:23:08,374 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-14 20:23:08,375 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-14 20:23:08,395 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-14 20:23:36,343 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:24:36,345 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:25:36,345 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:26:36,346 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:27:36,347 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:28:36,348 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:29:36,349 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:30:36,350 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:31:36,355 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:32:36,356 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-14 20:33:36,356 - Waip AGI 0.0.1 - INFO - 程序运行正常

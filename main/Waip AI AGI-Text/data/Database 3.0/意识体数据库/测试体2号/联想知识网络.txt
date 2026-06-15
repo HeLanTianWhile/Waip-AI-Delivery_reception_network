@@ -1,9 +1,9 @@
 {
-    "1": {
+    "0": {
         IP: [
             "line",
             "two-way line",
-            1,
+            0,
         ],
         content: [
             [
@@ -20,4 +20,36 @@
         type: "two-way line",
         权重: 142,
     },
+    "1":{
+        IP: [
+            "line",
+            "one-way line",
+            0,
+        ],
+        content: [
+            {
+                "type":"right head"
+                "IP":[
+                    (
+                        "forward head",
+                        [
+                            "cognitive database",
+                            "combination",
+                            3,
+                        ],
+                    ),
+                    (
+                        "reverse head",
+                        [
+                            "cognitive database",
+                            "combination",
+                            3,
+                        ],
+                    ),
+                ]
+            }
+        ],
+        type:"one-way line",
+        权重: 4863,
+    }
 }

@@ -8219,3 +8219,398 @@ NameError: name 'AGI_VERSIONS' is not defined
 2026-06-14 20:31:36,355 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-06-14 20:32:36,356 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-06-14 20:33:36,356 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-17 20:40:03,704 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-17 20:40:03,705 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-06-17 20:40:03,705 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-06-17 20:40:03,705 - Waip AGI 0.0.1 - INFO -   - 0.0.4
+2026-06-17 20:40:09,478 - Waip AGI 0.0.1 - INFO - 请选择版本：0.0.4
+2026-06-17 20:40:09,503 - Waip AGI 0.0.1 - INFO - 已加载 Waip AGI 0.0.4
+2026-06-17 20:40:09,505 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-17 20:40:09,505 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-17 20:40:37,020 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-17 20:40:37,021 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-17 20:40:37,025 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-17 20:40:37,026 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-17 20:40:37,029 - Waip AGI 0.0.1 - INFO - 错误：<string>:32 Unexpected """ at column 17
+2026-06-17 20:40:37,029 - Waip AGI 0.0.1 - INFO - 错误类型：ValueError
+2026-06-17 20:40:37,031 - Waip AGI 0.0.1 - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 224, in <module>
+    into()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 151, in into
+    data["associative network"] = os_data(f"意识体数据库/{ai_name}/联想知识网络.txt")
+                                  ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 38, in os_data
+    return json5.load(open(os.path.join(os.path.dirname(__file__), path), "r", encoding="utf-8"))
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python313\Lib\site-packages\json5\lib.py", line 143, in load
+    raise ValueError(err)
+ValueError: <string>:32 Unexpected """ at column 17
+
+2026-06-17 20:41:23,573 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-17 20:41:23,573 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-06-17 20:41:23,573 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-06-17 20:41:23,573 - Waip AGI 0.0.1 - INFO -   - 0.0.4
+2026-06-17 20:41:26,925 - Waip AGI 0.0.1 - INFO - 请选择版本：0.0.4
+2026-06-17 20:41:26,943 - Waip AGI 0.0.1 - INFO - 已加载 Waip AGI 0.0.4
+2026-06-17 20:41:26,946 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-17 20:41:26,946 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-17 20:42:19,894 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-17 20:42:19,894 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-17 20:42:19,896 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-17 20:42:19,898 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-17 20:42:19,903 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-17 20:42:19,907 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-17 20:42:19,910 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-17 20:42:19,911 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-17 20:42:19,911 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-17 20:42:22,482 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-17 20:42:22,482 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-17 20:42:22,583 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-17 20:42:22,684 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-17 20:42:22,784 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-17 20:42:22,885 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-17 20:42:22,985 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-17 20:42:23,086 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-17 20:42:23,186 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-17 20:42:23,287 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:23,388 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:23,488 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:23,589 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:23,690 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:23,791 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:23,892 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:23,992 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:24,094 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:24,194 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:24,295 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:24,397 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:24,498 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:24,599 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:24,700 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:24,801 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:24,901 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:25,002 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:25,102 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:25,203 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:25,304 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:25,405 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:25,505 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:25,606 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:25,707 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:25,808 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:25,908 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:26,009 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:26,110 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:26,211 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:26,311 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:26,412 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:26,513 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:26,614 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:26,715 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:26,815 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:26,916 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:26,945 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-17 20:42:27,017 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:27,118 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:27,218 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:27,319 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:27,419 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:27,520 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:27,621 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:27,721 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:27,823 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:27,924 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:28,025 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:28,126 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:28,227 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:28,328 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:28,429 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:28,530 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:28,631 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:28,732 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:28,834 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:28,934 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:29,035 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:29,136 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:29,237 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:29,337 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:29,438 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:29,539 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:29,640 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:29,740 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:29,841 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:29,942 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:30,042 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:30,143 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:30,244 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:30,345 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:30,446 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:30,547 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:30,647 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:30,748 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:30,849 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:30,949 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:31,050 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:31,151 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:31,251 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:31,352 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:31,453 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:31,554 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:31,654 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:31,755 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:31,856 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:31,957 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:32,058 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:32,159 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:32,260 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:32,361 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:32,461 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:32,562 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:32,663 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:32,763 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:32,864 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:32,965 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:33,066 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:33,167 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:33,268 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:33,368 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:33,469 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:33,570 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:33,670 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:33,771 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:33,872 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:33,972 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:34,073 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:34,173 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:34,274 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:34,375 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:34,476 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:34,577 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:34,678 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:34,779 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:34,880 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:34,981 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:35,083 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:35,184 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:42:35,285 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'right head', 'IP': [{'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}, {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}]}}}
+2026-06-17 20:42:35,385 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-17 20:42:35,486 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-17 20:42:35,587 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-17 20:42:35,587 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-17 20:42:35,592 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-17 20:43:26,945 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-17 20:44:26,944 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-06-17 20:55:13,277 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-17 20:55:13,278 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-06-17 20:55:13,278 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-06-17 20:55:13,278 - Waip AGI 0.0.1 - INFO -   - 0.0.4
+2026-06-17 20:55:18,902 - Waip AGI 0.0.1 - INFO - 请选择版本：0.0.4
+2026-06-17 20:55:18,921 - Waip AGI 0.0.1 - INFO - 已加载 Waip AGI 0.0.4
+2026-06-17 20:55:18,922 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-17 20:55:18,922 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-17 20:55:27,510 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-17 20:55:27,510 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-17 20:55:27,512 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-17 20:55:27,513 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-17 20:55:27,518 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-17 20:55:27,522 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-17 20:55:27,525 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-17 20:55:27,526 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-17 20:55:27,526 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-17 20:55:30,508 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-17 20:55:30,508 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-17 20:55:30,609 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-17 20:55:30,710 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-17 20:55:30,810 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-17 20:55:30,911 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-17 20:55:31,011 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-17 20:55:31,112 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-17 20:55:31,213 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-17 20:55:31,314 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:55:31,415 - Waip AGI 0.0.1 - INFO - 错误：unhashable type: 'dict'
+2026-06-17 20:55:31,415 - Waip AGI 0.0.1 - INFO - 错误类型：TypeError
+2026-06-17 20:55:31,417 - Waip AGI 0.0.1 - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 227, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 3.0\Waip AGI Receiver.p.py", line 210, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.4.py", line 179, in Waip_AGI
+    yield from call(Text, data, data_processed)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.4.py", line 48, in call
+    associative_tree = yield from association_layer(Text, data, data_processed)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AGI 0.0.4.py", line 113, in association_layer
+    associative_unit[j] = {"IP":j}
+    ~~~~~~~~~~~~~~~~^^^
+TypeError: unhashable type: 'dict'
+
+2026-06-17 20:56:18,577 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-17 20:56:18,579 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-06-17 20:56:18,579 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-06-17 20:56:18,579 - Waip AGI 0.0.1 - INFO -   - 0.0.4
+2026-06-17 20:58:59,256 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-06-17 20:58:59,257 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-06-17 20:58:59,257 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-06-17 20:58:59,257 - Waip AGI 0.0.1 - INFO -   - 0.0.4
+2026-06-17 20:59:16,175 - Waip AGI 0.0.1 - INFO - 请选择版本：0.0.4
+2026-06-17 20:59:16,195 - Waip AGI 0.0.1 - INFO - 已加载 Waip AGI 0.0.4
+2026-06-17 20:59:16,197 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-06-17 20:59:16,197 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-17 20:59:26,639 - Waip AGI 0.0.1 - INFO - 请输入意识体名称：测试体2号
+2026-06-17 20:59:26,639 - Waip AGI 0.0.1 - INFO - 数据结构已初始化
+2026-06-17 20:59:26,641 - Waip AGI 0.0.1 - INFO - 短期记忆已加载
+2026-06-17 20:59:26,642 - Waip AGI 0.0.1 - INFO - 长期记忆已加载
+2026-06-17 20:59:26,649 - Waip AGI 0.0.1 - INFO - 联想知识网络已加载
+2026-06-17 20:59:26,653 - Waip AGI 0.0.1 - INFO - 认知数据库已加载
+2026-06-17 20:59:26,655 - Waip AGI 0.0.1 - INFO - 已激活记忆数据库已加载
+2026-06-17 20:59:26,657 - Waip AGI 0.0.1 - INFO - 状态数据库已加载
+2026-06-17 20:59:26,657 - Waip AGI 0.0.1 - INFO - 运行正常
+2026-06-17 20:59:29,005 - Waip AGI 0.0.1 - INFO - 你：你好
+2026-06-17 20:59:29,005 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-17 20:59:29,106 - Waip AGI 0.0.1 - INFO - 激活阀值：11360
+2026-06-17 20:59:29,207 - Waip AGI 0.0.1 - INFO - 激活记忆：['1', '2', '3', '4']
+2026-06-17 20:59:29,307 - Waip AGI 0.0.1 - INFO - 文字注意力范围：4
+2026-06-17 20:59:29,408 - Waip AGI 0.0.1 - INFO - 文字注意力内容：你好
+2026-06-17 20:59:29,508 - Waip AGI 0.0.1 - INFO - 当前截止：4
+2026-06-17 20:59:29,609 - Waip AGI 0.0.1 - INFO - 激活递接元：['1', '3', '4']
+2026-06-17 20:59:29,709 - Waip AGI 0.0.1 - INFO - 关联树分支数：60
+2026-06-17 20:59:29,810 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:29,911 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:30,012 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:30,112 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:30,213 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:30,314 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:30,414 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:30,515 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:30,616 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:30,716 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:30,817 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:30,918 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:31,018 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:31,119 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:31,220 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:31,320 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:31,421 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:31,522 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:31,623 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:31,724 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:31,824 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:31,925 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:32,026 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:32,126 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:32,227 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:32,328 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:32,429 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:32,530 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:32,631 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:32,732 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:32,833 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:32,934 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:33,035 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:33,135 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:33,236 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:33,337 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:33,437 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:33,538 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:33,638 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:33,739 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:33,840 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:33,940 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:34,041 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:34,142 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:34,243 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:34,344 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:34,444 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:34,545 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:34,646 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:34,746 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:34,847 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:34,948 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:35,048 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:35,149 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:35,250 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:35,350 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:35,451 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:35,552 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:35,653 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:35,753 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:35,854 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:35,955 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:36,056 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:36,157 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:36,257 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:36,358 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:36,459 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:36,560 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:36,661 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:36,762 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:36,863 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:36,964 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:37,066 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:37,167 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:37,268 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:37,369 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:37,469 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:37,570 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:37,670 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:37,771 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:37,871 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:37,972 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:38,073 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:38,174 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:38,274 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:38,375 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:38,476 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:38,577 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:38,678 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:38,779 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:38,880 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:38,980 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:39,081 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:39,181 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:39,282 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:39,383 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:39,484 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:39,585 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:39,685 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:39,786 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:39,886 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:39,987 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:40,087 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:40,188 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:40,289 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:40,390 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:40,490 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:40,591 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:40,692 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:40,793 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:40,894 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:40,994 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:41,095 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:41,196 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:41,296 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:41,397 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:41,497 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:41,599 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:41,700 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
+2026-06-17 20:59:41,801 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-06-17 20:59:41,902 - Waip AGI 0.0.1 - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-17 20:59:42,002 - Waip AGI 0.0.1 - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}}
+2026-06-17 20:59:42,103 - Waip AGI 0.0.1 - INFO - 
+
+2026-06-17 20:59:42,103 - Waip AGI 0.0.1 - INFO - 测试体2号回复：
+2026-06-17 20:59:42,108 - Waip AGI 0.0.1 - INFO - 数据已更新
+2026-06-17 21:00:16,197 - Waip AGI 0.0.1 - INFO - 程序运行正常

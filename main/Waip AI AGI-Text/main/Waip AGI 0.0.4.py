@@ -1,6 +1,6 @@
 import psutil
 import copy
-# import random # 你为什么导入了random模
+# import random # 你为什么导入了random模块
 
 def Waip_AGI(user, data):
 
@@ -108,6 +108,9 @@ def Waip_AGI(user, data):
                 if "two-way line" == data["associative network"][i]["type"]:
                     for j in range(len(data["associative network"][i]["content"])):
                         associative_unit[j] = {"IP":data["associative network"][i]["content"][j], "type":"two-way head"}
+                elif "one-way line" == data["associative network"][i]["type"]:
+                    for j in range(len(data["associative network"][i]["content"])):
+                        associative_unit[j] = {"IP":data["associative network"][i]["content"][j]}
                 
                 yield from printf(f"关联单元：{associative_unit}")
 

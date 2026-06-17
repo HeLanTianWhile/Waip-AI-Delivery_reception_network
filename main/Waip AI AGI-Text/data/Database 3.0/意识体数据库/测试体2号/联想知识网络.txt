@@ -20,7 +20,7 @@
         type: "two-way line",
         权重: 142,
     },
-    "1":{
+    "1": {
         IP: [
             "line",
             "one-way line",
@@ -28,28 +28,23 @@
         ],
         content: [
             {
-                "type":"right head"
-                "IP":[
-                    (
-                        "forward head",
-                        [
-                            "cognitive database",
-                            "combination",
-                            3,
-                        ],
-                    ),
-                    (
-                        "reverse head",
-                        [
-                            "cognitive database",
-                            "combination",
-                            3,
-                        ],
-                    ),
-                ]
-            }
+                type: "forward head",
+                IP: [
+                    "cognitive database",
+                    "combination",
+                    3,
+                ],
+            },
+            {
+                type: "reverse head",
+                IP: [
+                    "cognitive database",
+                    "combination",
+                    3,
+                ],
+            },
         ],
-        type:"one-way line",
+        type: "one-way line",
         权重: 4863,
-    }
+    },
 }

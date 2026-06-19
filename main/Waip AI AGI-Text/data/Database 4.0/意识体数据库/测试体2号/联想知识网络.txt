@@ -1,0 +1,50 @@
+{
+    "0": {
+        IP: [
+            "line",
+            "two-way line",
+            0,
+        ],
+        content: [
+            [
+                "cognitive database",
+                "basic",
+                1,
+            ],
+            [
+                "cognitive database",
+                "basic",
+                4,
+            ],
+        ],
+        type: "two-way line",
+        权重: 142,
+    },
+    "1": {
+        IP: [
+            "line",
+            "one-way line",
+            0,
+        ],
+        content: [
+            {
+                type: "forward head",
+                IP: [
+                    "cognitive database",
+                    "combination",
+                    3,
+                ],
+            },
+            {
+                type: "reverse head",
+                IP: [
+                    "cognitive database",
+                    "combination",
+                    3,
+                ],
+            },
+        ],
+        type: "one-way line",
+        权重: 4863,
+    },
+}

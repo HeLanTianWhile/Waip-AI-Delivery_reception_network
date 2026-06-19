@@ -132,6 +132,9 @@ def Waip_AGI(user, data):
                 elif "one-way line" == data["associative network"][i]["type"]:
                     for j in range(len(data["associative network"][i]["content"])):
                         associative_unit[j] = {"IP":data["associative network"][i]["content"][j]}
+
+                for g in associative_unit:
+                    pass
                 
                 yield from printf(f"关联单元：{associative_unit}")
 

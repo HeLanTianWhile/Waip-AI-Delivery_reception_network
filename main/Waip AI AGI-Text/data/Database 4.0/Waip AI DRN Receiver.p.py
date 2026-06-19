@@ -318,10 +318,10 @@ def call_deepseek_for_training(prompt, system_prompt=None):
         return None, []
 
 def send_to_dbpick(deepseek_output_list, dpc_output_list, round_num):
-    """将训练输出列表发送给 DBpick（保存为训练数据文件）"""
+    """将训练输出列表发送给 （保存为训练数据文件）"""
     global ai_name
     try:
-        dbpick_path = os.path.join(os.path.dirname(__file__), f"意识体数据库/{ai_name}/DBpick训练数据")
+        dbpick_path = os.path.join(os.path.dirname(__file__), f"意识体数据库/{ai_name}/训练数据")
         if not os.path.exists(dbpick_path):
             os.makedirs(dbpick_path)
         
@@ -338,11 +338,11 @@ def send_to_dbpick(deepseek_output_list, dpc_output_list, round_num):
         with open(file_path, "w", encoding="utf-8") as f:
             json.dump(training_data, f, ensure_ascii=False, indent=2)
         
-        printf(f"[DBpick] 训练数据已保存：{file_path}")
-        logger.info(f"DBpick训练数据已保存，轮次：{round_num}")
+        printf(f"训练数据已保存：{file_path}")
+        logger.info(f"训练数据已保存，轮次：{round_num}")
     except Exception as e:
-        printf(f"[DBpick] 保存训练数据失败：{e}")
-        logger.error(f"DBpick保存错误：{traceback.format_exc()}")
+        printf(f"保存训练数据失败：{e}")
+        logger.error(f"保存错误：{traceback.format_exc()}")
 
 def auto_train_with_deepseek():
     """使用DeepSeek模型自动训练意识体"""
@@ -430,7 +430,7 @@ def auto_train_with_deepseek():
             break
         
         printf("\n" + "-" * 60)
-        printf("[DPC处理中...] 将DeepSeek的输出传递给意识体处理")
+        printf("[Waip AI DRN处理中...] 将DeepSeek的输出传递给意识体处理")
         
         # 将DeepSeek的回复传递给DPC（Waip AI DRN）处理
         dpc_output_list = []  # 收集DPC流式输出的列表

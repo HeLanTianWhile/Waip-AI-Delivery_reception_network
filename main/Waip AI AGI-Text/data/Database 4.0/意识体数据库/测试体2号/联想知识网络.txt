@@ -40,7 +40,7 @@
                 IP: [
                     "cognitive database",
                     "combination",
-                    3,
+                    2,
                 ],
             },
         ],

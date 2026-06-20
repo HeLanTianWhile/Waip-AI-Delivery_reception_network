@@ -317,22 +317,22 @@ def call_deepseek_for_training(prompt, system_prompt=None):
         printf(f"Ollama调用错误：{e}")
         return None, []
 
-def send_to_dbpick(deepseek_output_list, dpc_output_list, round_num):
-    """将训练输出列表发送给 （保存为训练数据文件）"""
+def send_to_training_data(deepseek_output_list, ai_output_list, round_num):
+    """将训练输出列表保存为训练数据文件"""
     global ai_name
     try:
-        dbpick_path = os.path.join(os.path.dirname(__file__), f"意识体数据库/{ai_name}/训练数据")
-        if not os.path.exists(dbpick_path):
-            os.makedirs(dbpick_path)
+        data_path = os.path.join(os.path.dirname(__file__), f"意识体数据库/{ai_name}/训练数据")
+        if not os.path.exists(data_path):
+            os.makedirs(data_path)
         
         timestamp = time.strftime('%Y%m%d_%H%M%S')
-        file_path = os.path.join(dbpick_path, f"训练轮次{round_num}_{timestamp}.json")
+        file_path = os.path.join(data_path, f"训练轮次{round_num}_{timestamp}.json")
         
         training_data = {
             "round": round_num,
             "timestamp": time.strftime('%Y-%m-%d %H:%M:%S'),
             "deepseek_output_list": deepseek_output_list,
-            "dpc_output_list": dpc_output_list
+            "ai_output_list": ai_output_list
         }
         
         with open(file_path, "w", encoding="utf-8") as f:
@@ -432,35 +432,35 @@ def auto_train_with_deepseek():
         printf("\n" + "-" * 60)
         printf("[Waip AI DRN处理中...] 将DeepSeek的输出传递给意识体处理")
         
-        # 将DeepSeek的回复传递给DPC（Waip AI DRN）处理
-        dpc_output_list = []  # 收集DPC流式输出的列表
+        # 将DeepSeek的回复传递给意识体处理
+        ai_output_list = []  # 收集意识体流式输出的列表
         try:
             gen = Waip_AI_DRN.Waip_AI_DRN(response, data)
             printf("\n[意识体处理中...]")
-            dpc_output = ""
+            ai_output = ""
             while True:
                 if train_stop_flag:  # 检查停止标志
                     break
                 try:
                     sleep(0.1)
                     message = next(gen)
-                    dpc_output += message
-                    dpc_output_list.append(message)  # 收集到列表
+                    ai_output += message
+                    ai_output_list.append(message)  # 收集到列表
                     printf(message)
                 except StopIteration as e:
                     if e.value and isinstance(e.value, tuple) and len(e.value) >= 2:
                         ai_reply, data = e.value[0], e.value[1]
                     break
             
-            if not train_stop_flag and dpc_output:
+            if not train_stop_flag and ai_output:
                 printf(f"\n[意识体回复完成]")
                 
                 # 更新数据库
                 update_database(data, ai_name)
                 printf("[数据库已更新]")
                 
-                # 将训练输出列表发送给DBpick
-                send_to_dbpick(deepseek_output_list, dpc_output_list, train_round)
+                # 将训练输出列表保存
+                send_to_training_data(deepseek_output_list, ai_output_list, train_round)
             
         except Exception as e:
             printf(f"[处理错误] {e}")

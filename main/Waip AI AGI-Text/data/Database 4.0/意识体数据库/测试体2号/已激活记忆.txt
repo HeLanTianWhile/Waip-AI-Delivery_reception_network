@@ -28,8 +28,17 @@
         IP: [
             "short-term memory",
             "ai",
+            "external actions",
             1,
         ],
         权重: 78121,
+    },
+    "5": {
+        IP: [
+            "cognitive database",
+            "<token>",
+            1,
+        ],
+        权重: 93021,
     },
 }

@@ -17525,3 +17525,423 @@ Database 4.0 支持的 Waip AI DRN 版本：
 2026-06-20 11:27:21,214 - Waip AI DRN - INFO - 程序运行正常
 2026-06-20 11:28:08,560 - Waip AI DRN - INFO - 程序运行正常
 2026-06-20 11:28:21,215 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 06:29:47,564 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 06:29:47,565 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 06:29:47,565 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 06:29:47,565 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 06:29:54,011 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 06:29:54,045 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 06:29:54,046 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 06:29:54,047 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 06:30:00,418 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 06:30:00,419 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 06:30:00,430 - Waip AI DRN - INFO - 错误：<string>:22 Unexpected "1" at column 13
+2026-06-21 06:30:00,430 - Waip AI DRN - INFO - 错误类型：ValueError
+2026-06-21 06:30:00,433 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 584, in <module>
+    into()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 154, in into
+    data["short-term memory"] = os_data(f"意识体数据库/{ai_name}/短期记忆数据库.txt")
+                                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 47, in os_data
+    return json5.load(open(os.path.join(os.path.dirname(__file__), path), "r", encoding="utf-8"))
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python313\Lib\site-packages\json5\lib.py", line 143, in load
+    raise ValueError(err)
+ValueError: <string>:22 Unexpected "1" at column 13
+
+2026-06-21 06:30:19,943 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 06:30:19,944 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 06:30:19,944 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 06:30:19,944 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 06:30:23,556 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 06:30:23,578 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 06:30:23,580 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 06:30:23,580 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 06:30:34,775 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 06:30:34,776 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 06:30:34,782 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 06:30:34,785 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 06:30:34,793 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 06:30:34,797 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 06:30:34,800 - Waip AI DRN - INFO - 错误：<string>:32 Unexpected "1" at column 13
+2026-06-21 06:30:34,800 - Waip AI DRN - INFO - 错误类型：ValueError
+2026-06-21 06:30:34,802 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 584, in <module>
+    into()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 170, in into
+    data["activated memory"] = os_data(f"意识体数据库/{ai_name}/已激活记忆.txt")
+                               ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 47, in os_data
+    return json5.load(open(os.path.join(os.path.dirname(__file__), path), "r", encoding="utf-8"))
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python313\Lib\site-packages\json5\lib.py", line 143, in load
+    raise ValueError(err)
+ValueError: <string>:32 Unexpected "1" at column 13
+
+2026-06-21 06:30:46,542 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 06:30:46,543 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 06:30:46,543 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 06:30:46,543 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 06:30:48,956 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 06:30:48,979 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 06:30:48,980 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 06:30:48,981 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 06:30:50,942 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 06:30:50,943 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 06:30:50,949 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 06:30:50,951 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 06:30:50,961 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 06:30:50,966 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 06:30:50,973 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 06:30:50,976 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 06:30:50,976 - Waip AI DRN - INFO - 运行正常
+2026-06-21 06:30:50,976 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 06:30:50,976 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 06:30:56,593 - Waip AI DRN - INFO - 你：你好
+2026-06-21 06:30:56,594 - Waip AI DRN - INFO - 
+
+2026-06-21 06:30:56,695 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 06:30:56,795 - Waip AI DRN - INFO - 错误：'权重'
+2026-06-21 06:30:56,796 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-06-21 06:30:56,799 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 589, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 570, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.0.5.py", line 195, in Waip_AI_DRN
+    if int(data["activated memory"][i]["权重"]) > activate_valve:
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '权重'
+
+2026-06-21 06:34:38,177 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 06:34:38,178 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 06:34:38,178 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 06:34:38,178 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 06:34:49,419 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 06:34:49,447 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 06:34:49,449 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 06:34:49,449 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 06:34:56,549 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 06:34:56,549 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 06:34:56,555 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 06:34:56,558 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 06:34:56,565 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 06:34:56,573 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 06:34:56,578 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 06:34:56,580 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 06:34:56,580 - Waip AI DRN - INFO - 运行正常
+2026-06-21 06:34:56,580 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 06:34:56,580 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 06:34:58,689 - Waip AI DRN - INFO - 你：你好
+2026-06-21 06:34:58,690 - Waip AI DRN - INFO - 
+
+2026-06-21 06:34:58,791 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 06:34:58,894 - Waip AI DRN - INFO - 激活记忆：['1', '2', '3', '4', '5']
+2026-06-21 06:34:58,994 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-06-21 06:34:59,095 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-06-21 06:34:59,196 - Waip AI DRN - INFO - 当前截止：4
+2026-06-21 06:34:59,296 - Waip AI DRN - INFO - 激活递接元：['1', '3', '4', '5']
+2026-06-21 06:34:59,397 - Waip AI DRN - INFO - 关联树分支数：60
+2026-06-21 06:34:59,503 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-21 06:34:59,604 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '5']}}
+2026-06-21 06:34:59,706 - Waip AI DRN - INFO - 
+
+2026-06-21 06:34:59,707 - Waip AI DRN - INFO - 测试体2号回复：
+2026-06-21 06:34:59,724 - Waip AI DRN - INFO - 数据已更新
+2026-06-21 06:54:42,930 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 06:54:42,934 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 06:54:42,935 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 06:54:42,935 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 06:54:47,931 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 06:54:47,951 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 06:54:47,953 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 06:54:47,954 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 06:54:54,712 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 06:54:54,713 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 06:54:54,719 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 06:54:54,721 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 06:54:54,727 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 06:54:54,731 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 06:54:54,736 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 06:54:54,740 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 06:54:54,740 - Waip AI DRN - INFO - 运行正常
+2026-06-21 06:54:54,740 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 06:54:54,741 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 06:55:21,736 - Waip AI DRN - INFO - 你：你好
+2026-06-21 06:55:21,736 - Waip AI DRN - INFO - 
+
+2026-06-21 06:55:21,837 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 06:55:21,938 - Waip AI DRN - INFO - 激活记忆：['1', '2', '3', '4', '5']
+2026-06-21 06:55:22,039 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-06-21 06:55:22,140 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-06-21 06:55:22,241 - Waip AI DRN - INFO - 当前截止：4
+2026-06-21 06:55:22,342 - Waip AI DRN - INFO - 激活递接元：['1', '3', '4', '5']
+2026-06-21 06:55:22,443 - Waip AI DRN - INFO - 关联树分支数：60
+2026-06-21 06:55:22,548 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-21 06:55:22,648 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '5']}}
+2026-06-21 06:55:22,750 - Waip AI DRN - INFO - 
+
+2026-06-21 06:55:22,750 - Waip AI DRN - INFO - 测试体2号回复：
+2026-06-21 06:55:22,769 - Waip AI DRN - INFO - 数据已更新
+2026-06-21 06:55:47,946 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 06:56:09,879 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 06:56:09,879 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 06:56:09,880 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 06:56:09,880 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 06:56:12,812 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 06:56:12,840 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 06:56:12,841 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 06:56:12,841 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 06:56:17,438 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 06:56:17,439 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 06:56:17,445 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 06:56:17,447 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 06:56:17,457 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 06:56:17,462 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 06:56:17,467 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 06:56:17,470 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 06:56:17,470 - Waip AI DRN - INFO - 运行正常
+2026-06-21 06:56:17,470 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 06:56:17,470 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 06:56:21,145 - Waip AI DRN - INFO - 你：你好
+2026-06-21 06:56:21,145 - Waip AI DRN - INFO - 
+
+2026-06-21 06:56:21,246 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 06:56:21,347 - Waip AI DRN - INFO - 激活记忆：['1', '2', '3', '4', '5']
+2026-06-21 06:56:21,448 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-06-21 06:56:21,550 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-06-21 06:56:21,650 - Waip AI DRN - INFO - 当前截止：4
+2026-06-21 06:56:21,751 - Waip AI DRN - INFO - 激活递接元：['1', '3', '4', '5']
+2026-06-21 06:56:21,851 - Waip AI DRN - INFO - 关联树分支数：60
+2026-06-21 06:56:21,956 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-21 06:56:22,057 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '5']}}
+2026-06-21 06:56:22,158 - Waip AI DRN - INFO - 
+
+2026-06-21 06:56:22,159 - Waip AI DRN - INFO - 测试体2号回复：
+2026-06-21 06:56:22,175 - Waip AI DRN - INFO - 数据已更新
+2026-06-21 06:58:24,230 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 06:58:24,231 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 06:58:24,232 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 06:58:24,232 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 06:58:27,338 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 06:58:27,367 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 06:58:27,368 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 06:58:27,368 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 06:58:32,570 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 06:58:32,571 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 06:58:32,574 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 06:58:32,575 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 06:58:32,580 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 06:58:32,584 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 06:58:32,588 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 06:58:32,589 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 06:58:32,589 - Waip AI DRN - INFO - 运行正常
+2026-06-21 06:58:32,589 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 06:58:32,589 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 06:58:34,647 - Waip AI DRN - INFO - 你：你好
+2026-06-21 06:58:34,648 - Waip AI DRN - INFO - 
+
+2026-06-21 06:58:34,748 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 06:58:34,849 - Waip AI DRN - INFO - 激活记忆：['1', '2', '3', '4', '5']
+2026-06-21 06:58:34,950 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-06-21 06:58:35,051 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-06-21 06:58:35,153 - Waip AI DRN - INFO - 当前截止：4
+2026-06-21 06:58:35,254 - Waip AI DRN - INFO - 激活递接元：['1', '3', '4', '5']
+2026-06-21 06:58:35,355 - Waip AI DRN - INFO - 关联树分支数：60
+2026-06-21 06:58:35,465 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-21 06:58:35,568 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '5']}}
+2026-06-21 06:58:35,669 - Waip AI DRN - INFO - 
+
+2026-06-21 06:58:35,669 - Waip AI DRN - INFO - 测试体2号回复：
+2026-06-21 06:58:35,674 - Waip AI DRN - INFO - 数据已更新
+2026-06-21 07:02:32,836 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 07:02:32,836 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 07:02:32,837 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 07:02:32,837 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 07:02:35,468 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 07:02:35,495 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 07:02:35,497 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 07:02:35,497 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 07:02:40,714 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 07:02:40,715 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 07:02:40,720 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 07:02:40,722 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 07:02:40,727 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 07:02:40,731 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 07:02:40,735 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 07:02:40,738 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 07:02:40,738 - Waip AI DRN - INFO - 运行正常
+2026-06-21 07:02:40,738 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 07:02:40,738 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 07:02:44,830 - Waip AI DRN - INFO - 你：你哦好
+2026-06-21 07:02:44,831 - Waip AI DRN - INFO - 
+
+2026-06-21 07:02:44,931 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 07:02:45,032 - Waip AI DRN - INFO - 激活记忆：['1', '2', '3', '4', '5']
+2026-06-21 07:02:45,133 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-06-21 07:02:45,235 - Waip AI DRN - INFO - 文字注意力内容：你哦好
+2026-06-21 07:02:45,337 - Waip AI DRN - INFO - 当前截止：4
+2026-06-21 07:02:45,439 - Waip AI DRN - INFO - 激活递接元：['1', '3', '4', '5']
+2026-06-21 07:02:45,541 - Waip AI DRN - INFO - 关联树分支数：60
+2026-06-21 07:02:45,645 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-21 07:02:45,746 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '2': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '好'}, '3': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '4': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '5']}}
+2026-06-21 07:02:45,847 - Waip AI DRN - INFO - 错误：name 'time年' is not defined
+2026-06-21 07:02:45,847 - Waip AI DRN - INFO - 错误类型：NameError
+2026-06-21 07:02:45,857 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 589, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 570, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.0.5.py", line 242, in Waip_AI_DRN
+    yield from call(Text, data, data_processed)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.0.5.py", line 77, in call
+    yield from Connection_layer(Text, data, associative_tree, reply, executive)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.0.5.py", line 204, in Connection_layer
+    "time": [time年, time月, time日, time时, time分, time秒]
+             ^^^^^^
+NameError: name 'time年' is not defined
+
+2026-06-21 07:04:05,424 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 07:04:05,428 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 07:04:05,428 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 07:04:05,429 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 07:04:08,391 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 07:04:08,416 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 07:04:08,418 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 07:04:08,418 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 07:04:14,925 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 07:04:14,926 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 07:04:14,932 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 07:04:14,934 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 07:04:14,941 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 07:04:14,948 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 07:04:14,952 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 07:04:14,953 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 07:04:14,954 - Waip AI DRN - INFO - 运行正常
+2026-06-21 07:04:14,954 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 07:04:14,954 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 07:04:19,259 - Waip AI DRN - INFO - 你：你好
+2026-06-21 07:04:19,260 - Waip AI DRN - INFO - 
+
+2026-06-21 07:04:19,362 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 07:04:19,463 - Waip AI DRN - INFO - 激活记忆：['1', '2', '3', '4', '5']
+2026-06-21 07:04:19,565 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-06-21 07:04:19,671 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-06-21 07:04:19,772 - Waip AI DRN - INFO - 当前截止：4
+2026-06-21 07:04:19,873 - Waip AI DRN - INFO - 激活递接元：['1', '3', '4', '5']
+2026-06-21 07:04:19,974 - Waip AI DRN - INFO - 关联树分支数：60
+2026-06-21 07:04:20,079 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-21 07:04:20,180 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '5']}}
+2026-06-21 07:04:20,281 - Waip AI DRN - INFO - 短时记忆数据库已更新
+2026-06-21 07:04:20,382 - Waip AI DRN - INFO - 
+
+2026-06-21 07:04:20,383 - Waip AI DRN - INFO - 测试体2号回复：
+2026-06-21 07:04:20,402 - Waip AI DRN - INFO - 数据已更新
+2026-06-21 07:05:08,423 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:06:08,416 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:07:08,447 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:08:08,442 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:09:08,437 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:10:08,432 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:11:08,427 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:12:08,423 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:13:08,418 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:14:26,016 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 07:14:26,016 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 07:14:26,016 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 07:14:26,016 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 07:14:29,201 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 07:14:29,230 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 07:14:29,232 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 07:14:29,232 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 07:14:35,548 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 07:14:35,549 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 07:14:35,553 - Waip AI DRN - INFO - 错误：<string>:53 Unexpected "2" at column 13
+2026-06-21 07:14:35,553 - Waip AI DRN - INFO - 错误类型：ValueError
+2026-06-21 07:14:35,556 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 584, in <module>
+    into()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 154, in into
+    data["short-term memory"] = os_data(f"意识体数据库/{ai_name}/短期记忆数据库.txt")
+                                ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 4.0\Waip AI DRN Receiver.p.py", line 47, in os_data
+    return json5.load(open(os.path.join(os.path.dirname(__file__), path), "r", encoding="utf-8"))
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python\Python313\Lib\site-packages\json5\lib.py", line 143, in load
+    raise ValueError(err)
+ValueError: <string>:53 Unexpected "2" at column 13
+
+2026-06-21 07:14:49,417 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-06-21 07:14:49,418 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-06-21 07:14:49,418 - Waip AI DRN - INFO - 
+Database 4.0 支持的 Waip AI DRN 版本：
+2026-06-21 07:14:49,418 - Waip AI DRN - INFO -   - 0.0.5
+2026-06-21 07:14:54,236 - Waip AI DRN - INFO - 请选择版本：0.0.5
+2026-06-21 07:14:54,256 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.0.5
+2026-06-21 07:14:54,258 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-06-21 07:14:54,258 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-06-21 07:14:59,958 - Waip AI DRN - INFO - 请输入意识体名称：测试体2号
+2026-06-21 07:14:59,959 - Waip AI DRN - INFO - 数据结构已初始化
+2026-06-21 07:14:59,969 - Waip AI DRN - INFO - 短期记忆已加载
+2026-06-21 07:14:59,971 - Waip AI DRN - INFO - 长期记忆已加载
+2026-06-21 07:14:59,976 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-06-21 07:14:59,981 - Waip AI DRN - INFO - 认知数据库已加载
+2026-06-21 07:14:59,985 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-06-21 07:14:59,987 - Waip AI DRN - INFO - 状态数据库已加载
+2026-06-21 07:14:59,987 - Waip AI DRN - INFO - 运行正常
+2026-06-21 07:14:59,988 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-06-21 07:14:59,988 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-06-21 07:15:02,130 - Waip AI DRN - INFO - 你：你好
+2026-06-21 07:15:02,130 - Waip AI DRN - INFO - 
+
+2026-06-21 07:15:02,231 - Waip AI DRN - INFO - 激活阀值：11360
+2026-06-21 07:15:02,332 - Waip AI DRN - INFO - 激活记忆：['1', '2', '3', '4', '5']
+2026-06-21 07:15:02,433 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-06-21 07:15:02,534 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-06-21 07:15:02,634 - Waip AI DRN - INFO - 当前截止：4
+2026-06-21 07:15:02,735 - Waip AI DRN - INFO - 激活递接元：['1', '3', '4', '5']
+2026-06-21 07:15:02,836 - Waip AI DRN - INFO - 关联树分支数：60
+2026-06-21 07:15:02,941 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-06-21 07:15:03,044 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '1']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '5']}}
+2026-06-21 07:15:03,146 - Waip AI DRN - INFO - 短时记忆数据库已更新
+2026-06-21 07:15:03,247 - Waip AI DRN - INFO - 
+
+2026-06-21 07:15:03,248 - Waip AI DRN - INFO - 测试体2号回复：系统错误，无法理解问题。
+2026-06-21 07:15:03,258 - Waip AI DRN - INFO - 数据已更新
+2026-06-21 07:15:54,253 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:16:54,249 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:17:54,244 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:18:54,239 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:19:54,408 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:20:54,403 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:21:54,400 - Waip AI DRN - INFO - 程序运行正常
+2026-06-21 07:22:54,397 - Waip AI DRN - INFO - 程序运行正常

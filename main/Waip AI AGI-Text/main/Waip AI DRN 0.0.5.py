@@ -74,8 +74,9 @@ def Waip_AI_DRN(user, data):
         reply = reply_layer(Text, data, associative_tree)
         output_layer(reply)
         executive = Executive_level(Text, data, associative_tree)
-        connection = Connection_layer(Text, data, associative_tree, reply, executive)
-    
+        yield from Connection_layer(Text, data, associative_tree, reply, executive)
+        return reply
+
     def association_layer(Text, data, data_processed):
 
         def Calculation_formula_number_branches_associative_tree(text, data):
@@ -184,7 +185,49 @@ def Waip_AI_DRN(user, data):
         return executive
 
     def Connection_layer(Text, data, associative_tree, reply, executive):
-        pass
+        now = datetime.now()
+        current_time = [now.year, now.month, now.day, now.hour, now.minute, now.second]
+        
+        short_term_memory_number = []
+
+        for i in data["short-term memory"]:
+            short_term_memory_number.append(int(i))
+
+        short_term_memory_number_user = []
+
+        for i in data["short-term memory"]:
+            if data["short-term memory"][i]["IP"][0] == "user":
+                short_term_memory_number_user.append(data["short-term memory"][i]["IP"][-1])
+        
+        data["short-term memory"][str(max(short_term_memory_number) + 1)] = {
+            "content": Text,
+            "IP": [
+                "user",
+                max(short_term_memory_number_user) + 1
+            ],
+            "time": current_time
+        }
+
+        short_term_memory_number = []
+        for i in data["short-term memory"]:
+            short_term_memory_number.append(int(i))
+        short_term_memory_number_ai = []
+
+        for i in data["short-term memory"]:
+            if data["short-term memory"][i]["IP"][0] == "ai":
+                short_term_memory_number_ai.append(data["short-term memory"][i]["IP"][-1])
+        
+        data["short-term memory"][str(max(short_term_memory_number) + 1)] = {
+            "content": reply,
+            "IP": [
+                "ai",
+                "external actions",
+                max(short_term_memory_number_ai) + 1
+            ],
+            "time": current_time
+        }
+
+        yield from printf("短时记忆数据库已更新")
 
     ai_reply = ""
     data_processed = {"activated memory": {}}
@@ -201,7 +244,7 @@ def Waip_AI_DRN(user, data):
     index = 0
     while TF:
         Text, Text_Range = yield from input_layer(user, data, index)
-        yield from call(Text, data, data_processed)
+        ai_reply = yield from call(Text, data, data_processed)
         index += Text_Range
         if index >= len(user):
             TF = False

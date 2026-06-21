@@ -1,0 +1,61 @@
+{
+    "1": {
+        content: "你好",
+        权重: "0",
+        IP: [
+            "combination",
+            1,
+        ],
+    },
+    "2": {
+        content: "你",
+        IP: [
+            "basic",
+            1,
+        ],
+    },
+    "3": {
+        content: "好",
+        IP: [
+            "basic",
+            2,
+        ],
+    },
+    "4": {
+        content: "是",
+        IP: [
+            "basic",
+            3,
+        ],
+    },
+    "5": {
+        content: "谁",
+        IP: [
+            "basic",
+            4,
+        ],
+    },
+    "6": {
+        content: "是谁",
+        权重: "0",
+        IP: [
+            "combination",
+            2,
+        ],
+    },
+    "7": {
+        content: "你是",
+        权重: "0",
+        IP: [
+            "combination",
+            3,
+        ],
+    },
+    "8": {
+        content: "<speak>",
+        IP: [
+            "<token>",
+            1,
+        ],
+    },
+}

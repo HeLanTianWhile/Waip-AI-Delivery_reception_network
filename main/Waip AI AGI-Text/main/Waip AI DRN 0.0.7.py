@@ -128,6 +128,8 @@ def Waip_AI_DRN(user, data):
 
             list_of_added_edges = []
             stop_index += 1
+            copy_associative_tree = copy.deepcopy(associative_tree)
+            copy_associative_tree = copy.deepcopy(associative_tree)
 
             for i in data["associative network"]:
                 associative_unit = {}
@@ -145,6 +147,7 @@ def Waip_AI_DRN(user, data):
                 for p in copy_associative_tree:
                     if "Undetermined unit" in copy_associative_tree[p]["IP"]:
                         continue
+                    yield from printf(copy_associative_tree[p])
                     copy_associative_tree_list.append(data[copy_associative_tree[p]["correspond to"][0]][copy_associative_tree[p]["correspond to"][-1]]["IP"])
 
                 if "two-way line" == data["associative network"][i]["type"]:
@@ -165,24 +168,34 @@ def Waip_AI_DRN(user, data):
                 if matching_number == 0 or matching_number == len(associative_unit):
                     continue
 
+                yield from printf("associative_unit检测通过")
                 for o in associative_unit:
+                    #yield from printf("Undeterminedative_unit检测通过")
                     for p in copy_associative_tree: 
+                        if "Undetermined unit" in copy_associative_tree[p]["IP"]:
+                            continue
+                        yield from printf("未确定单元检测通过")
                         if associative_unit[o]["type"] == "two-way head":
+                            yield from printf(copy_associative_tree[p])
                             if associative_unit[o]["IP"] == data[copy_associative_tree[p]["correspond to"][0]][copy_associative_tree[p]["correspond to"][-1]]["IP"]:
                                 if i not in list_of_added_edges:
                                     copy_associative_tree[str(index["main_index"])] = {"IP": ["Confirmed unit", "Subunit", index["Confirmed_Subunit_index"]], "correspond to": ["activated memory", data["activated memory"][data["activated memory"][i]["IP"]]], "superior unit": [p]}
                                     index["main_index"] += 1
                                     index["Confirmed_Subunit_index"] += 1
                                     list_of_added_edges.append(i)
+                                    yield from printf("添加成功")
                         elif associative_unit[o]["type"] == "one-way head":
+                            yield from printf(copy_associative_tree[p])
+                            yield from printf(associative_unit[o]["IP"]["IP"])
                             if associative_unit[o]["IP"]["IP"] == data[copy_associative_tree[p]["correspond to"][0]][copy_associative_tree[p]["correspond to"][-1]]["IP"]:
                                 if i not in list_of_added_edges:
                                     copy_associative_tree[str(index["main_index"])] = {"IP": ["Confirmed unit", "Subunit", index["Confirmed_Subunit_index"]], "correspond to": ["activated memory", data["activated memory"][data["activated memory"][i]["IP"]]], "superior unit": [p]}
                                     index["main_index"] += 1
                                     index["Confirmed_Subunit_index"] += 1
                                     list_of_added_edges.append(i)
+                                    yield from printf("添加成功")
 
-                associative_tree = copy.deepcopy(copy_associative_tree)
+                yield from printf(associative_tree)
 
                 if index["main_index"] == number_branches_associative_tree:
                         break

@@ -166,6 +166,8 @@ def Waip_AI_DRN(user, data):
                 for o in associative_unit:
                     for p in associative_tree:
                         if "Undetermined unit" in associative_tree[p]["IP"]:
+                            if associative_tree[p]["content"] in data["associative network"][i]["-"]:
+                                pass
                             continue
                         if associative_unit[o]["type"] == "two-way head":
                             if associative_unit[o]["IP"] == data[associative_tree[p]["correspond to"][0]][associative_tree[p]["correspond to"][-1]]["IP"]:
@@ -174,7 +176,7 @@ def Waip_AI_DRN(user, data):
                                     index["main_index"] += 1
                                     index["Confirmed_Subunit_index"] += 1
                                     list_of_added_edges.append(i)
-                                    yield from printf("添加成功")
+                                    yield from printf(f"添加成功:{copy_associative_tree[str(index['main_index'] - 1)]}")
                         elif associative_unit[o]["type"] == "one-way head":
                             if associative_unit[o]["IP"]["IP"] == data[associative_tree[p]["correspond to"][0]][associative_tree[p]["correspond to"][-1]]["IP"]:
                                 if i not in list_of_added_edges:

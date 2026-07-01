@@ -28,6 +28,16 @@ from typing_extensions import assert_never
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 #            佛祖保佑 代码永无报错 全程零BUG
 
+def into_database():
+    data = {
+        "short-term memory": {},
+        "long-term memory": {},
+        "associative network": {},
+        "cognitive database": {},
+        "activated memory": {},
+        "status database": {"多巴胺dopamine": 35000,"乙酰胆碱acetylcholine": 25000,"血清素serotonin": 50000,"内啡肽endorphin": 40000,"P物质substance P": 15000,"肾上腺素epinephrine": 20000,"GABA": 30000,"去肾上腺素Noradrenaline": 22000,"谷氨酸Glutamic acid": 25000}
+    }
+
 def Waip_AI_DRN(user, data):
 
     msg = []
@@ -166,8 +176,10 @@ def Waip_AI_DRN(user, data):
                 for o in associative_unit:
                     for p in associative_tree:
                         if "Undetermined unit" in associative_tree[p]["IP"]:
-                            if associative_tree[p]["content"] in data["associative network"][i]["-"]:
-                                pass
+                            # 此处的Undetermined unit处理有点难先放一放
+                            correspond_to_data = 0
+                            #if associative_tree[p]["content"] in data["associative network"][i]["-"]:
+                            #    pass
                             continue
                         if associative_unit[o]["type"] == "two-way head":
                             if associative_unit[o]["IP"] == data[associative_tree[p]["correspond to"][0]][associative_tree[p]["correspond to"][-1]]["IP"]:

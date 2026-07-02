@@ -5,6 +5,8 @@ from datetime import datetime
 
 from typing_extensions import assert_never
 
+# ©2026 何蓝田 保留所有权利
+
 # import random # 你为什么导入了random模块
 
 #                     _ooOoo_
@@ -37,6 +39,7 @@ def into_database():
         "activated memory": {},
         "status database": {"多巴胺dopamine": 35000,"乙酰胆碱acetylcholine": 25000,"血清素serotonin": 50000,"内啡肽endorphin": 40000,"P物质substance P": 15000,"肾上腺素epinephrine": 20000,"GABA": 30000,"去肾上腺素Noradrenaline": 22000,"谷氨酸Glutamic acid": 25000}
     }
+    return data
 
 def Waip_AI_DRN(user, data):
 
@@ -177,9 +180,10 @@ def Waip_AI_DRN(user, data):
                     for p in associative_tree:
                         if "Undetermined unit" in associative_tree[p]["IP"]:
                             # 此处的Undetermined unit处理有点难先放一放
-                            correspond_to_data = 0
-                            #if associative_tree[p]["content"] in data["associative network"][i]["-"]:
-                            #    pass
+                            correspond_to_line = data["associative network"][i][o]
+                            correspond_to_data = correspond_to_line
+                            if associative_tree[p]["content"] in data["associative network"][i]["-"]:
+                                pass
                             continue
                         if associative_unit[o]["type"] == "two-way head":
                             if associative_unit[o]["IP"] == data[associative_tree[p]["correspond to"][0]][associative_tree[p]["correspond to"][-1]]["IP"]:

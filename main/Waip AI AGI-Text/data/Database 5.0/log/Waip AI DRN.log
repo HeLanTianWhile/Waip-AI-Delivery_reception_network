@@ -39131,3 +39131,59 @@ Database 5.0 支持的 Waip AI DRN 版本：
 2026-07-02 07:03:12,272 - Waip AI DRN - INFO - 程序运行正常
 2026-07-02 07:04:12,261 - Waip AI DRN - INFO - 程序运行正常
 2026-07-02 07:05:12,249 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 13:55:10,756 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-05 13:55:10,757 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-05 13:55:10,757 - Waip AI DRN - INFO - 
+Database 5.0 支持的 Waip AI DRN 版本：
+2026-07-05 13:55:10,757 - Waip AI DRN - INFO -   - 0.0.7
+2026-07-05 13:55:10,757 - Waip AI DRN - INFO -   - 0.0.8
+2026-07-05 13:55:10,757 - Waip AI DRN - INFO -   - 0.0.9
+2026-07-05 13:55:10,757 - Waip AI DRN - INFO -   - 0.1.0
+2026-07-05 13:55:31,362 - Waip AI DRN - INFO - 请选择版本：0.1.0
+2026-07-05 13:55:31,388 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.1.0
+2026-07-05 13:55:31,390 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-05 13:55:31,390 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-05 13:55:38,260 - Waip AI DRN - INFO - 请输入意识体名称：测试体3号
+2026-07-05 13:55:38,261 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-05 13:55:38,265 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-05 13:55:38,266 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-05 13:55:38,272 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-05 13:55:38,276 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-05 13:55:38,284 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-05 13:55:38,286 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-05 13:55:38,286 - Waip AI DRN - INFO - 运行正常
+2026-07-05 13:55:38,286 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-05 13:55:38,286 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-05 13:55:47,240 - Waip AI DRN - INFO - 你：你好
+2026-07-05 13:55:47,241 - Waip AI DRN - INFO - 
+
+2026-07-05 13:55:47,342 - Waip AI DRN - INFO - 激活阀值：11360
+2026-07-05 13:55:47,442 - Waip AI DRN - INFO - 激活记忆：['0', '1', '2', '3', '4', '5']
+2026-07-05 13:55:47,543 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-05 13:55:47,644 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-07-05 13:55:47,744 - Waip AI DRN - INFO - 当前截止：4
+2026-07-05 13:55:47,845 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-05 13:55:47,946 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-05 13:55:48,047 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-05 13:55:48,151 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-05 13:55:48,252 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-05 13:55:48,352 - Waip AI DRN - INFO - 
+
+2026-07-05 13:55:48,353 - Waip AI DRN - INFO - 测试体3号回复：系统错误，无法理解问题。
+2026-07-05 13:55:48,357 - Waip AI DRN - INFO - 数据已更新
+2026-07-05 13:56:31,391 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 13:57:31,392 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 13:58:31,394 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 13:59:31,395 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:00:31,397 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:01:31,398 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:02:31,400 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:03:31,401 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:04:31,403 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:05:31,404 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:06:31,405 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:07:31,406 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:08:31,407 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:09:31,408 - Waip AI DRN - INFO - 程序运行正常
+2026-07-05 14:10:31,409 - Waip AI DRN - INFO - 程序运行正常

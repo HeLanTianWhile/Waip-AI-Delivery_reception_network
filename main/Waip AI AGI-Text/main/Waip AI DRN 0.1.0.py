@@ -180,10 +180,14 @@ def Waip_AI_DRN(user, data):
                     for p in associative_tree:
                         if "Undetermined unit" in associative_tree[p]["IP"]:
                             # 此处的Undetermined unit处理有点难先放一放
-                            correspond_to_line = data["associative network"][i][o]
-                            correspond_to_data = correspond_to_line
-                            if associative_tree[p]["content"] in data["associative network"][i]["-"]:
-                                pass
+                            correspond_to_unit = associative_unit[o]
+                            if correspond_to_unit["type"] == "two-way head":
+                                correspond_to_data = correspond_to_unit["IP"][0]
+                            else:
+                                correspond_to_data = correspond_to_unit["IP"]["IP"][0]
+
+                            #if associative_tree[p]["content"] in data["associative network"][i]["-"]:
+                            #    pass
                             continue
                         if associative_unit[o]["type"] == "two-way head":
                             if associative_unit[o]["IP"] == data[associative_tree[p]["correspond to"][0]][associative_tree[p]["correspond to"][-1]]["IP"]:

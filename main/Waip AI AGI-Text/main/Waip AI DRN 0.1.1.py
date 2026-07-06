@@ -183,8 +183,19 @@ def Waip_AI_DRN(user, data):
                             correspond_to_unit = associative_unit[o]
                             if correspond_to_unit["type"] == "two-way head":
                                 correspond_to_data = correspond_to_unit["IP"][0]
+                                IP = copy.deepcopy(correspond_to_unit["IP"])
                             else:
                                 correspond_to_data = correspond_to_unit["IP"]["IP"][0]
+                                IP = copy.deepcopy(correspond_to_unit["IP"]["IP"])
+
+                            Data_IP = copy.deepcopy(IP)
+                            del Data_IP[0]
+
+                            correspond_to_unit_center = ""
+
+                            for t in data[correspond_to_data]:
+                                if data[correspond_to_data][t]["IP"] == Data_IP:
+                                    pass
 
                             #if associative_tree[p]["content"] in data["associative network"][i]["-"]:
                             #    pass

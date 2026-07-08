@@ -1,0 +1,52 @@
+{
+    意识体: [
+        {
+            type: "user",
+            content: "你好",
+        },
+        {
+            type: "thinking",
+            content: "激活阀值：11360",
+        },
+        {
+            type: "thinking",
+            content: "激活记忆：['0', '1', '2', '3', '4', '5']",
+        },
+        {
+            type: "thinking",
+            content: "文字注意力范围：4",
+        },
+        {
+            type: "thinking",
+            content: "文字注意力内容：你好",
+        },
+        {
+            type: "thinking",
+            content: "当前截止：4",
+        },
+        {
+            type: "thinking",
+            content: "激活递接元：['0', '2', '3', '4', '5']",
+        },
+        {
+            type: "thinking",
+            content: "关联树分支数：60",
+        },
+        {
+            type: "thinking",
+            content: "添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}",
+        },
+        {
+            type: "thinking",
+            content: "此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序",
+        },
+        {
+            type: "thinking",
+            content: "关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}",
+        },
+        {
+            type: "response",
+            content: "系统错误，无法理解问题。",
+        },
+    ],
+}

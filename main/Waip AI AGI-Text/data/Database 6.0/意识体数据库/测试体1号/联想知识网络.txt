@@ -1,0 +1,21 @@
+{
+    "1": {
+        IP: [
+            "line",
+            "two-way line",
+            1,
+        ],
+        content: [
+            [
+                "basic",
+                1,
+            ],
+            [
+                "basic",
+                4,
+            ],
+        ],
+        type: "two-way line",
+        权重: 142,
+    },
+}

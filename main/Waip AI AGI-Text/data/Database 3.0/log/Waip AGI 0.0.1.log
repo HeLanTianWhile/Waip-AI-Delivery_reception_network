@@ -9688,3 +9688,8 @@ TypeError: unhashable type: 'dict'
 2026-06-18 20:05:08,884 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
 2026-06-18 20:05:08,985 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': ['cognitive database', 'basic', 1], 'type': 'two-way head'}, 1: {'IP': ['cognitive database', 'basic', 4], 'type': 'two-way head'}}
 2026-06-18 20:05:09,086 - Waip AGI 0.0.1 - INFO - 关联单元：{0: {'IP': {'type': 'forward head', 'IP': ['cognitive database', 'combination', 3]}}, 1: {'IP': {'type': 'reverse head', 'IP': ['cognitive database', 'combination', 3]}}}
+2026-07-17 11:10:08,536 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-07-17 11:10:08,545 - Waip AGI 0.0.1 - INFO - 
+支持的 Waip AGI 版本：
+2026-07-17 11:10:08,545 - Waip AGI 0.0.1 - INFO -   - 0.0.3
+2026-07-17 11:10:08,545 - Waip AGI 0.0.1 - INFO -   - 0.0.4

@@ -195,10 +195,10 @@ def Waip_AI_DRN(user, data):
 
                             for t in data[correspond_to_data]:
                                 if data[correspond_to_data][t]["IP"] == Data_IP:
-                                    yield from printf(f"匹配成功:{t}")
+                                    #yield from printf(f"匹配成功:{t}")
                                     correspond_to_unit_center.append(t)
                             
-                            yield from printf(f"correspond_to_unit_center:{correspond_to_unit_center}")
+                            #yield from printf(f"correspond_to_unit_center:{correspond_to_unit_center}")
 
                             #if associative_tree[p]["content"] in data["associative network"][i]["-"]:
                             #    pass
@@ -237,6 +237,17 @@ def Waip_AI_DRN(user, data):
     def reply_layer(Text, data, associative_tree):
         ai_reply = ""
         
+        for i in associative_tree:
+            if "Confirmed unit" in associative_tree[i]["IP"]:
+                IP = data["activated memory"][associative_tree[i]["correspond to"][-1]]["IP"]
+                this_database_IP = copy.deepcopy(IP)
+                del this_database_IP[0]
+                for j in data[IP[0]]:
+                    if data[IP[0]][j]["IP"] == this_database_IP:
+                        ai_reply += data[IP[0]][j]["content"]
+            elif "Undetermined unit" in associative_tree[i]["IP"]:
+                ai_reply += associative_tree[i]["content"]
+
         if ai_reply == "":
             ai_reply = "系统错误，无法理解问题。"
 

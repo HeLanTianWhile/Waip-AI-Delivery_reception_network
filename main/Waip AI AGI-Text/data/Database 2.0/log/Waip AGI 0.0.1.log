@@ -3389,3 +3389,6 @@ FileNotFoundError: [Errno 2] No such file or directory: 'c:\\Users\\HW\\Desktop\
 2026-05-22 20:47:08,964 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-05-22 20:48:08,965 - Waip AGI 0.0.1 - INFO - 程序运行正常
 2026-05-22 20:49:08,966 - Waip AGI 0.0.1 - INFO - 程序运行正常
+2026-07-17 11:10:43,684 - Waip AGI 0.0.1 - INFO - 意识体已启动，以下为输出内容：
+2026-07-17 11:10:43,689 - Waip AGI 0.0.1 - INFO - 后台状态监控线程已启动
+2026-07-17 11:10:43,690 - Waip AGI 0.0.1 - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help

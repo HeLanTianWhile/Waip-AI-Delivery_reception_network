@@ -40857,3 +40857,600 @@ Database 6.0 支持的 Waip AI DRN 版本：
 2026-07-08 20:19:04,885 - Waip AI DRN - INFO - 程序运行正常
 2026-07-08 20:20:04,886 - Waip AI DRN - INFO - 程序运行正常
 2026-07-08 20:21:04,887 - Waip AI DRN - INFO - 程序运行正常
+2026-07-21 11:48:15,851 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-21 11:48:15,864 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-21 11:48:15,864 - Waip AI DRN - INFO - 
+Database 6.0 支持的 Waip AI DRN 版本：
+2026-07-21 11:48:15,865 - Waip AI DRN - INFO -   - 0.1.3
+2026-07-21 11:48:19,812 - Waip AI DRN - INFO - 请选择版本：0.1.3
+2026-07-21 11:48:19,860 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.1.3
+2026-07-21 11:48:19,861 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-21 11:48:19,861 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-21 11:48:30,634 - Waip AI DRN - INFO - 请输入意识体名称：测试体4号
+2026-07-21 11:48:30,635 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-21 11:48:30,648 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-21 11:48:30,650 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-21 11:48:30,657 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-21 11:48:30,664 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-21 11:48:30,668 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-21 11:48:30,670 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-21 11:48:30,670 - Waip AI DRN - INFO - 运行正常
+2026-07-21 11:48:30,670 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-21 11:48:30,670 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-21 11:48:32,719 - Waip AI DRN - INFO - 你：你好
+2026-07-21 11:48:32,719 - Waip AI DRN - INFO - 
+
+2026-07-21 11:48:32,770 - Waip AI DRN - INFO - 激活阀值：11360
+2026-07-21 11:48:32,822 - Waip AI DRN - INFO - 激活记忆：['0', '1', '2', '3', '4', '5']
+2026-07-21 11:48:32,872 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 11:48:32,924 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-07-21 11:48:32,976 - Waip AI DRN - INFO - 当前截止：4
+2026-07-21 11:48:33,027 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 11:48:33,077 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 11:48:33,128 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:33,179 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:33,231 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:33,300 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:33,353 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-21 11:48:33,403 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:33,454 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:33,504 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:33,587 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:33,640 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:33,703 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:33,756 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:33,823 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:33,875 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:33,926 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:33,977 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:34,027 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:34,078 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:34,129 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:34,180 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:34,231 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:34,288 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:34,338 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:34,392 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:34,443 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:34,493 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:34,544 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:34,599 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:34,656 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:34,712 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:34,763 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:34,814 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:34,865 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:34,915 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:34,966 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:35,032 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:35,089 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:35,148 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:35,200 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:35,252 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:35,302 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:35,353 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:35,419 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:35,471 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:35,522 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:35,605 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:35,675 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:35,725 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:35,781 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:35,832 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:35,882 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:35,949 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:36,000 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:36,051 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:36,101 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:36,171 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:36,222 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:36,273 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:36,331 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:36,386 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:36,446 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:36,497 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:36,547 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:36,598 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:36,648 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:36,700 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:36,750 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:36,801 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:36,870 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:36,921 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:36,972 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:37,031 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:37,082 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:37,133 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:37,183 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:37,235 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:37,297 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:37,377 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:37,430 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:37,481 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:37,533 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:37,593 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:37,644 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:37,695 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:37,746 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:37,797 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:37,848 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:37,898 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:37,949 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:38,000 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:38,092 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:38,162 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:38,221 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:38,280 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:38,331 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:38,385 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:38,436 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:38,489 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:38,540 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:38,593 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:38,643 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:38,694 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:38,749 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:38,799 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:38,850 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:38,901 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:38,961 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:39,012 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:39,063 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:39,113 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:39,164 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:39,215 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:39,266 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:39,327 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:39,394 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:39,455 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:39,505 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:39,587 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:39,655 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:39,707 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:39,761 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:39,813 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:39,863 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:39,914 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:39,964 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:40,015 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:40,066 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:40,116 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:40,167 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:40,218 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:40,280 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:40,331 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:40,383 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:40,433 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:40,484 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:40,544 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:40,595 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:40,646 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:40,696 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:40,747 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:40,798 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:40,849 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:40,900 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:40,960 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:41,010 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:41,079 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:41,139 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:41,190 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:41,240 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:41,291 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:41,344 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:41,410 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:41,461 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:41,547 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:41,602 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:41,660 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:41,711 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:41,766 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:41,817 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:41,868 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:41,919 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:41,995 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:42,052 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:42,103 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:42,158 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:42,218 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:42,269 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:42,320 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:42,374 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:42,425 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:42,475 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:42,531 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:42,582 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:42,634 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:42,694 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:42,745 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:42,795 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:42,851 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:42,913 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:42,977 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:43,027 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:43,079 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:43,134 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:43,186 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:43,237 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:43,287 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:43,339 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:43,390 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:43,441 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:43,493 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:43,544 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:43,597 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:43,648 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:43,698 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:43,749 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:43,799 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:43,850 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:43,920 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:43,982 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:44,033 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:44,085 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:44,144 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:44,195 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:44,246 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:44,297 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:44,347 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:44,398 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:44,449 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:44,500 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:44,551 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:44,618 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:44,677 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:44,729 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:44,780 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:44,830 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:44,891 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:44,942 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:44,999 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:45,050 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:45,101 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:45,153 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:45,204 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:45,254 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:45,305 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:45,356 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:45,406 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:45,457 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:45,522 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:45,588 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:45,652 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:45,703 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:45,763 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:45,813 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:45,884 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:45,935 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:45,986 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:46,048 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:46,119 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:46,170 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:46,259 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:46,325 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:46,376 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:46,427 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:46,478 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:46,529 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:46,579 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:46,630 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:46,681 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:48:46,741 - Waip AI DRN - INFO - correspond_to_unit_center:['5']
+2026-07-21 11:48:46,795 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:46,847 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:46,898 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:48:46,949 - Waip AI DRN - INFO - correspond_to_unit_center:['2']
+2026-07-21 11:48:47,019 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:18,226 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-21 11:49:18,227 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-21 11:49:18,227 - Waip AI DRN - INFO - 
+Database 6.0 支持的 Waip AI DRN 版本：
+2026-07-21 11:49:18,227 - Waip AI DRN - INFO -   - 0.1.3
+2026-07-21 11:49:22,007 - Waip AI DRN - INFO - 请选择版本：0.1.3
+2026-07-21 11:49:22,043 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.1.3
+2026-07-21 11:49:22,044 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-21 11:49:22,044 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-21 11:49:26,309 - Waip AI DRN - INFO - 请输入意识体名称：测试体4号
+2026-07-21 11:49:26,310 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-21 11:49:26,316 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-21 11:49:26,318 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-21 11:49:26,328 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-21 11:49:26,333 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-21 11:49:26,337 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-21 11:49:26,339 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-21 11:49:26,339 - Waip AI DRN - INFO - 运行正常
+2026-07-21 11:49:26,339 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-21 11:49:26,340 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-21 11:49:28,518 - Waip AI DRN - INFO - 你：你好
+2026-07-21 11:49:28,519 - Waip AI DRN - INFO - 
+
+2026-07-21 11:49:28,588 - Waip AI DRN - INFO - 激活阀值：11360
+2026-07-21 11:49:28,639 - Waip AI DRN - INFO - 激活记忆：['0', '1', '2', '3', '4', '5']
+2026-07-21 11:49:28,689 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 11:49:28,749 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-07-21 11:49:28,800 - Waip AI DRN - INFO - 当前截止：4
+2026-07-21 11:49:28,850 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 11:49:28,901 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 11:49:28,952 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,003 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,079 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-21 11:49:29,142 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,217 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,273 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,325 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,377 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,438 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,501 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,571 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,622 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,673 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,729 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,780 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,831 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,881 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:29,932 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:29,983 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,034 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,085 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,136 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,187 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,238 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,289 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,340 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,411 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,473 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,524 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,575 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,628 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,678 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,731 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,783 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,834 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:30,885 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,935 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:30,992 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,043 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,094 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,157 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,222 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,276 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,327 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,377 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,428 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,479 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,530 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,580 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,631 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,682 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,732 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,783 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,834 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,885 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:31,935 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:31,991 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,042 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,092 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,151 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,204 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,255 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,306 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,356 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,408 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,458 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,509 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,561 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,612 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,663 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,717 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,769 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,820 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:32,871 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,922 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:32,973 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:33,024 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:33,075 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:33,126 - Waip AI DRN - INFO - 匹配成功:2
+2026-07-21 11:49:33,177 - Waip AI DRN - INFO - 匹配成功:5
+2026-07-21 11:49:50,242 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-21 11:49:50,247 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-21 11:49:50,248 - Waip AI DRN - INFO - 
+Database 6.0 支持的 Waip AI DRN 版本：
+2026-07-21 11:49:50,248 - Waip AI DRN - INFO -   - 0.1.3
+2026-07-21 11:49:53,909 - Waip AI DRN - INFO - 请选择版本：0.1.3
+2026-07-21 11:49:53,936 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.1.3
+2026-07-21 11:49:53,937 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-21 11:49:53,937 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-21 11:49:58,138 - Waip AI DRN - INFO - 请输入意识体名称：测试体4号
+2026-07-21 11:49:58,138 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-21 11:49:58,144 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-21 11:49:58,146 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-21 11:49:58,154 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-21 11:49:58,161 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-21 11:49:58,186 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-21 11:49:58,188 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-21 11:49:58,188 - Waip AI DRN - INFO - 运行正常
+2026-07-21 11:49:58,189 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-21 11:49:58,189 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-21 11:50:00,262 - Waip AI DRN - INFO - 你：你好
+2026-07-21 11:50:00,262 - Waip AI DRN - INFO - 
+
+2026-07-21 11:50:00,313 - Waip AI DRN - INFO - 激活阀值：11360
+2026-07-21 11:50:00,363 - Waip AI DRN - INFO - 激活记忆：['0', '1', '2', '3', '4', '5']
+2026-07-21 11:50:00,414 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 11:50:00,465 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-07-21 11:50:00,516 - Waip AI DRN - INFO - 当前截止：4
+2026-07-21 11:50:00,580 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 11:50:00,631 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 11:50:00,683 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-21 11:50:00,738 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-21 11:50:00,814 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-21 11:50:00,881 - Waip AI DRN - INFO - 错误：'line'
+2026-07-21 11:50:00,882 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-21 11:50:00,893 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 6.0\Waip AI DRN Receiver.p.py", line 590, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 6.0\Waip AI DRN Receiver.p.py", line 571, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.1.3.py", line 338, in Waip_AI_DRN
+    ai_reply = yield from call(Text, data, data_processed)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.1.3.py", line 89, in call
+    reply = reply_layer(Text, data, associative_tree)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.1.3.py", line 245, in reply_layer
+    for j in data[IP[0]]:
+             ~~~~^^^^^^^
+KeyError: 'line'
+
+2026-07-21 11:54:42,148 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-21 11:54:42,150 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-21 11:54:42,151 - Waip AI DRN - INFO - 
+Database 6.0 支持的 Waip AI DRN 版本：
+2026-07-21 11:54:42,151 - Waip AI DRN - INFO -   - 0.1.3
+2026-07-21 11:54:46,163 - Waip AI DRN - INFO - 请选择版本：0.1.3
+2026-07-21 11:54:46,183 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.1.3
+2026-07-21 11:54:46,185 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-21 11:54:46,185 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-21 11:54:52,294 - Waip AI DRN - INFO - 请输入意识体名称：测试体4号
+2026-07-21 11:54:52,295 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-21 11:54:52,298 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-21 11:54:52,300 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-21 11:54:52,308 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-21 11:54:52,316 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-21 11:54:52,321 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-21 11:54:52,330 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-21 11:54:52,330 - Waip AI DRN - INFO - 运行正常
+2026-07-21 11:54:52,331 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-21 11:54:52,334 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-21 11:54:54,737 - Waip AI DRN - INFO - 你：你好
+2026-07-21 11:54:54,738 - Waip AI DRN - INFO - 
+
+2026-07-21 11:54:54,802 - Waip AI DRN - INFO - 激活阀值：11360
+2026-07-21 11:54:54,862 - Waip AI DRN - INFO - 激活记忆：['0', '1', '2', '3', '4', '5']
+2026-07-21 11:54:54,922 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 11:54:54,972 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-07-21 11:54:55,033 - Waip AI DRN - INFO - 当前截止：4
+2026-07-21 11:54:55,088 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 11:54:55,144 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 11:54:55,195 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-21 11:54:55,250 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-21 11:54:55,307 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-21 11:54:55,358 - Waip AI DRN - INFO - 错误：'line'
+2026-07-21 11:54:55,359 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-21 11:54:55,361 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 6.0\Waip AI DRN Receiver.p.py", line 590, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 6.0\Waip AI DRN Receiver.p.py", line 571, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.1.3.py", line 339, in Waip_AI_DRN
+    ai_reply = yield from call(Text, data, data_processed)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.1.3.py", line 89, in call
+    reply = reply_layer(Text, data, associative_tree)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.1.3.py", line 246, in reply_layer
+    for j in data[IP[0]]:
+             ~~~~^^^^^^^
+KeyError: 'line'
+
+2026-07-21 11:59:27,564 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-21 11:59:27,565 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-21 11:59:27,565 - Waip AI DRN - INFO - 
+Database 6.0 支持的 Waip AI DRN 版本：
+2026-07-21 11:59:27,565 - Waip AI DRN - INFO -   - 0.1.3
+2026-07-21 11:59:36,445 - Waip AI DRN - INFO - 请选择版本：0.1.3
+2026-07-21 11:59:36,471 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.1.3
+2026-07-21 11:59:36,472 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-21 11:59:36,472 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-21 12:16:07,533 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-21 12:16:07,534 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-21 12:16:07,534 - Waip AI DRN - INFO - 
+Database 6.0 支持的 Waip AI DRN 版本：
+2026-07-21 12:16:07,534 - Waip AI DRN - INFO -   - 0.1.3
+2026-07-21 12:16:10,763 - Waip AI DRN - INFO - 请选择版本：0.1.3
+2026-07-21 12:16:10,820 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.1.3
+2026-07-21 12:16:10,821 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-21 12:16:10,821 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-21 12:16:15,899 - Waip AI DRN - INFO - 请输入意识体名称：测试体4号
+2026-07-21 12:16:15,900 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-21 12:16:15,906 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-21 12:16:15,908 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-21 12:16:15,917 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-21 12:16:15,924 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-21 12:16:15,931 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-21 12:16:15,934 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-21 12:16:15,934 - Waip AI DRN - INFO - 运行正常
+2026-07-21 12:16:15,935 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-21 12:16:15,935 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-21 12:16:21,505 - Waip AI DRN - INFO - 你：你好
+2026-07-21 12:16:21,505 - Waip AI DRN - INFO - 
+
+2026-07-21 12:16:21,563 - Waip AI DRN - INFO - 激活阀值：11360
+2026-07-21 12:16:21,614 - Waip AI DRN - INFO - 激活记忆：['0', '1', '2', '3', '4', '5']
+2026-07-21 12:16:21,688 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 12:16:21,745 - Waip AI DRN - INFO - 文字注意力内容：你好
+2026-07-21 12:16:21,826 - Waip AI DRN - INFO - 当前截止：4
+2026-07-21 12:16:21,900 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 12:16:21,971 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 12:16:22,048 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-21 12:16:22,120 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-21 12:16:22,186 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-21 12:16:22,238 - Waip AI DRN - INFO - 
+
+2026-07-21 12:16:22,239 - Waip AI DRN - INFO - 测试体4号回复：你好你好你好好你<speak>你你
+2026-07-21 12:16:22,251 - Waip AI DRN - INFO - 数据已更新
+2026-07-21 12:17:10,822 - Waip AI DRN - INFO - 程序运行正常
+2026-07-21 12:18:10,823 - Waip AI DRN - INFO - 程序运行正常
+2026-07-21 12:19:10,985 - Waip AI DRN - INFO - 程序运行正常
+2026-07-21 12:20:11,005 - Waip AI DRN - INFO - 程序运行正常
+2026-07-21 12:21:11,022 - Waip AI DRN - INFO - 程序运行正常
+2026-07-21 12:22:11,023 - Waip AI DRN - INFO - 程序运行正常
+2026-07-21 12:23:01,154 - Waip AI DRN - INFO - 你：？？？？？？？？？？？？？
+2026-07-21 12:23:01,154 - Waip AI DRN - INFO - 
+
+2026-07-21 12:23:01,204 - Waip AI DRN - INFO - 激活阀值：11360
+2026-07-21 12:23:01,255 - Waip AI DRN - INFO - 激活记忆：['0', '1', '2', '3', '4', '5']
+2026-07-21 12:23:01,306 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 12:23:01,356 - Waip AI DRN - INFO - 文字注意力内容：？？？？
+2026-07-21 12:23:01,407 - Waip AI DRN - INFO - 当前截止：4
+2026-07-21 12:23:01,457 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 12:23:01,508 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 12:23:01,558 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['8']}
+2026-07-21 12:23:01,617 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-21 12:23:01,668 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '？'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '？'}, '2': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '？'}, '3': {'IP': ['Undetermined unit', 'Root unit', 3], 'content': '？'}, '4': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '5': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '6': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '7': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '8': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '9': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['8']}}
+2026-07-21 12:23:01,719 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 12:23:01,770 - Waip AI DRN - INFO - 文字注意力内容：？？？？
+2026-07-21 12:23:01,822 - Waip AI DRN - INFO - 当前截止：8
+2026-07-21 12:23:01,873 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 12:23:01,926 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 12:23:01,977 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['8']}
+2026-07-21 12:23:02,064 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-21 12:23:02,115 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '？'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '？'}, '2': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '？'}, '3': {'IP': ['Undetermined unit', 'Root unit', 3], 'content': '？'}, '4': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '5': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '6': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '7': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '8': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '9': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['8']}}
+2026-07-21 12:23:02,174 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 12:23:02,227 - Waip AI DRN - INFO - 文字注意力内容：？？？？
+2026-07-21 12:23:02,278 - Waip AI DRN - INFO - 当前截止：12
+2026-07-21 12:23:02,328 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 12:23:02,379 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 12:23:02,430 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['8']}
+2026-07-21 12:23:02,513 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-21 12:23:02,630 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '？'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '？'}, '2': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '？'}, '3': {'IP': ['Undetermined unit', 'Root unit', 3], 'content': '？'}, '4': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '5': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '6': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '7': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '8': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '9': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['8']}}
+2026-07-21 12:23:02,709 - Waip AI DRN - INFO - 文字注意力范围：4
+2026-07-21 12:23:02,780 - Waip AI DRN - INFO - 文字注意力内容：？
+2026-07-21 12:23:02,838 - Waip AI DRN - INFO - 当前截止：16
+2026-07-21 12:23:02,903 - Waip AI DRN - INFO - 激活递接元：['0', '2', '3', '4', '5']
+2026-07-21 12:23:02,963 - Waip AI DRN - INFO - 关联树分支数：60
+2026-07-21 12:23:03,014 - Waip AI DRN - INFO - 添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['5']}
+2026-07-21 12:23:03,068 - Waip AI DRN - INFO - 此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-21 12:23:03,127 - Waip AI DRN - INFO - 关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '？'}, '1': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '2': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '3': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '4': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '6': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['5']}}
+2026-07-21 12:23:03,179 - Waip AI DRN - INFO - 
+
+2026-07-21 12:23:03,179 - Waip AI DRN - INFO - 测试体4号回复：？你好你好好你<speak>你你
+2026-07-21 12:23:03,185 - Waip AI DRN - INFO - 数据已更新
+2026-07-21 12:23:11,023 - Waip AI DRN - INFO - 程序运行正常

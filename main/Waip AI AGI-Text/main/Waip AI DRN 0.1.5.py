@@ -88,8 +88,7 @@ def Waip_AI_DRN(user, data):
         yield from printf(f"关联树：{associative_tree}")
         reply = reply_layer(Text, data, associative_tree)
         output_layer(reply)
-        executive = Executive_level(Text, data, associative_tree)
-        #yield from Connection_layer(Text, data, associative_tree, reply, executive)
+        yield from Connection_layer(Text, data, associative_tree, reply)
         return reply
 
     def association_layer(Text, data, data_processed):
@@ -272,11 +271,7 @@ def Waip_AI_DRN(user, data):
     def output_layer(reply):
         pass
 
-    def Executive_level(Text, data, associative_tree):
-        executive = {}
-        return executive
-
-    def Connection_layer(Text, data, associative_tree, reply, executive):
+    def Connection_layer(Text, data, associative_tree, reply):
         now = datetime.now()
         current_time = [now.year, now.month, now.day, now.hour, now.minute, now.second]
         
@@ -285,17 +280,27 @@ def Waip_AI_DRN(user, data):
         for i in data["short-term memory"]:
             short_term_memory_number.append(int(i))
 
+        if len(short_term_memory_number) == 0:
+            this_short_term_memory_number = 0
+        else:
+            this_short_term_memory_number = max(short_term_memory_number) + 1
+
         short_term_memory_number_user = []
 
         for i in data["short-term memory"]:
             if data["short-term memory"][i]["IP"][0] == "user":
                 short_term_memory_number_user.append(data["short-term memory"][i]["IP"][-1])
-        
-        data["short-term memory"][str(max(short_term_memory_number) + 1)] = {
+
+        if len(short_term_memory_number_user) == 0:
+            this_short_term_memory_number_user = 0
+        else:
+            this_short_term_memory_number_user = max(short_term_memory_number_user) + 1
+
+        data["short-term memory"][str(this_short_term_memory_number)] = {
             "content": Text,
             "IP": [
                 "user",
-                max(short_term_memory_number_user) + 1
+                this_short_term_memory_number_user
             ],
             "time": current_time
         }
@@ -303,18 +308,28 @@ def Waip_AI_DRN(user, data):
         short_term_memory_number = []
         for i in data["short-term memory"]:
             short_term_memory_number.append(int(i))
+
+        if len(short_term_memory_number) == 0:
+            this_short_term_memory_number = 0
+        else:
+            this_short_term_memory_number = max(short_term_memory_number) + 1
+
         short_term_memory_number_ai = []
 
         for i in data["short-term memory"]:
             if data["short-term memory"][i]["IP"][0] == "ai":
                 short_term_memory_number_ai.append(data["short-term memory"][i]["IP"][-1])
+
+        if len(short_term_memory_number_ai) == 0:
+            this_short_term_memory_number_ai = 0
+        else:
+            this_short_term_memory_number_ai = max(short_term_memory_number_ai)
         
-        data["short-term memory"][str(max(short_term_memory_number) + 1)] = {
+        data["short-term memory"][str(this_short_term_memory_number)] = {
             "content": reply,
             "IP": [
                 "ai",
-                "external actions",
-                max(short_term_memory_number_ai) + 1
+                this_short_term_memory_number_ai
             ],
             "time": current_time
         }

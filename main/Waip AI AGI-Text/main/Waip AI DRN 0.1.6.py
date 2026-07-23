@@ -272,6 +272,9 @@ def Waip_AI_DRN(user, data):
         pass
 
     def Connection_layer(Text, data, associative_tree, reply):
+
+        def Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory():
+            pass
         now = datetime.now()
         current_time = [now.year, now.month, now.day, now.hour, now.minute, now.second]
         
@@ -304,6 +307,21 @@ def Waip_AI_DRN(user, data):
             ],
             "time": current_time
         }
+
+
+        activatad_memory_number = []
+        for i in data["activated memory"]:
+            activatad_memory_number.append(int(i))
+
+        if len(activatad_memory_number) == 0:
+            this_activatad_memory_number = 0
+        else:
+            this_activatad_memory_number = max(activatad_memory_number) + 1
+        
+        #data["activated memory"][str(this_activatad_memory_number)] = {
+        #    "权重": 0,
+        #    "correspond to": []
+        #}
 
         short_term_memory_number = []
         for i in data["short-term memory"]:

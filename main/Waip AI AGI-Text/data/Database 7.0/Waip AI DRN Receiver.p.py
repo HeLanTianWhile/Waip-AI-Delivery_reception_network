@@ -19,6 +19,7 @@ module_dir = os.path.abspath(os.path.join(current_dir, '..', '..', 'main'))
 # 定义支持的版本列表
 AGI_VERSIONS = {
     "0.1.7": "Waip AI DRN 0.1.7.py",
+    "0.1.8": "Waip AI DRN 0.1.8.py",
 }
 
 # Ollama配置

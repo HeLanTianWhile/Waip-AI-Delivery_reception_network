@@ -1,0 +1,52 @@
+{
+    "0": {
+        IP: [
+            "cognitive database",
+            "combination",
+            1,
+        ],
+        权重: 50000,
+    },
+    "1": {
+        IP: [
+            "associative network",
+            "line",
+            "two-way line",
+            1,
+        ],
+        权重: 21760,
+    },
+    "2": {
+        IP: [
+            "short-term memory",
+            "user",
+            1,
+        ],
+        权重: 76456,
+    },
+    "3": {
+        IP: [
+            "short-term memory",
+            "ai",
+            "external actions",
+            1,
+        ],
+        权重: 78121,
+    },
+    "4": {
+        IP: [
+            "cognitive database",
+            "<token>",
+            1,
+        ],
+        权重: 93021,
+    },
+    "5": {
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+        权重: 45093,
+    },
+}

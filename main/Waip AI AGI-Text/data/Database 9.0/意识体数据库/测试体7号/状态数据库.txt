@@ -1,7 +1,7 @@
 {
-    多巴胺dopamine: 20650,
-    乙酰胆碱acetylcholine: 14750,
-    血清素serotonin: 70500,
+    多巴胺dopamine: 27650,
+    乙酰胆碱acetylcholine: 19750,
+    血清素serotonin: 60500,
     内啡肽endorphin: 40000,
     "P物质substance P": 15000,
     肾上腺素epinephrine: 20000,

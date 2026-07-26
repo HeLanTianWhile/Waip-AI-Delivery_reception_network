@@ -1,0 +1,193 @@
+2026-07-26 12:37:03,534 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-26 12:37:03,534 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-26 12:37:03,535 - Waip AI DRN - INFO - 
+Database 9.0 支持的 Waip AI DRN 版本：
+2026-07-26 12:37:03,535 - Waip AI DRN - INFO -   - 0.2.3
+2026-07-26 12:37:07,150 - Waip AI DRN - INFO - 请选择版本：0.2.3
+2026-07-26 12:37:07,202 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.2.3
+2026-07-26 12:37:07,204 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-26 12:37:07,204 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-26 12:37:15,427 - Waip AI DRN - INFO - 请输入意识体名称：测试体7号
+2026-07-26 12:37:15,427 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-26 12:37:15,628 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-26 12:37:15,630 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-26 12:37:15,642 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-26 12:37:15,651 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-26 12:37:15,674 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-26 12:37:15,678 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-26 12:37:15,680 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-26 12:37:15,680 - Waip AI DRN - INFO - 运行正常
+2026-07-26 12:37:15,681 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-26 12:37:15,681 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-26 12:37:19,580 - Waip AI DRN - INFO - 你：你好
+2026-07-26 12:37:19,581 - Waip AI DRN - INFO - 
+
+2026-07-26 12:37:19,582 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:37:19,582 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2026-07-26 12:37:19,583 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-26 12:37:19,583 - Waip AI DRN - INFO - 【调试】文字注意力内容：你好
+2026-07-26 12:37:19,583 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-26 12:37:19,584 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '6', '7', '8', '9']
+2026-07-26 12:37:19,584 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-26 12:37:19,586 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 15], 'correspond to': ['activated memory', '5'], 'superior unit': ['4']}
+2026-07-26 12:37:19,613 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-26 12:37:19,614 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '0'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '2'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '3'], 'superior unit': 2}, '4': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '5'], 'superior unit': 3}, '5': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '6'], 'superior unit': 4}, '6': {'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '7'], 'superior unit': 5}, '7': {'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '8'], 'superior unit': 6}, '8': {'IP': ['Confirmed unit', 'Subunit', 7], 'correspond to': ['activated memory', '9'], 'superior unit': 7}, '9': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '10': {'IP': ['Confirmed unit', 'Subunit', 8], 'correspond to': ['activated memory', '0'], 'superior unit': 9}, '11': {'IP': ['Confirmed unit', 'Subunit', 9], 'correspond to': ['activated memory', '2'], 'superior unit': 10}, '12': {'IP': ['Confirmed unit', 'Subunit', 10], 'correspond to': ['activated memory', '3'], 'superior unit': 11}, '13': {'IP': ['Confirmed unit', 'Subunit', 11], 'correspond to': ['activated memory', '6'], 'superior unit': 12}, '14': {'IP': ['Confirmed unit', 'Subunit', 12], 'correspond to': ['activated memory', '7'], 'superior unit': 13}, '15': {'IP': ['Confirmed unit', 'Subunit', 13], 'correspond to': ['activated memory', '8'], 'superior unit': 14}, '16': {'IP': ['Confirmed unit', 'Subunit', 14], 'correspond to': ['activated memory', '9'], 'superior unit': 15}, '17': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '18': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '19': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '20': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '21': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '22': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '6']}, '23': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '7']}, '24': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '8']}, '25': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '9']}, '26': {'IP': ['Confirmed unit', 'Subunit', 15], 'correspond to': ['activated memory', '5'], 'superior unit': ['4']}}
+2026-07-26 12:37:19,615 - Waip AI DRN - INFO - 【调试】你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你 
+2026-07-26 12:37:19,615 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:37:19,616 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11869
+2026-07-26 12:37:19,616 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:37:19,616 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11905
+2026-07-26 12:37:19,616 - Waip AI DRN - INFO - 错误：'correspond to'
+2026-07-26 12:37:19,616 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-26 12:37:19,620 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 609, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 587, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.3.py", line 477, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.3.py", line 76, in call
+    yield from Connection_layer(Text, data, associative_tree, reply)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.3.py", line 431, in Connection_layer
+    if associative_tree[j]["correspond to"][1] == i:
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'correspond to'
+
+2026-07-26 12:40:09,019 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-26 12:40:09,020 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-26 12:40:09,021 - Waip AI DRN - INFO - 
+Database 9.0 支持的 Waip AI DRN 版本：
+2026-07-26 12:40:09,021 - Waip AI DRN - INFO -   - 0.2.3
+2026-07-26 12:40:12,312 - Waip AI DRN - INFO - 请选择版本：0.2.3
+2026-07-26 12:40:12,360 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.2.3
+2026-07-26 12:40:12,369 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-26 12:40:12,369 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-26 12:40:17,840 - Waip AI DRN - INFO - 请输入意识体名称：测试体7号
+2026-07-26 12:40:17,841 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-26 12:40:18,027 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-26 12:40:18,030 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-26 12:40:18,040 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-26 12:40:18,048 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-26 12:40:18,068 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-26 12:40:18,072 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-26 12:40:18,073 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-26 12:40:18,073 - Waip AI DRN - INFO - 运行正常
+2026-07-26 12:40:18,074 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-26 12:40:18,074 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-26 12:40:21,073 - Waip AI DRN - INFO - 你：你好
+2026-07-26 12:40:21,074 - Waip AI DRN - INFO - 
+
+2026-07-26 12:40:21,075 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:40:21,076 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2026-07-26 12:40:21,076 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-26 12:40:21,076 - Waip AI DRN - INFO - 【调试】文字注意力内容：你好
+2026-07-26 12:40:21,077 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-26 12:40:21,077 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '6', '7', '8', '9']
+2026-07-26 12:40:21,078 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-26 12:40:21,079 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 15], 'correspond to': ['activated memory', '5'], 'superior unit': ['4']}
+2026-07-26 12:40:21,106 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-26 12:40:21,106 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '0'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '2'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '3'], 'superior unit': 2}, '4': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '5'], 'superior unit': 3}, '5': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '6'], 'superior unit': 4}, '6': {'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '7'], 'superior unit': 5}, '7': {'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '8'], 'superior unit': 6}, '8': {'IP': ['Confirmed unit', 'Subunit', 7], 'correspond to': ['activated memory', '9'], 'superior unit': 7}, '9': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '10': {'IP': ['Confirmed unit', 'Subunit', 8], 'correspond to': ['activated memory', '0'], 'superior unit': 9}, '11': {'IP': ['Confirmed unit', 'Subunit', 9], 'correspond to': ['activated memory', '2'], 'superior unit': 10}, '12': {'IP': ['Confirmed unit', 'Subunit', 10], 'correspond to': ['activated memory', '3'], 'superior unit': 11}, '13': {'IP': ['Confirmed unit', 'Subunit', 11], 'correspond to': ['activated memory', '6'], 'superior unit': 12}, '14': {'IP': ['Confirmed unit', 'Subunit', 12], 'correspond to': ['activated memory', '7'], 'superior unit': 13}, '15': {'IP': ['Confirmed unit', 'Subunit', 13], 'correspond to': ['activated memory', '8'], 'superior unit': 14}, '16': {'IP': ['Confirmed unit', 'Subunit', 14], 'correspond to': ['activated memory', '9'], 'superior unit': 15}, '17': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '18': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '19': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '20': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '21': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '22': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '6']}, '23': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '7']}, '24': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '8']}, '25': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '9']}, '26': {'IP': ['Confirmed unit', 'Subunit', 15], 'correspond to': ['activated memory', '5'], 'superior unit': ['4']}}
+2026-07-26 12:40:21,109 - Waip AI DRN - INFO - 【调试】你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你 
+2026-07-26 12:40:21,110 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:40:21,111 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11869
+2026-07-26 12:40:21,113 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:40:21,114 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11905
+2026-07-26 12:40:21,115 - Waip AI DRN - INFO - 错误：'correspond to'
+2026-07-26 12:40:21,115 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-26 12:40:21,120 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 609, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 587, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.3.py", line 477, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.3.py", line 76, in call
+    yield from Connection_layer(Text, data, associative_tree, reply)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.3.py", line 431, in Connection_layer
+    if associative_tree[j]["correspond to"][1] == i:
+       ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'correspond to'
+
+2026-07-26 12:43:08,565 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-26 12:43:08,565 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-26 12:43:08,566 - Waip AI DRN - INFO - 
+Database 9.0 支持的 Waip AI DRN 版本：
+2026-07-26 12:43:08,566 - Waip AI DRN - INFO -   - 0.2.3
+2026-07-26 12:43:13,408 - Waip AI DRN - INFO - 请选择版本：0.2.3
+2026-07-26 12:43:13,454 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.2.3
+2026-07-26 12:43:13,455 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-26 12:43:13,455 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-26 12:43:21,822 - Waip AI DRN - INFO - 请输入意识体名称：测试体7号
+2026-07-26 12:43:21,824 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-26 12:43:22,019 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-26 12:43:22,023 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-26 12:43:22,033 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-26 12:43:22,050 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-26 12:43:22,064 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-26 12:43:22,067 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-26 12:43:22,069 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-26 12:43:22,069 - Waip AI DRN - INFO - 运行正常
+2026-07-26 12:43:22,070 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-26 12:43:22,070 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-26 12:43:26,459 - Waip AI DRN - INFO - 你：你好
+2026-07-26 12:43:26,459 - Waip AI DRN - INFO - 
+
+2026-07-26 12:43:26,460 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:43:26,460 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+2026-07-26 12:43:26,461 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-26 12:43:26,461 - Waip AI DRN - INFO - 【调试】文字注意力内容：你好
+2026-07-26 12:43:26,461 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-26 12:43:26,462 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '6', '7', '8', '9']
+2026-07-26 12:43:26,462 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-26 12:43:26,463 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 15], 'correspond to': ['activated memory', '5'], 'superior unit': ['4']}
+2026-07-26 12:43:26,487 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-26 12:43:26,488 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '0'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '2'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '3'], 'superior unit': 2}, '4': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '5'], 'superior unit': 3}, '5': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '6'], 'superior unit': 4}, '6': {'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '7'], 'superior unit': 5}, '7': {'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '8'], 'superior unit': 6}, '8': {'IP': ['Confirmed unit', 'Subunit', 7], 'correspond to': ['activated memory', '9'], 'superior unit': 7}, '9': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '10': {'IP': ['Confirmed unit', 'Subunit', 8], 'correspond to': ['activated memory', '0'], 'superior unit': 9}, '11': {'IP': ['Confirmed unit', 'Subunit', 9], 'correspond to': ['activated memory', '2'], 'superior unit': 10}, '12': {'IP': ['Confirmed unit', 'Subunit', 10], 'correspond to': ['activated memory', '3'], 'superior unit': 11}, '13': {'IP': ['Confirmed unit', 'Subunit', 11], 'correspond to': ['activated memory', '6'], 'superior unit': 12}, '14': {'IP': ['Confirmed unit', 'Subunit', 12], 'correspond to': ['activated memory', '7'], 'superior unit': 13}, '15': {'IP': ['Confirmed unit', 'Subunit', 13], 'correspond to': ['activated memory', '8'], 'superior unit': 14}, '16': {'IP': ['Confirmed unit', 'Subunit', 14], 'correspond to': ['activated memory', '9'], 'superior unit': 15}, '17': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '18': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '19': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '20': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '21': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '22': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '6']}, '23': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '7']}, '24': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '8']}, '25': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '9']}, '26': {'IP': ['Confirmed unit', 'Subunit', 15], 'correspond to': ['activated memory', '5'], 'superior unit': ['4']}}
+2026-07-26 12:43:26,489 - Waip AI DRN - INFO - 【调试】你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你 
+2026-07-26 12:43:26,489 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:43:26,490 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11869
+2026-07-26 12:43:26,490 - Waip AI DRN - INFO - 【调试】激活阀值：11546
+2026-07-26 12:43:26,490 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11905
+2026-07-26 12:43:26,491 - Waip AI DRN - INFO - 【调试】{'0': 3, '1': 0, '2': 3, '3': 3, '4': 1, '5': 3, '6': 3, '7': 3, '8': 3, '9': 3, '10': 0, '11': 0}
+2026-07-26 12:43:26,491 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：722
+2026-07-26 12:43:26,491 - Waip AI DRN - INFO - 【调试】电池电量：62
+2026-07-26 12:43:26,491 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-26 12:43:26,492 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 21700, '乙酰胆碱acetylcholine': 15500, '血清素serotonin': 69000, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-26 12:43:26,492 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-26 12:43:26,492 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-26 12:43:26,492 - Waip AI DRN - INFO - 【思考】你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你 
+2026-07-26 12:43:26,492 - Waip AI DRN - INFO - 
+
+2026-07-26 12:43:26,493 - Waip AI DRN - INFO - 测试体7号回复：['你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你 你好 你好 好你 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  好 你好 你好 好你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你好 你好 好你 <speak> 你 你好 你 你好 你好 好你 你 好 你好 你好 好你 你好 你好 好你 <speak> 你 你  你  你 ']
+2026-07-26 12:43:26,523 - Waip AI DRN - INFO - 数据已更新
+2026-07-26 12:44:13,455 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:45:13,457 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:46:13,458 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:47:13,459 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:48:13,460 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:49:13,461 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:50:13,462 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:51:13,463 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:52:13,464 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:53:13,465 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:54:13,466 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:55:13,467 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:56:13,468 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:57:13,469 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:58:13,470 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 12:59:13,471 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 13:00:13,472 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 13:01:13,473 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 13:02:13,474 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 13:03:13,475 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 13:04:13,476 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 13:05:13,477 - Waip AI DRN - INFO - 程序运行正常
+2026-07-26 13:06:13,478 - Waip AI DRN - INFO - 程序运行正常

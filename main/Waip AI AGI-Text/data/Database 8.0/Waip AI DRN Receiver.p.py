@@ -20,6 +20,7 @@ module_dir = os.path.abspath(os.path.join(current_dir, '..', '..', 'main'))
 AGI_VERSIONS = {
     "0.2.0": "Waip AI DRN 0.2.0.py",
     "0.2.1": "Waip AI DRN 0.2.1.py",
+    "0.2.2": "Waip AI DRN 0.2.2.py",
 }
 
 # Ollama配置
@@ -578,7 +579,6 @@ def main():
         gen = Waip_AI_DRN.Waip_AI_DRN(user, data)
         try:
             while True:
-                sleep(0.05)
                 message = next(gen)
                 if message["type"] == "调试" and TF_Display_Debug:
                     printf_Debug("【调试】" + str(message["message"]))

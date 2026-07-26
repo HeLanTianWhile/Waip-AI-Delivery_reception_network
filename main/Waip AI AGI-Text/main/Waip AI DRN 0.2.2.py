@@ -3,32 +3,11 @@ import copy
 import time
 from datetime import datetime
 
-from typing_extensions import assert_never
-
 # ©2026 何蓝田 保留所有权利
 
 # import random # 你为什么导入了random模块
 
-#                     _ooOoo_
-#                    o8888888o
-#                    88" . "88
-#                    (| -_- |)
-#                    O\  =  /O
-#                 ____/`---'\____
-#                 .'  \\|     |//  `.
-#              /  \\|||  :  |||//  \
-#             /  _||||| -:- |||||-  \
-#             |   | \\\  -  /// |   |
-#             | \_|  ''\---/''  |_/ |
-#             \  .-\__ `-` ___/-. /
-#           ___`. .'  /--.--\  `. . __
-#        ."" '<  `.___\_<|>_/___.'  >'"".
-#       | | :  `- \`.;`\ _ /`;.`/ - ` : | |
-#       \  \ `-.   \_ __\ /__ _/   .-` /  /
-# =======`-.____`-.___\_____/___.-`____.-'=======
-#                        `=---='
-#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-#            佛祖保佑 代码永无报错 全程零BUG
+
 
 def into_database():
     data = {
@@ -47,7 +26,10 @@ def Waip_AI_DRN(user, data):
 
     def printf(message):
         #msg.append(message)
-        yield message
+        yield {"type":"调试","message": message}
+
+    def printf_reply(message):
+        yield {"type":"回复","message": message}
 
     # 定义文字注意力算法
     def Text_Attention_Algorithm(text, data):
@@ -87,6 +69,8 @@ def Waip_AI_DRN(user, data):
         associative_tree = yield from association_layer(Text, data, data_processed)
         yield from printf(f"关联树：{associative_tree}")
         reply = reply_layer(Text, data, associative_tree)
+        yield from printf(reply)
+
         output_layer(reply)
         yield from Connection_layer(Text, data, associative_tree, reply)
         return reply
@@ -127,6 +111,17 @@ def Waip_AI_DRN(user, data):
             associative_tree[str(index["main_index"])] = {"IP": ["Undetermined unit", "Root unit", index["Undetermined_Root_unit_index"]], "content": i}
             index["main_index"] += 1
             index["Undetermined_Root_unit_index"] += 1
+            for j in activated_Delivery_reception_unit:
+                IP = data["activated memory"][j]["IP"]
+                IP_database = IP[0]
+                this_IP = copy.deepcopy(IP)
+                del this_IP[0]
+                for k in data[IP_database]:
+                    if data[IP_database][k]["IP"] == this_IP:
+                        if (i == data[IP_database][k]["content"]) or (i in data[IP_database][k]["content"]):
+                            associative_tree[str(index["main_index"])] = {"IP": ["Confirmed unit", "Subunit", index["Confirmed_Subunit_index"]], "correspond to": ["activated memory", j], "superior unit": index["main_index"] - 1}
+                            index["main_index"] += 1
+                            index["Confirmed_Subunit_index"] += 1
         for i in activated_Delivery_reception_unit:
             if index["main_index"] == number_branches_associative_tree:
                 break
@@ -178,29 +173,6 @@ def Waip_AI_DRN(user, data):
                 for o in associative_unit:
                     for p in associative_tree:
                         if "Undetermined unit" in associative_tree[p]["IP"]:
-                            # 此处的Undetermined unit处理有点难先放一放
-                            correspond_to_unit = associative_unit[o]
-                            if correspond_to_unit["type"] == "two-way head":
-                                correspond_to_data = correspond_to_unit["IP"][0]
-                                IP = copy.deepcopy(correspond_to_unit["IP"])
-                            else:
-                                correspond_to_data = correspond_to_unit["IP"]["IP"][0]
-                                IP = copy.deepcopy(correspond_to_unit["IP"]["IP"])
-
-                            Data_IP = copy.deepcopy(IP)
-                            del Data_IP[0]
-
-                            correspond_to_unit_center = []
-
-                            for t in data[correspond_to_data]:
-                                if data[correspond_to_data][t]["IP"] == Data_IP:
-                                    #yield from printf(f"匹配成功:{t}")
-                                    correspond_to_unit_center.append(t)
-                            
-                            #yield from printf(f"correspond_to_unit_center:{correspond_to_unit_center}")
-
-                            #if associative_tree[p]["content"] in data["associative network"][i]["-"]:
-                            #    pass
                             continue
                         if associative_unit[o]["type"] == "two-way head":
                             if associative_unit[o]["IP"] == data[associative_tree[p]["correspond to"][0]][associative_tree[p]["correspond to"][-1]]["IP"]:
@@ -272,6 +244,53 @@ def Waip_AI_DRN(user, data):
         pass
 
     def Connection_layer(Text, data, associative_tree, reply):
+
+        def Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory(data, Activation_threshold):
+            # 除以100
+            dopamine_processing = float((data["多巴胺dopamine"]) / 100)
+            acetylcholine_processing = float((data["乙酰胆碱acetylcholine"]) / 100)
+            serotonin_processing = float((data["血清素serotonin"]) / 100)
+            endorphin_processing = float((data["内啡肽endorphin"]) / 100)
+            substance_P_processing = float((100000 - data["P物质substance P"]) / 100)
+            epinephrine_processing = float((data["肾上腺素epinephrine"]) / 100)
+            Noradrenaline_processing = float((data["去肾上腺素Noradrenaline"]) / 100)
+            GABA_processing = float((data["GABA"]) / 100)
+            Glamic_acid_processing = float((data["谷氨酸Glutamic acid"]) / 100)
+
+            # 计算激活阀值
+            Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 10 + Activation_threshold)
+            yield from printf(f"用户输入计入激活记忆数据库时的初始权重：{Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory}")
+            return Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory
+        
+        def Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory(data, Activation_threshold):
+            # 除以100
+            dopamine_processing = float((data["多巴胺dopamine"]) / 100)
+            acetylcholine_processing = float((data["乙酰胆碱acetylcholine"]) / 100)
+            serotonin_processing = float((data["血清素serotonin"]) / 100)
+            endorphin_processing = float((data["内啡肽endorphin"]) / 100)
+            substance_P_processing = float((100000 - data["P物质substance P"]) / 100)
+            epinephrine_processing = float((data["肾上腺素epinephrine"]) / 100)
+            Noradrenaline_processing = float((data["去肾上腺素Noradrenaline"]) / 100)
+            GABA_processing = float((data["GABA"]) / 100)
+            Glamic_acid_processing = float((data["谷氨酸Glutamic acid"]) / 100)
+
+            # 计算激活阀值
+            Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 + Activation_threshold)
+            yield from printf(f"AI输入计入激活记忆数据库时的初始权重：{Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory}")
+            return Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory
+
+        def update_neurotransmitters(data,Text,reply,associative_tree):
+            battery_level = 100
+            battery_info = psutil.sensors_battery()
+            if battery_info is not None:
+                battery_level = battery_info.percent
+            
+            data["status database"]["乙酰胆碱acetylcholine"] = round(battery_level *1000 * 0.25)
+            data["status database"]["血清素serotonin"] = round(100000 - battery_level *1000 * 0.5)
+            data["status database"]["多巴胺dopamine"] = round(battery_level *1000 * 0.35)
+
+            yield from printf(f"电池电量：{battery_level}")
+
         now = datetime.now()
         current_time = [now.year, now.month, now.day, now.hour, now.minute, now.second]
         
@@ -305,6 +324,24 @@ def Waip_AI_DRN(user, data):
             "time": current_time
         }
 
+
+        activatad_memory_number = []
+        for i in data["activated memory"]:
+            activatad_memory_number.append(int(i))
+
+        if len(activatad_memory_number) == 0:
+            this_activatad_memory_number = 0
+        else:
+            this_activatad_memory_number = max(activatad_memory_number) + 1
+        
+        activate_valve = yield from calculate_activation_valve(data["status database"])
+        Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory = yield from Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory(data["status database"], activate_valve)
+
+        data["activated memory"][str(this_activatad_memory_number)] = {
+            "权重": Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory,
+            "IP": ["short-term memory", "user", this_short_term_memory_number_user]
+        }
+
         short_term_memory_number = []
         for i in data["short-term memory"]:
             short_term_memory_number.append(int(i))
@@ -323,7 +360,7 @@ def Waip_AI_DRN(user, data):
         if len(short_term_memory_number_ai) == 0:
             this_short_term_memory_number_ai = 0
         else:
-            this_short_term_memory_number_ai = max(short_term_memory_number_ai)
+            this_short_term_memory_number_ai = max(short_term_memory_number_ai) + 1
         
         data["short-term memory"][str(this_short_term_memory_number)] = {
             "content": reply,
@@ -334,6 +371,27 @@ def Waip_AI_DRN(user, data):
             "time": current_time
         }
 
+        activatad_memory_number = []
+        for i in data["activated memory"]:
+            activatad_memory_number.append(int(i))
+
+        if len(activatad_memory_number) == 0:
+            this_activatad_memory_number = 0
+        else:
+            this_activatad_memory_number = max(activatad_memory_number) + 1
+        
+        activate_valve = yield from calculate_activation_valve(data["status database"])
+        Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory = yield from Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory(data["status database"], activate_valve)
+
+        data["activated memory"][str(this_activatad_memory_number)] = {
+            "权重": Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory,
+            "IP": ["short-term memory", "ai", this_short_term_memory_number_ai]
+        }
+        yield from update_neurotransmitters(data,Text,reply,associative_tree)
+        yield from printf("神经递质已更新")
+        yield from printf(data["status database"])
+
+        yield from printf("激活记忆数据库已更新")
         yield from printf("短时记忆数据库已更新")
 
     ai_reply = []
@@ -353,6 +411,7 @@ def Waip_AI_DRN(user, data):
         Text, Text_Range = yield from input_layer(user, data, index)
         this_reply = yield from call(Text, data, data_processed)
         ai_reply.append(this_reply)
+        yield from printf_reply(this_reply)
         index += Text_Range
         if index >= len(user):
             TF = False

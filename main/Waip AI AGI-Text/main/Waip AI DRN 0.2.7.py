@@ -485,7 +485,8 @@ def Waip_AI_DRN(user, data):
 
         for i in associative_tree:
             if "Undetermined unit" in associative_tree[i]["IP"]:
-                Undetermined_Unit_dictionary[i] = associative_tree[i]["content"]
+                if associative_tree[i]["content"] not in Undetermined_Unit_dictionary.values():
+                    Undetermined_Unit_dictionary[i] = associative_tree[i]["content"]
 
         Unrecorded_undetermined_units = []
 

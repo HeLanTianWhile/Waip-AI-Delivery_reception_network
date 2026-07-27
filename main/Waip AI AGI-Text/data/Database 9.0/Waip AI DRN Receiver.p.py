@@ -21,6 +21,8 @@ AGI_VERSIONS = {
     "0.2.3": "Waip AI DRN 0.2.3.py",
     "0.2.4": "Waip AI DRN 0.2.4.py",
     "0.2.5": "Waip AI DRN 0.2.5.py",
+    "0.2.6": "Waip AI DRN 0.2.6.py",
+    "0.2.7": "Waip AI DRN 0.2.7.py",
 }
 
 # Ollama配置

@@ -1,19 +1,11 @@
 {
-    "0": {
-        IP: [
-            "cognitive database",
-            "combination",
-            1,
-        ],
-        权重: 9714,
-    },
     "2": {
         IP: [
             "short-term memory",
             "user",
             1,
         ],
-        权重: 36582,
+        权重: 25158,
     },
     "3": {
         IP: [
@@ -21,7 +13,7 @@
             "ai",
             1,
         ],
-        权重: 38247,
+        权重: 26823,
     },
     "4": {
         IP: [
@@ -29,262 +21,294 @@
             "<token>",
             1,
         ],
-        权重: 54791,
+        权重: 43363,
     },
-    "5": {
+    "37": {
+        权重: 1137,
+        IP: [
+            "short-term memory",
+            "user",
+            16,
+        ],
+    },
+    "38": {
+        权重: 1174,
+        IP: [
+            "short-term memory",
+            "ai",
+            16,
+        ],
+    },
+    "39": {
+        权重: 2029,
+        IP: [
+            "short-term memory",
+            "user",
+            17,
+        ],
+    },
+    "40": {
+        权重: 2065,
+        IP: [
+            "short-term memory",
+            "ai",
+            17,
+        ],
+    },
+    "41": {
+        权重: 2169,
         IP: [
             "cognitive database",
             "basic",
-            1,
-        ],
-        权重: 5214,
-    },
-    "6": {
-        权重: 1034,
-        IP: [
-            "short-term memory",
-            "user",
-            2,
+            "12",
         ],
     },
-    "7": {
-        权重: 1070,
-        IP: [
-            "short-term memory",
-            "ai",
-            2,
-        ],
-    },
-    "8": {
-        权重: 1817,
-        IP: [
-            "short-term memory",
-            "user",
-            3,
-        ],
-    },
-    "9": {
-        权重: 1854,
-        IP: [
-            "short-term memory",
-            "ai",
-            3,
-        ],
-    },
-    "10": {
-        权重: 2666,
-        IP: [
-            "short-term memory",
-            "user",
-            4,
-        ],
-    },
-    "11": {
-        权重: 2703,
-        IP: [
-            "short-term memory",
-            "ai",
-            4,
-        ],
-    },
-    "12": {
-        权重: 3460,
-        IP: [
-            "short-term memory",
-            "user",
-            5,
-        ],
-    },
-    "13": {
-        权重: 3497,
-        IP: [
-            "short-term memory",
-            "ai",
-            5,
-        ],
-    },
-    "14": {
-        权重: 4287,
-        IP: [
-            "short-term memory",
-            "user",
-            6,
-        ],
-    },
-    "15": {
-        权重: 4324,
-        IP: [
-            "short-term memory",
-            "ai",
-            6,
-        ],
-    },
-    "16": {
-        权重: 5115,
-        IP: [
-            "short-term memory",
-            "user",
-            7,
-        ],
-    },
-    "17": {
-        权重: 5151,
-        IP: [
-            "short-term memory",
-            "ai",
-            7,
-        ],
-    },
-    "18": {
-        权重: 5943,
-        IP: [
-            "short-term memory",
-            "user",
-            8,
-        ],
-    },
-    "19": {
-        权重: 5979,
-        IP: [
-            "short-term memory",
-            "ai",
-            8,
-        ],
-    },
-    "20": {
-        权重: 6769,
-        IP: [
-            "short-term memory",
-            "user",
-            9,
-        ],
-    },
-    "21": {
-        权重: 6805,
-        IP: [
-            "short-term memory",
-            "ai",
-            9,
-        ],
-    },
-    "22": {
-        权重: 7596,
-        IP: [
-            "short-term memory",
-            "user",
-            10,
-        ],
-    },
-    "23": {
-        权重: 7633,
-        IP: [
-            "short-term memory",
-            "ai",
-            10,
-        ],
-    },
-    "24": {
-        权重: 8431,
-        IP: [
-            "short-term memory",
-            "user",
-            11,
-        ],
-    },
-    "25": {
-        权重: 8470,
-        IP: [
-            "short-term memory",
-            "ai",
-            11,
-        ],
-    },
-    "26": {
-        权重: 8573,
+    "42": {
+        权重: 2169,
         IP: [
             "cognitive database",
             "basic",
-            "6",
+            "13",
         ],
     },
-    "27": {
-        权重: 9256,
-        IP: [
-            "short-term memory",
-            "user",
-            12,
-        ],
-    },
-    "28": {
-        权重: 9293,
-        IP: [
-            "short-term memory",
-            "ai",
-            12,
-        ],
-    },
-    "29": {
-        权重: 10084,
-        IP: [
-            "short-term memory",
-            "user",
-            13,
-        ],
-    },
-    "30": {
-        权重: 10121,
-        IP: [
-            "short-term memory",
-            "ai",
-            13,
-        ],
-    },
-    "31": {
-        权重: 11320,
-        IP: [
-            "short-term memory",
-            "user",
-            14,
-        ],
-    },
-    "32": {
-        权重: 11357,
-        IP: [
-            "short-term memory",
-            "ai",
-            14,
-        ],
-    },
-    "33": {
-        权重: 11461,
+    "43": {
+        权重: 2169,
         IP: [
             "cognitive database",
             "basic",
-            "10",
+            "14",
         ],
     },
-    "34": {
-        权重: 11732,
+    "44": {
+        权重: 2841,
         IP: [
             "short-term memory",
             "user",
-            15,
+            18,
         ],
     },
-    "35": {
-        权重: 11769,
+    "45": {
+        权重: 2877,
         IP: [
             "short-term memory",
             "ai",
-            15,
+            18,
         ],
     },
-    "36": {
-        权重: 11873,
+    "46": {
+        权重: 3659,
+        IP: [
+            "short-term memory",
+            "user",
+            19,
+        ],
+    },
+    "47": {
+        权重: 3695,
+        IP: [
+            "short-term memory",
+            "ai",
+            19,
+        ],
+    },
+    "48": {
+        权重: 3798,
         IP: [
             "cognitive database",
             "basic",
-            "11",
+            "15",
+        ],
+    },
+    "49": {
+        权重: 4471,
+        IP: [
+            "short-term memory",
+            "user",
+            20,
+        ],
+    },
+    "50": {
+        权重: 4503,
+        IP: [
+            "short-term memory",
+            "ai",
+            20,
+        ],
+    },
+    "51": {
+        权重: 4610,
+        IP: [
+            "cognitive database",
+            "basic",
+            "16",
+        ],
+    },
+    "52": {
+        权重: 4610,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "53": {
+        权重: 5289,
+        IP: [
+            "short-term memory",
+            "user",
+            21,
+        ],
+    },
+    "54": {
+        权重: 5325,
+        IP: [
+            "short-term memory",
+            "ai",
+            21,
+        ],
+    },
+    "55": {
+        权重: 6098,
+        IP: [
+            "short-term memory",
+            "user",
+            22,
+        ],
+    },
+    "56": {
+        权重: 6135,
+        IP: [
+            "short-term memory",
+            "ai",
+            22,
+        ],
+    },
+    "57": {
+        权重: 6914,
+        IP: [
+            "short-term memory",
+            "user",
+            23,
+        ],
+    },
+    "58": {
+        权重: 6951,
+        IP: [
+            "short-term memory",
+            "ai",
+            23,
+        ],
+    },
+    "59": {
+        权重: 7670,
+        IP: [
+            "short-term memory",
+            "user",
+            24,
+        ],
+    },
+    "60": {
+        权重: 7706,
+        IP: [
+            "short-term memory",
+            "ai",
+            24,
+        ],
+    },
+    "61": {
+        权重: 7810,
+        IP: [
+            "cognitive database",
+            "basic",
+            "18",
+        ],
+    },
+    "62": {
+        权重: 8490,
+        IP: [
+            "short-term memory",
+            "user",
+            25,
+        ],
+    },
+    "63": {
+        权重: 8526,
+        IP: [
+            "short-term memory",
+            "ai",
+            25,
+        ],
+    },
+    "64": {
+        权重: 9306,
+        IP: [
+            "short-term memory",
+            "user",
+            26,
+        ],
+    },
+    "65": {
+        权重: 9343,
+        IP: [
+            "short-term memory",
+            "ai",
+            26,
+        ],
+    },
+    "66": {
+        权重: 10124,
+        IP: [
+            "short-term memory",
+            "user",
+            27,
+        ],
+    },
+    "67": {
+        权重: 10161,
+        IP: [
+            "short-term memory",
+            "ai",
+            27,
+        ],
+    },
+    "68": {
+        权重: 12584,
+        IP: [
+            "short-term memory",
+            "user",
+            28,
+        ],
+    },
+    "69": {
+        权重: 12621,
+        IP: [
+            "short-term memory",
+            "ai",
+            28,
+        ],
+    },
+    "70": {
+        权重: 11764,
+        IP: [
+            "short-term memory",
+            "user",
+            29,
+        ],
+    },
+    "71": {
+        权重: 11801,
+        IP: [
+            "short-term memory",
+            "ai",
+            29,
+        ],
+    },
+    "72": {
+        权重: 292,
+        IP: [
+            "cognitive database",
+            "combination",
+            "0",
         ],
     },
 }

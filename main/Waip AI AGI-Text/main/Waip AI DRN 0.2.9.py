@@ -70,7 +70,7 @@ def Waip_AI_DRN(user, data):
     def call(Text, data, data_processed):
         associative_tree = yield from association_layer(Text, data, data_processed)
         yield from printf(f"关联树：{associative_tree}")
-        reply = reply_layer(Text, data, associative_tree)
+        reply = yield from reply_layer(Text, data, associative_tree)
         yield from printf(reply)
 
         output_layer(reply)
@@ -219,7 +219,17 @@ def Waip_AI_DRN(user, data):
                 del this_database_IP[0]
                 for j in data[IP[0]]:
                     if data[IP[0]][j]["IP"] == this_database_IP:
-                        ai_reply += data[IP[0]][j]["content"]
+                        if "combination" in data[IP[0]][j]["IP"]:
+                            content = ""
+                            for k in data[IP[0]][j]["content"]:
+                                for l in data[IP[0]]:
+                                    if data[IP[0]][l]["IP"] == k:
+                                        yield from printf(data[IP[0]][l]["IP"])
+                                        yield from printf(k)
+                                        content += data[IP[0]][l]["content"]
+                            ai_reply += content
+                        else:
+                            ai_reply += data[IP[0]][j]["content"]
             elif "Undetermined unit" in associative_tree[i]["IP"]:
                 ai_reply += associative_tree[i]["content"]
             ai_reply += " "
@@ -357,7 +367,7 @@ def Waip_AI_DRN(user, data):
             Glamic_acid_processing = float((data["谷氨酸Glutamic acid"]) / 100)
 
             # 计算组合单元计入激活记忆数据库时的初始权重
-            number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 * (1.1 - (len_of_combined_units) / 10))
+            number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 * (3.1 - (len_of_combined_units) / 10))
             yield from printf(f"组合单元计入激活记忆数据库时的初始权重：{number}")
             return number
         
@@ -587,9 +597,17 @@ def Waip_AI_DRN(user, data):
                         value_of_content_for_index_at_this_moment += data["cognitive database"][k]["content"]
             Entered_combined_units.append(value_of_content_for_index_at_this_moment)
 
+        yield from printf("666666:" + str(Entered_combined_units))
+        yield from printf("777777:" + str(Unrecorded_combined_units))
+
+        copy_Unrecorded_combined_units = copy.deepcopy(Unrecorded_combined_units)
+
         for i in Unrecorded_combined_units:
             if i in Entered_combined_units:
-                Unrecorded_combined_units.remove(i)
+                yield from printf("888888:" + i)
+                copy_Unrecorded_combined_units.remove(i)
+
+        Unrecorded_combined_units = copy.deepcopy(copy_Unrecorded_combined_units)
 
         for i in Unrecorded_combined_units:
             cognitive_database_number = []
@@ -603,8 +621,8 @@ def Waip_AI_DRN(user, data):
 
             cognitive_database_combined_number = []
             for j in data["cognitive database"]:
-                if "combined" in data["cognitive database"][j]["IP"]:
-                    cognitive_database_combined_number.append(int(j))
+                if "combination" in data["cognitive database"][j]["IP"]:
+                    cognitive_database_combined_number.append(int(data["cognitive database"][j]["IP"][-1]))
 
             if len(cognitive_database_combined_number) == 0:
                 this_cognitive_database_combined_number = 0
@@ -617,6 +635,8 @@ def Waip_AI_DRN(user, data):
                 for k in i:
                     if data["cognitive database"][j]["content"] == k:
                         cognitive_database_combined_content.append(data["cognitive database"][j]["IP"])
+
+            yield from printf(this_cognitive_database_combined_number)
 
             data["cognitive database"][str(this_cognitive_database_number)] = {
                 "content": cognitive_database_combined_content,

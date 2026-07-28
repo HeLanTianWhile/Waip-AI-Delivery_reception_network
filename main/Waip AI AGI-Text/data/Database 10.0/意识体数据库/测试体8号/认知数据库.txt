@@ -93,133 +93,225 @@
         ],
     },
     "10": {
-        content: "哈",
+        content: [
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+        ],
+        IP: [
+            "combination",
+            "4",
+        ],
+        权重: 0,
+    },
+    "11": {
+        content: [
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+        ],
+        IP: [
+            "combination",
+            "5",
+        ],
+        权重: 0,
+    },
+    "12": {
+        content: [
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+        ],
+        IP: [
+            "combination",
+            "6",
+        ],
+        权重: 0,
+    },
+    "13": {
+        content: [
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+        ],
+        IP: [
+            "combination",
+            "7",
+        ],
+        权重: 0,
+    },
+    "14": {
+        content: [
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+        ],
+        IP: [
+            "combination",
+            "8",
+        ],
+        权重: 0,
+    },
+    "15": {
+        content: [
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+            [
+                "basic",
+                "6",
+            ],
+        ],
+        IP: [
+            "combination",
+            "9",
+        ],
+        权重: 0,
+    },
+    "16": {
+        content: "噢",
         IP: [
             "basic",
             "10",
         ],
     },
-    "11": {
-        content: "球",
-        IP: [
-            "basic",
-            "11",
-        ],
-    },
-    "12": {
-        content: "何",
-        IP: [
-            "basic",
-            "12",
-        ],
-    },
-    "13": {
-        content: "意",
-        IP: [
-            "basic",
-            "13",
-        ],
-    },
-    "14": {
-        content: "味",
-        IP: [
-            "basic",
-            "14",
-        ],
-    },
-    "15": {
-        content: "6",
-        IP: [
-            "basic",
-            "15",
-        ],
-    },
-    "16": {
-        content: "年",
-        IP: [
-            "basic",
-            "16",
-        ],
-    },
     "17": {
-        content: "后",
-        IP: [
-            "basic",
-            "17",
+        content: [
+            [
+                "basic",
+                "10",
+            ],
+            [
+                "basic",
+                "10",
+            ],
         ],
+        IP: [
+            "combination",
+            "10",
+        ],
+        权重: 0,
     },
     "18": {
-        content: "啥",
-        IP: [
-            "basic",
-            "18",
+        content: [
+            [
+                "basic",
+                "10",
+            ],
+            [
+                "basic",
+                "10",
+            ],
+            [
+                "basic",
+                "10",
+            ],
         ],
+        IP: [
+            "combination",
+            "11",
+        ],
+        权重: 0,
     },
     "19": {
         content: [
             [
                 "basic",
-                "6",
+                "10",
             ],
             [
                 "basic",
-                "18",
+                "10",
+            ],
+            [
+                "basic",
+                "10",
+            ],
+            [
+                "basic",
+                "10",
             ],
         ],
         IP: [
             "combination",
-            "0",
+            "12",
         ],
         权重: 0,
     },
     "20": {
-        content: [
-            [
-                "basic",
-                "16",
-            ],
-            [
-                "basic",
-                "17",
-            ],
-        ],
+        content: "啥",
         IP: [
-            "combination",
-            "0",
+            "basic",
+            "17",
         ],
-        权重: 0,
     },
     "21": {
-        content: [
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "18",
-            ],
-        ],
+        content: "怕",
         IP: [
-            "combination",
-            "0",
+            "basic",
+            "21",
         ],
-        权重: 0,
     },
     "22": {
         content: [
             [
                 "basic",
-                "15",
+                "21",
             ],
             [
                 "basic",
-                "15",
+                "21",
             ],
         ],
         IP: [
             "combination",
-            "0",
+            "13",
         ],
         权重: 0,
     },
@@ -227,678 +319,630 @@
         content: [
             [
                 "basic",
-                "15",
+                "21",
             ],
             [
                 "basic",
-                "15",
+                "21",
             ],
             [
                 "basic",
-                "15",
+                "21",
             ],
         ],
         IP: [
             "combination",
-            "0",
+            "14",
         ],
         权重: 0,
     },
     "24": {
-        content: "“",
-        IP: [
-            "basic",
-            "19",
+        content: [
+            [
+                "basic",
+                "21",
+            ],
+            [
+                "basic",
+                "21",
+            ],
+            [
+                "basic",
+                "21",
+            ],
+            [
+                "basic",
+                "21",
+            ],
         ],
+        IP: [
+            "combination",
+            "15",
+        ],
+        权重: 0,
     },
     "25": {
-        content: "假",
+        content: "u",
         IP: [
             "basic",
-            "25",
+            "22",
         ],
     },
     "26": {
-        content: "设",
+        content: [
+            [
+                "basic",
+                "22",
+            ],
+            [
+                "basic",
+                "22",
+            ],
+        ],
+        IP: [
+            "combination",
+            "16",
+        ],
+        权重: 0,
+    },
+    "27": {
+        content: [
+            [
+                "basic",
+                "22",
+            ],
+            [
+                "basic",
+                "22",
+            ],
+            [
+                "basic",
+                "22",
+            ],
+        ],
+        IP: [
+            "combination",
+            "17",
+        ],
+        权重: 0,
+    },
+    "28": {
+        content: [
+            [
+                "basic",
+                "22",
+            ],
+            [
+                "basic",
+                "22",
+            ],
+            [
+                "basic",
+                "22",
+            ],
+            [
+                "basic",
+                "22",
+            ],
+        ],
+        IP: [
+            "combination",
+            "18",
+        ],
+        权重: 0,
+    },
+    "29": {
+        content: "有",
         IP: [
             "basic",
             "26",
         ],
     },
-    "27": {
-        content: "一",
-        IP: [
-            "basic",
-            "27",
-        ],
-    },
-    "28": {
-        content: "个",
-        IP: [
-            "basic",
-            "28",
-        ],
-    },
-    "29": {
-        content: "金",
-        IP: [
-            "basic",
-            "29",
-        ],
-    },
     "30": {
-        content: "融",
+        content: "由",
         IP: [
             "basic",
             "30",
         ],
     },
     "31": {
-        content: "顾",
+        content: [
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "26",
+            ],
+        ],
+        IP: [
+            "combination",
+            "19",
+        ],
+        权重: 0,
+    },
+    "32": {
+        content: [
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "26",
+            ],
+        ],
+        IP: [
+            "combination",
+            "20",
+        ],
+        权重: 0,
+    },
+    "33": {
+        content: [
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "30",
+            ],
+        ],
+        IP: [
+            "combination",
+            "21",
+        ],
+        权重: 0,
+    },
+    "34": {
+        content: [
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "30",
+            ],
+        ],
+        IP: [
+            "combination",
+            "22",
+        ],
+        权重: 0,
+    },
+    "35": {
+        content: [
+            [
+                "basic",
+                "26",
+            ],
+            [
+                "basic",
+                "30",
+            ],
+        ],
+        IP: [
+            "combination",
+            "23",
+        ],
+        权重: 0,
+    },
+    "36": {
+        content: "于",
         IP: [
             "basic",
             "31",
         ],
     },
-    "32": {
-        content: "问",
-        IP: [
-            "basic",
-            "32",
-        ],
-    },
-    "33": {
-        content: "。",
-        IP: [
-            "basic",
-            "33",
-        ],
-    },
-    "34": {
-        content: "位",
-        IP: [
-            "basic",
-            "34",
-        ],
-    },
-    "35": {
-        content: "客",
-        IP: [
-            "basic",
-            "35",
-        ],
-    },
-    "36": {
-        content: "户",
-        IP: [
-            "basic",
-            "36",
-        ],
-    },
     "37": {
-        content: "说",
+        content: "，",
         IP: [
             "basic",
             "37",
         ],
     },
     "38": {
-        content: "：",
+        content: [
+            [
+                "basic",
+                1,
+            ],
+            [
+                "basic",
+                2,
+            ],
+            [
+                "basic",
+                "37",
+            ],
+        ],
+        IP: [
+            "combination",
+            "24",
+        ],
+        权重: 0,
+    },
+    "39": {
+        content: [
+            [
+                "basic",
+                1,
+            ],
+            [
+                "basic",
+                1,
+            ],
+            [
+                "basic",
+                2,
+            ],
+            [
+                "basic",
+                "37",
+            ],
+        ],
+        IP: [
+            "combination",
+            "25",
+        ],
+        权重: 0,
+    },
+    "40": {
+        content: [
+            [
+                "basic",
+                2,
+            ],
+            [
+                "basic",
+                "37",
+            ],
+        ],
+        IP: [
+            "combination",
+            "26",
+        ],
+        权重: 0,
+    },
+    "41": {
+        content: [
+            [
+                "basic",
+                1,
+            ],
+            [
+                "basic",
+                2,
+            ],
+            [
+                "basic",
+                "37",
+            ],
+        ],
+        IP: [
+            "combination",
+            "27",
+        ],
+        权重: 0,
+    },
+    "42": {
+        content: [
+            [
+                "basic",
+                1,
+            ],
+            [
+                "basic",
+                "37",
+            ],
+        ],
+        IP: [
+            "combination",
+            "28",
+        ],
+        权重: 0,
+    },
+    "43": {
+        content: "W",
         IP: [
             "basic",
             "38",
         ],
     },
-    "39": {
-        content: "‘",
-        IP: [
-            "basic",
-            "39",
-        ],
-    },
-    "40": {
-        content: "我",
-        IP: [
-            "basic",
-            "40",
-        ],
-    },
-    "41": {
-        content: "刚",
-        IP: [
-            "basic",
-            "41",
-        ],
-    },
-    "42": {
-        content: "继",
-        IP: [
-            "basic",
-            "42",
-        ],
-    },
-    "43": {
-        content: "承",
-        IP: [
-            "basic",
-            "43",
-        ],
-    },
     "44": {
-        content: "了",
+        content: "a",
         IP: [
             "basic",
             "44",
         ],
     },
     "45": {
-        content: "笔",
+        content: "i",
         IP: [
             "basic",
             "45",
         ],
     },
     "46": {
-        content: "钱",
+        content: [
+            [
+                "basic",
+                3,
+            ],
+            [
+                "basic",
+                "38",
+            ],
+        ],
+        IP: [
+            "combination",
+            "29",
+        ],
+        权重: 0,
+    },
+    "47": {
+        content: [
+            [
+                "basic",
+                3,
+            ],
+            [
+                "basic",
+                "38",
+            ],
+            [
+                "basic",
+                "44",
+            ],
+        ],
+        IP: [
+            "combination",
+            "30",
+        ],
+        权重: 0,
+    },
+    "48": {
+        content: [
+            [
+                "basic",
+                3,
+            ],
+            [
+                "basic",
+                "38",
+            ],
+            [
+                "basic",
+                "44",
+            ],
+            [
+                "basic",
+                "45",
+            ],
+        ],
+        IP: [
+            "combination",
+            "31",
+        ],
+        权重: 0,
+    },
+    "49": {
+        content: [
+            [
+                "basic",
+                "38",
+            ],
+            [
+                "basic",
+                "44",
+            ],
+        ],
+        IP: [
+            "combination",
+            "32",
+        ],
+        权重: 0,
+    },
+    "50": {
+        content: [
+            [
+                "basic",
+                "38",
+            ],
+            [
+                "basic",
+                "44",
+            ],
+            [
+                "basic",
+                "45",
+            ],
+        ],
+        IP: [
+            "combination",
+            "33",
+        ],
+        权重: 0,
+    },
+    "51": {
+        content: [
+            [
+                "basic",
+                "44",
+            ],
+            [
+                "basic",
+                "45",
+            ],
+        ],
+        IP: [
+            "combination",
+            "34",
+        ],
+        权重: 0,
+    },
+    "52": {
+        content: "p",
         IP: [
             "basic",
             "46",
         ],
     },
-    "47": {
-        content: "，",
-        IP: [
-            "basic",
-            "47",
-        ],
-    },
-    "48": {
-        content: "想",
-        IP: [
-            "basic",
-            "48",
-        ],
-    },
-    "49": {
-        content: "全",
-        IP: [
-            "basic",
-            "49",
-        ],
-    },
-    "50": {
-        content: "部",
-        IP: [
-            "basic",
-            "50",
-        ],
-    },
-    "51": {
-        content: "投",
-        IP: [
-            "basic",
-            "51",
-        ],
-    },
-    "52": {
-        content: "资",
-        IP: [
-            "basic",
-            "52",
-        ],
-    },
     "53": {
-        content: "股",
+        content: " ",
         IP: [
             "basic",
             "53",
         ],
     },
     "54": {
-        content: "市",
+        content: "A",
         IP: [
             "basic",
             "54",
         ],
     },
     "55": {
-        content: "因",
+        content: "I",
         IP: [
             "basic",
             "55",
         ],
     },
     "56": {
-        content: "为",
-        IP: [
-            "basic",
-            "56",
+        content: [
+            [
+                "basic",
+                "46",
+            ],
+            [
+                "basic",
+                "53",
+            ],
         ],
+        IP: [
+            "combination",
+            "35",
+        ],
+        权重: 0,
     },
     "57": {
-        content: "听",
-        IP: [
-            "basic",
-            "57",
+        content: [
+            [
+                "basic",
+                "46",
+            ],
+            [
+                "basic",
+                "53",
+            ],
+            [
+                "basic",
+                "54",
+            ],
         ],
+        IP: [
+            "combination",
+            "36",
+        ],
+        权重: 0,
     },
     "58": {
-        content: "今",
-        IP: [
-            "basic",
-            "58",
+        content: [
+            [
+                "basic",
+                "46",
+            ],
+            [
+                "basic",
+                "53",
+            ],
+            [
+                "basic",
+                "54",
+            ],
+            [
+                "basic",
+                "55",
+            ],
         ],
+        IP: [
+            "combination",
+            "37",
+        ],
+        权重: 0,
     },
     "59": {
-        content: "行",
-        IP: [
-            "basic",
-            "59",
+        content: [
+            [
+                "basic",
+                "53",
+            ],
+            [
+                "basic",
+                "54",
+            ],
         ],
+        IP: [
+            "combination",
+            "38",
+        ],
+        权重: 0,
     },
     "60": {
-        content: "情",
-        IP: [
-            "basic",
-            "60",
+        content: [
+            [
+                "basic",
+                "53",
+            ],
+            [
+                "basic",
+                "54",
+            ],
+            [
+                "basic",
+                "55",
+            ],
         ],
+        IP: [
+            "combination",
+            "39",
+        ],
+        权重: 0,
     },
     "61": {
-        content: "很",
-        IP: [
-            "basic",
-            "61",
-        ],
-    },
-    "62": {
-        content: "而",
-        IP: [
-            "basic",
-            "62",
-        ],
-    },
-    "63": {
-        content: "且",
-        IP: [
-            "basic",
-            "63",
-        ],
-    },
-    "64": {
-        content: "邻",
-        IP: [
-            "basic",
-            "64",
-        ],
-    },
-    "65": {
-        content: "居",
-        IP: [
-            "basic",
-            "65",
-        ],
-    },
-    "66": {
-        content: "去",
-        IP: [
-            "basic",
-            "66",
-        ],
-    },
-    "67": {
-        content: "赚",
-        IP: [
-            "basic",
-            "67",
-        ],
-    },
-    "68": {
-        content: "5",
-        IP: [
-            "basic",
-            "68",
-        ],
-    },
-    "69": {
-        content: "0",
-        IP: [
-            "basic",
-            "69",
-        ],
-    },
-    "70": {
-        content: "%",
-        IP: [
-            "basic",
-            "70",
-        ],
-    },
-    "71": {
-        content: "’",
-        IP: [
-            "basic",
-            "71",
-        ],
-    },
-    "72": {
-        content: " ",
-        IP: [
-            "basic",
-            "72",
-        ],
-    },
-    "73": {
-        content: "请",
-        IP: [
-            "basic",
-            "73",
-        ],
-    },
-    "74": {
-        content: "详",
-        IP: [
-            "basic",
-            "74",
-        ],
-    },
-    "75": {
-        content: "细",
-        IP: [
-            "basic",
-            "75",
-        ],
-    },
-    "76": {
-        content: "分",
-        IP: [
-            "basic",
-            "76",
-        ],
-    },
-    "77": {
-        content: "析",
-        IP: [
-            "basic",
-            "77",
-        ],
-    },
-    "78": {
-        content: "这",
-        IP: [
-            "basic",
-            "78",
-        ],
-    },
-    "79": {
-        content: "的",
-        IP: [
-            "basic",
-            "79",
-        ],
-    },
-    "80": {
-        content: "决",
-        IP: [
-            "basic",
-            "80",
-        ],
-    },
-    "81": {
-        content: "策",
-        IP: [
-            "basic",
-            "81",
-        ],
-    },
-    "82": {
-        content: "否",
-        IP: [
-            "basic",
-            "82",
-        ],
-    },
-    "83": {
-        content: "存",
-        IP: [
-            "basic",
-            "83",
-        ],
-    },
-    "84": {
-        content: "在",
-        IP: [
-            "basic",
-            "84",
-        ],
-    },
-    "85": {
-        content: "认",
-        IP: [
-            "basic",
-            "85",
-        ],
-    },
-    "86": {
-        content: "知",
-        IP: [
-            "basic",
-            "86",
-        ],
-    },
-    "87": {
-        content: "偏",
-        IP: [
-            "basic",
-            "87",
-        ],
-    },
-    "88": {
-        content: "差",
-        IP: [
-            "basic",
-            "88",
-        ],
-    },
-    "89": {
-        content: "如",
-        IP: [
-            "basic",
-            "89",
-        ],
-    },
-    "90": {
-        content: "果",
-        IP: [
-            "basic",
-            "90",
-        ],
-    },
-    "91": {
-        content: "给",
-        IP: [
-            "basic",
-            "91",
-        ],
-    },
-    "92": {
-        content: "出",
-        IP: [
-            "basic",
-            "92",
-        ],
-    },
-    "93": {
-        content: "三",
-        IP: [
-            "basic",
-            "93",
-        ],
-    },
-    "94": {
-        content: "条",
-        IP: [
-            "basic",
-            "94",
-        ],
-    },
-    "95": {
-        content: "具",
-        IP: [
-            "basic",
-            "95",
-        ],
-    },
-    "96": {
-        content: "体",
-        IP: [
-            "basic",
-            "96",
-        ],
-    },
-    "97": {
-        content: "建",
-        IP: [
-            "basic",
-            "97",
-        ],
-    },
-    "98": {
-        content: "议",
-        IP: [
-            "basic",
-            "98",
-        ],
-    },
-    "99": {
-        content: "来",
-        IP: [
-            "basic",
-            "99",
-        ],
-    },
-    "100": {
-        content: "对",
-        IP: [
-            "basic",
-            "100",
-        ],
-    },
-    "101": {
-        content: "冲",
-        IP: [
-            "basic",
-            "101",
-        ],
-    },
-    "102": {
-        content: "些",
-        IP: [
-            "basic",
-            "102",
-        ],
-    },
-    "103": {
-        content: "风",
-        IP: [
-            "basic",
-            "103",
-        ],
-    },
-    "104": {
-        content: "险",
-        IP: [
-            "basic",
-            "104",
-        ],
-    },
-    "105": {
-        content: "”",
-        IP: [
-            "basic",
-            "105",
-        ],
-    },
-    "106": {
         content: [
             [
                 "basic",
-                "6",
+                "54",
             ],
             [
                 "basic",
-                "6",
+                "55",
             ],
         ],
         IP: [
             "combination",
-            "0",
-        ],
-        权重: 0,
-    },
-    "107": {
-        content: [
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "6",
-            ],
-        ],
-        IP: [
-            "combination",
-            "0",
-        ],
-        权重: 0,
-    },
-    "108": {
-        content: [
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "6",
-            ],
-        ],
-        IP: [
-            "combination",
-            "0",
-        ],
-        权重: 0,
-    },
-    "109": {
-        content: [
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "6",
-            ],
-            [
-                "basic",
-                "6",
-            ],
-        ],
-        IP: [
-            "combination",
-            "0",
+            "40",
         ],
         权重: 0,
     },

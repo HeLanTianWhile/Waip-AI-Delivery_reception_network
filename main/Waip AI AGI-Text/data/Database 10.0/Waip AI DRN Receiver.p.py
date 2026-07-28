@@ -537,6 +537,7 @@ def main():
             printf("&& exit - 退出程序")
             printf("&& restart - 重启程序")
             printf("&& debug - 切换调试模式")
+            printf("&& Announcement - 显示公告")
         elif user == "&& train":
             printf("\n正在检查训练环境...")
             if check_ollama_connection():
@@ -578,6 +579,9 @@ def main():
             global TF_Display_Debug
             TF_Display_Debug = not TF_Display_Debug
             printf(f"调试信息已设置为：{TF_Display_Debug}")
+        elif user == "&& Announcement":
+            printf("公告：")
+            printf("何蓝田在技术上遇到了难题，何蓝田将会在0.2.9版本修复，日期：2026年7月28日")
     else:
         printf("\n")
         # 流式输出：逐步接收 yield 的消息

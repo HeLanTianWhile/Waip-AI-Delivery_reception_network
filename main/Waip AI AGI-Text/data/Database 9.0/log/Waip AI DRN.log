@@ -5743,3 +5743,398 @@ Database 9.0 支持的 Waip AI DRN 版本：
 2026-07-27 19:35:29,144 - Waip AI DRN - INFO - 程序运行正常
 2026-07-27 19:36:29,144 - Waip AI DRN - INFO - 程序运行正常
 2026-07-27 19:37:29,145 - Waip AI DRN - INFO - 程序运行正常
+2026-07-28 09:11:25,630 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-28 09:11:25,631 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-28 09:11:25,632 - Waip AI DRN - INFO - 
+Database 9.0 支持的 Waip AI DRN 版本：
+2026-07-28 09:11:25,632 - Waip AI DRN - INFO -   - 0.2.3
+2026-07-28 09:11:25,632 - Waip AI DRN - INFO -   - 0.2.4
+2026-07-28 09:11:25,632 - Waip AI DRN - INFO -   - 0.2.5
+2026-07-28 09:11:25,632 - Waip AI DRN - INFO -   - 0.2.6
+2026-07-28 09:11:25,633 - Waip AI DRN - INFO -   - 0.2.7
+2026-07-28 09:11:25,633 - Waip AI DRN - INFO -   - 0.2.8
+2026-07-28 09:11:33,387 - Waip AI DRN - INFO - 请选择版本：0.2.8
+2026-07-28 09:11:33,419 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.2.8
+2026-07-28 09:11:33,421 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-28 09:11:33,421 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-28 09:11:40,168 - Waip AI DRN - INFO - 请输入意识体名称：实验体1号
+2026-07-28 09:11:40,169 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-28 09:11:40,317 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-28 09:11:40,320 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-28 09:11:40,333 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-28 09:11:40,386 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-28 09:11:40,454 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-28 09:11:40,459 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-28 09:11:40,468 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-28 09:11:40,468 - Waip AI DRN - INFO - 运行正常
+2026-07-28 09:11:40,468 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-28 09:11:40,469 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-28 09:11:47,188 - Waip AI DRN - INFO - 你：&& help
+2026-07-28 09:11:47,188 - Waip AI DRN - INFO - 帮助菜单：
+2026-07-28 09:11:47,188 - Waip AI DRN - INFO - && help - 显示帮助菜单
+2026-07-28 09:11:47,189 - Waip AI DRN - INFO - && train - 进入DeepSeek自动训练模式
+2026-07-28 09:11:47,189 - Waip AI DRN - INFO - && models - 查看可用模型
+2026-07-28 09:11:47,189 - Waip AI DRN - INFO - && exit - 退出程序
+2026-07-28 09:11:47,189 - Waip AI DRN - INFO - && restart - 重启程序
+2026-07-28 09:11:47,189 - Waip AI DRN - INFO - && debug - 切换调试模式
+2026-07-28 09:11:53,033 - Waip AI DRN - INFO - 你：&& debug
+2026-07-28 09:11:53,034 - Waip AI DRN - INFO - 调试信息已设置为：False
+2026-07-28 09:12:11,175 - Waip AI DRN - INFO - 你：“假设你是一个金融顾问。一位客户说：‘我刚继承了一笔钱，想全部投资股市，因为我听说今年行情很好，而且我邻居去年赚了50%。’ 请详细分析这位客户的投资决策是否存在认知偏差？如果存在，请给出三条具体建议来对冲这些风险。”
+2026-07-28 09:12:11,175 - Waip AI DRN - INFO - 
+
+2026-07-28 09:12:11,188 - Waip AI DRN - INFO - 【思考】“ 假 设 你 <speak> 
+2026-07-28 09:12:11,212 - Waip AI DRN - INFO - 【思考】是 一 个 金 <speak> 
+2026-07-28 09:12:11,232 - Waip AI DRN - INFO - 【思考】融 顾 问 。 <speak> 
+2026-07-28 09:12:11,243 - Waip AI DRN - INFO - 【思考】一 位 客 户 <speak> 
+2026-07-28 09:12:11,255 - Waip AI DRN - INFO - 【思考】说 ： ‘ 我 <speak> 
+2026-07-28 09:12:11,267 - Waip AI DRN - INFO - 【思考】刚 继 承 了 <speak> 
+2026-07-28 09:12:11,279 - Waip AI DRN - INFO - 【思考】一 笔 钱 ， <speak> 
+2026-07-28 09:12:11,293 - Waip AI DRN - INFO - 【思考】想 全 部 投 <speak> 
+2026-07-28 09:12:11,308 - Waip AI DRN - INFO - 【思考】资 股 市 ， <speak> 
+2026-07-28 09:12:11,321 - Waip AI DRN - INFO - 【思考】因 为 我 听 <speak> 
+2026-07-28 09:12:11,353 - Waip AI DRN - INFO - 【思考】说 今 年 行 <speak> 
+2026-07-28 09:12:11,387 - Waip AI DRN - INFO - 【思考】情 很 好 ， <speak> 
+2026-07-28 09:12:11,407 - Waip AI DRN - INFO - 【思考】而 且 我 邻 <speak> 
+2026-07-28 09:12:11,446 - Waip AI DRN - INFO - 【思考】居 去 年 赚 <speak> 
+2026-07-28 09:12:11,447 - Waip AI DRN - INFO - 错误：'68'
+2026-07-28 09:12:11,448 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-28 09:12:11,460 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 614, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 592, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.8.py", line 672, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.8.py", line 71, in call
+    associative_tree = yield from association_layer(Text, data, data_processed)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.8.py", line 102, in association_layer
+    if "associative network" not in data["activated memory"][i]["IP"]:
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+KeyError: '68'
+
+2026-07-28 09:12:49,670 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-28 09:12:49,671 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-28 09:12:49,671 - Waip AI DRN - INFO - 
+Database 9.0 支持的 Waip AI DRN 版本：
+2026-07-28 09:12:49,672 - Waip AI DRN - INFO -   - 0.2.3
+2026-07-28 09:12:49,672 - Waip AI DRN - INFO -   - 0.2.4
+2026-07-28 09:12:49,672 - Waip AI DRN - INFO -   - 0.2.5
+2026-07-28 09:12:49,672 - Waip AI DRN - INFO -   - 0.2.6
+2026-07-28 09:12:49,673 - Waip AI DRN - INFO -   - 0.2.7
+2026-07-28 09:12:49,673 - Waip AI DRN - INFO -   - 0.2.8
+2026-07-28 09:13:43,761 - Waip AI DRN - INFO - 请选择版本：0.2.7
+2026-07-28 09:13:43,824 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.2.7
+2026-07-28 09:13:43,826 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-28 09:13:43,827 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-28 09:13:51,356 - Waip AI DRN - INFO - 请输入意识体名称：实验体1号
+2026-07-28 09:13:51,358 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-28 09:13:51,494 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-28 09:13:51,497 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-28 09:13:51,507 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-28 09:13:51,574 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-28 09:13:51,651 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-28 09:13:51,655 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-28 09:13:51,666 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-28 09:13:51,666 - Waip AI DRN - INFO - 运行正常
+2026-07-28 09:13:51,667 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-28 09:13:51,667 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-28 09:14:27,221 - Waip AI DRN - INFO - 你：&& help
+2026-07-28 09:14:27,222 - Waip AI DRN - INFO - 帮助菜单：
+2026-07-28 09:14:27,223 - Waip AI DRN - INFO - && help - 显示帮助菜单
+2026-07-28 09:14:27,223 - Waip AI DRN - INFO - && train - 进入DeepSeek自动训练模式
+2026-07-28 09:14:27,223 - Waip AI DRN - INFO - && models - 查看可用模型
+2026-07-28 09:14:27,223 - Waip AI DRN - INFO - && exit - 退出程序
+2026-07-28 09:14:27,224 - Waip AI DRN - INFO - && restart - 重启程序
+2026-07-28 09:14:27,224 - Waip AI DRN - INFO - && debug - 切换调试模式
+2026-07-28 09:14:34,928 - Waip AI DRN - INFO - 你：&& debug
+2026-07-28 09:14:34,929 - Waip AI DRN - INFO - 调试信息已设置为：False
+2026-07-28 09:14:43,824 - Waip AI DRN - INFO - 程序运行正常
+2026-07-28 09:14:48,523 - Waip AI DRN - INFO - 你：“假设你是一个金融顾问。一位客户说：‘我刚继承了一笔钱，想全部投资股市，因为我听说今年行情很好，而且我邻居去年赚了50%。’ 请详细分析这位客户的投资决策是否存在认知偏差？如果存在，请给出三条具体建议来对冲这些风险。”
+2026-07-28 09:14:48,524 - Waip AI DRN - INFO - 
+
+2026-07-28 09:14:48,536 - Waip AI DRN - INFO - 【思考】“ 假 设 你 <speak> 
+2026-07-28 09:14:48,546 - Waip AI DRN - INFO - 【思考】是 一 个 金 <speak> 
+2026-07-28 09:14:48,579 - Waip AI DRN - INFO - 【思考】融 顾 问 。 <speak> 
+2026-07-28 09:14:48,588 - Waip AI DRN - INFO - 【思考】一 位 客 户 <speak> 
+2026-07-28 09:14:48,599 - Waip AI DRN - INFO - 【思考】说 ： ‘ 我 <speak> 
+2026-07-28 09:14:48,613 - Waip AI DRN - INFO - 【思考】刚 继 承 了 <speak> 
+2026-07-28 09:14:48,629 - Waip AI DRN - INFO - 【思考】一 笔 钱 ， <speak> 
+2026-07-28 09:14:48,639 - Waip AI DRN - INFO - 【思考】想 全 部 投 <speak> 
+2026-07-28 09:14:48,648 - Waip AI DRN - INFO - 【思考】资 股 市 ， <speak> 
+2026-07-28 09:14:48,659 - Waip AI DRN - INFO - 【思考】因 为 我 听 <speak> 
+2026-07-28 09:14:48,668 - Waip AI DRN - INFO - 【思考】说 今 年 行 <speak> 
+2026-07-28 09:14:48,695 - Waip AI DRN - INFO - 【思考】情 很 好 ， <speak> 
+2026-07-28 09:14:48,705 - Waip AI DRN - INFO - 【思考】而 且 我 邻 <speak> 
+2026-07-28 09:14:48,716 - Waip AI DRN - INFO - 【思考】居 去 年 赚 <speak> 
+2026-07-28 09:14:48,717 - Waip AI DRN - INFO - 错误：'68'
+2026-07-28 09:14:48,717 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-28 09:14:48,721 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 614, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 592, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.7.py", line 575, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.7.py", line 71, in call
+    associative_tree = yield from association_layer(Text, data, data_processed)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.7.py", line 102, in association_layer
+    if "associative network" not in data["activated memory"][i]["IP"]:
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+KeyError: '68'
+
+2026-07-28 09:16:14,283 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-28 09:16:14,284 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-28 09:16:14,284 - Waip AI DRN - INFO - 
+Database 9.0 支持的 Waip AI DRN 版本：
+2026-07-28 09:16:14,284 - Waip AI DRN - INFO -   - 0.2.3
+2026-07-28 09:16:14,284 - Waip AI DRN - INFO -   - 0.2.4
+2026-07-28 09:16:14,285 - Waip AI DRN - INFO -   - 0.2.5
+2026-07-28 09:16:14,285 - Waip AI DRN - INFO -   - 0.2.6
+2026-07-28 09:16:14,285 - Waip AI DRN - INFO -   - 0.2.7
+2026-07-28 09:16:14,285 - Waip AI DRN - INFO -   - 0.2.8
+2026-07-28 09:16:16,960 - Waip AI DRN - INFO - 请选择版本：0.2.7
+2026-07-28 09:16:16,982 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.2.7
+2026-07-28 09:16:16,984 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-28 09:16:16,985 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-28 09:16:25,450 - Waip AI DRN - INFO - 请输入意识体名称：&& debug
+2026-07-28 09:16:25,451 - Waip AI DRN - INFO - 此意识体已不被支持或不存在，请重新输入意识体名称
+2026-07-28 09:16:36,413 - Waip AI DRN - INFO - 请输入意识体名称：实验体1号
+2026-07-28 09:16:36,415 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-28 09:16:36,577 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-28 09:16:36,580 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-28 09:16:36,591 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-28 09:16:36,645 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-28 09:16:36,650 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-28 09:16:36,672 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-28 09:16:36,682 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-28 09:16:36,682 - Waip AI DRN - INFO - 运行正常
+2026-07-28 09:16:36,683 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-28 09:16:36,683 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-28 09:16:39,582 - Waip AI DRN - INFO - 你：&& debug
+2026-07-28 09:16:39,583 - Waip AI DRN - INFO - 调试信息已设置为：False
+2026-07-28 09:16:44,357 - Waip AI DRN - INFO - 你：“假设你是一个金融顾问。一位客户说：‘我刚继承了一笔钱，想全部投资股市，因为我听说今年行情很好，而且我邻居去年赚了50%。’ 请详细分析这位客户的投资决策是否存在认知偏差？如果存在，请给出三条具体建议来对冲这些风险。”
+2026-07-28 09:16:44,358 - Waip AI DRN - INFO - 
+
+2026-07-28 09:16:44,366 - Waip AI DRN - INFO - 【思考】“ 假 设 你 <speak> 
+2026-07-28 09:16:44,373 - Waip AI DRN - INFO - 【思考】是 一 个 金 <speak> 
+2026-07-28 09:16:44,385 - Waip AI DRN - INFO - 【思考】融 顾 问 。 <speak> 
+2026-07-28 09:16:44,393 - Waip AI DRN - INFO - 【思考】一 位 客 户 <speak> 
+2026-07-28 09:16:44,398 - Waip AI DRN - INFO - 【思考】说 ： ‘ 我 <speak> 
+2026-07-28 09:16:44,404 - Waip AI DRN - INFO - 【思考】刚 继 承 了 <speak> 
+2026-07-28 09:16:44,410 - Waip AI DRN - INFO - 【思考】一 笔 钱 ， <speak> 
+2026-07-28 09:16:44,417 - Waip AI DRN - INFO - 【思考】想 全 部 投 <speak> 
+2026-07-28 09:16:44,427 - Waip AI DRN - INFO - 【思考】资 股 市 ， <speak> 
+2026-07-28 09:16:44,439 - Waip AI DRN - INFO - 【思考】因 为 我 听 <speak> 
+2026-07-28 09:16:44,447 - Waip AI DRN - INFO - 【思考】说 今 年 行 <speak> 
+2026-07-28 09:16:44,457 - Waip AI DRN - INFO - 【思考】情 很 好 ， <speak> 
+2026-07-28 09:16:44,469 - Waip AI DRN - INFO - 【思考】而 且 我 邻 <speak> 
+2026-07-28 09:16:44,476 - Waip AI DRN - INFO - 【思考】居 去 年 赚 <speak> 
+2026-07-28 09:16:44,487 - Waip AI DRN - INFO - 【思考】了 5 0 % <speak> 
+2026-07-28 09:16:44,497 - Waip AI DRN - INFO - 【思考】。 ’   请 <speak> 
+2026-07-28 09:16:44,504 - Waip AI DRN - INFO - 【思考】详 细 分 析 <speak> 
+2026-07-28 09:16:44,511 - Waip AI DRN - INFO - 【思考】这 位 客 户 <speak> 
+2026-07-28 09:16:44,519 - Waip AI DRN - INFO - 【思考】的 投 资 决 <speak> 
+2026-07-28 09:16:44,525 - Waip AI DRN - INFO - 【思考】策 是 否 存 <speak> 
+2026-07-28 09:16:44,533 - Waip AI DRN - INFO - 【思考】在 认 知 偏 <speak> 
+2026-07-28 09:16:44,541 - Waip AI DRN - INFO - 【思考】差 ？ 如 果 <speak> 
+2026-07-28 09:16:44,550 - Waip AI DRN - INFO - 【思考】存 在 ， 请 <speak> 
+2026-07-28 09:16:44,557 - Waip AI DRN - INFO - 【思考】给 出 三 条 <speak> 
+2026-07-28 09:16:44,564 - Waip AI DRN - INFO - 【思考】具 体 建 议 <speak> 
+2026-07-28 09:16:44,570 - Waip AI DRN - INFO - 【思考】来 对 冲 这 <speak> 
+2026-07-28 09:16:44,576 - Waip AI DRN - INFO - 【思考】些 风 险 。 <speak> 
+2026-07-28 09:16:44,580 - Waip AI DRN - INFO - 【思考】” <speak> 
+2026-07-28 09:16:44,581 - Waip AI DRN - INFO - 
+
+2026-07-28 09:16:44,581 - Waip AI DRN - INFO - 实验体1号回复：['“ 假 设 你 <speak> ', '是 一 个 金 <speak> ', '融 顾 问 。 <speak> ', '一 位 客 户 <speak> ', '说 ： ‘ 我 <speak> ', '刚 继 承 了 <speak> ', '一 笔 钱 ， <speak> ', '想 全 部 投 <speak> ', '资 股 市 ， <speak> ', '因 为 我 听 <speak> ', '说 今 年 行 <speak> ', '情 很 好 ， <speak> ', '而 且 我 邻 <speak> ', '居 去 年 赚 <speak> ', '了 5 0 % <speak> ', '。 ’   请 <speak> ', '详 细 分 析 <speak> ', '这 位 客 户 <speak> ', '的 投 资 决 <speak> ', '策 是 否 存 <speak> ', '在 认 知 偏 <speak> ', '差 ？ 如 果 <speak> ', '存 在 ， 请 <speak> ', '给 出 三 条 <speak> ', '具 体 建 议 <speak> ', '来 对 冲 这 <speak> ', '些 风 险 。 <speak> ', '” <speak> ']
+2026-07-28 09:16:44,615 - Waip AI DRN - INFO - 数据已更新
+2026-07-28 09:17:16,982 - Waip AI DRN - INFO - 程序运行正常
+2026-07-28 09:17:49,638 - Waip AI DRN - INFO - 你：【认知偏差分析】该客户存在至少三种显著的认知偏差：1. 近因偏差（Recency Bias）：仅凭“今年听说行情好”和“邻居去年赚50%”这两个近期局部样本，替代了对股市长期平均收益率（年化约8-10%）和波动率（年化15-20%）的整体判断，忽视了均值回归风险。2. 过度自信偏误（Overconfidence Bias）：将邻居的选股能力归因为市场普遍规律，且未区分“牛市普涨”与“熊市分化”的环境差异，高估了自己在相同时间点进入市场的获利概率。3. 心理账户混淆（Mental Accounting）：将“继承所得”与“工资收入”视为不同风险承受能力的资金。实际上，继承款往往具有情感价值和税务成本，应比日常积蓄更保守，而非更激进。【三条具体对冲建议】建议一：时间维度对冲（择时策略）禁止一次性全仓买入。强制实施“6个月定额定投（Dollar-Cost Averaging）”，将总金额拆分为24等份，每周买入一份。此策略可规避因短期情绪高点一次性建仓带来的择时风险。建议二：资产类别对冲（配置策略）设定股市仓位上限为40%。剩余60%必须配置于：30%国债/高评级债券 + 20%黄金/通胀保值债券（TIPS）+ 10%货币基金。此组合可在股市回撤超20%时，通过债金跷跷板效应平滑总资产波动。建议三：认知行为对冲（纪律策略）委托第三方财富管理机构设立“冷却期条款”——在未来3个月内，禁止客户主动下达买卖指令，仅允许按预设算法执行再平衡。此举旨在用硬性制度切断情绪对决策的即时干扰，克服处置效应（不愿止损）的倾向。
+2026-07-28 09:17:49,639 - Waip AI DRN - INFO - 
+
+2026-07-28 09:17:49,647 - Waip AI DRN - INFO - 【思考】【 认 知 偏 <speak> ” 
+2026-07-28 09:17:49,656 - Waip AI DRN - INFO - 【思考】差 分 析 】 <speak> ” 
+2026-07-28 09:17:49,670 - Waip AI DRN - INFO - 【思考】该 客 户 存 <speak> ” 
+2026-07-28 09:17:49,688 - Waip AI DRN - INFO - 【思考】在 至 少 三 <speak> ” 
+2026-07-28 09:17:49,696 - Waip AI DRN - INFO - 【思考】种 显 著 的 <speak> ” 
+2026-07-28 09:17:49,704 - Waip AI DRN - INFO - 【思考】认 知 偏 差 <speak> ” 
+2026-07-28 09:17:49,712 - Waip AI DRN - INFO - 【思考】： 1 .   <speak> ” 
+2026-07-28 09:17:49,719 - Waip AI DRN - INFO - 【思考】近 因 偏 差 <speak> ” 
+2026-07-28 09:17:49,730 - Waip AI DRN - INFO - 【思考】（ R e <speak> c <speak> ” 
+2026-07-28 09:17:49,741 - Waip AI DRN - INFO - 【思考】e <speak> n c y <speak> ” 
+2026-07-28 09:17:49,755 - Waip AI DRN - INFO - 【思考】  B i a <speak> <speak> ” 
+2026-07-28 09:17:49,764 - Waip AI DRN - INFO - 【思考】s <speak> ） ： 仅 <speak> ” 
+2026-07-28 09:17:49,771 - Waip AI DRN - INFO - 【思考】凭 “ 今 年 <speak> ” 
+2026-07-28 09:17:49,778 - Waip AI DRN - INFO - 【思考】听 说 行 情 <speak> ” 
+2026-07-28 09:17:49,787 - Waip AI DRN - INFO - 【思考】好 ” ” 和 “ <speak> ” 
+2026-07-28 09:17:49,788 - Waip AI DRN - INFO - 错误：'140'
+2026-07-28 09:17:49,788 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-28 09:17:49,791 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 614, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 9.0\Waip AI DRN Receiver.p.py", line 592, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.7.py", line 575, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.7.py", line 71, in call
+    associative_tree = yield from association_layer(Text, data, data_processed)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.2.7.py", line 102, in association_layer
+    if "associative network" not in data["activated memory"][i]["IP"]:
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+KeyError: '140'
+
+2026-07-28 10:42:50,303 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-28 10:42:50,304 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-28 10:42:50,304 - Waip AI DRN - INFO - 
+Database 9.0 支持的 Waip AI DRN 版本：
+2026-07-28 10:42:50,304 - Waip AI DRN - INFO -   - 0.2.3
+2026-07-28 10:42:50,304 - Waip AI DRN - INFO -   - 0.2.4
+2026-07-28 10:42:50,305 - Waip AI DRN - INFO -   - 0.2.5
+2026-07-28 10:42:50,305 - Waip AI DRN - INFO -   - 0.2.6
+2026-07-28 10:42:50,305 - Waip AI DRN - INFO -   - 0.2.7
+2026-07-28 10:42:50,305 - Waip AI DRN - INFO -   - 0.2.8
+2026-07-28 10:42:53,721 - Waip AI DRN - INFO - 请选择版本：0.2.8
+2026-07-28 10:42:53,746 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.2.8
+2026-07-28 10:42:53,749 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-28 10:42:53,749 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-28 10:43:00,982 - Waip AI DRN - INFO - 请输入意识体名称：实验体1号
+2026-07-28 10:43:00,983 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-28 10:43:01,267 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-28 10:43:01,271 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-28 10:43:01,285 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-28 10:43:01,423 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-28 10:43:01,427 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-28 10:43:01,431 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-28 10:43:01,433 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-28 10:43:01,433 - Waip AI DRN - INFO - 运行正常
+2026-07-28 10:43:01,434 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-28 10:43:01,434 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-28 10:43:03,493 - Waip AI DRN - INFO - 你：你好
+2026-07-28 10:43:03,494 - Waip AI DRN - INFO - 
+
+2026-07-28 10:43:03,494 - Waip AI DRN - INFO - 【调试】激活阀值：11504
+2026-07-28 10:43:03,495 - Waip AI DRN - INFO - 【调试】激活记忆：['4']
+2026-07-28 10:43:03,495 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-28 10:43:03,495 - Waip AI DRN - INFO - 【调试】文字注意力内容：你好
+2026-07-28 10:43:03,496 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-28 10:43:03,496 - Waip AI DRN - INFO - 【调试】激活递接元：['4']
+2026-07-28 10:43:03,497 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-28 10:43:03,500 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-28 10:43:03,500 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '好'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '4']}}
+2026-07-28 10:43:03,501 - Waip AI DRN - INFO - 【调试】你 好 <speak> 
+2026-07-28 10:43:03,501 - Waip AI DRN - INFO - 【调试】{'2': 0, '3': 0, '4': 1}
+2026-07-28 10:43:03,501 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：406
+2026-07-28 10:43:03,501 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：406
+2026-07-28 10:43:03,502 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：406
+2026-07-28 10:43:03,502 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：719
+2026-07-28 10:43:03,502 - Waip AI DRN - INFO - 【调试】激活阀值：11504
+2026-07-28 10:43:03,503 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11829
+2026-07-28 10:43:03,503 - Waip AI DRN - INFO - 【调试】激活阀值：11504
+2026-07-28 10:43:03,503 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11865
+2026-07-28 10:43:03,504 - Waip AI DRN - INFO - 【调试】0
+2026-07-28 10:43:03,504 - Waip AI DRN - INFO - 【调试】1
+2026-07-28 10:43:03,504 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-28 10:43:03,506 - Waip AI DRN - INFO - 【调试】未录入的组合单元：[]
+2026-07-28 10:43:03,507 - Waip AI DRN - INFO - 【调试】电池电量：22
+2026-07-28 10:43:03,507 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-28 10:43:03,507 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 7700, '乙酰胆碱acetylcholine': 5500, '血清素serotonin': 89000, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-28 10:43:03,507 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-28 10:43:03,508 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-28 10:43:03,508 - Waip AI DRN - INFO - 【思考】你 好 <speak> 
+2026-07-28 10:43:03,508 - Waip AI DRN - INFO - 
+
+2026-07-28 10:43:03,509 - Waip AI DRN - INFO - 实验体1号回复：['你 好 <speak> ']
+2026-07-28 10:43:03,530 - Waip AI DRN - INFO - 数据已更新
+2026-07-28 10:43:21,631 - Waip AI DRN - INFO - 你：？？？？？？？？
+2026-07-28 10:43:21,631 - Waip AI DRN - INFO - 
+
+2026-07-28 10:43:21,632 - Waip AI DRN - INFO - 【调试】激活阀值：11516
+2026-07-28 10:43:21,632 - Waip AI DRN - INFO - 【调试】激活记忆：['4', '5', '6']
+2026-07-28 10:43:21,632 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-28 10:43:21,633 - Waip AI DRN - INFO - 【调试】文字注意力内容：？？？？
+2026-07-28 10:43:21,633 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-28 10:43:21,633 - Waip AI DRN - INFO - 【调试】激活递接元：['4', '5', '6']
+2026-07-28 10:43:21,634 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-28 10:43:21,640 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-28 10:43:21,640 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '？'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '？'}, '2': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '？'}, '3': {'IP': ['Undetermined unit', 'Root unit', 3], 'content': '？'}, '4': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '5']}, '6': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '6']}}
+2026-07-28 10:43:21,641 - Waip AI DRN - INFO - 【调试】？ ？ ？ ？ <speak> 
+2026-07-28 10:43:21,642 - Waip AI DRN - INFO - 【调试】{'2': 0, '3': 0, '4': 1, '5': 1, '6': 1}
+2026-07-28 10:43:21,642 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,642 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,643 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,643 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,643 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,644 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：720
+2026-07-28 10:43:21,644 - Waip AI DRN - INFO - 【调试】激活记忆2已擦除
+2026-07-28 10:43:21,644 - Waip AI DRN - INFO - 【调试】激活阀值：11516
+2026-07-28 10:43:21,645 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11840
+2026-07-28 10:43:21,645 - Waip AI DRN - INFO - 【调试】激活阀值：11516
+2026-07-28 10:43:21,645 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11876
+2026-07-28 10:43:21,645 - Waip AI DRN - INFO - 【调试】0
+2026-07-28 10:43:21,646 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-28 10:43:21,649 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：324
+2026-07-28 10:43:21,649 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：288
+2026-07-28 10:43:21,650 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：252
+2026-07-28 10:43:21,650 - Waip AI DRN - INFO - 【调试】未录入的组合单元：['？？', '？？？', '？？？？']
+2026-07-28 10:43:21,651 - Waip AI DRN - INFO - 【调试】电池电量：22
+2026-07-28 10:43:21,651 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-28 10:43:21,651 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 7700, '乙酰胆碱acetylcholine': 5500, '血清素serotonin': 89000, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-28 10:43:21,652 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-28 10:43:21,652 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-28 10:43:21,652 - Waip AI DRN - INFO - 【思考】？ ？ ？ ？ <speak> 
+2026-07-28 10:43:21,652 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-28 10:43:21,653 - Waip AI DRN - INFO - 【调试】文字注意力内容：？？？？
+2026-07-28 10:43:21,653 - Waip AI DRN - INFO - 【调试】当前截止：8
+2026-07-28 10:43:21,653 - Waip AI DRN - INFO - 【调试】激活递接元：['4', '5', '6']
+2026-07-28 10:43:21,658 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-28 10:43:21,665 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-28 10:43:21,666 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '？'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '？'}, '2': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '？'}, '3': {'IP': ['Undetermined unit', 'Root unit', 3], 'content': '？'}, '4': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '4']}, '5': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '5']}, '6': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '6']}}
+2026-07-28 10:43:21,667 - Waip AI DRN - INFO - 【调试】？ ？ ？ ？ <speak> 
+2026-07-28 10:43:21,667 - Waip AI DRN - INFO - 【调试】{'3': 0, '4': 1, '5': 1, '6': 1, '7': 0, '8': 0, '9': 0, '10': 0, '11': 0}
+2026-07-28 10:43:21,668 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,668 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,669 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,669 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,669 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,670 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,670 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,670 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,671 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-28 10:43:21,672 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：720
+2026-07-28 10:43:21,672 - Waip AI DRN - INFO - 【调试】激活记忆9已擦除
+2026-07-28 10:43:21,672 - Waip AI DRN - INFO - 【调试】激活记忆10已擦除
+2026-07-28 10:43:21,676 - Waip AI DRN - INFO - 【调试】激活记忆11已擦除
+2026-07-28 10:43:21,677 - Waip AI DRN - INFO - 【调试】激活阀值：11516
+2026-07-28 10:43:21,678 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11840
+2026-07-28 10:43:21,678 - Waip AI DRN - INFO - 【调试】激活阀值：11516
+2026-07-28 10:43:21,678 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11876
+2026-07-28 10:43:21,679 - Waip AI DRN - INFO - 【调试】0
+2026-07-28 10:43:21,682 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-28 10:43:21,685 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：288
+2026-07-28 10:43:21,685 - Waip AI DRN - INFO - 【调试】未录入的组合单元：['？？？']
+2026-07-28 10:43:21,685 - Waip AI DRN - INFO - 【调试】电池电量：22
+2026-07-28 10:43:21,685 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-28 10:43:21,686 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 7700, '乙酰胆碱acetylcholine': 5500, '血清素serotonin': 89000, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-28 10:43:21,686 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-28 10:43:21,686 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-28 10:43:21,686 - Waip AI DRN - INFO - 【思考】？ ？ ？ ？ <speak> 
+2026-07-28 10:43:21,687 - Waip AI DRN - INFO - 
+
+2026-07-28 10:43:21,687 - Waip AI DRN - INFO - 实验体1号回复：['？ ？ ？ ？ <speak> ', '？ ？ ？ ？ <speak> ']
+2026-07-28 10:43:21,709 - Waip AI DRN - INFO - 数据已更新
+2026-07-28 10:43:53,749 - Waip AI DRN - INFO - 程序运行正常

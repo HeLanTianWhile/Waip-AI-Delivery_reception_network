@@ -8,7 +8,7 @@ from datetime import datetime
 
 # import random # 你为什么导入了random模块
 
-
+# 这个版本在新功能上不稳定，何蓝田将会在0.2.9版本修复，日期：2026年7月28日
 
 def into_database():
     data = {

@@ -8614,3 +8614,1934 @@ Database 10.0 支持的 Waip AI DRN 版本：
 2026-07-28 16:36:16,538 - Waip AI DRN - INFO - 程序运行正常
 2026-07-28 16:37:16,539 - Waip AI DRN - INFO - 程序运行正常
 2026-07-28 16:38:16,540 - Waip AI DRN - INFO - 程序运行正常
+2026-07-29 06:32:05,835 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-29 06:32:05,836 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-29 06:32:05,837 - Waip AI DRN - INFO - 
+Database 10.0 支持的 Waip AI DRN 版本：
+2026-07-29 06:32:05,837 - Waip AI DRN - INFO -   - 0.2.9
+2026-07-29 06:32:05,837 - Waip AI DRN - INFO -   - 0.3.0
+2026-07-29 06:32:10,738 - Waip AI DRN - INFO - 请选择版本：0.3.0
+2026-07-29 06:32:10,804 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.3.0
+2026-07-29 06:32:10,808 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-29 06:32:10,808 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-29 06:32:22,014 - Waip AI DRN - INFO - 请输入意识体名称：测试体8号
+2026-07-29 06:32:22,015 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-29 06:32:22,147 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-29 06:32:22,150 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-29 06:32:22,162 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-29 06:32:22,311 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-29 06:32:22,390 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-29 06:32:22,394 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-29 06:32:22,431 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-29 06:32:22,431 - Waip AI DRN - INFO - 运行正常
+2026-07-29 06:32:22,432 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-29 06:32:22,432 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-29 06:32:29,420 - Waip AI DRN - INFO - 你：哦哦
+2026-07-29 06:32:29,421 - Waip AI DRN - INFO - 
+
+2026-07-29 06:32:29,421 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:32:29,421 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:32:29,422 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:32:29,422 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦哦
+2026-07-29 06:32:29,422 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:32:29,422 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:32:29,422 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-29 06:32:29,423 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-29 06:32:29,438 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:32:29,438 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '58']}, '8': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '59']}, '9': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '60']}, '10': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '61']}, '11': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '62']}, '12': {'IP': ['Confirmed unit', 'Root unit', 10], 'correspond to': ['activated memory', '63']}, '13': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-29 06:32:29,439 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:32:29,439 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:32:29,440 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:32:29,440 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:32:29,440 - Waip AI DRN - INFO - 【调试】哦 哦 你好 <speak> 你 p   A I 你 
+2026-07-29 06:32:29,441 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '21': 0, '22': 0, '23': 0, '24': 0, '25': 0, '26': 0, '27': 0, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 1, '59': 1, '60': 1, '61': 1, '62': 1, '63': 1, '64': 0, '65': 0, '66': 0, '67': 0, '68': 0, '69': 0}
+2026-07-29 06:32:29,441 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,442 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,442 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,442 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,442 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,443 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,443 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,443 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,444 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,444 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,445 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,445 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,445 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,445 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,446 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,448 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,449 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,450 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,450 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,450 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,451 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,454 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,455 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,455 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,455 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,456 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,456 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,467 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,467 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,467 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,468 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,468 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,468 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,469 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,469 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,469 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,469 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,470 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,470 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,470 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,471 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,471 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,471 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,471 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,471 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,471 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,472 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,472 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,472 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,472 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,472 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,472 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,472 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,473 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,473 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:32:29,474 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：720
+2026-07-29 06:32:29,474 - Waip AI DRN - INFO - 【调试】激活记忆21已擦除
+2026-07-29 06:32:29,474 - Waip AI DRN - INFO - 【调试】激活记忆22已擦除
+2026-07-29 06:32:29,474 - Waip AI DRN - INFO - 【调试】激活记忆64已擦除
+2026-07-29 06:32:29,474 - Waip AI DRN - INFO - 【调试】激活记忆65已擦除
+2026-07-29 06:32:29,475 - Waip AI DRN - INFO - 【调试】激活记忆66已擦除
+2026-07-29 06:32:29,475 - Waip AI DRN - INFO - 【调试】激活记忆67已擦除
+2026-07-29 06:32:29,476 - Waip AI DRN - INFO - 【调试】激活记忆68已擦除
+2026-07-29 06:32:29,476 - Waip AI DRN - INFO - 【调试】激活记忆69已擦除
+2026-07-29 06:32:29,484 - Waip AI DRN - INFO - 错误：'多巴胺dopamine'
+2026-07-29 06:32:29,484 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-29 06:32:29,489 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 614, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 592, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 771, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 77, in call
+    yield from Connection_layer(Text, data, associative_tree, reply)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 481, in Connection_layer
+    weight_minus = yield from Impairment_calculation_of_combined_units(data, does_not_exist_in / len(Alternative_combination_units[i]))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 410, in Impairment_calculation_of_combined_units
+    dopamine_processing = float((100000 - data["多巴胺dopamine"]) / 10)
+                                          ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: '多巴胺dopamine'
+
+2026-07-29 06:33:31,850 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-29 06:33:31,850 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-29 06:33:31,851 - Waip AI DRN - INFO - 
+Database 10.0 支持的 Waip AI DRN 版本：
+2026-07-29 06:33:31,851 - Waip AI DRN - INFO -   - 0.2.9
+2026-07-29 06:33:31,852 - Waip AI DRN - INFO -   - 0.3.0
+2026-07-29 06:33:34,944 - Waip AI DRN - INFO - 请选择版本：0.3.0
+2026-07-29 06:33:34,999 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.3.0
+2026-07-29 06:33:35,007 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-29 06:33:35,007 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-29 06:33:40,857 - Waip AI DRN - INFO - 请输入意识体名称：测试体8号
+2026-07-29 06:33:40,858 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-29 06:33:40,966 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-29 06:33:40,979 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-29 06:33:40,992 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-29 06:33:41,138 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-29 06:33:41,217 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-29 06:33:41,221 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-29 06:33:41,232 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-29 06:33:41,232 - Waip AI DRN - INFO - 运行正常
+2026-07-29 06:33:41,233 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-29 06:33:41,233 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-29 06:33:43,357 - Waip AI DRN - INFO - 你：哦哦
+2026-07-29 06:33:43,358 - Waip AI DRN - INFO - 
+
+2026-07-29 06:33:43,358 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:33:43,359 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:33:43,359 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:33:43,360 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦哦
+2026-07-29 06:33:43,360 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:33:43,361 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:33:43,361 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-29 06:33:43,362 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-29 06:33:43,379 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:33:43,380 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '58']}, '8': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '59']}, '9': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '60']}, '10': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '61']}, '11': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '62']}, '12': {'IP': ['Confirmed unit', 'Root unit', 10], 'correspond to': ['activated memory', '63']}, '13': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-29 06:33:43,381 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:33:43,381 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:33:43,381 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:33:43,382 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:33:43,382 - Waip AI DRN - INFO - 【调试】哦 哦 你好 <speak> 你 p   A I 你 
+2026-07-29 06:33:43,383 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '21': 0, '22': 0, '23': 0, '24': 0, '25': 0, '26': 0, '27': 0, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 1, '59': 1, '60': 1, '61': 1, '62': 1, '63': 1, '64': 0, '65': 0, '66': 0, '67': 0, '68': 0, '69': 0}
+2026-07-29 06:33:43,383 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,384 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,385 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,385 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,386 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,386 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,386 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,387 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,387 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,387 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,388 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,388 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,388 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,391 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,391 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,391 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,391 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,392 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,392 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,392 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,400 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,402 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,403 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,403 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,403 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,403 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,404 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,405 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,405 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,406 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,406 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,407 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,407 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,407 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,408 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,408 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,408 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,409 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,409 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,409 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,409 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,410 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,410 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,410 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,411 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:33:43,411 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：720
+2026-07-29 06:33:43,412 - Waip AI DRN - INFO - 【调试】激活记忆21已擦除
+2026-07-29 06:33:43,412 - Waip AI DRN - INFO - 【调试】激活记忆22已擦除
+2026-07-29 06:33:43,412 - Waip AI DRN - INFO - 【调试】激活记忆64已擦除
+2026-07-29 06:33:43,413 - Waip AI DRN - INFO - 【调试】激活记忆65已擦除
+2026-07-29 06:33:43,413 - Waip AI DRN - INFO - 【调试】激活记忆66已擦除
+2026-07-29 06:33:43,413 - Waip AI DRN - INFO - 【调试】激活记忆67已擦除
+2026-07-29 06:33:43,414 - Waip AI DRN - INFO - 【调试】激活记忆68已擦除
+2026-07-29 06:33:43,414 - Waip AI DRN - INFO - 【调试】激活记忆69已擦除
+2026-07-29 06:33:43,416 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:33:43,416 - Waip AI DRN - INFO - 错误：unsupported operand type(s) for -=: 'str' and 'int'
+2026-07-29 06:33:43,417 - Waip AI DRN - INFO - 错误类型：TypeError
+2026-07-29 06:33:43,430 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 614, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 592, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 771, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 77, in call
+    yield from Connection_layer(Text, data, associative_tree, reply)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 482, in Connection_layer
+    data["cognitive database"][i]["权重"] -= weight_minus
+TypeError: unsupported operand type(s) for -=: 'str' and 'int'
+
+2026-07-29 06:36:48,676 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-29 06:36:48,676 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-29 06:36:48,677 - Waip AI DRN - INFO - 
+Database 10.0 支持的 Waip AI DRN 版本：
+2026-07-29 06:36:48,677 - Waip AI DRN - INFO -   - 0.2.9
+2026-07-29 06:36:48,678 - Waip AI DRN - INFO -   - 0.3.0
+2026-07-29 06:36:52,872 - Waip AI DRN - INFO - 请选择版本：0.3.0
+2026-07-29 06:36:52,915 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.3.0
+2026-07-29 06:36:52,917 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-29 06:36:52,918 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-29 06:36:58,938 - Waip AI DRN - INFO - 请输入意识体名称：测试体8号
+2026-07-29 06:36:58,939 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-29 06:36:59,069 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-29 06:36:59,072 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-29 06:36:59,086 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-29 06:36:59,260 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-29 06:36:59,341 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-29 06:36:59,345 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-29 06:36:59,355 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-29 06:36:59,356 - Waip AI DRN - INFO - 运行正常
+2026-07-29 06:36:59,356 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-29 06:36:59,356 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-29 06:37:02,501 - Waip AI DRN - INFO - 你：哦哦
+2026-07-29 06:37:02,501 - Waip AI DRN - INFO - 
+
+2026-07-29 06:37:02,502 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:37:02,502 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:37:02,503 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:37:02,503 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦哦
+2026-07-29 06:37:02,503 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:37:02,503 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:37:02,504 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-29 06:37:02,505 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-29 06:37:02,518 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:37:02,519 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '58']}, '8': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '59']}, '9': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '60']}, '10': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '61']}, '11': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '62']}, '12': {'IP': ['Confirmed unit', 'Root unit', 10], 'correspond to': ['activated memory', '63']}, '13': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-29 06:37:02,520 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:37:02,520 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:37:02,521 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:37:02,521 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:37:02,521 - Waip AI DRN - INFO - 【调试】哦 哦 你好 <speak> 你 p   A I 你 
+2026-07-29 06:37:02,522 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '21': 0, '22': 0, '23': 0, '24': 0, '25': 0, '26': 0, '27': 0, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 1, '59': 1, '60': 1, '61': 1, '62': 1, '63': 1, '64': 0, '65': 0, '66': 0, '67': 0, '68': 0, '69': 0}
+2026-07-29 06:37:02,522 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,522 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,523 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,523 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,523 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,524 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,524 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,524 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,524 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,525 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,534 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,535 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,550 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,550 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,551 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,551 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,551 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,551 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,552 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,552 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,552 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,552 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,557 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,557 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,557 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,557 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,557 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,558 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,558 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,558 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,562 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:37:02,562 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：720
+2026-07-29 06:37:02,563 - Waip AI DRN - INFO - 【调试】激活记忆21已擦除
+2026-07-29 06:37:02,563 - Waip AI DRN - INFO - 【调试】激活记忆22已擦除
+2026-07-29 06:37:02,563 - Waip AI DRN - INFO - 【调试】激活记忆64已擦除
+2026-07-29 06:37:02,563 - Waip AI DRN - INFO - 【调试】激活记忆65已擦除
+2026-07-29 06:37:02,563 - Waip AI DRN - INFO - 【调试】激活记忆66已擦除
+2026-07-29 06:37:02,564 - Waip AI DRN - INFO - 【调试】激活记忆67已擦除
+2026-07-29 06:37:02,564 - Waip AI DRN - INFO - 【调试】激活记忆68已擦除
+2026-07-29 06:37:02,564 - Waip AI DRN - INFO - 【调试】激活记忆69已擦除
+2026-07-29 06:37:02,566 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,566 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,567 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,567 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,567 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,568 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,568 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,568 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,569 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,569 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,569 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,569 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,570 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,570 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,570 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,570 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,571 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,571 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,571 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,572 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,572 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,572 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,572 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,573 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,573 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,573 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,573 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,573 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,574 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,574 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,574 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,574 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,574 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,575 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,575 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,575 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,575 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,576 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,577 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,577 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:37:02,577 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:37:02,578 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11848
+2026-07-29 06:37:02,578 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:37:02,578 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11884
+2026-07-29 06:37:02,579 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：['0']
+2026-07-29 06:37:02,579 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:37:02,580 - Waip AI DRN - INFO - 【调试】新知识计入激活记忆数据库时的初始权重：11987
+2026-07-29 06:37:02,580 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：['0']
+2026-07-29 06:37:02,583 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '']
+2026-07-29 06:37:02,583 - Waip AI DRN - INFO - 【调试】777777:['哦哦']
+2026-07-29 06:37:02,584 - Waip AI DRN - INFO - 【调试】41
+2026-07-29 06:37:02,584 - Waip AI DRN - INFO - 错误：'多巴胺dopamine'
+2026-07-29 06:37:02,584 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-29 06:37:02,588 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 614, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 592, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 771, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 77, in call
+    yield from Connection_layer(Text, data, associative_tree, reply)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 718, in Connection_layer
+    combined_weight_number = yield from Initial_weight_when_combined_memory_is_not_entered_into_cognitive_database(data, len(i))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 376, in Initial_weight_when_combined_memory_is_not_entered_into_cognitive_database
+    dopamine_processing = float((100000 - data["多巴胺dopamine"]) / 10)
+                                          ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: '多巴胺dopamine'
+
+2026-07-29 06:37:56,620 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-29 06:37:56,621 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-29 06:37:56,622 - Waip AI DRN - INFO - 
+Database 10.0 支持的 Waip AI DRN 版本：
+2026-07-29 06:37:56,622 - Waip AI DRN - INFO -   - 0.2.9
+2026-07-29 06:37:56,622 - Waip AI DRN - INFO -   - 0.3.0
+2026-07-29 06:38:03,269 - Waip AI DRN - INFO - 请选择版本：0.3.0
+2026-07-29 06:38:03,335 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.3.0
+2026-07-29 06:38:03,337 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-29 06:38:03,338 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-29 06:38:10,635 - Waip AI DRN - INFO - 请输入意识体名称：测试体8号
+2026-07-29 06:38:10,636 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-29 06:38:10,751 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-29 06:38:10,754 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-29 06:38:10,765 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-29 06:38:10,901 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-29 06:38:10,977 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-29 06:38:10,981 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-29 06:38:10,991 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-29 06:38:10,992 - Waip AI DRN - INFO - 运行正常
+2026-07-29 06:38:10,992 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-29 06:38:10,992 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-29 06:38:12,844 - Waip AI DRN - INFO - 你：哦哦
+2026-07-29 06:38:12,845 - Waip AI DRN - INFO - 
+
+2026-07-29 06:38:12,845 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:38:12,846 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:38:12,846 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:38:12,846 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦哦
+2026-07-29 06:38:12,847 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:38:12,847 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63']
+2026-07-29 06:38:12,848 - Waip AI DRN - INFO - 【调试】关联树分支数：59
+2026-07-29 06:38:12,849 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-29 06:38:12,864 - Waip AI DRN - INFO - 【调试】此临时循环已执行59次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:38:12,865 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '58']}, '8': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '59']}, '9': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '60']}, '10': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '61']}, '11': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '62']}, '12': {'IP': ['Confirmed unit', 'Root unit', 10], 'correspond to': ['activated memory', '63']}, '13': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-29 06:38:12,865 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:38:12,866 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:38:12,866 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:38:12,866 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:38:12,867 - Waip AI DRN - INFO - 【调试】哦 哦 你好 <speak> 你 p   A I 你 
+2026-07-29 06:38:12,868 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '21': 0, '22': 0, '23': 0, '24': 0, '25': 0, '26': 0, '27': 0, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 1, '59': 1, '60': 1, '61': 1, '62': 1, '63': 1, '64': 0, '65': 0, '66': 0, '67': 0, '68': 0, '69': 0}
+2026-07-29 06:38:12,868 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,868 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,869 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,870 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,870 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,870 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,871 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,871 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,871 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,872 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,872 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,872 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,872 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,872 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,872 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,873 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,873 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,873 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,873 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,873 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,873 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,874 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,874 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,874 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,874 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,874 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,874 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,875 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,875 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,875 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,875 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,875 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,875 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,877 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,877 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,877 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,878 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,878 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,879 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,880 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,880 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,880 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,881 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,881 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,881 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,882 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,882 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,882 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,882 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,883 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,883 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,883 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,884 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,884 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,884 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：405
+2026-07-29 06:38:12,886 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：720
+2026-07-29 06:38:12,887 - Waip AI DRN - INFO - 【调试】激活记忆21已擦除
+2026-07-29 06:38:12,887 - Waip AI DRN - INFO - 【调试】激活记忆22已擦除
+2026-07-29 06:38:12,888 - Waip AI DRN - INFO - 【调试】激活记忆64已擦除
+2026-07-29 06:38:12,888 - Waip AI DRN - INFO - 【调试】激活记忆65已擦除
+2026-07-29 06:38:12,888 - Waip AI DRN - INFO - 【调试】激活记忆66已擦除
+2026-07-29 06:38:12,889 - Waip AI DRN - INFO - 【调试】激活记忆67已擦除
+2026-07-29 06:38:12,889 - Waip AI DRN - INFO - 【调试】激活记忆68已擦除
+2026-07-29 06:38:12,889 - Waip AI DRN - INFO - 【调试】激活记忆69已擦除
+2026-07-29 06:38:12,892 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,893 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,894 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,894 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,895 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,895 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,897 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,897 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,898 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,898 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,898 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,899 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,899 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,899 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,900 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,900 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,900 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,900 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,900 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,900 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,900 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,901 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,901 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,901 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,902 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,902 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,902 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,902 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,902 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,903 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,903 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,903 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,903 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,903 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,904 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,904 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,904 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,904 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,904 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,904 - Waip AI DRN - INFO - 【调试】组合单元的减值：4569
+2026-07-29 06:38:12,905 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:38:12,905 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11848
+2026-07-29 06:38:12,905 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:38:12,905 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11884
+2026-07-29 06:38:12,906 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：['0']
+2026-07-29 06:38:12,906 - Waip AI DRN - INFO - 【调试】激活阀值：11524
+2026-07-29 06:38:12,906 - Waip AI DRN - INFO - 【调试】新知识计入激活记忆数据库时的初始权重：11987
+2026-07-29 06:38:12,906 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：['0']
+2026-07-29 06:38:12,907 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '']
+2026-07-29 06:38:12,908 - Waip AI DRN - INFO - 【调试】777777:['哦哦']
+2026-07-29 06:38:12,908 - Waip AI DRN - INFO - 【调试】41
+2026-07-29 06:38:12,908 - Waip AI DRN - INFO - 【调试】组合单元计入认知记忆数据库时的初始权重：8681
+2026-07-29 06:38:12,908 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：1043
+2026-07-29 06:38:12,909 - Waip AI DRN - INFO - 【调试】未录入的组合单元：['哦哦']
+2026-07-29 06:38:12,909 - Waip AI DRN - INFO - 【调试】电池电量：92
+2026-07-29 06:38:12,909 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-29 06:38:12,910 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 32200, '乙酰胆碱acetylcholine': 23000, '血清素serotonin': 54000, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-29 06:38:12,910 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-29 06:38:12,910 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-29 06:38:12,911 - Waip AI DRN - INFO - 【思考】哦 哦 你好 <speak> 你 p   A I 你 
+2026-07-29 06:38:12,911 - Waip AI DRN - INFO - 
+
+2026-07-29 06:38:12,911 - Waip AI DRN - INFO - 测试体8号回复：['哦 哦 你好 <speak> 你 p   A I 你 ']
+2026-07-29 06:38:12,945 - Waip AI DRN - INFO - 数据已更新
+2026-07-29 06:41:41,022 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-29 06:41:41,023 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-29 06:41:41,023 - Waip AI DRN - INFO - 
+Database 10.0 支持的 Waip AI DRN 版本：
+2026-07-29 06:41:41,023 - Waip AI DRN - INFO -   - 0.2.9
+2026-07-29 06:41:41,023 - Waip AI DRN - INFO -   - 0.3.0
+2026-07-29 06:41:44,010 - Waip AI DRN - INFO - 请选择版本：0.3.0
+2026-07-29 06:41:44,064 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.3.0
+2026-07-29 06:41:44,066 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-29 06:41:44,066 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-29 06:41:50,971 - Waip AI DRN - INFO - 请输入意识体名称：测试体8号
+2026-07-29 06:41:50,973 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-29 06:41:51,093 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-29 06:41:51,095 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-29 06:41:51,108 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-29 06:41:51,261 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-29 06:41:51,333 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-29 06:41:51,337 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-29 06:41:51,346 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-29 06:41:51,346 - Waip AI DRN - INFO - 运行正常
+2026-07-29 06:41:51,347 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-29 06:41:51,347 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-29 06:41:54,050 - Waip AI DRN - INFO - 你：哦哦
+2026-07-29 06:41:54,051 - Waip AI DRN - INFO - 
+
+2026-07-29 06:41:54,052 - Waip AI DRN - INFO - 【调试】激活阀值：11376
+2026-07-29 06:41:54,052 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63', '64', '65', '66']
+2026-07-29 06:41:54,053 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:41:54,053 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦哦
+2026-07-29 06:41:54,053 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:41:54,053 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63', '64', '65', '66']
+2026-07-29 06:41:54,054 - Waip AI DRN - INFO - 【调试】关联树分支数：60
+2026-07-29 06:41:54,055 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '5'], 'superior unit': ['12']}
+2026-07-29 06:41:54,079 - Waip AI DRN - INFO - 【调试】此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:41:54,079 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '64'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '65'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '66'], 'superior unit': 2}, '4': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '5': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '64'], 'superior unit': 4}, '6': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '65'], 'superior unit': 5}, '7': {'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '66'], 'superior unit': 6}, '8': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '9': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '10': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '11': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '12': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '13': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '58']}, '14': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '59']}, '15': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '60']}, '16': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '61']}, '17': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '62']}, '18': {'IP': ['Confirmed unit', 'Root unit', 10], 'correspond to': ['activated memory', '63']}, '19': {'IP': ['Confirmed unit', 'Root unit', 11], 'correspond to': ['activated memory', '64']}, '20': {'IP': ['Confirmed unit', 'Root unit', 12], 'correspond to': ['activated memory', '65']}, '21': {'IP': ['Confirmed unit', 'Root unit', 13], 'correspond to': ['activated memory', '66']}, '22': {'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '5'], 'superior unit': ['12']}}
+2026-07-29 06:41:54,080 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:41:54,080 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:41:54,080 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:41:54,080 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:41:54,081 - Waip AI DRN - INFO - 【调试】哦 哦 哦 哦 你好 <speak> 你 p   A I 哦 你 
+2026-07-29 06:41:54,081 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '23': 0, '24': 0, '25': 0, '26': 0, '27': 0, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 1, '59': 1, '60': 1, '61': 1, '62': 1, '63': 1, '64': 3, '65': 3, '66': 3, '67': 0}
+2026-07-29 06:41:54,081 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,081 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,081 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,082 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,082 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,082 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,082 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,082 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,082 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,089 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,090 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,090 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,091 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,091 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,091 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,092 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,092 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,093 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,093 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,094 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,094 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,094 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,095 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,095 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,096 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,096 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,096 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,097 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,099 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,099 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,100 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,100 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,101 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,101 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,101 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,102 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,102 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,102 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,103 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,103 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,103 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,103 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,104 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,104 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,104 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,104 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,105 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,105 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,105 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,105 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,105 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:41:54,106 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：711
+2026-07-29 06:41:54,106 - Waip AI DRN - INFO - 【调试】激活记忆23已擦除
+2026-07-29 06:41:54,106 - Waip AI DRN - INFO - 【调试】激活记忆24已擦除
+2026-07-29 06:41:54,107 - Waip AI DRN - INFO - 【调试】激活记忆67已擦除
+2026-07-29 06:41:54,108 - Waip AI DRN - INFO - 【调试】组合单元你好为减值对象
+2026-07-29 06:41:54,108 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,108 - Waip AI DRN - INFO - 【调试】组合单元是谁为减值对象
+2026-07-29 06:41:54,109 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,109 - Waip AI DRN - INFO - 【调试】组合单元你是为减值对象
+2026-07-29 06:41:54,109 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,109 - Waip AI DRN - INFO - 【调试】组合单元？？为减值对象
+2026-07-29 06:41:54,109 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,110 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:41:54,110 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,110 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:41:54,110 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,110 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:41:54,110 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,111 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:41:54,111 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,111 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:41:54,111 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,111 - Waip AI DRN - INFO - 【调试】组合单元噢噢为减值对象
+2026-07-29 06:41:54,111 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,112 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢为减值对象
+2026-07-29 06:41:54,112 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,112 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢噢为减值对象
+2026-07-29 06:41:54,112 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,112 - Waip AI DRN - INFO - 【调试】组合单元怕怕为减值对象
+2026-07-29 06:41:54,112 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,112 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕为减值对象
+2026-07-29 06:41:54,113 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,113 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕怕为减值对象
+2026-07-29 06:41:54,113 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,113 - Waip AI DRN - INFO - 【调试】组合单元uu为减值对象
+2026-07-29 06:41:54,114 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,114 - Waip AI DRN - INFO - 【调试】组合单元uuu为减值对象
+2026-07-29 06:41:54,115 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,115 - Waip AI DRN - INFO - 【调试】组合单元uuuu为减值对象
+2026-07-29 06:41:54,115 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,116 - Waip AI DRN - INFO - 【调试】组合单元有有为减值对象
+2026-07-29 06:41:54,116 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,117 - Waip AI DRN - INFO - 【调试】组合单元有有有为减值对象
+2026-07-29 06:41:54,117 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,117 - Waip AI DRN - INFO - 【调试】组合单元有有有由为减值对象
+2026-07-29 06:41:54,118 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,118 - Waip AI DRN - INFO - 【调试】组合单元有有由为减值对象
+2026-07-29 06:41:54,118 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,118 - Waip AI DRN - INFO - 【调试】组合单元有由为减值对象
+2026-07-29 06:41:54,119 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,119 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:41:54,119 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,120 - Waip AI DRN - INFO - 【调试】组合单元你你好，为减值对象
+2026-07-29 06:41:54,120 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,120 - Waip AI DRN - INFO - 【调试】组合单元好，为减值对象
+2026-07-29 06:41:54,121 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,121 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:41:54,121 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,121 - Waip AI DRN - INFO - 【调试】组合单元你，为减值对象
+2026-07-29 06:41:54,122 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,122 - Waip AI DRN - INFO - 【调试】组合单元是W为减值对象
+2026-07-29 06:41:54,122 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,123 - Waip AI DRN - INFO - 【调试】组合单元是Wa为减值对象
+2026-07-29 06:41:54,123 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,123 - Waip AI DRN - INFO - 【调试】组合单元是Wai为减值对象
+2026-07-29 06:41:54,123 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,123 - Waip AI DRN - INFO - 【调试】组合单元Wa为减值对象
+2026-07-29 06:41:54,124 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,124 - Waip AI DRN - INFO - 【调试】组合单元Wai为减值对象
+2026-07-29 06:41:54,124 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,124 - Waip AI DRN - INFO - 【调试】组合单元ai为减值对象
+2026-07-29 06:41:54,125 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,125 - Waip AI DRN - INFO - 【调试】组合单元p 为减值对象
+2026-07-29 06:41:54,125 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,125 - Waip AI DRN - INFO - 【调试】组合单元p A为减值对象
+2026-07-29 06:41:54,126 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,126 - Waip AI DRN - INFO - 【调试】组合单元p AI为减值对象
+2026-07-29 06:41:54,126 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,127 - Waip AI DRN - INFO - 【调试】组合单元 A为减值对象
+2026-07-29 06:41:54,127 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,127 - Waip AI DRN - INFO - 【调试】组合单元 AI为减值对象
+2026-07-29 06:41:54,127 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,128 - Waip AI DRN - INFO - 【调试】组合单元AI为减值对象
+2026-07-29 06:41:54,128 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:41:54,128 - Waip AI DRN - INFO - 错误：'多巴胺dopamine'
+2026-07-29 06:41:54,128 - Waip AI DRN - INFO - 错误类型：KeyError
+2026-07-29 06:41:54,132 - Waip AI DRN - INFO - 错误详情：
+Traceback (most recent call last):
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 614, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\data\Database 10.0\Waip AI DRN Receiver.p.py", line 592, in main
+    message = next(gen)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 772, in Waip_AI_DRN
+    this_reply = yield from call(Text, data, data_processed)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 77, in call
+    yield from Connection_layer(Text, data, associative_tree, reply)
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 473, in Connection_layer
+    weight_plus = yield from calculate_the_appreciation_of_the_combined_unit(data)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\HW\Desktop\文件\项目\未完项目\Warp\main\Waip AI\Waip AI main\Waip AGI\main\Waip AI AGI-Text\main\Waip AI DRN 0.3.0.py", line 393, in calculate_the_appreciation_of_the_combined_unit
+    dopamine_processing = float((100000 - data["多巴胺dopamine"]) / 10)
+                                          ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: '多巴胺dopamine'
+
+2026-07-29 06:43:02,038 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-29 06:43:02,038 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-29 06:43:02,039 - Waip AI DRN - INFO - 
+Database 10.0 支持的 Waip AI DRN 版本：
+2026-07-29 06:43:02,039 - Waip AI DRN - INFO -   - 0.2.9
+2026-07-29 06:43:02,039 - Waip AI DRN - INFO -   - 0.3.0
+2026-07-29 06:43:10,469 - Waip AI DRN - INFO - 请选择版本：0.3.0
+2026-07-29 06:43:10,526 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.3.0
+2026-07-29 06:43:10,528 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-29 06:43:10,528 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-29 06:43:15,258 - Waip AI DRN - INFO - 请输入意识体名称：测试体8号
+2026-07-29 06:43:15,259 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-29 06:43:15,370 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-29 06:43:15,373 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-29 06:43:15,386 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-29 06:43:15,525 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-29 06:43:15,595 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-29 06:43:15,597 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-29 06:43:15,606 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-29 06:43:15,606 - Waip AI DRN - INFO - 运行正常
+2026-07-29 06:43:15,606 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-29 06:43:15,607 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-29 06:43:17,915 - Waip AI DRN - INFO - 你：哦哦
+2026-07-29 06:43:17,915 - Waip AI DRN - INFO - 
+
+2026-07-29 06:43:17,916 - Waip AI DRN - INFO - 【调试】激活阀值：11376
+2026-07-29 06:43:17,916 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63', '64', '65', '66']
+2026-07-29 06:43:17,916 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:43:17,917 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦哦
+2026-07-29 06:43:17,917 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:43:17,917 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '58', '59', '60', '61', '62', '63', '64', '65', '66']
+2026-07-29 06:43:17,917 - Waip AI DRN - INFO - 【调试】关联树分支数：60
+2026-07-29 06:43:17,918 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '5'], 'superior unit': ['12']}
+2026-07-29 06:43:17,963 - Waip AI DRN - INFO - 【调试】此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:43:17,964 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '64'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '65'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '66'], 'superior unit': 2}, '4': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '5': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '64'], 'superior unit': 4}, '6': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '65'], 'superior unit': 5}, '7': {'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '66'], 'superior unit': 6}, '8': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '9': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '10': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '11': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '12': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '13': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '58']}, '14': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '59']}, '15': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '60']}, '16': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '61']}, '17': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '62']}, '18': {'IP': ['Confirmed unit', 'Root unit', 10], 'correspond to': ['activated memory', '63']}, '19': {'IP': ['Confirmed unit', 'Root unit', 11], 'correspond to': ['activated memory', '64']}, '20': {'IP': ['Confirmed unit', 'Root unit', 12], 'correspond to': ['activated memory', '65']}, '21': {'IP': ['Confirmed unit', 'Root unit', 13], 'correspond to': ['activated memory', '66']}, '22': {'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '5'], 'superior unit': ['12']}}
+2026-07-29 06:43:17,965 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:43:17,965 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:43:17,966 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:43:17,966 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:43:17,966 - Waip AI DRN - INFO - 【调试】哦 哦 哦 哦 你好 <speak> 你 p   A I 哦 你 
+2026-07-29 06:43:17,967 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '23': 0, '24': 0, '25': 0, '26': 0, '27': 0, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 1, '59': 1, '60': 1, '61': 1, '62': 1, '63': 1, '64': 3, '65': 3, '66': 3, '67': 0}
+2026-07-29 06:43:17,967 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,967 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,967 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,968 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,968 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,968 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,968 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,968 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,969 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,969 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,969 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,969 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,969 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,969 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,970 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,970 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,970 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,970 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,971 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,971 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,971 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,971 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,971 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,972 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,972 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,972 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,972 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,972 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,973 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,973 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,973 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,973 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,973 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,974 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,974 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,974 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,974 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,975 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,975 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,975 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,975 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,976 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,976 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,977 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,977 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,977 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,978 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,978 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,978 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,979 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,979 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:43:17,980 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：711
+2026-07-29 06:43:17,980 - Waip AI DRN - INFO - 【调试】激活记忆23已擦除
+2026-07-29 06:43:17,980 - Waip AI DRN - INFO - 【调试】激活记忆24已擦除
+2026-07-29 06:43:17,980 - Waip AI DRN - INFO - 【调试】激活记忆67已擦除
+2026-07-29 06:43:17,982 - Waip AI DRN - INFO - 【调试】组合单元你好为减值对象
+2026-07-29 06:43:17,982 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,983 - Waip AI DRN - INFO - 【调试】组合单元是谁为减值对象
+2026-07-29 06:43:17,983 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,983 - Waip AI DRN - INFO - 【调试】组合单元你是为减值对象
+2026-07-29 06:43:17,983 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,983 - Waip AI DRN - INFO - 【调试】组合单元？？为减值对象
+2026-07-29 06:43:17,984 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,984 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:43:17,984 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,985 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:43:17,985 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,985 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:43:17,985 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,985 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:43:17,985 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,985 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:43:17,986 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,986 - Waip AI DRN - INFO - 【调试】组合单元噢噢为减值对象
+2026-07-29 06:43:17,986 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,986 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢为减值对象
+2026-07-29 06:43:17,986 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,986 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢噢为减值对象
+2026-07-29 06:43:17,987 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,987 - Waip AI DRN - INFO - 【调试】组合单元怕怕为减值对象
+2026-07-29 06:43:17,987 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,987 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕为减值对象
+2026-07-29 06:43:17,987 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,988 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕怕为减值对象
+2026-07-29 06:43:17,988 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,988 - Waip AI DRN - INFO - 【调试】组合单元uu为减值对象
+2026-07-29 06:43:17,988 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,988 - Waip AI DRN - INFO - 【调试】组合单元uuu为减值对象
+2026-07-29 06:43:17,989 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,989 - Waip AI DRN - INFO - 【调试】组合单元uuuu为减值对象
+2026-07-29 06:43:17,989 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,990 - Waip AI DRN - INFO - 【调试】组合单元有有为减值对象
+2026-07-29 06:43:17,990 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,990 - Waip AI DRN - INFO - 【调试】组合单元有有有为减值对象
+2026-07-29 06:43:17,990 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,991 - Waip AI DRN - INFO - 【调试】组合单元有有有由为减值对象
+2026-07-29 06:43:17,991 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,991 - Waip AI DRN - INFO - 【调试】组合单元有有由为减值对象
+2026-07-29 06:43:17,992 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,992 - Waip AI DRN - INFO - 【调试】组合单元有由为减值对象
+2026-07-29 06:43:17,992 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,993 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:43:17,993 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,993 - Waip AI DRN - INFO - 【调试】组合单元你你好，为减值对象
+2026-07-29 06:43:17,993 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,994 - Waip AI DRN - INFO - 【调试】组合单元好，为减值对象
+2026-07-29 06:43:17,994 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,994 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:43:17,994 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,995 - Waip AI DRN - INFO - 【调试】组合单元你，为减值对象
+2026-07-29 06:43:17,995 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,995 - Waip AI DRN - INFO - 【调试】组合单元是W为减值对象
+2026-07-29 06:43:17,995 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,995 - Waip AI DRN - INFO - 【调试】组合单元是Wa为减值对象
+2026-07-29 06:43:17,996 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,996 - Waip AI DRN - INFO - 【调试】组合单元是Wai为减值对象
+2026-07-29 06:43:17,996 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,996 - Waip AI DRN - INFO - 【调试】组合单元Wa为减值对象
+2026-07-29 06:43:17,996 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,997 - Waip AI DRN - INFO - 【调试】组合单元Wai为减值对象
+2026-07-29 06:43:17,997 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,997 - Waip AI DRN - INFO - 【调试】组合单元ai为减值对象
+2026-07-29 06:43:17,997 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,997 - Waip AI DRN - INFO - 【调试】组合单元p 为减值对象
+2026-07-29 06:43:17,998 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,998 - Waip AI DRN - INFO - 【调试】组合单元p A为减值对象
+2026-07-29 06:43:17,998 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,998 - Waip AI DRN - INFO - 【调试】组合单元p AI为减值对象
+2026-07-29 06:43:17,998 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,998 - Waip AI DRN - INFO - 【调试】组合单元 A为减值对象
+2026-07-29 06:43:17,999 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,999 - Waip AI DRN - INFO - 【调试】组合单元 AI为减值对象
+2026-07-29 06:43:17,999 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:17,999 - Waip AI DRN - INFO - 【调试】组合单元AI为减值对象
+2026-07-29 06:43:17,999 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:43:18,000 - Waip AI DRN - INFO - 【调试】组合单元的增值：4076
+2026-07-29 06:43:18,000 - Waip AI DRN - INFO - 【调试】激活阀值：11376
+2026-07-29 06:43:18,000 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11707
+2026-07-29 06:43:18,000 - Waip AI DRN - INFO - 【调试】激活阀值：11376
+2026-07-29 06:43:18,001 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11744
+2026-07-29 06:43:18,001 - Waip AI DRN - INFO - 【调试】0
+2026-07-29 06:43:18,001 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-29 06:43:18,003 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '', '哦哦']
+2026-07-29 06:43:18,004 - Waip AI DRN - INFO - 【调试】777777:['哦哦']
+2026-07-29 06:43:18,004 - Waip AI DRN - INFO - 【调试】888888:哦哦
+2026-07-29 06:43:18,004 - Waip AI DRN - INFO - 【调试】未录入的组合单元：[]
+2026-07-29 06:43:18,005 - Waip AI DRN - INFO - 【调试】电池电量：90
+2026-07-29 06:43:18,005 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-29 06:43:18,005 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 31500, '乙酰胆碱acetylcholine': 22500, '血清素serotonin': 55000, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-29 06:43:18,006 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-29 06:43:18,006 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-29 06:43:18,006 - Waip AI DRN - INFO - 【思考】哦 哦 哦 哦 你好 <speak> 你 p   A I 哦 你 
+2026-07-29 06:43:18,006 - Waip AI DRN - INFO - 
+
+2026-07-29 06:43:18,007 - Waip AI DRN - INFO - 测试体8号回复：['哦 哦 哦 哦 你好 <speak> 你 p   A I 哦 你 ']
+2026-07-29 06:43:18,035 - Waip AI DRN - INFO - 数据已更新
+2026-07-29 06:44:10,532 - Waip AI DRN - INFO - 程序运行正常
+2026-07-29 06:45:10,533 - Waip AI DRN - INFO - 程序运行正常
+2026-07-29 06:46:01,973 - Waip AI DRN - INFO - 意识体已启动，以下为输出内容：
+2026-07-29 06:46:01,973 - Waip AI DRN - INFO - (c)2026 Waip AI DRN 科文通保留所有权利
+2026-07-29 06:46:01,974 - Waip AI DRN - INFO - 
+Database 10.0 支持的 Waip AI DRN 版本：
+2026-07-29 06:46:01,974 - Waip AI DRN - INFO -   - 0.2.9
+2026-07-29 06:46:01,975 - Waip AI DRN - INFO -   - 0.3.0
+2026-07-29 06:46:07,480 - Waip AI DRN - INFO - 请选择版本：0.3.0
+2026-07-29 06:46:07,548 - Waip AI DRN - INFO - 已加载 Waip AI DRN 0.3.0
+2026-07-29 06:46:07,550 - Waip AI DRN - INFO - 后台状态监控线程已启动
+2026-07-29 06:46:07,550 - Waip AI DRN - INFO - Waip AI终端已启动，如需帮助，请在"你："中输入&& help
+2026-07-29 06:46:13,025 - Waip AI DRN - INFO - 请输入意识体名称：测试体8号
+2026-07-29 06:46:13,026 - Waip AI DRN - INFO - 数据结构已初始化
+2026-07-29 06:46:13,177 - Waip AI DRN - INFO - 短期记忆已加载
+2026-07-29 06:46:13,181 - Waip AI DRN - INFO - 长期记忆已加载
+2026-07-29 06:46:13,192 - Waip AI DRN - INFO - 联想知识网络已加载
+2026-07-29 06:46:13,358 - Waip AI DRN - INFO - 认知数据库已加载
+2026-07-29 06:46:13,439 - Waip AI DRN - INFO - 已激活记忆数据库已加载
+2026-07-29 06:46:13,443 - Waip AI DRN - INFO - 状态数据库已加载
+2026-07-29 06:46:13,456 - Waip AI DRN - INFO - 其他数据库已加载
+2026-07-29 06:46:13,457 - Waip AI DRN - INFO - 运行正常
+2026-07-29 06:46:13,457 - Waip AI DRN - INFO - 
+提示：输入 && train 进入DeepSeek自动训练模式
+2026-07-29 06:46:13,457 - Waip AI DRN - INFO - 提示：输入 && models 查看可用模型
+2026-07-29 06:46:34,875 - Waip AI DRN - INFO - 你：哦
+2026-07-29 06:46:34,876 - Waip AI DRN - INFO - 
+
+2026-07-29 06:46:34,876 - Waip AI DRN - INFO - 【调试】激活阀值：11380
+2026-07-29 06:46:34,876 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '64', '65', '66', '67', '68']
+2026-07-29 06:46:34,877 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:46:34,877 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦
+2026-07-29 06:46:34,877 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:46:34,877 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '64', '65', '66', '67', '68']
+2026-07-29 06:46:34,877 - Waip AI DRN - INFO - 【调试】关联树分支数：60
+2026-07-29 06:46:34,878 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '5'], 'superior unit': ['10']}
+2026-07-29 06:46:34,897 - Waip AI DRN - INFO - 【调试】此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:46:34,897 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '64'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '65'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '66'], 'superior unit': 2}, '4': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '67'], 'superior unit': 3}, '5': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '68'], 'superior unit': 4}, '6': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '7': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '8': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '9': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '10': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '11': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '64']}, '12': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '65']}, '13': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '66']}, '14': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '67']}, '15': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '68']}, '16': {'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '5'], 'superior unit': ['10']}}
+2026-07-29 06:46:34,898 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:46:34,899 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:46:34,899 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:46:34,899 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:46:34,900 - Waip AI DRN - INFO - 【调试】哦 哦 你好 <speak> 你 哦 你 
+2026-07-29 06:46:34,900 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '25': 0, '26': 0, '27': 0, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 0, '59': 0, '60': 0, '61': 0, '62': 0, '63': 0, '64': 2, '65': 2, '66': 2, '67': 2, '68': 2}
+2026-07-29 06:46:34,901 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,901 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,901 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,902 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,902 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,902 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,903 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,903 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,903 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,915 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,915 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,916 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,916 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,917 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,917 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,917 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,917 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,917 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,918 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,918 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,918 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,918 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,919 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,919 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,919 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,920 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,920 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,921 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,921 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,921 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,922 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,922 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,922 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,923 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,923 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,924 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,932 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,932 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,933 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:46:34,933 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：711
+2026-07-29 06:46:34,934 - Waip AI DRN - INFO - 【调试】激活记忆25已擦除
+2026-07-29 06:46:34,934 - Waip AI DRN - INFO - 【调试】激活记忆26已擦除
+2026-07-29 06:46:34,934 - Waip AI DRN - INFO - 【调试】激活记忆27已擦除
+2026-07-29 06:46:34,936 - Waip AI DRN - INFO - 【调试】组合单元你好为减值对象
+2026-07-29 06:46:34,937 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,937 - Waip AI DRN - INFO - 【调试】组合单元是谁为减值对象
+2026-07-29 06:46:34,937 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,937 - Waip AI DRN - INFO - 【调试】组合单元你是为减值对象
+2026-07-29 06:46:34,938 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,938 - Waip AI DRN - INFO - 【调试】组合单元？？为减值对象
+2026-07-29 06:46:34,938 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,938 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:46:34,939 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,939 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:46:34,939 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,939 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:46:34,940 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,940 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:46:34,940 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,940 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:46:34,941 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,941 - Waip AI DRN - INFO - 【调试】组合单元噢噢为减值对象
+2026-07-29 06:46:34,942 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,942 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢为减值对象
+2026-07-29 06:46:34,942 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,943 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢噢为减值对象
+2026-07-29 06:46:34,943 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,944 - Waip AI DRN - INFO - 【调试】组合单元怕怕为减值对象
+2026-07-29 06:46:34,944 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,944 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕为减值对象
+2026-07-29 06:46:34,944 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,945 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕怕为减值对象
+2026-07-29 06:46:34,945 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,945 - Waip AI DRN - INFO - 【调试】组合单元uu为减值对象
+2026-07-29 06:46:34,945 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,945 - Waip AI DRN - INFO - 【调试】组合单元uuu为减值对象
+2026-07-29 06:46:34,946 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,946 - Waip AI DRN - INFO - 【调试】组合单元uuuu为减值对象
+2026-07-29 06:46:34,946 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,946 - Waip AI DRN - INFO - 【调试】组合单元有有为减值对象
+2026-07-29 06:46:34,947 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,947 - Waip AI DRN - INFO - 【调试】组合单元有有有为减值对象
+2026-07-29 06:46:34,947 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,948 - Waip AI DRN - INFO - 【调试】组合单元有有有由为减值对象
+2026-07-29 06:46:34,948 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,948 - Waip AI DRN - INFO - 【调试】组合单元有有由为减值对象
+2026-07-29 06:46:34,949 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,949 - Waip AI DRN - INFO - 【调试】组合单元有由为减值对象
+2026-07-29 06:46:34,949 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,949 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:46:34,949 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,950 - Waip AI DRN - INFO - 【调试】组合单元你你好，为减值对象
+2026-07-29 06:46:34,950 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,950 - Waip AI DRN - INFO - 【调试】组合单元好，为减值对象
+2026-07-29 06:46:34,950 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,951 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:46:34,951 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,951 - Waip AI DRN - INFO - 【调试】组合单元你，为减值对象
+2026-07-29 06:46:34,952 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,952 - Waip AI DRN - INFO - 【调试】组合单元是W为减值对象
+2026-07-29 06:46:34,952 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,952 - Waip AI DRN - INFO - 【调试】组合单元是Wa为减值对象
+2026-07-29 06:46:34,953 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,953 - Waip AI DRN - INFO - 【调试】组合单元是Wai为减值对象
+2026-07-29 06:46:34,953 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,953 - Waip AI DRN - INFO - 【调试】组合单元Wa为减值对象
+2026-07-29 06:46:34,954 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,954 - Waip AI DRN - INFO - 【调试】组合单元Wai为减值对象
+2026-07-29 06:46:34,954 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,954 - Waip AI DRN - INFO - 【调试】组合单元ai为减值对象
+2026-07-29 06:46:34,955 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,955 - Waip AI DRN - INFO - 【调试】组合单元p 为减值对象
+2026-07-29 06:46:34,955 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,955 - Waip AI DRN - INFO - 【调试】组合单元p A为减值对象
+2026-07-29 06:46:34,956 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,956 - Waip AI DRN - INFO - 【调试】组合单元p AI为减值对象
+2026-07-29 06:46:34,957 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,957 - Waip AI DRN - INFO - 【调试】组合单元 A为减值对象
+2026-07-29 06:46:34,957 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,958 - Waip AI DRN - INFO - 【调试】组合单元 AI为减值对象
+2026-07-29 06:46:34,958 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,958 - Waip AI DRN - INFO - 【调试】组合单元AI为减值对象
+2026-07-29 06:46:34,959 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:46:34,959 - Waip AI DRN - INFO - 【调试】组合单元哦哦为减值对象
+2026-07-29 06:46:34,959 - Waip AI DRN - INFO - 【调试】组合单元的减值：4089
+2026-07-29 06:46:34,960 - Waip AI DRN - INFO - 【调试】激活阀值：11380
+2026-07-29 06:46:34,960 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11711
+2026-07-29 06:46:34,960 - Waip AI DRN - INFO - 【调试】激活阀值：11380
+2026-07-29 06:46:34,960 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11748
+2026-07-29 06:46:34,961 - Waip AI DRN - INFO - 【调试】0
+2026-07-29 06:46:34,961 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-29 06:46:34,963 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '', '哦哦']
+2026-07-29 06:46:34,963 - Waip AI DRN - INFO - 【调试】777777:[]
+2026-07-29 06:46:34,963 - Waip AI DRN - INFO - 【调试】未录入的组合单元：[]
+2026-07-29 06:46:34,964 - Waip AI DRN - INFO - 【调试】电池电量：89
+2026-07-29 06:46:34,964 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-29 06:46:34,964 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 31150, '乙酰胆碱acetylcholine': 22250, '血清素serotonin': 55500, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-29 06:46:34,964 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-29 06:46:34,965 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-29 06:46:34,965 - Waip AI DRN - INFO - 【思考】哦 哦 你好 <speak> 你 哦 你 
+2026-07-29 06:46:34,965 - Waip AI DRN - INFO - 
+
+2026-07-29 06:46:34,966 - Waip AI DRN - INFO - 测试体8号回复：['哦 哦 你好 <speak> 你 哦 你 ']
+2026-07-29 06:46:34,994 - Waip AI DRN - INFO - 数据已更新
+2026-07-29 06:47:06,326 - Waip AI DRN - INFO - 你：哦哦哦
+2026-07-29 06:47:06,327 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:06,327 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:06,328 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '67', '68', '69', '70']
+2026-07-29 06:47:06,328 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:47:06,328 - Waip AI DRN - INFO - 【调试】文字注意力内容：哦哦哦
+2026-07-29 06:47:06,329 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:47:06,329 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '67', '68', '69', '70']
+2026-07-29 06:47:06,329 - Waip AI DRN - INFO - 【调试】关联树分支数：60
+2026-07-29 06:47:06,331 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 12], 'correspond to': ['activated memory', '5'], 'superior unit': ['19']}
+2026-07-29 06:47:06,380 - Waip AI DRN - INFO - 【调试】此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:47:06,381 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '哦'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '67'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '68'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '69'], 'superior unit': 2}, '4': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '70'], 'superior unit': 3}, '5': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '哦'}, '6': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '67'], 'superior unit': 5}, '7': {'IP': ['Confirmed unit', 'Subunit', 5], 'correspond to': ['activated memory', '68'], 'superior unit': 6}, '8': {'IP': ['Confirmed unit', 'Subunit', 6], 'correspond to': ['activated memory', '69'], 'superior unit': 7}, '9': {'IP': ['Confirmed unit', 'Subunit', 7], 'correspond to': ['activated memory', '70'], 'superior unit': 8}, '10': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '哦'}, '11': {'IP': ['Confirmed unit', 'Subunit', 8], 'correspond to': ['activated memory', '67'], 'superior unit': 10}, '12': {'IP': ['Confirmed unit', 'Subunit', 9], 'correspond to': ['activated memory', '68'], 'superior unit': 11}, '13': {'IP': ['Confirmed unit', 'Subunit', 10], 'correspond to': ['activated memory', '69'], 'superior unit': 12}, '14': {'IP': ['Confirmed unit', 'Subunit', 11], 'correspond to': ['activated memory', '70'], 'superior unit': 13}, '15': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '16': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '17': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '18': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '19': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '20': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '67']}, '21': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '68']}, '22': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '69']}, '23': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '70']}, '24': {'IP': ['Confirmed unit', 'Subunit', 12], 'correspond to': ['activated memory', '5'], 'superior unit': ['19']}}
+2026-07-29 06:47:06,382 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:06,382 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:06,382 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:06,383 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:06,384 - Waip AI DRN - INFO - 【调试】哦 哦 哦 你好 <speak> 你 你 
+2026-07-29 06:47:06,384 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '28': 0, '29': 0, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 0, '59': 0, '60': 0, '61': 0, '62': 0, '63': 0, '64': 0, '65': 0, '66': 0, '67': 4, '68': 4, '69': 4, '70': 4}
+2026-07-29 06:47:06,384 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,385 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,385 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,385 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,386 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,386 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,386 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,387 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,387 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,387 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,387 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,388 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,388 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,388 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,388 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,389 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,390 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,391 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,391 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,391 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,392 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,392 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,392 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,392 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,393 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,394 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,394 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,395 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,395 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,396 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,396 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,397 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,397 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,397 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,397 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,398 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,398 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:06,399 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：711
+2026-07-29 06:47:06,399 - Waip AI DRN - INFO - 【调试】激活记忆28已擦除
+2026-07-29 06:47:06,399 - Waip AI DRN - INFO - 【调试】激活记忆29已擦除
+2026-07-29 06:47:06,401 - Waip AI DRN - INFO - 【调试】组合单元你好为减值对象
+2026-07-29 06:47:06,401 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,402 - Waip AI DRN - INFO - 【调试】组合单元是谁为减值对象
+2026-07-29 06:47:06,402 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,402 - Waip AI DRN - INFO - 【调试】组合单元你是为减值对象
+2026-07-29 06:47:06,402 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,403 - Waip AI DRN - INFO - 【调试】组合单元？？为减值对象
+2026-07-29 06:47:06,403 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,403 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:06,403 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,404 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:06,404 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,404 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:06,404 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,404 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:06,405 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,405 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:06,405 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,405 - Waip AI DRN - INFO - 【调试】组合单元噢噢为减值对象
+2026-07-29 06:47:06,406 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,406 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢为减值对象
+2026-07-29 06:47:06,406 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,407 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢噢为减值对象
+2026-07-29 06:47:06,407 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,407 - Waip AI DRN - INFO - 【调试】组合单元怕怕为减值对象
+2026-07-29 06:47:06,408 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,408 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕为减值对象
+2026-07-29 06:47:06,408 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,408 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕怕为减值对象
+2026-07-29 06:47:06,409 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,409 - Waip AI DRN - INFO - 【调试】组合单元uu为减值对象
+2026-07-29 06:47:06,409 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,409 - Waip AI DRN - INFO - 【调试】组合单元uuu为减值对象
+2026-07-29 06:47:06,409 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,410 - Waip AI DRN - INFO - 【调试】组合单元uuuu为减值对象
+2026-07-29 06:47:06,410 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,410 - Waip AI DRN - INFO - 【调试】组合单元有有为减值对象
+2026-07-29 06:47:06,410 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,411 - Waip AI DRN - INFO - 【调试】组合单元有有有为减值对象
+2026-07-29 06:47:06,411 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,411 - Waip AI DRN - INFO - 【调试】组合单元有有有由为减值对象
+2026-07-29 06:47:06,411 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,411 - Waip AI DRN - INFO - 【调试】组合单元有有由为减值对象
+2026-07-29 06:47:06,411 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,412 - Waip AI DRN - INFO - 【调试】组合单元有由为减值对象
+2026-07-29 06:47:06,412 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,412 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:06,413 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,413 - Waip AI DRN - INFO - 【调试】组合单元你你好，为减值对象
+2026-07-29 06:47:06,413 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,413 - Waip AI DRN - INFO - 【调试】组合单元好，为减值对象
+2026-07-29 06:47:06,413 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,414 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:06,414 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,414 - Waip AI DRN - INFO - 【调试】组合单元你，为减值对象
+2026-07-29 06:47:06,414 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,414 - Waip AI DRN - INFO - 【调试】组合单元是W为减值对象
+2026-07-29 06:47:06,414 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,415 - Waip AI DRN - INFO - 【调试】组合单元是Wa为减值对象
+2026-07-29 06:47:06,415 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,415 - Waip AI DRN - INFO - 【调试】组合单元是Wai为减值对象
+2026-07-29 06:47:06,415 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,415 - Waip AI DRN - INFO - 【调试】组合单元Wa为减值对象
+2026-07-29 06:47:06,415 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,416 - Waip AI DRN - INFO - 【调试】组合单元Wai为减值对象
+2026-07-29 06:47:06,416 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,416 - Waip AI DRN - INFO - 【调试】组合单元ai为减值对象
+2026-07-29 06:47:06,416 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,417 - Waip AI DRN - INFO - 【调试】组合单元p 为减值对象
+2026-07-29 06:47:06,417 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,417 - Waip AI DRN - INFO - 【调试】组合单元p A为减值对象
+2026-07-29 06:47:06,417 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,418 - Waip AI DRN - INFO - 【调试】组合单元p AI为减值对象
+2026-07-29 06:47:06,418 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,418 - Waip AI DRN - INFO - 【调试】组合单元 A为减值对象
+2026-07-29 06:47:06,418 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,418 - Waip AI DRN - INFO - 【调试】组合单元 AI为减值对象
+2026-07-29 06:47:06,419 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,419 - Waip AI DRN - INFO - 【调试】组合单元AI为减值对象
+2026-07-29 06:47:06,419 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:06,419 - Waip AI DRN - INFO - 【调试】组合单元哦哦为增值对象
+2026-07-29 06:47:06,419 - Waip AI DRN - INFO - 【调试】组合单元的增值：4096
+2026-07-29 06:47:06,420 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:06,420 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11713
+2026-07-29 06:47:06,420 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:06,421 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11750
+2026-07-29 06:47:06,421 - Waip AI DRN - INFO - 【调试】0
+2026-07-29 06:47:06,421 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-29 06:47:06,423 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '', '哦哦']
+2026-07-29 06:47:06,424 - Waip AI DRN - INFO - 【调试】777777:['哦哦', '哦哦哦']
+2026-07-29 06:47:06,424 - Waip AI DRN - INFO - 【调试】888888:哦哦
+2026-07-29 06:47:06,424 - Waip AI DRN - INFO - 【调试】42
+2026-07-29 06:47:06,425 - Waip AI DRN - INFO - 【调试】组合单元计入认知记忆数据库时的初始权重：7372
+2026-07-29 06:47:06,425 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：1029
+2026-07-29 06:47:06,425 - Waip AI DRN - INFO - 【调试】未录入的组合单元：['哦哦哦']
+2026-07-29 06:47:06,425 - Waip AI DRN - INFO - 【调试】电池电量：89
+2026-07-29 06:47:06,425 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-29 06:47:06,426 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 31150, '乙酰胆碱acetylcholine': 22250, '血清素serotonin': 55500, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-29 06:47:06,426 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-29 06:47:06,426 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-29 06:47:06,427 - Waip AI DRN - INFO - 【思考】哦 哦 哦 你好 <speak> 你 你 
+2026-07-29 06:47:06,427 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:06,427 - Waip AI DRN - INFO - 测试体8号回复：['哦 哦 哦 你好 <speak> 你 你 ']
+2026-07-29 06:47:06,462 - Waip AI DRN - INFO - 数据已更新
+2026-07-29 06:47:07,550 - Waip AI DRN - INFO - 程序运行正常
+2026-07-29 06:47:15,977 - Waip AI DRN - INFO - 你：苹果
+2026-07-29 06:47:15,977 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:15,978 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:15,978 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '67', '68', '69', '70', '71', '72']
+2026-07-29 06:47:15,978 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:47:15,979 - Waip AI DRN - INFO - 【调试】文字注意力内容：苹果
+2026-07-29 06:47:15,979 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:47:15,979 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '67', '68', '69', '70', '71', '72']
+2026-07-29 06:47:15,979 - Waip AI DRN - INFO - 【调试】关联树分支数：60
+2026-07-29 06:47:15,981 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-29 06:47:15,994 - Waip AI DRN - INFO - 【调试】此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:47:15,995 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '苹'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '果'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '67']}, '8': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '68']}, '9': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '69']}, '10': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '70']}, '11': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '71']}, '12': {'IP': ['Confirmed unit', 'Root unit', 10], 'correspond to': ['activated memory', '72']}, '13': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-29 06:47:15,995 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:15,995 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:15,996 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:15,996 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:15,996 - Waip AI DRN - INFO - 【调试】苹 果 你好 <speak> 你 你 
+2026-07-29 06:47:15,997 - Waip AI DRN - INFO - 【调试】{'0': 1, '1': 0, '2': 1, '3': 1, '4': 1, '5': 2, '30': 0, '31': 0, '32': 0, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 0, '59': 0, '60': 0, '61': 0, '62': 0, '63': 0, '64': 0, '65': 0, '66': 0, '67': 1, '68': 1, '69': 1, '70': 1, '71': 1, '72': 1, '73': 0}
+2026-07-29 06:47:15,997 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:15,998 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:15,998 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:15,998 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:15,999 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:15,999 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:15,999 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:15,999 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,000 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,000 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,000 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,000 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,000 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,000 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,001 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,001 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,001 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,001 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,001 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,002 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,002 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,002 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,002 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,003 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,003 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,003 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,003 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,003 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,003 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,004 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,004 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,004 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,004 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,005 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,005 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,005 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,005 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,006 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,006 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,007 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,007 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,007 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,007 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,008 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,008 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,008 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,009 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,009 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,010 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,010 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:16,012 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：711
+2026-07-29 06:47:16,012 - Waip AI DRN - INFO - 【调试】激活记忆1已擦除
+2026-07-29 06:47:16,012 - Waip AI DRN - INFO - 【调试】激活记忆30已擦除
+2026-07-29 06:47:16,013 - Waip AI DRN - INFO - 【调试】激活记忆31已擦除
+2026-07-29 06:47:16,013 - Waip AI DRN - INFO - 【调试】激活记忆32已擦除
+2026-07-29 06:47:16,013 - Waip AI DRN - INFO - 【调试】激活记忆73已擦除
+2026-07-29 06:47:16,014 - Waip AI DRN - INFO - 【调试】组合单元你好为减值对象
+2026-07-29 06:47:16,014 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,014 - Waip AI DRN - INFO - 【调试】组合单元是谁为减值对象
+2026-07-29 06:47:16,014 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元你是为减值对象
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元？？为减值对象
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,015 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元噢噢为减值对象
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢为减值对象
+2026-07-29 06:47:16,016 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,017 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢噢为减值对象
+2026-07-29 06:47:16,017 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,017 - Waip AI DRN - INFO - 【调试】组合单元怕怕为减值对象
+2026-07-29 06:47:16,017 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,017 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕为减值对象
+2026-07-29 06:47:16,017 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,018 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕怕为减值对象
+2026-07-29 06:47:16,018 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,018 - Waip AI DRN - INFO - 【调试】组合单元uu为减值对象
+2026-07-29 06:47:16,018 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,018 - Waip AI DRN - INFO - 【调试】组合单元uuu为减值对象
+2026-07-29 06:47:16,019 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,019 - Waip AI DRN - INFO - 【调试】组合单元uuuu为减值对象
+2026-07-29 06:47:16,019 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,020 - Waip AI DRN - INFO - 【调试】组合单元有有为减值对象
+2026-07-29 06:47:16,020 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,020 - Waip AI DRN - INFO - 【调试】组合单元有有有为减值对象
+2026-07-29 06:47:16,020 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,021 - Waip AI DRN - INFO - 【调试】组合单元有有有由为减值对象
+2026-07-29 06:47:16,021 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,021 - Waip AI DRN - INFO - 【调试】组合单元有有由为减值对象
+2026-07-29 06:47:16,021 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,021 - Waip AI DRN - INFO - 【调试】组合单元有由为减值对象
+2026-07-29 06:47:16,022 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,022 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:16,023 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,023 - Waip AI DRN - INFO - 【调试】组合单元你你好，为减值对象
+2026-07-29 06:47:16,024 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,024 - Waip AI DRN - INFO - 【调试】组合单元好，为减值对象
+2026-07-29 06:47:16,024 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,025 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:16,026 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,026 - Waip AI DRN - INFO - 【调试】组合单元你，为减值对象
+2026-07-29 06:47:16,026 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,027 - Waip AI DRN - INFO - 【调试】组合单元是W为减值对象
+2026-07-29 06:47:16,027 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,027 - Waip AI DRN - INFO - 【调试】组合单元是Wa为减值对象
+2026-07-29 06:47:16,027 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,028 - Waip AI DRN - INFO - 【调试】组合单元是Wai为减值对象
+2026-07-29 06:47:16,028 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,028 - Waip AI DRN - INFO - 【调试】组合单元Wa为减值对象
+2026-07-29 06:47:16,028 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,029 - Waip AI DRN - INFO - 【调试】组合单元Wai为减值对象
+2026-07-29 06:47:16,029 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,029 - Waip AI DRN - INFO - 【调试】组合单元ai为减值对象
+2026-07-29 06:47:16,029 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,030 - Waip AI DRN - INFO - 【调试】组合单元p 为减值对象
+2026-07-29 06:47:16,030 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,030 - Waip AI DRN - INFO - 【调试】组合单元p A为减值对象
+2026-07-29 06:47:16,031 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,031 - Waip AI DRN - INFO - 【调试】组合单元p AI为减值对象
+2026-07-29 06:47:16,031 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,031 - Waip AI DRN - INFO - 【调试】组合单元 A为减值对象
+2026-07-29 06:47:16,031 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,031 - Waip AI DRN - INFO - 【调试】组合单元 AI为减值对象
+2026-07-29 06:47:16,032 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,032 - Waip AI DRN - INFO - 【调试】组合单元AI为减值对象
+2026-07-29 06:47:16,032 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,032 - Waip AI DRN - INFO - 【调试】组合单元哦哦为减值对象
+2026-07-29 06:47:16,032 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,033 - Waip AI DRN - INFO - 【调试】组合单元哦哦哦为减值对象
+2026-07-29 06:47:16,033 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:16,033 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:16,034 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11713
+2026-07-29 06:47:16,034 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:16,034 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11750
+2026-07-29 06:47:16,034 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：['0', '1']
+2026-07-29 06:47:16,035 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:16,035 - Waip AI DRN - INFO - 【调试】新知识计入激活记忆数据库时的初始权重：11855
+2026-07-29 06:47:16,035 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：['0', '1']
+2026-07-29 06:47:16,035 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:16,035 - Waip AI DRN - INFO - 【调试】新知识计入激活记忆数据库时的初始权重：11855
+2026-07-29 06:47:16,036 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：['0', '1']
+2026-07-29 06:47:16,040 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '', '哦哦', '哦哦哦', '', '']
+2026-07-29 06:47:16,041 - Waip AI DRN - INFO - 【调试】777777:['苹果']
+2026-07-29 06:47:16,041 - Waip AI DRN - INFO - 【调试】43
+2026-07-29 06:47:16,043 - Waip AI DRN - INFO - 【调试】组合单元计入认知记忆数据库时的初始权重：7782
+2026-07-29 06:47:16,043 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：1066
+2026-07-29 06:47:16,044 - Waip AI DRN - INFO - 【调试】未录入的组合单元：['苹果']
+2026-07-29 06:47:16,044 - Waip AI DRN - INFO - 【调试】电池电量：89
+2026-07-29 06:47:16,044 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-29 06:47:16,045 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 31150, '乙酰胆碱acetylcholine': 22250, '血清素serotonin': 55500, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-29 06:47:16,045 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-29 06:47:16,046 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-29 06:47:16,046 - Waip AI DRN - INFO - 【思考】苹 果 你好 <speak> 你 你 
+2026-07-29 06:47:16,046 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:16,046 - Waip AI DRN - INFO - 测试体8号回复：['苹 果 你好 <speak> 你 你 ']
+2026-07-29 06:47:16,069 - Waip AI DRN - INFO - 数据已更新
+2026-07-29 06:47:25,526 - Waip AI DRN - INFO - 你：你是谁
+2026-07-29 06:47:25,527 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:25,527 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:25,528 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '73', '74', '75', '76']
+2026-07-29 06:47:25,528 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:47:25,528 - Waip AI DRN - INFO - 【调试】文字注意力内容：你是谁
+2026-07-29 06:47:25,528 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:47:25,529 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '73', '74', '75', '76']
+2026-07-29 06:47:25,529 - Waip AI DRN - INFO - 【调试】关联树分支数：60
+2026-07-29 06:47:25,530 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '5'], 'superior unit': ['3']}
+2026-07-29 06:47:25,547 - Waip AI DRN - INFO - 【调试】此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:47:25,548 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': '你'}, '1': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '2'], 'superior unit': 0}, '2': {'IP': ['Confirmed unit', 'Subunit', 1], 'correspond to': ['activated memory', '3'], 'superior unit': 1}, '3': {'IP': ['Confirmed unit', 'Subunit', 2], 'correspond to': ['activated memory', '5'], 'superior unit': 2}, '4': {'IP': ['Confirmed unit', 'Subunit', 3], 'correspond to': ['activated memory', '74'], 'superior unit': 3}, '5': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': '是'}, '6': {'IP': ['Undetermined unit', 'Root unit', 2], 'content': '谁'}, '7': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '8': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '9': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '10': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '11': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '12': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '73']}, '13': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '74']}, '14': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '75']}, '15': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '76']}, '16': {'IP': ['Confirmed unit', 'Subunit', 4], 'correspond to': ['activated memory', '5'], 'superior unit': ['3']}}
+2026-07-29 06:47:25,549 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:25,549 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:25,549 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:25,550 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:25,550 - Waip AI DRN - INFO - 【调试】你 你 是 谁 你好 <speak> 你 苹 果 你 
+2026-07-29 06:47:25,551 - Waip AI DRN - INFO - 【调试】{'0': 1, '2': 2, '3': 2, '4': 1, '5': 3, '33': 0, '34': 0, '35': 0, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 0, '59': 0, '60': 0, '61': 0, '62': 0, '63': 0, '64': 0, '65': 0, '66': 0, '67': 0, '68': 0, '69': 0, '70': 0, '71': 0, '72': 0, '73': 1, '74': 2, '75': 1, '76': 1, '77': 0}
+2026-07-29 06:47:25,551 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,551 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,552 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,552 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,552 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,553 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,554 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,555 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,556 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,557 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,557 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,559 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,560 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,561 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,562 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,562 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,562 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,562 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,563 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,563 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:25,564 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：711
+2026-07-29 06:47:25,564 - Waip AI DRN - INFO - 【调试】激活记忆33已擦除
+2026-07-29 06:47:25,564 - Waip AI DRN - INFO - 【调试】激活记忆34已擦除
+2026-07-29 06:47:25,564 - Waip AI DRN - INFO - 【调试】激活记忆35已擦除
+2026-07-29 06:47:25,565 - Waip AI DRN - INFO - 【调试】激活记忆77已擦除
+2026-07-29 06:47:25,566 - Waip AI DRN - INFO - 【调试】组合单元你好为减值对象
+2026-07-29 06:47:25,567 - Waip AI DRN - INFO - 【调试】组合单元的减值：2048
+2026-07-29 06:47:25,567 - Waip AI DRN - INFO - 【调试】组合单元是谁为增值对象
+2026-07-29 06:47:25,567 - Waip AI DRN - INFO - 【调试】组合单元的增值：4096
+2026-07-29 06:47:25,567 - Waip AI DRN - INFO - 【调试】组合单元你是为增值对象
+2026-07-29 06:47:25,567 - Waip AI DRN - INFO - 【调试】组合单元的增值：4096
+2026-07-29 06:47:25,568 - Waip AI DRN - INFO - 【调试】组合单元？？为减值对象
+2026-07-29 06:47:25,568 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,568 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:25,595 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,595 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:25,595 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,596 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:25,596 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,596 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:25,597 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,597 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:25,597 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,597 - Waip AI DRN - INFO - 【调试】组合单元噢噢为减值对象
+2026-07-29 06:47:25,597 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,598 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢为减值对象
+2026-07-29 06:47:25,598 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,598 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢噢为减值对象
+2026-07-29 06:47:25,598 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,598 - Waip AI DRN - INFO - 【调试】组合单元怕怕为减值对象
+2026-07-29 06:47:25,598 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,599 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕为减值对象
+2026-07-29 06:47:25,599 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,599 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕怕为减值对象
+2026-07-29 06:47:25,599 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,599 - Waip AI DRN - INFO - 【调试】组合单元uu为减值对象
+2026-07-29 06:47:25,600 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,600 - Waip AI DRN - INFO - 【调试】组合单元uuu为减值对象
+2026-07-29 06:47:25,600 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,600 - Waip AI DRN - INFO - 【调试】组合单元uuuu为减值对象
+2026-07-29 06:47:25,601 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,601 - Waip AI DRN - INFO - 【调试】组合单元有有为减值对象
+2026-07-29 06:47:25,601 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,601 - Waip AI DRN - INFO - 【调试】组合单元有有有为减值对象
+2026-07-29 06:47:25,602 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,602 - Waip AI DRN - INFO - 【调试】组合单元有有有由为减值对象
+2026-07-29 06:47:25,602 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,602 - Waip AI DRN - INFO - 【调试】组合单元有有由为减值对象
+2026-07-29 06:47:25,603 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,603 - Waip AI DRN - INFO - 【调试】组合单元有由为减值对象
+2026-07-29 06:47:25,603 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,603 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:25,604 - Waip AI DRN - INFO - 【调试】组合单元的减值：1365
+2026-07-29 06:47:25,604 - Waip AI DRN - INFO - 【调试】组合单元你你好，为减值对象
+2026-07-29 06:47:25,604 - Waip AI DRN - INFO - 【调试】组合单元的减值：2048
+2026-07-29 06:47:25,605 - Waip AI DRN - INFO - 【调试】组合单元好，为减值对象
+2026-07-29 06:47:25,605 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,605 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:25,605 - Waip AI DRN - INFO - 【调试】组合单元的减值：1365
+2026-07-29 06:47:25,606 - Waip AI DRN - INFO - 【调试】组合单元你，为减值对象
+2026-07-29 06:47:25,606 - Waip AI DRN - INFO - 【调试】组合单元的减值：2048
+2026-07-29 06:47:25,606 - Waip AI DRN - INFO - 【调试】组合单元是W为减值对象
+2026-07-29 06:47:25,606 - Waip AI DRN - INFO - 【调试】组合单元的减值：2048
+2026-07-29 06:47:25,606 - Waip AI DRN - INFO - 【调试】组合单元是Wa为减值对象
+2026-07-29 06:47:25,607 - Waip AI DRN - INFO - 【调试】组合单元的减值：1365
+2026-07-29 06:47:25,607 - Waip AI DRN - INFO - 【调试】组合单元是Wai为减值对象
+2026-07-29 06:47:25,607 - Waip AI DRN - INFO - 【调试】组合单元的减值：1024
+2026-07-29 06:47:25,608 - Waip AI DRN - INFO - 【调试】组合单元Wa为减值对象
+2026-07-29 06:47:25,608 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,608 - Waip AI DRN - INFO - 【调试】组合单元Wai为减值对象
+2026-07-29 06:47:25,608 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,609 - Waip AI DRN - INFO - 【调试】组合单元ai为减值对象
+2026-07-29 06:47:25,609 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,609 - Waip AI DRN - INFO - 【调试】组合单元p 为减值对象
+2026-07-29 06:47:25,609 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,609 - Waip AI DRN - INFO - 【调试】组合单元p A为减值对象
+2026-07-29 06:47:25,610 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,610 - Waip AI DRN - INFO - 【调试】组合单元p AI为减值对象
+2026-07-29 06:47:25,610 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,611 - Waip AI DRN - INFO - 【调试】组合单元 A为减值对象
+2026-07-29 06:47:25,611 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,611 - Waip AI DRN - INFO - 【调试】组合单元 AI为减值对象
+2026-07-29 06:47:25,611 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,611 - Waip AI DRN - INFO - 【调试】组合单元AI为减值对象
+2026-07-29 06:47:25,612 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,612 - Waip AI DRN - INFO - 【调试】组合单元哦哦为减值对象
+2026-07-29 06:47:25,612 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,612 - Waip AI DRN - INFO - 【调试】组合单元哦哦哦为减值对象
+2026-07-29 06:47:25,613 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,613 - Waip AI DRN - INFO - 【调试】组合单元苹果为减值对象
+2026-07-29 06:47:25,613 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:25,613 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:25,614 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11713
+2026-07-29 06:47:25,614 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:25,614 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11750
+2026-07-29 06:47:25,614 - Waip AI DRN - INFO - 【调试】0
+2026-07-29 06:47:25,615 - Waip AI DRN - INFO - 【调试】5
+2026-07-29 06:47:25,615 - Waip AI DRN - INFO - 【调试】6
+2026-07-29 06:47:25,615 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-29 06:47:25,617 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '', '哦哦', '哦哦哦', '', '', '苹果']
+2026-07-29 06:47:25,618 - Waip AI DRN - INFO - 【调试】777777:['你是', '你是谁', '是谁']
+2026-07-29 06:47:25,618 - Waip AI DRN - INFO - 【调试】888888:你是
+2026-07-29 06:47:25,618 - Waip AI DRN - INFO - 【调试】888888:是谁
+2026-07-29 06:47:25,618 - Waip AI DRN - INFO - 【调试】44
+2026-07-29 06:47:25,619 - Waip AI DRN - INFO - 【调试】组合单元计入认知记忆数据库时的初始权重：7372
+2026-07-29 06:47:25,619 - Waip AI DRN - INFO - 【调试】组合单元计入激活记忆数据库时的初始权重：1029
+2026-07-29 06:47:25,620 - Waip AI DRN - INFO - 【调试】未录入的组合单元：['你是谁']
+2026-07-29 06:47:25,620 - Waip AI DRN - INFO - 【调试】电池电量：89
+2026-07-29 06:47:25,621 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-29 06:47:25,621 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 31150, '乙酰胆碱acetylcholine': 22250, '血清素serotonin': 55500, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-29 06:47:25,621 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-29 06:47:25,622 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-29 06:47:25,622 - Waip AI DRN - INFO - 【思考】你 你 是 谁 你好 <speak> 你 苹 果 你 
+2026-07-29 06:47:25,622 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:25,622 - Waip AI DRN - INFO - 测试体8号回复：['你 你 是 谁 你好 <speak> 你 苹 果 你 ']
+2026-07-29 06:47:25,644 - Waip AI DRN - INFO - 数据已更新
+2026-07-29 06:47:35,870 - Waip AI DRN - INFO - 你：AI
+2026-07-29 06:47:35,871 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:35,871 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:35,871 - Waip AI DRN - INFO - 【调试】激活记忆：['0', '2', '3', '4', '5', '74', '75', '76', '77', '78']
+2026-07-29 06:47:35,872 - Waip AI DRN - INFO - 【调试】文字注意力范围：4
+2026-07-29 06:47:35,872 - Waip AI DRN - INFO - 【调试】文字注意力内容：AI
+2026-07-29 06:47:35,872 - Waip AI DRN - INFO - 【调试】当前截止：4
+2026-07-29 06:47:35,873 - Waip AI DRN - INFO - 【调试】激活递接元：['0', '2', '3', '4', '5', '74', '75', '76', '77', '78']
+2026-07-29 06:47:35,873 - Waip AI DRN - INFO - 【调试】关联树分支数：60
+2026-07-29 06:47:35,874 - Waip AI DRN - INFO - 【调试】添加成功:{'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}
+2026-07-29 06:47:35,887 - Waip AI DRN - INFO - 【调试】此临时循环已执行60次，未完成关联树的构建所以将会无限循环，此临时变量将会制止程序
+2026-07-29 06:47:35,888 - Waip AI DRN - INFO - 【调试】关联树：{'0': {'IP': ['Undetermined unit', 'Root unit', 0], 'content': 'A'}, '1': {'IP': ['Undetermined unit', 'Root unit', 1], 'content': 'I'}, '2': {'IP': ['Confirmed unit', 'Root unit', 0], 'correspond to': ['activated memory', '0']}, '3': {'IP': ['Confirmed unit', 'Root unit', 1], 'correspond to': ['activated memory', '2']}, '4': {'IP': ['Confirmed unit', 'Root unit', 2], 'correspond to': ['activated memory', '3']}, '5': {'IP': ['Confirmed unit', 'Root unit', 3], 'correspond to': ['activated memory', '4']}, '6': {'IP': ['Confirmed unit', 'Root unit', 4], 'correspond to': ['activated memory', '5']}, '7': {'IP': ['Confirmed unit', 'Root unit', 5], 'correspond to': ['activated memory', '74']}, '8': {'IP': ['Confirmed unit', 'Root unit', 6], 'correspond to': ['activated memory', '75']}, '9': {'IP': ['Confirmed unit', 'Root unit', 7], 'correspond to': ['activated memory', '76']}, '10': {'IP': ['Confirmed unit', 'Root unit', 8], 'correspond to': ['activated memory', '77']}, '11': {'IP': ['Confirmed unit', 'Root unit', 9], 'correspond to': ['activated memory', '78']}, '12': {'IP': ['Confirmed unit', 'Subunit', 0], 'correspond to': ['activated memory', '5'], 'superior unit': ['6']}}
+2026-07-29 06:47:35,889 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:35,889 - Waip AI DRN - INFO - 【调试】['basic', 1]
+2026-07-29 06:47:35,889 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:35,889 - Waip AI DRN - INFO - 【调试】['basic', 2]
+2026-07-29 06:47:35,890 - Waip AI DRN - INFO - 【调试】A I 你好 <speak> 你 苹 果 你 
+2026-07-29 06:47:35,890 - Waip AI DRN - INFO - 【调试】{'0': 1, '2': 1, '3': 1, '4': 1, '5': 2, '36': 0, '37': 0, '38': 0, '39': 0, '40': 0, '41': 0, '42': 0, '43': 0, '44': 0, '45': 0, '46': 0, '47': 0, '48': 0, '49': 0, '50': 0, '51': 0, '52': 0, '53': 0, '54': 0, '55': 0, '56': 0, '57': 0, '58': 0, '59': 0, '60': 0, '61': 0, '62': 0, '63': 0, '64': 0, '65': 0, '66': 0, '67': 0, '68': 0, '69': 0, '70': 0, '71': 0, '72': 0, '73': 0, '74': 1, '75': 1, '76': 1, '77': 1, '78': 1, '79': 0}
+2026-07-29 06:47:35,891 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,891 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,891 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,892 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,892 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,892 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,893 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,893 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,893 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,894 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,894 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,894 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,895 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,895 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,895 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,896 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,898 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,899 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,899 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,899 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,899 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,900 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,901 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,901 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,901 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,902 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,902 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,902 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,903 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,903 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,903 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,904 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,905 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,906 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,907 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,907 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,907 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,907 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,907 - Waip AI DRN - INFO - 【调试】激活记忆数据库的增加或减少值：414
+2026-07-29 06:47:35,908 - Waip AI DRN - INFO - 【调试】激活记忆数据库的擦除阈值：711
+2026-07-29 06:47:35,908 - Waip AI DRN - INFO - 【调试】激活记忆36已擦除
+2026-07-29 06:47:35,908 - Waip AI DRN - INFO - 【调试】激活记忆37已擦除
+2026-07-29 06:47:35,909 - Waip AI DRN - INFO - 【调试】激活记忆79已擦除
+2026-07-29 06:47:35,911 - Waip AI DRN - INFO - 【调试】组合单元你好为减值对象
+2026-07-29 06:47:35,911 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,912 - Waip AI DRN - INFO - 【调试】组合单元是谁为减值对象
+2026-07-29 06:47:35,912 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,912 - Waip AI DRN - INFO - 【调试】组合单元你是为减值对象
+2026-07-29 06:47:35,913 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,913 - Waip AI DRN - INFO - 【调试】组合单元？？为减值对象
+2026-07-29 06:47:35,913 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,913 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:35,914 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,914 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:35,914 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,915 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:35,915 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,915 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:35,915 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,915 - Waip AI DRN - INFO - 【调试】组合单元？？？为减值对象
+2026-07-29 06:47:35,916 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,916 - Waip AI DRN - INFO - 【调试】组合单元噢噢为减值对象
+2026-07-29 06:47:35,916 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,917 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢为减值对象
+2026-07-29 06:47:35,918 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,919 - Waip AI DRN - INFO - 【调试】组合单元噢噢噢噢为减值对象
+2026-07-29 06:47:35,919 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,919 - Waip AI DRN - INFO - 【调试】组合单元怕怕为减值对象
+2026-07-29 06:47:35,919 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,920 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕为减值对象
+2026-07-29 06:47:35,920 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,920 - Waip AI DRN - INFO - 【调试】组合单元怕怕怕怕为减值对象
+2026-07-29 06:47:35,921 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,921 - Waip AI DRN - INFO - 【调试】组合单元uu为减值对象
+2026-07-29 06:47:35,921 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,921 - Waip AI DRN - INFO - 【调试】组合单元uuu为减值对象
+2026-07-29 06:47:35,922 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,922 - Waip AI DRN - INFO - 【调试】组合单元uuuu为减值对象
+2026-07-29 06:47:35,922 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,922 - Waip AI DRN - INFO - 【调试】组合单元有有为减值对象
+2026-07-29 06:47:35,922 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,922 - Waip AI DRN - INFO - 【调试】组合单元有有有为减值对象
+2026-07-29 06:47:35,923 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,923 - Waip AI DRN - INFO - 【调试】组合单元有有有由为减值对象
+2026-07-29 06:47:35,923 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,923 - Waip AI DRN - INFO - 【调试】组合单元有有由为减值对象
+2026-07-29 06:47:35,924 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,924 - Waip AI DRN - INFO - 【调试】组合单元有由为减值对象
+2026-07-29 06:47:35,924 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,924 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:35,924 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,925 - Waip AI DRN - INFO - 【调试】组合单元你你好，为减值对象
+2026-07-29 06:47:35,925 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,925 - Waip AI DRN - INFO - 【调试】组合单元好，为减值对象
+2026-07-29 06:47:35,925 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,925 - Waip AI DRN - INFO - 【调试】组合单元你好，为减值对象
+2026-07-29 06:47:35,926 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,926 - Waip AI DRN - INFO - 【调试】组合单元你，为减值对象
+2026-07-29 06:47:35,927 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,927 - Waip AI DRN - INFO - 【调试】组合单元是W为减值对象
+2026-07-29 06:47:35,927 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,928 - Waip AI DRN - INFO - 【调试】组合单元是Wa为减值对象
+2026-07-29 06:47:35,928 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,928 - Waip AI DRN - INFO - 【调试】组合单元是Wai为减值对象
+2026-07-29 06:47:35,929 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,929 - Waip AI DRN - INFO - 【调试】组合单元Wa为减值对象
+2026-07-29 06:47:35,929 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,929 - Waip AI DRN - INFO - 【调试】组合单元Wai为减值对象
+2026-07-29 06:47:35,929 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,930 - Waip AI DRN - INFO - 【调试】组合单元ai为减值对象
+2026-07-29 06:47:35,930 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,930 - Waip AI DRN - INFO - 【调试】组合单元p 为减值对象
+2026-07-29 06:47:35,930 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,931 - Waip AI DRN - INFO - 【调试】组合单元p A为减值对象
+2026-07-29 06:47:35,931 - Waip AI DRN - INFO - 【调试】组合单元的减值：1365
+2026-07-29 06:47:35,931 - Waip AI DRN - INFO - 【调试】组合单元p AI为减值对象
+2026-07-29 06:47:35,932 - Waip AI DRN - INFO - 【调试】组合单元的减值：2048
+2026-07-29 06:47:35,932 - Waip AI DRN - INFO - 【调试】组合单元 A为减值对象
+2026-07-29 06:47:35,932 - Waip AI DRN - INFO - 【调试】组合单元的减值：2048
+2026-07-29 06:47:35,932 - Waip AI DRN - INFO - 【调试】组合单元 AI为减值对象
+2026-07-29 06:47:35,932 - Waip AI DRN - INFO - 【调试】组合单元的减值：2730
+2026-07-29 06:47:35,932 - Waip AI DRN - INFO - 【调试】组合单元AI为增值对象
+2026-07-29 06:47:35,932 - Waip AI DRN - INFO - 【调试】组合单元的增值：4096
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元哦哦为减值对象
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元哦哦哦为减值对象
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元苹果为减值对象
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元你是谁为减值对象
+2026-07-29 06:47:35,933 - Waip AI DRN - INFO - 【调试】组合单元的减值：0
+2026-07-29 06:47:35,934 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:35,934 - Waip AI DRN - INFO - 【调试】用户输入计入激活记忆数据库时的初始权重：11713
+2026-07-29 06:47:35,934 - Waip AI DRN - INFO - 【调试】激活阀值：11382
+2026-07-29 06:47:35,934 - Waip AI DRN - INFO - 【调试】AI输入计入激活记忆数据库时的初始权重：11750
+2026-07-29 06:47:35,935 - Waip AI DRN - INFO - 【调试】0
+2026-07-29 06:47:35,935 - Waip AI DRN - INFO - 【调试】1
+2026-07-29 06:47:35,935 - Waip AI DRN - INFO - 【调试】未录入的未确定单元：[]
+2026-07-29 06:47:35,937 - Waip AI DRN - INFO - 【调试】666666:['你好', '', '', '', '', '是谁', '你是', '', '', '？？', '？？？', '？？？', '？？？', '？？？', '？？？', '', '噢噢', '噢噢噢', '噢噢噢噢', '', '', '怕怕', '怕怕怕', '怕怕怕怕', '', 'uu', 'uuu', 'uuuu', '', '', '有有', '有有有', '有有有由', '有有由', '有由', '', '', '你好，', '你你好，', '好，', '你好，', '你，', '', '', '', '是W', '是Wa', '是Wai', 'Wa', 'Wai', 'ai', '', '', '', '', 'p ', 'p A', 'p AI', ' A', ' AI', 'AI', '', '哦哦', '哦哦哦', '', '', '苹果', '你是谁']
+2026-07-29 06:47:35,938 - Waip AI DRN - INFO - 【调试】777777:['AI']
+2026-07-29 06:47:35,938 - Waip AI DRN - INFO - 【调试】888888:AI
+2026-07-29 06:47:35,938 - Waip AI DRN - INFO - 【调试】未录入的组合单元：[]
+2026-07-29 06:47:35,938 - Waip AI DRN - INFO - 【调试】电池电量：89
+2026-07-29 06:47:35,939 - Waip AI DRN - INFO - 【调试】神经递质已更新
+2026-07-29 06:47:35,939 - Waip AI DRN - INFO - 【调试】{'多巴胺dopamine': 31150, '乙酰胆碱acetylcholine': 22250, '血清素serotonin': 55500, '内啡肽endorphin': 40000, 'P物质substance P': 15000, '肾上腺素epinephrine': 20000, 'GABA': 30000, '去肾上腺素Noradrenaline': 22000, '谷氨酸Glutamic acid': 25000}
+2026-07-29 06:47:35,939 - Waip AI DRN - INFO - 【调试】激活记忆数据库已更新
+2026-07-29 06:47:35,939 - Waip AI DRN - INFO - 【调试】短时记忆数据库已更新
+2026-07-29 06:47:35,939 - Waip AI DRN - INFO - 【思考】A I 你好 <speak> 你 苹 果 你 
+2026-07-29 06:47:35,940 - Waip AI DRN - INFO - 
+
+2026-07-29 06:47:35,940 - Waip AI DRN - INFO - 测试体8号回复：['A I 你好 <speak> 你 苹 果 你 ']
+2026-07-29 06:47:35,960 - Waip AI DRN - INFO - 数据已更新
+2026-07-29 06:48:07,551 - Waip AI DRN - INFO - 程序运行正常
+2026-07-29 06:49:07,552 - Waip AI DRN - INFO - 程序运行正常
+2026-07-29 06:50:07,553 - Waip AI DRN - INFO - 程序运行正常

@@ -406,20 +406,37 @@ def Waip_AI_DRN(user, data):
             return number
 
         def Impairment_calculation_of_combined_units(data, percentage):
-            # 除以10
-            dopamine_processing = float((100000 - data["多巴胺dopamine"]) / 10)
-            acetylcholine_processing = float((data["乙酰胆碱acetylcholine"]) / 10)
-            serotonin_processing = float((data["血清素serotonin"]) / 10)
-            endorphin_processing = float((data["内啡肽endorphin"]) / 10)
-            substance_P_processing = float((100000 - data["P物质substance P"]) / 10)
-            epinephrine_processing = float((data["肾上腺素epinephrine"]) / 10)
-            Noradrenaline_processing = float((data["去肾上腺素Noradrenaline"]) / 10)
-            GABA_processing = float((data["GABA"]) / 10)
-            Glamic_acid_processing = float((data["谷氨酸Glutamic acid"]) / 10)
+            # 除以100
+            dopamine_processing = float((100000 - data["多巴胺dopamine"]) / 100)
+            acetylcholine_processing = float((data["乙酰胆碱acetylcholine"]) / 100)
+            serotonin_processing = float((data["血清素serotonin"]) / 100)
+            endorphin_processing = float((data["内啡肽endorphin"]) / 100)
+            substance_P_processing = float((100000 - data["P物质substance P"]) / 100)
+            epinephrine_processing = float((data["肾上腺素epinephrine"]) / 100)
+            Noradrenaline_processing = float((data["去肾上腺素Noradrenaline"]) / 100)
+            GABA_processing = float((data["GABA"]) / 100)
+            Glamic_acid_processing = float((data["谷氨酸Glutamic acid"]) / 100)
 
             # 计算组合单元的减值
             number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 * percentage)
             yield from printf(f"组合单元的减值：{number}")
+            return number
+
+        def Calculation_for_Valve_Reduction_of_Combined_Units(data):
+            # 除以100
+            dopamine_processing = float((100000 - data["多巴胺dopamine"]) / 100)
+            acetylcholine_processing = float((data["乙酰胆碱acetylcholine"]) / 100)
+            serotonin_processing = float((data["血清素serotonin"]) / 100)
+            endorphin_processing = float((data["内啡肽endorphin"]) / 100)
+            substance_P_processing = float((100000 - data["P物质substance P"]) / 100)
+            epinephrine_processing = float((data["肾上腺素epinephrine"]) / 100)
+            Noradrenaline_processing = float((data["去肾上腺素Noradrenaline"]) / 100)
+            GABA_processing = float((data["GABA"]) / 100)
+            Glamic_acid_processing = float((data["谷氨酸Glutamic acid"]) / 100)
+
+            # 计算组合单元的删除阀门
+            number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 11)
+            yield from printf(f"组合单元的删除阀门：{number}")
             return number
 
 
@@ -455,6 +472,34 @@ def Waip_AI_DRN(user, data):
                 del data["other database"]["激活记忆标记数据库activate_memory_tag_database"][i]
                 yield from printf(f"激活记忆{i}已擦除")
         data["activated memory"] = copy_activated_memory
+
+        # 计算组合单元的删除阀门
+        valve_reduction = yield from Calculation_for_Valve_Reduction_of_Combined_Units(data["status database"])
+        Combination_Unit_to_Be_Deleted = []
+
+        for i in data["cognitive database"]:
+            if "combination" not in data["cognitive database"][i]["IP"]:
+                continue
+            if data["cognitive database"][i]["权重"] < valve_reduction:
+                Combination_Unit_to_Be_Deleted.append(i)
+        yield from printf(f"需要删除的组合单元：{Combination_Unit_to_Be_Deleted}")
+
+        for i in Combination_Unit_to_Be_Deleted:
+            IP = data["cognitive database"][i]["IP"]
+            del data["cognitive database"][i]
+            yield from printf(f"组合单元{i}已删除，IP为{IP}")
+            copy_activated_memory = copy.deepcopy(data["activated memory"])
+            TF = False
+            for j in data["activated memory"]:
+                if data["activated memory"][j]["IP"] == IP:
+                    TF = True
+                    activated_memory_IP = j
+                    del copy_activated_memory[j]
+                    yield from printf(f"激活记忆{j}已删除，IP为{IP}")
+            if TF:
+                data["activated memory"] = copy_activated_memory
+                del data["other database"]["激活记忆标记数据库activate_memory_tag_database"][activated_memory_IP]
+                yield from printf(f"激活记忆{activated_memory_IP}的IP为{IP}已除")
 
 
         Alternative_combination_units = {}

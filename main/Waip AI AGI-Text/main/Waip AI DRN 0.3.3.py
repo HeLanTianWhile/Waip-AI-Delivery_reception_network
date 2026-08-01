@@ -790,6 +790,7 @@ def Waip_AI_DRN(user, data):
             data["other database"]["激活记忆标记数据库activate_memory_tag_database"][str(this_activatad_memory_number)] = 0
 
         Short_term_memory_added_to_activated_memory_database = []
+        Cognitive_Unit_added_to_Activated = {}
 
         for i in Text:
             Pending_Activation_Short_term_Memory_Database = []
@@ -832,10 +833,29 @@ def Waip_AI_DRN(user, data):
 
             Cognitive_Unit_to_Activated = {}
             for j in data["cognitive database"]:
-                if "combination" in data["cognitive database"][j]["IP"]:
-                    pass
+                TF = False
+                for k in data["activated memory"]:
+                    if data["activated memory"][k]["IP"] == data["cognitive database"][j]["IP"]:
+                        TF = True
+                if TF:
+                    continue
+                if "combination" in data["cognitive database"][j]["IP"]:    
+                    content2 = ""
+                    for k in data["cognitive database"][j]["content"]:
+                        for l in data["cognitive database"]:
+                            if data["cognitive database"][l]["content"] == k:
+                                content2 += data["cognitive database"][l]["IP"]
+                    
+                    if ((data["cognitive database"][j]["content"] == content2) or (content2 in data["cognitive database"][j]["content"])):
+                        Cognitive_Unit_to_Activated[j] = {"type": "combination", "content": content2}
+                        Cognitive_Unit_added_to_Activated[j] = {"type": "combination", "content": content2}
                 elif "basic" in data["cognitive database"][j]["IP"]:
-                    pass
+                    if ((data["cognitive database"][j]["content"] == data["cognitive database"][j]["content"])):
+                        Cognitive_Unit_to_Activated[j] = {"type": "basic", "content": data["cognitive database"][j]["content"]}
+                        Cognitive_Unit_added_to_Activated[j] = {"type": "basic", "content": data["cognitive database"][j]["content"]}
+            
+            
+
 
         yield from printf(f"未录入的组合单元：{Unrecorded_combined_units}")
 

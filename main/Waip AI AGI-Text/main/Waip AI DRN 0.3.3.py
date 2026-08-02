@@ -1,3 +1,5 @@
+from ast import Yield
+
 from numpy import number
 import psutil
 import copy
@@ -843,8 +845,8 @@ def Waip_AI_DRN(user, data):
                     content2 = ""
                     for k in data["cognitive database"][j]["content"]:
                         for l in data["cognitive database"]:
-                            if data["cognitive database"][l]["content"] == k:
-                                content2 += data["cognitive database"][l]["IP"]
+                            if data["cognitive database"][l]["IP"] == k:
+                                content2 += data["cognitive database"][l]["content"]
                     
                     if ((data["cognitive database"][j]["content"] == content2) or (content2 in data["cognitive database"][j]["content"])):
                         Cognitive_Unit_to_Activated[j] = {"type": "combination", "content": content2}
@@ -854,7 +856,26 @@ def Waip_AI_DRN(user, data):
                         Cognitive_Unit_to_Activated[j] = {"type": "basic", "content": data["cognitive database"][j]["content"]}
                         Cognitive_Unit_added_to_Activated[j] = {"type": "basic", "content": data["cognitive database"][j]["content"]}
             
-            
+            for j in Cognitive_Unit_to_Activated:
+                activated_memory_number = []
+                for k in data["activated memory"]:
+                    activated_memory_number.append(int(k))
+                if len(activated_memory_number) == 0:
+                    this_activatad_memory_number = 0
+                else:
+                    this_activatad_memory_number = max(activated_memory_number) + 1
+
+                if Cognitive_Unit_to_Activated[j]["type"] == "combination":
+                    weight = yield from Initial_weight_when_combined_memory_is_not_entered_into_cognitive_database(data["status database"], len(Cognitive_Unit_to_Activated[j]["content"]))
+                elif Cognitive_Unit_to_Activated[j]["type"] == "basic":
+                    Activation_valve = yield from calculate_activation_valve(data["status database"])
+                    weight = yield from Initial_weights_when_new_units_are_added_to_activate_the_memory_database(data["status database"], Activation_valve)
+
+                data["activated memory"][str(this_activatad_memory_number)] = {
+                    "权重": weight,
+                    "IP": ["cognitive database"] + data["cognitive database"][j]["IP"],
+                }
+                data["other database"]["激活记忆标记数据库activate_memory_tag_database"][str(this_activatad_memory_number)] = 0
 
 
         yield from printf(f"未录入的组合单元：{Unrecorded_combined_units}")

@@ -5,7 +5,7 @@
             "combination",
             1,
         ],
-        权重: 20212,
+        权重: 16100,
     },
     "2": {
         IP: [
@@ -13,7 +13,7 @@
             "user",
             1,
         ],
-        权重: 46678,
+        权重: 42970,
     },
     "3": {
         IP: [
@@ -21,7 +21,7 @@
             "ai",
             1,
         ],
-        权重: 48343,
+        权重: 44635,
     },
     "4": {
         IP: [
@@ -29,7 +29,7 @@
             "<token>",
             1,
         ],
-        权重: 63233,
+        权重: 59121,
     },
     "5": {
         IP: [
@@ -37,106 +37,10 @@
             "basic",
             1,
         ],
-        权重: 15714,
-    },
-    "69": {
-        权重: 993,
-        IP: [
-            "short-term memory",
-            "user",
-            25,
-        ],
-    },
-    "70": {
-        权重: 1030,
-        IP: [
-            "short-term memory",
-            "ai",
-            25,
-        ],
-    },
-    "71": {
-        权重: 1823,
-        IP: [
-            "short-term memory",
-            "user",
-            26,
-        ],
-    },
-    "72": {
-        权重: 1860,
-        IP: [
-            "short-term memory",
-            "ai",
-            26,
-        ],
-    },
-    "73": {
-        权重: 2651,
-        IP: [
-            "short-term memory",
-            "user",
-            27,
-        ],
-    },
-    "74": {
-        权重: 2688,
-        IP: [
-            "short-term memory",
-            "ai",
-            27,
-        ],
-    },
-    "75": {
-        权重: 2793,
-        IP: [
-            "cognitive database",
-            "basic",
-            "63",
-        ],
-    },
-    "76": {
-        权重: 2793,
-        IP: [
-            "cognitive database",
-            "basic",
-            "66",
-        ],
-    },
-    "77": {
-        权重: 3479,
-        IP: [
-            "short-term memory",
-            "user",
-            28,
-        ],
-    },
-    "78": {
-        权重: 3516,
-        IP: [
-            "short-term memory",
-            "ai",
-            28,
-        ],
-    },
-    "79": {
-        权重: 4315,
-        IP: [
-            "short-term memory",
-            "user",
-            29,
-        ],
-    },
-    "80": {
-        权重: 4341,
-        IP: [
-            "short-term memory",
-            "ai",
-            29,
-        ],
+        权重: 11598,
     },
     "81": {
-        权重: 5108,
+        权重: 996,
         IP: [
             "short-term memory",
             "user",
@@ -144,7 +48,7 @@
         ],
     },
     "82": {
-        权重: 5145,
+        权重: 1033,
         IP: [
             "short-term memory",
             "ai",
@@ -152,7 +56,7 @@
         ],
     },
     "83": {
-        权重: 6061,
+        权重: 1949,
         IP: [
             "short-term memory",
             "user",
@@ -160,7 +64,7 @@
         ],
     },
     "84": {
-        权重: 6097,
+        权重: 1985,
         IP: [
             "short-term memory",
             "ai",
@@ -168,7 +72,7 @@
         ],
     },
     "85": {
-        权重: 6756,
+        权重: 2644,
         IP: [
             "short-term memory",
             "user",
@@ -176,7 +80,7 @@
         ],
     },
     "86": {
-        权重: 6793,
+        权重: 2681,
         IP: [
             "short-term memory",
             "ai",
@@ -184,7 +88,7 @@
         ],
     },
     "87": {
-        权重: 7586,
+        权重: 3474,
         IP: [
             "short-term memory",
             "user",
@@ -192,7 +96,7 @@
         ],
     },
     "88": {
-        权重: 7623,
+        权重: 3511,
         IP: [
             "short-term memory",
             "ai",
@@ -200,7 +104,7 @@
         ],
     },
     "89": {
-        权重: 8424,
+        权重: 4312,
         IP: [
             "short-term memory",
             "user",
@@ -208,7 +112,7 @@
         ],
     },
     "90": {
-        权重: 8467,
+        权重: 4355,
         IP: [
             "short-term memory",
             "ai",
@@ -216,7 +120,7 @@
         ],
     },
     "91": {
-        权重: 9243,
+        权重: 5131,
         IP: [
             "short-term memory",
             "user",
@@ -224,7 +128,7 @@
         ],
     },
     "92": {
-        权重: 9280,
+        权重: 5168,
         IP: [
             "short-term memory",
             "ai",
@@ -232,7 +136,7 @@
         ],
     },
     "93": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -240,7 +144,7 @@
         ],
     },
     "94": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -248,7 +152,7 @@
         ],
     },
     "95": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -256,7 +160,7 @@
         ],
     },
     "96": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -264,7 +168,7 @@
         ],
     },
     "97": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -272,7 +176,7 @@
         ],
     },
     "98": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -280,7 +184,7 @@
         ],
     },
     "99": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -288,7 +192,7 @@
         ],
     },
     "100": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -296,7 +200,7 @@
         ],
     },
     "101": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -304,7 +208,7 @@
         ],
     },
     "102": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -312,7 +216,7 @@
         ],
     },
     "103": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -320,7 +224,7 @@
         ],
     },
     "104": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -328,7 +232,7 @@
         ],
     },
     "105": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -336,7 +240,7 @@
         ],
     },
     "106": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -344,7 +248,7 @@
         ],
     },
     "107": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -352,7 +256,7 @@
         ],
     },
     "108": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -360,7 +264,7 @@
         ],
     },
     "109": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -368,7 +272,7 @@
         ],
     },
     "110": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -376,7 +280,7 @@
         ],
     },
     "111": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -384,7 +288,7 @@
         ],
     },
     "112": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -392,7 +296,7 @@
         ],
     },
     "113": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -400,7 +304,7 @@
         ],
     },
     "114": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -408,7 +312,7 @@
         ],
     },
     "115": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -416,7 +320,7 @@
         ],
     },
     "116": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -424,7 +328,7 @@
         ],
     },
     "117": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -432,7 +336,7 @@
         ],
     },
     "118": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -440,7 +344,7 @@
         ],
     },
     "119": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -448,7 +352,7 @@
         ],
     },
     "120": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -456,7 +360,7 @@
         ],
     },
     "121": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -464,7 +368,7 @@
         ],
     },
     "122": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -472,7 +376,7 @@
         ],
     },
     "123": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -480,7 +384,7 @@
         ],
     },
     "124": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -488,7 +392,7 @@
         ],
     },
     "125": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -496,7 +400,7 @@
         ],
     },
     "126": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -504,7 +408,7 @@
         ],
     },
     "127": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -512,7 +416,7 @@
         ],
     },
     "128": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -520,7 +424,7 @@
         ],
     },
     "129": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -528,7 +432,7 @@
         ],
     },
     "130": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -536,7 +440,7 @@
         ],
     },
     "131": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -544,7 +448,7 @@
         ],
     },
     "132": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -552,7 +456,7 @@
         ],
     },
     "133": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -560,7 +464,7 @@
         ],
     },
     "134": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -568,7 +472,7 @@
         ],
     },
     "135": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -576,7 +480,7 @@
         ],
     },
     "136": {
-        权重: 10630,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -584,7 +488,7 @@
         ],
     },
     "137": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -592,7 +496,7 @@
         ],
     },
     "138": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -600,7 +504,7 @@
         ],
     },
     "139": {
-        权重: 10185,
+        权重: 6073,
         IP: [
             "short-term memory",
             "user",
@@ -608,7 +512,7 @@
         ],
     },
     "140": {
-        权重: 10222,
+        权重: 6110,
         IP: [
             "short-term memory",
             "ai",
@@ -616,7 +520,7 @@
         ],
     },
     "141": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -624,7 +528,7 @@
         ],
     },
     "142": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -632,7 +536,7 @@
         ],
     },
     "145": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -640,7 +544,7 @@
         ],
     },
     "146": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -648,7 +552,7 @@
         ],
     },
     "147": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -656,7 +560,7 @@
         ],
     },
     "148": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -664,7 +568,7 @@
         ],
     },
     "149": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -672,7 +576,7 @@
         ],
     },
     "150": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -680,7 +584,7 @@
         ],
     },
     "151": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -688,7 +592,7 @@
         ],
     },
     "152": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -696,7 +600,7 @@
         ],
     },
     "153": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -704,7 +608,7 @@
         ],
     },
     "154": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -712,7 +616,7 @@
         ],
     },
     "155": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -720,7 +624,7 @@
         ],
     },
     "156": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -728,7 +632,7 @@
         ],
     },
     "157": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -736,7 +640,7 @@
         ],
     },
     "158": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -744,7 +648,7 @@
         ],
     },
     "159": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -752,7 +656,7 @@
         ],
     },
     "160": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -760,7 +664,7 @@
         ],
     },
     "161": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -768,7 +672,7 @@
         ],
     },
     "162": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -776,7 +680,7 @@
         ],
     },
     "163": {
-        权重: 11398,
+        权重: 6878,
         IP: [
             "short-term memory",
             "user",
@@ -784,7 +688,7 @@
         ],
     },
     "164": {
-        权重: 11434,
+        权重: 6914,
         IP: [
             "short-term memory",
             "ai",
@@ -792,7 +696,7 @@
         ],
     },
     "165": {
-        权重: 11806,
+        权重: 7690,
         IP: [
             "short-term memory",
             "user",
@@ -800,7 +704,7 @@
         ],
     },
     "166": {
-        权重: 11842,
+        权重: 7722,
         IP: [
             "short-term memory",
             "ai",
@@ -808,7 +712,7 @@
         ],
     },
     "167": {
-        权重: 11806,
+        权重: 7690,
         IP: [
             "short-term memory",
             "user",
@@ -816,7 +720,7 @@
         ],
     },
     "168": {
-        权重: 11842,
+        权重: 7718,
         IP: [
             "short-term memory",
             "ai",
@@ -824,7 +728,7 @@
         ],
     },
     "169": {
-        权重: 11806,
+        权重: 7690,
         IP: [
             "short-term memory",
             "user",
@@ -832,7 +736,7 @@
         ],
     },
     "170": {
-        权重: 11842,
+        权重: 7718,
         IP: [
             "short-term memory",
             "ai",
@@ -840,7 +744,7 @@
         ],
     },
     "171": {
-        权重: 11806,
+        权重: 7690,
         IP: [
             "short-term memory",
             "user",
@@ -848,7 +752,7 @@
         ],
     },
     "172": {
-        权重: 11842,
+        权重: 7718,
         IP: [
             "short-term memory",
             "ai",
@@ -856,7 +760,7 @@
         ],
     },
     "173": {
-        权重: 11806,
+        权重: 7690,
         IP: [
             "short-term memory",
             "user",
@@ -864,7 +768,7 @@
         ],
     },
     "174": {
-        权重: 11842,
+        权重: 7718,
         IP: [
             "short-term memory",
             "ai",
@@ -872,7 +776,7 @@
         ],
     },
     "175": {
-        权重: 11806,
+        权重: 7690,
         IP: [
             "short-term memory",
             "user",
@@ -880,11 +784,4075 @@
         ],
     },
     "176": {
-        权重: 11842,
+        权重: 7722,
         IP: [
             "short-term memory",
             "ai",
             38,
+        ],
+    },
+    "177": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            39,
+        ],
+    },
+    "178": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            39,
+        ],
+    },
+    "179": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            1,
+        ],
+    },
+    "180": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            1,
+        ],
+    },
+    "181": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            2,
+        ],
+    },
+    "182": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            2,
+        ],
+    },
+    "183": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            3,
+        ],
+    },
+    "184": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            4,
+        ],
+    },
+    "185": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            5,
+        ],
+    },
+    "186": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            6,
+        ],
+    },
+    "187": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            7,
+        ],
+    },
+    "188": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            8,
+        ],
+    },
+    "189": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            9,
+        ],
+    },
+    "190": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            10,
+        ],
+    },
+    "191": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            11,
+        ],
+    },
+    "192": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            12,
+        ],
+    },
+    "193": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            13,
+        ],
+    },
+    "194": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            14,
+        ],
+    },
+    "195": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            15,
+        ],
+    },
+    "196": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            16,
+        ],
+    },
+    "197": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            17,
+        ],
+    },
+    "198": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            18,
+        ],
+    },
+    "199": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            19,
+        ],
+    },
+    "200": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            20,
+        ],
+    },
+    "201": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            20,
+        ],
+    },
+    "202": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            21,
+        ],
+    },
+    "203": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            22,
+        ],
+    },
+    "204": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            23,
+        ],
+    },
+    "205": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            24,
+        ],
+    },
+    "206": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            25,
+        ],
+    },
+    "207": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            26,
+        ],
+    },
+    "208": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            27,
+        ],
+    },
+    "209": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            28,
+        ],
+    },
+    "210": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            28,
+        ],
+    },
+    "211": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            29,
+        ],
+    },
+    "212": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            30,
+        ],
+    },
+    "213": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            30,
+        ],
+    },
+    "214": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            31,
+        ],
+    },
+    "215": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            31,
+        ],
+    },
+    "216": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            32,
+        ],
+    },
+    "217": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            32,
+        ],
+    },
+    "218": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            33,
+        ],
+    },
+    "219": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            33,
+        ],
+    },
+    "220": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            34,
+        ],
+    },
+    "221": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            35,
+        ],
+    },
+    "222": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            35,
+        ],
+    },
+    "223": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            36,
+        ],
+    },
+    "224": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            36,
+        ],
+    },
+    "225": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            37,
+        ],
+    },
+    "226": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            38,
+        ],
+    },
+    "227": {
+        权重: 8510,
+        IP: [
+            "short-term memory",
+            "user",
+            39,
+        ],
+    },
+    "228": {
+        权重: 8546,
+        IP: [
+            "short-term memory",
+            "ai",
+            39,
+        ],
+    },
+    "229": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "230": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "231": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "232": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "233": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "234": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "235": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "236": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "237": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "238": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "239": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "240": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "241": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "242": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "243": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "244": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "245": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "246": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "247": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "248": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "249": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "250": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "251": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "252": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "253": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "254": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "255": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "256": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "257": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "258": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "259": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "260": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "261": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "262": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "263": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "264": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "265": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "266": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "267": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "268": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "269": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "270": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "271": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "272": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "273": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "274": {
+        权重: 8650,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "275": {
+        权重: 9269,
+        IP: [
+            "short-term memory",
+            "user",
+            40,
+        ],
+    },
+    "276": {
+        权重: 9306,
+        IP: [
+            "short-term memory",
+            "ai",
+            40,
+        ],
+    },
+    "277": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "280": {
+        权重: 9269,
+        IP: [
+            "short-term memory",
+            "user",
+            40,
+        ],
+    },
+    "281": {
+        权重: 9306,
+        IP: [
+            "short-term memory",
+            "ai",
+            40,
+        ],
+    },
+    "282": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "283": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "284": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "285": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "286": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "287": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "288": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "289": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "290": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "291": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "292": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "293": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "294": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "295": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "296": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "297": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "298": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "299": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "300": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "301": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "302": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "303": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "304": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "305": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "306": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "307": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "308": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "309": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "310": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "311": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "312": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "313": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "314": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "315": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "316": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "317": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "318": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "319": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "320": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "321": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "322": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "323": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "324": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "325": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "326": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "327": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "328": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "329": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "330": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "331": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "332": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "333": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "334": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "335": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "336": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "337": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "338": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "339": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "340": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "341": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "342": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "343": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "344": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "345": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "346": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "347": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "348": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "349": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "350": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "351": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "352": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "353": {
+        权重: 9411,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "354": {
+        权重: 10093,
+        IP: [
+            "short-term memory",
+            "user",
+            41,
+        ],
+    },
+    "355": {
+        权重: 10130,
+        IP: [
+            "short-term memory",
+            "ai",
+            41,
+        ],
+    },
+    "356": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "359": {
+        权重: 10093,
+        IP: [
+            "short-term memory",
+            "user",
+            41,
+        ],
+    },
+    "360": {
+        权重: 10130,
+        IP: [
+            "short-term memory",
+            "ai",
+            41,
+        ],
+    },
+    "361": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "362": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "363": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "364": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "365": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "366": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "367": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "368": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "369": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "370": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "371": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "372": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "373": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "374": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "375": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "376": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "377": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "378": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "379": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "380": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "381": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "382": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "383": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "384": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "385": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "386": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "387": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "388": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "389": {
+        权重: 10647,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "390": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "391": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "392": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "393": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "394": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "395": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "396": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "397": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "398": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "399": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "400": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "401": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "402": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "403": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "404": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "405": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "406": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "407": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "408": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "409": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "410": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "411": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "412": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "413": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "414": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "415": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "416": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "417": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "418": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "419": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "420": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "421": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "422": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "423": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "424": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "425": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "426": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "427": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "428": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "429": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "430": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "431": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "432": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "433": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "434": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "435": {
+        权重: 10235,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "436": {
+        权重: 10917,
+        IP: [
+            "short-term memory",
+            "user",
+            42,
+        ],
+    },
+    "437": {
+        权重: 12190,
+        IP: [
+            "short-term memory",
+            "ai",
+            42,
+        ],
+    },
+    "438": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "441": {
+        权重: 10917,
+        IP: [
+            "short-term memory",
+            "user",
+            42,
+        ],
+    },
+    "442": {
+        权重: 12190,
+        IP: [
+            "short-term memory",
+            "ai",
+            42,
+        ],
+    },
+    "443": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "444": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "445": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "446": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "447": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "448": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "449": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "450": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "451": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "452": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "453": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "454": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "455": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "456": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "457": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "458": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "459": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "460": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "461": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "462": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "463": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "464": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "465": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "466": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "467": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "468": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "469": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "470": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "471": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "472": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "473": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "474": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "475": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "476": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "477": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "478": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "479": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "480": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "481": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "482": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "483": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "484": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "485": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "486": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "487": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "488": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "489": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "490": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "491": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "492": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "493": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "494": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "495": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "496": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "497": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "498": {
+        权重: 11471,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "499": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "500": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "501": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "502": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "503": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "504": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "505": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "506": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "507": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "508": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "509": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "510": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "511": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "512": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "513": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "514": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "515": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "516": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "517": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "518": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "519": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "520": {
+        权重: 11059,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "521": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            43,
+        ],
+    },
+    "522": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            43,
+        ],
+    },
+    "523": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "81",
+        ],
+    },
+    "524": {
+        权重: 1061,
+        IP: [
+            "cognitive database",
+            "combination",
+            "56",
+        ],
+    },
+    "525": {
+        权重: 1025,
+        IP: [
+            "cognitive database",
+            "combination",
+            "57",
+        ],
+    },
+    "526": {
+        权重: 988,
+        IP: [
+            "cognitive database",
+            "combination",
+            "58",
+        ],
+    },
+    "527": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            43,
+        ],
+    },
+    "528": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            43,
+        ],
+    },
+    "529": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "530": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "531": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "532": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "533": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "534": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "535": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "536": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "537": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "538": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "539": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "540": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "541": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "542": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "543": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "544": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "545": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "546": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "547": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "548": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "549": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "550": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "551": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "552": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "553": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "554": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "555": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "81",
+        ],
+    },
+    "556": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            1,
+        ],
+    },
+    "557": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            1,
+        ],
+    },
+    "558": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            2,
+        ],
+    },
+    "559": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            2,
+        ],
+    },
+    "560": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            3,
+        ],
+    },
+    "561": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            4,
+        ],
+    },
+    "562": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            5,
+        ],
+    },
+    "563": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            6,
+        ],
+    },
+    "564": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            7,
+        ],
+    },
+    "565": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            8,
+        ],
+    },
+    "566": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            9,
+        ],
+    },
+    "567": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            10,
+        ],
+    },
+    "568": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            11,
+        ],
+    },
+    "569": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            12,
+        ],
+    },
+    "570": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            13,
+        ],
+    },
+    "571": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            14,
+        ],
+    },
+    "572": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            15,
+        ],
+    },
+    "573": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            16,
+        ],
+    },
+    "574": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            17,
+        ],
+    },
+    "575": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            18,
+        ],
+    },
+    "576": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            19,
+        ],
+    },
+    "577": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            20,
+        ],
+    },
+    "578": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            20,
+        ],
+    },
+    "579": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            21,
+        ],
+    },
+    "580": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            22,
+        ],
+    },
+    "581": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            23,
+        ],
+    },
+    "582": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            24,
+        ],
+    },
+    "583": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            25,
+        ],
+    },
+    "584": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            26,
+        ],
+    },
+    "585": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            27,
+        ],
+    },
+    "586": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            28,
+        ],
+    },
+    "587": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            28,
+        ],
+    },
+    "588": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            29,
+        ],
+    },
+    "589": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            30,
+        ],
+    },
+    "590": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            30,
+        ],
+    },
+    "591": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            31,
+        ],
+    },
+    "592": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            31,
+        ],
+    },
+    "593": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            32,
+        ],
+    },
+    "594": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            32,
+        ],
+    },
+    "595": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            33,
+        ],
+    },
+    "596": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            33,
+        ],
+    },
+    "597": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            34,
+        ],
+    },
+    "598": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            35,
+        ],
+    },
+    "599": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            35,
+        ],
+    },
+    "600": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            36,
+        ],
+    },
+    "601": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            36,
+        ],
+    },
+    "602": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            37,
+        ],
+    },
+    "603": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            38,
+        ],
+    },
+    "604": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            39,
+        ],
+    },
+    "605": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            39,
+        ],
+    },
+    "606": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            40,
+        ],
+    },
+    "607": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            41,
+        ],
+    },
+    "608": {
+        权重: 11778,
+        IP: [
+            "short-term memory",
+            "ai",
+            42,
+        ],
+    },
+    "609": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "610": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "611": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "612": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "613": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "614": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "615": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "616": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "617": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "618": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "619": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "620": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "621": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "622": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "623": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "624": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "625": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "626": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "627": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "628": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "629": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "630": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "631": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "632": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "633": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "634": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "635": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "81",
+        ],
+    },
+    "636": {
+        权重: 11741,
+        IP: [
+            "short-term memory",
+            "user",
+            21,
+        ],
+    },
+    "637": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "638": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "639": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "640": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "641": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "642": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "643": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "644": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "645": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "646": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "647": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "648": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "649": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "650": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "651": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "652": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "653": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "654": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "655": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "656": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "657": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "658": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "659": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "660": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "661": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "662": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "663": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "81",
+        ],
+    },
+    "664": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            1,
+        ],
+    },
+    "665": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            2,
+        ],
+    },
+    "666": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            3,
+        ],
+    },
+    "667": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            4,
+        ],
+    },
+    "668": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "6",
+        ],
+    },
+    "669": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "10",
+        ],
+    },
+    "670": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "17",
+        ],
+    },
+    "671": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "21",
+        ],
+    },
+    "672": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "22",
+        ],
+    },
+    "673": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "26",
+        ],
+    },
+    "674": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "30",
+        ],
+    },
+    "675": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "31",
+        ],
+    },
+    "676": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "37",
+        ],
+    },
+    "677": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "38",
+        ],
+    },
+    "678": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "44",
+        ],
+    },
+    "679": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "45",
+        ],
+    },
+    "680": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "46",
+        ],
+    },
+    "681": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "53",
+        ],
+    },
+    "682": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "54",
+        ],
+    },
+    "683": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "55",
+        ],
+    },
+    "684": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "56",
+        ],
+    },
+    "685": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "63",
+        ],
+    },
+    "686": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "66",
+        ],
+    },
+    "687": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "67",
+        ],
+    },
+    "688": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "75",
+        ],
+    },
+    "689": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "78",
+        ],
+    },
+    "690": {
+        权重: 11883,
+        IP: [
+            "cognitive database",
+            "basic",
+            "81",
         ],
     },
 }

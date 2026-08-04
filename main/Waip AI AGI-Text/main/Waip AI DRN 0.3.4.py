@@ -1,6 +1,3 @@
-from ast import Yield
-
-from numpy import number
 import psutil
 import copy
 import time
@@ -8,7 +5,7 @@ from datetime import datetime
 
 # ©2026 何蓝田 保留所有权利
 
-# import random # 你为什么导入了random模块
+# import random # 你为什么导入了random模块，这个人工智能不能参随机数的伪
 
 
 
@@ -876,6 +873,8 @@ def Waip_AI_DRN(user, data):
                     "IP": ["cognitive database"] + data["cognitive database"][j]["IP"],
                 }
                 data["other database"]["激活记忆标记数据库activate_memory_tag_database"][str(this_activatad_memory_number)] = 0
+
+        
 
 
         yield from printf(f"未录入的组合单元：{Unrecorded_combined_units}")

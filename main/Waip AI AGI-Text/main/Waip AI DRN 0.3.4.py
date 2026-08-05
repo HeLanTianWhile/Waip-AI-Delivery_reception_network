@@ -874,7 +874,11 @@ def Waip_AI_DRN(user, data):
                 }
                 data["other database"]["激活记忆标记数据库activate_memory_tag_database"][str(this_activatad_memory_number)] = 0
 
-        
+        for i in associative_tree:
+            if "Root unit" in associative_tree[i]["IP"]:
+                continue
+            superior_unit = associative_tree[i]["superior unit"]
+            yield from printf(f"{i}的上级单元：{associative_tree[str(superior_unit)]}")
 
 
         yield from printf(f"未录入的组合单元：{Unrecorded_combined_units}")

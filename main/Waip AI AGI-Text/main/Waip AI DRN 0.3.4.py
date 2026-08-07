@@ -879,6 +879,14 @@ def Waip_AI_DRN(user, data):
                 continue
             superior_unit = associative_tree[i]["superior unit"]
             yield from printf(f"{i}的上级单元：{associative_tree[str(superior_unit)]}")
+            if "Undetermined unit" in associative_tree[str("superior unit")]["IP"]:
+                pass
+            else:
+                superior_unit_all_IP = associative_tree[str(superior_unit)]["correspond to"]
+                superior_unit_IP = copy.deepcopy(superior_unit_all_IP)
+                del superior_unit_IP[0]
+                for j in data["associative tree"]:
+                    pass
 
 
         yield from printf(f"未录入的组合单元：{Unrecorded_combined_units}")

@@ -1,3 +1,6 @@
+def printf(message):
+    #msg.append(message)
+    yield {"type":"调试","message": message}
 
 def Text_Attention_Algorithm(text, data):
     dopamine = data["status database"]["多巴胺dopamine"]
@@ -21,12 +24,12 @@ def Text_Attention_Algorithm(text, data):
     Glamic_acid_processing = float(Glamic_acid) / 10000# 比较复杂先不管
     ##########
     text_range = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 10)
-    yield f"文字注意力范围：{text_range}"
+    yield from printf(f"文字注意力范围：{text_range}")
     return text_range
 
 def input_layer(user, data, index):
     text_range = yield from Text_Attention_Algorithm(user, data)
     Text = user[index:index+text_range]
-    yield f"文字注意力内容：{Text}"
-    yield f"当前截止：{index+text_range}"
+    yield from printf(f"文字注意力内容：{Text}")
+    yield from printf(f"当前截止：{index+text_range}")
     return Text, text_range

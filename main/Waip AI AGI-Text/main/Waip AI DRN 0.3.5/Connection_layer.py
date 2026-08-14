@@ -1,7 +1,11 @@
 import copy
 import psutil
-import datetime
+from datetime import datetime
 
+
+def printf(message):
+    #msg.append(message)
+    yield {"type":"调试","message": message}
 
 def calculate_activation_valve(data):
     dopamine_processing = float((100000 - data["多巴胺dopamine"]) / 5)
@@ -15,7 +19,7 @@ def calculate_activation_valve(data):
     Glamic_acid_processing = float((100000 - data["谷氨酸Glutamic acid"]) / 5)
 
     activate_valve = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 10)
-    yield f"激活阀值：{activate_valve}"
+    yield from printf(f"激活阀值：{activate_valve}")
     return activate_valve
 
 def Connection_layer(Text, data, associative_tree, reply):
@@ -34,7 +38,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算激活阀值
         Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory_c = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 10 + Activation_threshold)
-        yield f"用户输入计入激活记忆数据库时的初始权重：{Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory_c}"
+        yield from printf(f"用户输入计入激活记忆数据库时的初始权重：{Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory_c}")
         return Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_users_into_activation_memory_c
         
     def Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory(data, Activation_threshold):
@@ -51,7 +55,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算激活阀值
         Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory_c = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 + Activation_threshold)
-        yield f"AI输入计入激活记忆数据库时的初始权重：{Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory_c}"
+        yield from printf(f"AI输入计入激活记忆数据库时的初始权重：{Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory_c}")
         return Weight_neurotransmitter_calculation_formula_when_storing_IP_input_from_short_term_memory_ai_into_activation_memory_c
 
     def update_neurotransmitters(data,Text,reply,associative_tree):
@@ -64,7 +68,7 @@ def Connection_layer(Text, data, associative_tree, reply):
         data["status database"]["血清素serotonin"] = round(100000 - battery_level *1000 * 0.5)
         data["status database"]["多巴胺dopamine"] = round(battery_level *1000 * 0.35)
 
-        yield f"电池电量：{battery_level}"
+        yield from printf(f"电池电量：{battery_level}")
 
     def Neurotransmitter_calculation_activates_memory_increment_and_decrement_values(data):
         # 除以100
@@ -79,7 +83,7 @@ def Connection_layer(Text, data, associative_tree, reply):
         Glamic_acid_processing = float((data["谷氨酸Glutamic acid"]) / 100)
 
         Neurotransmitter_calculation_activates_memory_increment_and_decrement_values = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 8)
-        yield f"激活记忆数据库的增加或减少值：{Neurotransmitter_calculation_activates_memory_increment_and_decrement_values}"
+        yield from printf(f"激活记忆数据库的增加或减少值：{Neurotransmitter_calculation_activates_memory_increment_and_decrement_values}")
         return Neurotransmitter_calculation_activates_memory_increment_and_decrement_values
 
     def Neurotransmitter_computational_activation_memory_erasure_threshold(data):
@@ -95,7 +99,7 @@ def Connection_layer(Text, data, associative_tree, reply):
         Glamic_acid_processing = float((100000 - data["谷氨酸Glutamic acid"]) / 100)
 
         value = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 8)
-        yield f"激活记忆数据库的擦除阈值：{value}"
+        yield from printf(f"激活记忆数据库的擦除阈值：{value}")
         return value
 
     def Initial_weights_when_new_units_are_added_to_activate_the_memory_database(data, Activation_threshold):
@@ -112,7 +116,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算激活阀值
         number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 7 + Activation_threshold)
-        yield f"新知识计入激活记忆数据库时的初始权重：{number}"
+        yield from printf(f"新知识计入激活记忆数据库时的初始权重：{number}")
         return number
 
     def Initial_weights_when_combined_units_are_added_to_the_activated_memory_database(data, len_of_combined_units):
@@ -129,7 +133,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算组合单元计入激活记忆数据库时的初始权重
         number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 * (3.1 - (len_of_combined_units) / 10))
-        yield f"组合单元计入激活记忆数据库时的初始权重：{number}"
+        yield from printf(f"组合单元计入激活记忆数据库时的初始权重：{number}")
         return number
 
     def Initial_weight_when_combined_memory_is_not_entered_into_cognitive_database(data, len_of_combined_units):
@@ -146,7 +150,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算组合单元计入认知记忆数据库时的初始权重
         number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 * (2.1 - (len_of_combined_units) / 10))
-        yield f"组合单元计入认知记忆数据库时的初始权重：{number}"
+        yield from printf(f"组合单元计入认知记忆数据库时的初始权重：{number}")
         return number
         
     def calculate_the_appreciation_of_the_combined_unit(data):
@@ -163,7 +167,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算组合单元的增值
         number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9)
-        yield f"组合单元的增值：{number}"
+        yield from printf(f"组合单元的增值：{number}")
         return number
 
     def Impairment_calculation_of_combined_units(data, percentage):
@@ -180,7 +184,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算组合单元的减值
         number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9 * percentage)
-        yield f"组合单元的减值：{number}"
+        yield from printf(f"组合单元的减值：{number}")
         return number
 
     def Calculation_for_Valve_Reduction_of_Combined_Units(data):
@@ -197,7 +201,7 @@ def Connection_layer(Text, data, associative_tree, reply):
 
         # 计算组合单元的删除阀门
         number = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 11)
-        yield f"组合单元的删除阀门：{number}"
+        yield from printf(f"组合单元的删除阀门：{number}")
         return number
 
 
@@ -216,7 +220,7 @@ def Connection_layer(Text, data, associative_tree, reply):
                 number_occurrences_activated_delivery_elements_in_association_tree[i] += 1
 
 
-    yield f"{number_occurrences_activated_delivery_elements_in_association_tree}"
+    yield from printf(f"{number_occurrences_activated_delivery_elements_in_association_tree}")
 
     if len(data["other database"]["激活记忆标记数据库activate_memory_tag_database"]) == 0:
         data["other database"]["激活记忆标记数据库activate_memory_tag_database"] = number_occurrences_activated_delivery_elements_in_association_tree
@@ -233,7 +237,7 @@ def Connection_layer(Text, data, associative_tree, reply):
         if int(data["activated memory"][i]["权重"]) < threshold:
             del copy_activated_memory[i]
             del data["other database"]["激活记忆标记数据库activate_memory_tag_database"][i]
-            yield f"激活记忆{i}已擦除"
+            yield from printf(f"激活记忆{i}已擦除")
     data["activated memory"] = copy_activated_memory
 
     # 计算组合单元的删除阀门
@@ -245,12 +249,12 @@ def Connection_layer(Text, data, associative_tree, reply):
             continue
         if data["cognitive database"][i]["权重"] < valve_reduction:
             Combination_Unit_to_Be_Deleted.append(i)
-    yield f"需要删除的组合单元：{Combination_Unit_to_Be_Deleted}"
+    yield from printf(f"需要删除的组合单元：{Combination_Unit_to_Be_Deleted}")
 
     for i in Combination_Unit_to_Be_Deleted:
         IP = data["cognitive database"][i]["IP"]
         del data["cognitive database"][i]
-        yield f"组合单元{i}已删除，IP为{IP}"
+        yield from printf(f"组合单元{i}已删除，IP为{IP}")
         copy_activated_memory = copy.deepcopy(data["activated memory"])
         TF = False
         for j in data["activated memory"]:
@@ -258,11 +262,11 @@ def Connection_layer(Text, data, associative_tree, reply):
                 TF = True
                 activated_memory_IP = j
                 del copy_activated_memory[j]
-                yield f"激活记忆{j}已删除，IP为{IP}"
+                yield from printf(f"激活记忆{j}已删除，IP为{IP}")
         if TF:
             data["activated memory"] = copy_activated_memory
             del data["other database"]["激活记忆标记数据库activate_memory_tag_database"][activated_memory_IP]
-            yield f"激活记忆{activated_memory_IP}的IP为{IP}已除"
+            yield from printf(f"激活记忆{activated_memory_IP}的IP为{IP}已除")
 
 
     Alternative_combination_units = {}
@@ -278,11 +282,11 @@ def Connection_layer(Text, data, associative_tree, reply):
 
     for i in Alternative_combination_units:
         if Alternative_combination_units[i] in Text:
-            yield f"组合单元{Alternative_combination_units[i]}为增值对象"
+            yield from printf(f"组合单元{Alternative_combination_units[i]}为增值对象")
             weight_plus = yield from calculate_the_appreciation_of_the_combined_unit(data["status database"])
             data["cognitive database"][i]["权重"] += weight_plus
         else:
-            yield f"组合单元{Alternative_combination_units[i]}为减值对象"
+            yield from printf(f"组合单元{Alternative_combination_units[i]}为减值对象")
             Existing_quantity = 0
             for j in Alternative_combination_units[i]:
                 if j in Text:
@@ -412,7 +416,7 @@ def Connection_layer(Text, data, associative_tree, reply):
             for j in Undetermined_Unit_dictionary:
                 if associative_tree[j]["content"] == data["cognitive database"][i]["content"]:
                     Unrecorded_undetermined_units.remove(j)
-                    yield j
+                    yield from printf(j)
 
     for i in Unrecorded_undetermined_units:
         cognitive_database_number = []
@@ -436,7 +440,7 @@ def Connection_layer(Text, data, associative_tree, reply):
         else:
             this_cognitive_database_basic_number = max(cognitive_database_basic_number) + 1
 
-        yield f"未录入的未确定单元：{Unrecorded_undetermined_units}"
+        yield from printf(f"未录入的未确定单元：{Unrecorded_undetermined_units}")
 
         data["cognitive database"][str(this_cognitive_database_number)] = {
             "content": associative_tree[i]["content"],
@@ -462,7 +466,7 @@ def Connection_layer(Text, data, associative_tree, reply):
         }
         data["other database"]["激活记忆标记数据库activate_memory_tag_database"][str(this_activatad_memory_number)] = 0
 
-    yield f"未录入的未确定单元：{Unrecorded_undetermined_units}"
+    yield from printf(f"未录入的未确定单元：{Unrecorded_undetermined_units}")
 
     Combination_units = []
 
@@ -483,14 +487,14 @@ def Connection_layer(Text, data, associative_tree, reply):
                     value_of_content_for_index_at_this_moment += data["cognitive database"][k]["content"]
         Entered_combined_units.append(value_of_content_for_index_at_this_moment)
 
-    yield f"666666:" + str(Entered_combined_units)
-    yield f"777777:" + str(Unrecorded_combined_units)
+    yield from printf(f"666666:" + str(Entered_combined_units))
+    yield from printf(f"777777:" + str(Unrecorded_combined_units))
 
     copy_Unrecorded_combined_units = copy.deepcopy(Unrecorded_combined_units)
 
     for i in Unrecorded_combined_units:
         if i in Entered_combined_units:
-            yield f"888888:" + i
+            yield from printf(f"888888:" + i)
             copy_Unrecorded_combined_units.remove(i)
 
     Unrecorded_combined_units = copy.deepcopy(copy_Unrecorded_combined_units)
@@ -522,7 +526,7 @@ def Connection_layer(Text, data, associative_tree, reply):
                 if data["cognitive database"][j]["content"] == k:
                     cognitive_database_combined_content.append(data["cognitive database"][j]["IP"])
 
-        yield f"组合单元编号：{this_cognitive_database_combined_number}"    
+        yield from printf(f"组合单元编号：{this_cognitive_database_combined_number}")    
 
         # 计算组合单元计入认知记忆数据库时的初始权重
         combined_weight_number = yield from Initial_weight_when_combined_memory_is_not_entered_into_cognitive_database(data["status database"], len(i))
@@ -563,7 +567,7 @@ def Connection_layer(Text, data, associative_tree, reply):
             if TF:
                 continue
             if ((data["short-term memory"][j]["content"] == i) or (i in data["short-term memory"][j]["content"])) and (j not in Short_term_memory_added_to_activated_memory_database):
-                yield f"{data['short-term memory'][j]['content']}内容因输入被激活了，键为{j}"
+                yield from printf(f"{data['short-term memory'][j]['content']}内容因输入被激活了，键为{j}")
                 Pending_Activation_Short_term_Memory_Database.append(j)
                 Short_term_memory_added_to_activated_memory_database.append(j)
 
@@ -640,24 +644,24 @@ def Connection_layer(Text, data, associative_tree, reply):
         if "Root unit" in associative_tree[i]["IP"]:
             continue
         superior_unit = associative_tree[i]["superior unit"]
-        yield f"{i}的上级单元：{associative_tree[str(superior_unit)]}"
-        if "Undetermined unit" in associative_tree[str("superior unit")]["IP"]:
+        yield from printf(f"{i}的上级单元：{associative_tree[str(superior_unit)]}")
+        if "Undetermined unit" in associative_tree[str(superior_unit)]["IP"]:
             pass
         else:
             superior_unit_all_IP = associative_tree[str(superior_unit)]["correspond to"]
             superior_unit_IP = copy.deepcopy(superior_unit_all_IP)
             del superior_unit_IP[0]
-            for j in data["associative tree"]:
+            for j in data["associative network"]:
                 pass
 
 
-    yield f"未录入的组合单元：{Unrecorded_combined_units}"
+    yield from printf(f"未录入的组合单元：{Unrecorded_combined_units}")
 
         
 
     yield from update_neurotransmitters(data,Text,reply,associative_tree)
-    yield f"神经递质已更新"
-    yield data["status database"]
+    yield from printf(f"神经递质已更新")
+    yield from printf(data["status database"])
 
-    yield f"激活记忆数据库已更新"
-    yield f"短时记忆数据库已更新"
+    yield from printf(f"激活记忆数据库已更新")
+    yield from printf(f"短时记忆数据库已更新")

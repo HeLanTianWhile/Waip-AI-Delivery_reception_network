@@ -1,6 +1,10 @@
 import copy
 
 
+def printf(message):
+    #msg.append(message)
+    yield {"type":"调试","message": message}
+
 def reply_layer(Text, data, associative_tree):
     ai_reply = ""
         
@@ -18,8 +22,8 @@ def reply_layer(Text, data, associative_tree):
                         for k in data[IP[0]][j]["content"]:
                             for l in data[IP[0]]:
                                 if data[IP[0]][l]["IP"] == k:
-                                    yield data[IP[0]][l]["IP"]
-                                    yield k
+                                    yield from printf(data[IP[0]][l]["IP"])
+                                    yield from printf(k)
                                     content += data[IP[0]][l]["content"]
                         ai_reply += content
                     else:

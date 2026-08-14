@@ -1,2 +1,2 @@
-def output_layer():
+def output_layer(reply):
     pass

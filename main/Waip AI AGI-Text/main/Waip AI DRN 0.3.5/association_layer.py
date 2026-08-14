@@ -1,6 +1,10 @@
 import copy
 
 
+def printf(message):
+    #msg.append(message)
+    yield {"type":"调试","message": message}
+
 def association_layer(Text, data, data_processed):
 
     def Calculation_formula_number_branches_associative_tree(text, data):
@@ -15,7 +19,7 @@ def association_layer(Text, data, data_processed):
         Glamic_acid_processing = float(100000 - data["status database"]["谷氨酸Glutamic acid"]) / 1000
         ##########
         number_branches_associative_tree = round((dopamine_processing + acetylcholine_processing + serotonin_processing + endorphin_processing + substance_P_processing + epinephrine_processing + Noradrenaline_processing + GABA_processing + Glamic_acid_processing) / 9)
-        yield f"关联树分支数：{number_branches_associative_tree}"
+        yield from printf(f"关联树分支数：{number_branches_associative_tree}")
         return number_branches_associative_tree 
             
 
@@ -26,7 +30,7 @@ def association_layer(Text, data, data_processed):
         if "associative network" not in data["activated memory"][i]["IP"]:
             activated_Delivery_reception_unit.append(i)
     
-    yield f"激活递接元：{activated_Delivery_reception_unit}"
+    yield from printf(f"激活递接元：{activated_Delivery_reception_unit}")
     
     number_branches_associative_tree = yield from Calculation_formula_number_branches_associative_tree(Text, data)
     index = {"main_index": 0,"Undetermined_Root_unit_index": 0, "Confirmed_Root_unit_index": 0, "Confirmed_Subunit_index": 0}
@@ -107,7 +111,7 @@ def association_layer(Text, data, data_processed):
                                 index["main_index"] += 1
                                 index["Confirmed_Subunit_index"] += 1
                                 list_of_added_edges.append(i)
-                                yield f"添加成功:{copy_associative_tree[str(index['main_index'] - 1)]}"
+                                yield from printf(f"添加成功:{copy_associative_tree[str(index['main_index'] - 1)]}")
                     elif associative_unit[o]["type"] == "one-way head":
                         if associative_unit[o]["IP"]["IP"] == data[associative_tree[p]["correspond to"][0]][associative_tree[p]["correspond to"][-1]]["IP"]:
                             if i not in list_of_added_edges:
@@ -115,7 +119,7 @@ def association_layer(Text, data, data_processed):
                                 index["main_index"] += 1
                                 index["Confirmed_Subunit_index"] += 1
                                 list_of_added_edges.append(i)
-                                yield f"添加成功"
+                                yield from printf(f"添加成功")
 
             if index["main_index"] == number_branches_associative_tree:
                     break
@@ -125,7 +129,6 @@ def association_layer(Text, data, data_processed):
         associative_tree = copy.deepcopy(copy_associative_tree)
 
         if stop_index == number_branches_associative_tree:
-            yield f"此临时循环已执行{stop_index}次，未完成关联树的构建所以将会无限循环，这是正常现象，此变量将会制止程序"
             break
 
 

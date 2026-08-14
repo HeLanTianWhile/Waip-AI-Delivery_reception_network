@@ -20,6 +20,7 @@ module_dir = os.path.abspath(os.path.join(current_dir, '..', '..', 'main'))
 # 定义支持的版本列表
 AGI_VERSIONS = {
     "0.3.5": "Waip AI DRN 0.3.5/main.py",
+    "0.3.6": "Waip AI DRN 0.3.6/main.py",
 }
 
 # Ollama配置
@@ -588,6 +589,7 @@ def main():
             printf("何蓝田在技术上遇到了难题，何蓝田将会在0.2.9版本修复，日期：2026年7月28日")
             printf("0.3.3版本解决了用户输入激活问题，连接层达到了500+行，超越了所有层。日期：2026年8月2日")
             printf("0.3.5版本进行了模块化重构，日期：2026年8月8日")
+            printf("0.3.5何蓝田终于完成了模块化重构！日期：2026年8月14日")
     else:
         printf("\n")
         # 流式输出：逐步接收 yield 的消息

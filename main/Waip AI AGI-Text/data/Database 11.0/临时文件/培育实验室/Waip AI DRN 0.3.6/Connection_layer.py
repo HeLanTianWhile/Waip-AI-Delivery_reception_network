@@ -644,6 +644,8 @@ def Connection_layer(Text, data, associative_tree, reply):
         if "Root unit" in associative_tree[i]["IP"]:
             continue
         superior_unit = associative_tree[i]["superior unit"]
+        if isinstance(superior_unit, list):
+            superior_unit = superior_unit[0]
         yield from printf(f"{i}的上级单元：{associative_tree[str(superior_unit)]}")
         if "Undetermined unit" in associative_tree[str(superior_unit)]["IP"]:
             pass

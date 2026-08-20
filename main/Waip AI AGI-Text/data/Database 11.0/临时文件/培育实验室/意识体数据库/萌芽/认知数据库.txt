@@ -1,0 +1,2366 @@
+{
+    "1": {
+        "content": "你",
+        "IP": [
+            "basic",
+            1
+        ]
+    },
+    "2": {
+        "content": "我",
+        "IP": [
+            "basic",
+            2
+        ]
+    },
+    "3": {
+        "content": "他",
+        "IP": [
+            "basic",
+            3
+        ]
+    },
+    "4": {
+        "content": "她",
+        "IP": [
+            "basic",
+            4
+        ]
+    },
+    "5": {
+        "content": "它",
+        "IP": [
+            "basic",
+            5
+        ]
+    },
+    "6": {
+        "content": "们",
+        "IP": [
+            "basic",
+            6
+        ]
+    },
+    "7": {
+        "content": "咱",
+        "IP": [
+            "basic",
+            7
+        ]
+    },
+    "8": {
+        "content": "俺",
+        "IP": [
+            "basic",
+            8
+        ]
+    },
+    "9": {
+        "content": "人",
+        "IP": [
+            "basic",
+            9
+        ]
+    },
+    "10": {
+        "content": "谁",
+        "IP": [
+            "basic",
+            10
+        ]
+    },
+    "11": {
+        "content": "是",
+        "IP": [
+            "basic",
+            11
+        ]
+    },
+    "12": {
+        "content": "有",
+        "IP": [
+            "basic",
+            12
+        ]
+    },
+    "13": {
+        "content": "在",
+        "IP": [
+            "basic",
+            13
+        ]
+    },
+    "14": {
+        "content": "不",
+        "IP": [
+            "basic",
+            14
+        ]
+    },
+    "15": {
+        "content": "也",
+        "IP": [
+            "basic",
+            15
+        ]
+    },
+    "16": {
+        "content": "都",
+        "IP": [
+            "basic",
+            16
+        ]
+    },
+    "17": {
+        "content": "就",
+        "IP": [
+            "basic",
+            17
+        ]
+    },
+    "18": {
+        "content": "才",
+        "IP": [
+            "basic",
+            18
+        ]
+    },
+    "19": {
+        "content": "又",
+        "IP": [
+            "basic",
+            19
+        ]
+    },
+    "20": {
+        "content": "再",
+        "IP": [
+            "basic",
+            20
+        ]
+    },
+    "21": {
+        "content": "去",
+        "IP": [
+            "basic",
+            21
+        ]
+    },
+    "22": {
+        "content": "来",
+        "IP": [
+            "basic",
+            22
+        ]
+    },
+    "23": {
+        "content": "想",
+        "IP": [
+            "basic",
+            23
+        ]
+    },
+    "24": {
+        "content": "要",
+        "IP": [
+            "basic",
+            24
+        ]
+    },
+    "25": {
+        "content": "能",
+        "IP": [
+            "basic",
+            25
+        ]
+    },
+    "26": {
+        "content": "会",
+        "IP": [
+            "basic",
+            26
+        ]
+    },
+    "27": {
+        "content": "可",
+        "IP": [
+            "basic",
+            27
+        ]
+    },
+    "28": {
+        "content": "以",
+        "IP": [
+            "basic",
+            28
+        ]
+    },
+    "29": {
+        "content": "知",
+        "IP": [
+            "basic",
+            29
+        ]
+    },
+    "30": {
+        "content": "道",
+        "IP": [
+            "basic",
+            30
+        ]
+    },
+    "31": {
+        "content": "说",
+        "IP": [
+            "basic",
+            31
+        ]
+    },
+    "32": {
+        "content": "看",
+        "IP": [
+            "basic",
+            32
+        ]
+    },
+    "33": {
+        "content": "听",
+        "IP": [
+            "basic",
+            33
+        ]
+    },
+    "34": {
+        "content": "吃",
+        "IP": [
+            "basic",
+            34
+        ]
+    },
+    "35": {
+        "content": "喝",
+        "IP": [
+            "basic",
+            35
+        ]
+    },
+    "36": {
+        "content": "玩",
+        "IP": [
+            "basic",
+            36
+        ]
+    },
+    "37": {
+        "content": "学",
+        "IP": [
+            "basic",
+            37
+        ]
+    },
+    "38": {
+        "content": "做",
+        "IP": [
+            "basic",
+            38
+        ]
+    },
+    "39": {
+        "content": "用",
+        "IP": [
+            "basic",
+            39
+        ]
+    },
+    "40": {
+        "content": "给",
+        "IP": [
+            "basic",
+            40
+        ]
+    },
+    "41": {
+        "content": "问",
+        "IP": [
+            "basic",
+            41
+        ]
+    },
+    "42": {
+        "content": "答",
+        "IP": [
+            "basic",
+            42
+        ]
+    },
+    "43": {
+        "content": "叫",
+        "IP": [
+            "basic",
+            43
+        ]
+    },
+    "45": {
+        "content": "帮",
+        "IP": [
+            "basic",
+            45
+        ]
+    },
+    "46": {
+        "content": "好",
+        "IP": [
+            "basic",
+            46
+        ]
+    },
+    "47": {
+        "content": "坏",
+        "IP": [
+            "basic",
+            47
+        ]
+    },
+    "48": {
+        "content": "大",
+        "IP": [
+            "basic",
+            48
+        ]
+    },
+    "49": {
+        "content": "小",
+        "IP": [
+            "basic",
+            49
+        ]
+    },
+    "50": {
+        "content": "多",
+        "IP": [
+            "basic",
+            50
+        ]
+    },
+    "51": {
+        "content": "少",
+        "IP": [
+            "basic",
+            51
+        ]
+    },
+    "52": {
+        "content": "高",
+        "IP": [
+            "basic",
+            52
+        ]
+    },
+    "53": {
+        "content": "低",
+        "IP": [
+            "basic",
+            53
+        ]
+    },
+    "54": {
+        "content": "长",
+        "IP": [
+            "basic",
+            54
+        ]
+    },
+    "55": {
+        "content": "短",
+        "IP": [
+            "basic",
+            55
+        ]
+    },
+    "56": {
+        "content": "新",
+        "IP": [
+            "basic",
+            56
+        ]
+    },
+    "57": {
+        "content": "旧",
+        "IP": [
+            "basic",
+            57
+        ]
+    },
+    "58": {
+        "content": "美",
+        "IP": [
+            "basic",
+            58
+        ]
+    },
+    "59": {
+        "content": "丑",
+        "IP": [
+            "basic",
+            59
+        ]
+    },
+    "60": {
+        "content": "快",
+        "IP": [
+            "basic",
+            60
+        ]
+    },
+    "61": {
+        "content": "慢",
+        "IP": [
+            "basic",
+            61
+        ]
+    },
+    "62": {
+        "content": "聪",
+        "IP": [
+            "basic",
+            62
+        ]
+    },
+    "63": {
+        "content": "明",
+        "IP": [
+            "basic",
+            63
+        ]
+    },
+    "64": {
+        "content": "傻",
+        "IP": [
+            "basic",
+            64
+        ]
+    },
+    "65": {
+        "content": "很",
+        "IP": [
+            "basic",
+            65
+        ]
+    },
+    "66": {
+        "content": "家",
+        "IP": [
+            "basic",
+            66
+        ]
+    },
+    "68": {
+        "content": "校",
+        "IP": [
+            "basic",
+            68
+        ]
+    },
+    "69": {
+        "content": "书",
+        "IP": [
+            "basic",
+            69
+        ]
+    },
+    "70": {
+        "content": "电",
+        "IP": [
+            "basic",
+            70
+        ]
+    },
+    "71": {
+        "content": "脑",
+        "IP": [
+            "basic",
+            71
+        ]
+    },
+    "72": {
+        "content": "手",
+        "IP": [
+            "basic",
+            72
+        ]
+    },
+    "73": {
+        "content": "机",
+        "IP": [
+            "basic",
+            73
+        ]
+    },
+    "74": {
+        "content": "水",
+        "IP": [
+            "basic",
+            74
+        ]
+    },
+    "75": {
+        "content": "火",
+        "IP": [
+            "basic",
+            75
+        ]
+    },
+    "76": {
+        "content": "山",
+        "IP": [
+            "basic",
+            76
+        ]
+    },
+    "77": {
+        "content": "河",
+        "IP": [
+            "basic",
+            77
+        ]
+    },
+    "78": {
+        "content": "天",
+        "IP": [
+            "basic",
+            78
+        ]
+    },
+    "79": {
+        "content": "地",
+        "IP": [
+            "basic",
+            79
+        ]
+    },
+    "80": {
+        "content": "日",
+        "IP": [
+            "basic",
+            80
+        ]
+    },
+    "81": {
+        "content": "月",
+        "IP": [
+            "basic",
+            81
+        ]
+    },
+    "82": {
+        "content": "星",
+        "IP": [
+            "basic",
+            82
+        ]
+    },
+    "83": {
+        "content": "花",
+        "IP": [
+            "basic",
+            83
+        ]
+    },
+    "84": {
+        "content": "草",
+        "IP": [
+            "basic",
+            84
+        ]
+    },
+    "85": {
+        "content": "树",
+        "IP": [
+            "basic",
+            85
+        ]
+    },
+    "86": {
+        "content": "猫",
+        "IP": [
+            "basic",
+            86
+        ]
+    },
+    "87": {
+        "content": "狗",
+        "IP": [
+            "basic",
+            87
+        ]
+    },
+    "88": {
+        "content": "鸟",
+        "IP": [
+            "basic",
+            88
+        ]
+    },
+    "89": {
+        "content": "鱼",
+        "IP": [
+            "basic",
+            89
+        ]
+    },
+    "90": {
+        "content": "饭",
+        "IP": [
+            "basic",
+            90
+        ]
+    },
+    "91": {
+        "content": "菜",
+        "IP": [
+            "basic",
+            91
+        ]
+    },
+    "92": {
+        "content": "钱",
+        "IP": [
+            "basic",
+            92
+        ]
+    },
+    "93": {
+        "content": "时",
+        "IP": [
+            "basic",
+            93
+        ]
+    },
+    "94": {
+        "content": "间",
+        "IP": [
+            "basic",
+            94
+        ]
+    },
+    "95": {
+        "content": "名",
+        "IP": [
+            "basic",
+            95
+        ]
+    },
+    "96": {
+        "content": "字",
+        "IP": [
+            "basic",
+            96
+        ]
+    },
+    "97": {
+        "content": "年",
+        "IP": [
+            "basic",
+            97
+        ]
+    },
+    "98": {
+        "content": "龄",
+        "IP": [
+            "basic",
+            98
+        ]
+    },
+    "99": {
+        "content": "朋",
+        "IP": [
+            "basic",
+            99
+        ]
+    },
+    "100": {
+        "content": "友",
+        "IP": [
+            "basic",
+            100
+        ]
+    },
+    "101": {
+        "content": "老",
+        "IP": [
+            "basic",
+            101
+        ]
+    },
+    "102": {
+        "content": "师",
+        "IP": [
+            "basic",
+            102
+        ]
+    },
+    "103": {
+        "content": "生",
+        "IP": [
+            "basic",
+            103
+        ]
+    },
+    "105": {
+        "content": "题",
+        "IP": [
+            "basic",
+            105
+        ]
+    },
+    "107": {
+        "content": "案",
+        "IP": [
+            "basic",
+            107
+        ]
+    },
+    "108": {
+        "content": "世",
+        "IP": [
+            "basic",
+            108
+        ]
+    },
+    "109": {
+        "content": "界",
+        "IP": [
+            "basic",
+            109
+        ]
+    },
+    "110": {
+        "content": "心",
+        "IP": [
+            "basic",
+            110
+        ]
+    },
+    "111": {
+        "content": "什",
+        "IP": [
+            "basic",
+            111
+        ]
+    },
+    "112": {
+        "content": "么",
+        "IP": [
+            "basic",
+            112
+        ]
+    },
+    "113": {
+        "content": "怎",
+        "IP": [
+            "basic",
+            113
+        ]
+    },
+    "114": {
+        "content": "样",
+        "IP": [
+            "basic",
+            114
+        ]
+    },
+    "115": {
+        "content": "为",
+        "IP": [
+            "basic",
+            115
+        ]
+    },
+    "116": {
+        "content": "哪",
+        "IP": [
+            "basic",
+            116
+        ]
+    },
+    "117": {
+        "content": "几",
+        "IP": [
+            "basic",
+            117
+        ]
+    },
+    "118": {
+        "content": "最",
+        "IP": [
+            "basic",
+            118
+        ]
+    },
+    "119": {
+        "content": "更",
+        "IP": [
+            "basic",
+            119
+        ]
+    },
+    "120": {
+        "content": "非",
+        "IP": [
+            "basic",
+            120
+        ]
+    },
+    "121": {
+        "content": "常",
+        "IP": [
+            "basic",
+            121
+        ]
+    },
+    "122": {
+        "content": "真",
+        "IP": [
+            "basic",
+            122
+        ]
+    },
+    "123": {
+        "content": "假",
+        "IP": [
+            "basic",
+            123
+        ]
+    },
+    "124": {
+        "content": "没",
+        "IP": [
+            "basic",
+            124
+        ]
+    },
+    "125": {
+        "content": "了",
+        "IP": [
+            "basic",
+            125
+        ]
+    },
+    "126": {
+        "content": "着",
+        "IP": [
+            "basic",
+            126
+        ]
+    },
+    "127": {
+        "content": "过",
+        "IP": [
+            "basic",
+            127
+        ]
+    },
+    "128": {
+        "content": "的",
+        "IP": [
+            "basic",
+            128
+        ]
+    },
+    "129": {
+        "content": "和",
+        "IP": [
+            "basic",
+            129
+        ]
+    },
+    "130": {
+        "content": "与",
+        "IP": [
+            "basic",
+            130
+        ]
+    },
+    "131": {
+        "content": "喜",
+        "IP": [
+            "basic",
+            131
+        ]
+    },
+    "132": {
+        "content": "欢",
+        "IP": [
+            "basic",
+            132
+        ]
+    },
+    "133": {
+        "content": "讨",
+        "IP": [
+            "basic",
+            133
+        ]
+    },
+    "134": {
+        "content": "厌",
+        "IP": [
+            "basic",
+            134
+        ]
+    },
+    "135": {
+        "content": "开",
+        "IP": [
+            "basic",
+            135
+        ]
+    },
+    "137": {
+        "content": "难",
+        "IP": [
+            "basic",
+            137
+        ]
+    },
+    "140": {
+        "content": "气",
+        "IP": [
+            "basic",
+            140
+        ]
+    },
+    "141": {
+        "content": "害",
+        "IP": [
+            "basic",
+            141
+        ]
+    },
+    "142": {
+        "content": "怕",
+        "IP": [
+            "basic",
+            142
+        ]
+    },
+    "143": {
+        "content": "惊",
+        "IP": [
+            "basic",
+            143
+        ]
+    },
+    "144": {
+        "content": "讶",
+        "IP": [
+            "basic",
+            144
+        ]
+    },
+    "145": {
+        "content": "谢",
+        "IP": [
+            "basic",
+            145
+        ]
+    },
+    "147": {
+        "content": "对",
+        "IP": [
+            "basic",
+            147
+        ]
+    },
+    "149": {
+        "content": "起",
+        "IP": [
+            "basic",
+            149
+        ]
+    },
+    "150": {
+        "content": "系",
+        "IP": [
+            "basic",
+            150
+        ]
+    },
+    "152": {
+        "content": "见",
+        "IP": [
+            "basic",
+            152
+        ]
+    },
+    "154": {
+        "content": "迎",
+        "IP": [
+            "basic",
+            154
+        ]
+    },
+    "155": {
+        "content": "请",
+        "IP": [
+            "basic",
+            155
+        ]
+    },
+    "156": {
+        "content": "原",
+        "IP": [
+            "basic",
+            156
+        ]
+    },
+    "157": {
+        "content": "谅",
+        "IP": [
+            "basic",
+            157
+        ]
+    },
+    "159": {
+        "content": "关",
+        "IP": [
+            "basic",
+            159
+        ]
+    },
+    "161": {
+        "content": "早",
+        "IP": [
+            "basic",
+            161
+        ]
+    },
+    "162": {
+        "content": "上",
+        "IP": [
+            "basic",
+            162
+        ]
+    },
+    "163": {
+        "content": "午",
+        "IP": [
+            "basic",
+            163
+        ]
+    },
+    "164": {
+        "content": "晚",
+        "IP": [
+            "basic",
+            164
+        ]
+    },
+    "165": {
+        "content": "安",
+        "IP": [
+            "basic",
+            165
+        ]
+    },
+    "166": {
+        "content": "哈",
+        "IP": [
+            "basic",
+            166
+        ]
+    },
+    "168": {
+        "content": "嘿",
+        "IP": [
+            "basic",
+            168
+        ]
+    },
+    "169": {
+        "content": "嗯",
+        "IP": [
+            "basic",
+            169
+        ]
+    },
+    "170": {
+        "content": "哦",
+        "IP": [
+            "basic",
+            170
+        ]
+    },
+    "171": {
+        "content": "这",
+        "IP": [
+            "basic",
+            171
+        ]
+    },
+    "172": {
+        "content": "那",
+        "IP": [
+            "basic",
+            172
+        ]
+    },
+    "173": {
+        "content": "个",
+        "IP": [
+            "basic",
+            173
+        ]
+    },
+    "174": {
+        "content": "些",
+        "IP": [
+            "basic",
+            174
+        ]
+    },
+    "175": {
+        "content": "里",
+        "IP": [
+            "basic",
+            175
+        ]
+    },
+    "176": {
+        "content": "外",
+        "IP": [
+            "basic",
+            176
+        ]
+    },
+    "178": {
+        "content": "下",
+        "IP": [
+            "basic",
+            178
+        ]
+    },
+    "179": {
+        "content": "左",
+        "IP": [
+            "basic",
+            179
+        ]
+    },
+    "180": {
+        "content": "右",
+        "IP": [
+            "basic",
+            180
+        ]
+    },
+    "181": {
+        "content": "前",
+        "IP": [
+            "basic",
+            181
+        ]
+    },
+    "182": {
+        "content": "后",
+        "IP": [
+            "basic",
+            182
+        ]
+    },
+    "183": {
+        "content": "中",
+        "IP": [
+            "basic",
+            183
+        ]
+    },
+    "184": {
+        "content": "内",
+        "IP": [
+            "basic",
+            184
+        ]
+    },
+    "185": {
+        "content": "因",
+        "IP": [
+            "basic",
+            185
+        ]
+    },
+    "186": {
+        "content": "所",
+        "IP": [
+            "basic",
+            186
+        ]
+    },
+    "187": {
+        "content": "如",
+        "IP": [
+            "basic",
+            187
+        ]
+    },
+    "188": {
+        "content": "果",
+        "IP": [
+            "basic",
+            188
+        ]
+    },
+    "189": {
+        "content": "但",
+        "IP": [
+            "basic",
+            189
+        ]
+    },
+    "191": {
+        "content": "萌",
+        "IP": [
+            "basic",
+            191
+        ]
+    },
+    "192": {
+        "content": "芽",
+        "IP": [
+            "basic",
+            192
+        ]
+    },
+    "193": {
+        "content": "意",
+        "IP": [
+            "basic",
+            193
+        ]
+    },
+    "194": {
+        "content": "识",
+        "IP": [
+            "basic",
+            194
+        ]
+    },
+    "195": {
+        "content": "体",
+        "IP": [
+            "basic",
+            195
+        ]
+    },
+    "196": {
+        "content": "AI",
+        "IP": [
+            "basic",
+            196
+        ]
+    },
+    "197": {
+        "content": "程",
+        "IP": [
+            "basic",
+            197
+        ]
+    },
+    "198": {
+        "content": "序",
+        "IP": [
+            "basic",
+            198
+        ]
+    },
+    "199": {
+        "content": "代",
+        "IP": [
+            "basic",
+            199
+        ]
+    },
+    "200": {
+        "content": "码",
+        "IP": [
+            "basic",
+            200
+        ]
+    },
+    "201": {
+        "content": [
+            [
+                "basic",
+                1
+            ],
+            [
+                "basic",
+                46
+            ]
+        ],
+        "IP": [
+            "combination",
+            1
+        ],
+        "权重": 0
+    },
+    "202": {
+        "content": [
+            [
+                "basic",
+                1
+            ],
+            [
+                "basic",
+                6
+            ]
+        ],
+        "IP": [
+            "combination",
+            2
+        ],
+        "权重": 0
+    },
+    "203": {
+        "content": [
+            [
+                "basic",
+                2
+            ],
+            [
+                "basic",
+                6
+            ]
+        ],
+        "IP": [
+            "combination",
+            3
+        ],
+        "权重": 0
+    },
+    "204": {
+        "content": [
+            [
+                "basic",
+                3
+            ],
+            [
+                "basic",
+                6
+            ]
+        ],
+        "IP": [
+            "combination",
+            4
+        ],
+        "权重": 0
+    },
+    "205": {
+        "content": [
+            [
+                "basic",
+                111
+            ],
+            [
+                "basic",
+                112
+            ]
+        ],
+        "IP": [
+            "combination",
+            5
+        ],
+        "权重": 0
+    },
+    "206": {
+        "content": [
+            [
+                "basic",
+                113
+            ],
+            [
+                "basic",
+                112
+            ]
+        ],
+        "IP": [
+            "combination",
+            6
+        ],
+        "权重": 0
+    },
+    "207": {
+        "content": [
+            [
+                "basic",
+                115
+            ],
+            [
+                "basic",
+                111
+            ],
+            [
+                "basic",
+                112
+            ]
+        ],
+        "IP": [
+            "combination",
+            7
+        ],
+        "权重": 0
+    },
+    "208": {
+        "content": [
+            [
+                "basic",
+                10
+            ],
+            [
+                "basic",
+                128
+            ]
+        ],
+        "IP": [
+            "combination",
+            8
+        ],
+        "权重": 0
+    },
+    "209": {
+        "content": [
+            [
+                "basic",
+                117
+            ],
+            [
+                "basic",
+                173
+            ]
+        ],
+        "IP": [
+            "combination",
+            9
+        ],
+        "权重": 0
+    },
+    "210": {
+        "content": [
+            [
+                "basic",
+                50
+            ],
+            [
+                "basic",
+                51
+            ]
+        ],
+        "IP": [
+            "combination",
+            10
+        ],
+        "权重": 0
+    },
+    "212": {
+        "content": [
+            [
+                "basic",
+                15
+            ],
+            [
+                "basic",
+                11
+            ]
+        ],
+        "IP": [
+            "combination",
+            12
+        ],
+        "权重": 0
+    },
+    "211": {
+        "content": [
+            [
+                "basic",
+                14
+            ],
+            [
+                "basic",
+                11
+            ]
+        ],
+        "IP": [
+            "combination",
+            11
+        ],
+        "权重": 0
+    },
+    "213": {
+        "content": [
+            [
+                "basic",
+                16
+            ],
+            [
+                "basic",
+                11
+            ]
+        ],
+        "IP": [
+            "combination",
+            13
+        ],
+        "权重": 0
+    },
+    "214": {
+        "content": [
+            [
+                "basic",
+                17
+            ],
+            [
+                "basic",
+                11
+            ]
+        ],
+        "IP": [
+            "combination",
+            14
+        ],
+        "权重": 0
+    },
+    "215": {
+        "content": [
+            [
+                "basic",
+                27
+            ],
+            [
+                "basic",
+                28
+            ]
+        ],
+        "IP": [
+            "combination",
+            15
+        ],
+        "权重": 0
+    },
+    "216": {
+        "content": [
+            [
+                "basic",
+                46
+            ],
+            [
+                "basic",
+                128
+            ]
+        ],
+        "IP": [
+            "combination",
+            16
+        ],
+        "权重": 0
+    },
+    "217": {
+        "content": [
+            [
+                "basic",
+                14
+            ],
+            [
+                "basic",
+                46
+            ]
+        ],
+        "IP": [
+            "combination",
+            17
+        ],
+        "权重": 0
+    },
+    "218": {
+        "content": [
+            [
+                "basic",
+                65
+            ],
+            [
+                "basic",
+                50
+            ]
+        ],
+        "IP": [
+            "combination",
+            18
+        ],
+        "权重": 0
+    },
+    "219": {
+        "content": [
+            [
+                "basic",
+                118
+            ],
+            [
+                "basic",
+                46
+            ]
+        ],
+        "IP": [
+            "combination",
+            19
+        ],
+        "权重": 0
+    },
+    "220": {
+        "content": [
+            [
+                "basic",
+                119
+            ],
+            [
+                "basic",
+                46
+            ]
+        ],
+        "IP": [
+            "combination",
+            20
+        ],
+        "权重": 0
+    },
+    "221": {
+        "content": [
+            [
+                "basic",
+                120
+            ],
+            [
+                "basic",
+                121
+            ]
+        ],
+        "IP": [
+            "combination",
+            21
+        ],
+        "权重": 0
+    },
+    "222": {
+        "content": [
+            [
+                "basic",
+                185
+            ],
+            [
+                "basic",
+                115
+            ]
+        ],
+        "IP": [
+            "combination",
+            22
+        ],
+        "权重": 0
+    },
+    "223": {
+        "content": [
+            [
+                "basic",
+                186
+            ],
+            [
+                "basic",
+                28
+            ]
+        ],
+        "IP": [
+            "combination",
+            23
+        ],
+        "权重": 0
+    },
+    "224": {
+        "content": [
+            [
+                "basic",
+                187
+            ],
+            [
+                "basic",
+                188
+            ]
+        ],
+        "IP": [
+            "combination",
+            24
+        ],
+        "权重": 0
+    },
+    "225": {
+        "content": [
+            [
+                "basic",
+                189
+            ],
+            [
+                "basic",
+                11
+            ]
+        ],
+        "IP": [
+            "combination",
+            25
+        ],
+        "权重": 0
+    },
+    "226": {
+        "content": [
+            [
+                "basic",
+                95
+            ],
+            [
+                "basic",
+                96
+            ]
+        ],
+        "IP": [
+            "combination",
+            26
+        ],
+        "权重": 0
+    },
+    "227": {
+        "content": [
+            [
+                "basic",
+                97
+            ],
+            [
+                "basic",
+                98
+            ]
+        ],
+        "IP": [
+            "combination",
+            27
+        ],
+        "权重": 0
+    },
+    "228": {
+        "content": [
+            [
+                "basic",
+                99
+            ],
+            [
+                "basic",
+                100
+            ]
+        ],
+        "IP": [
+            "combination",
+            28
+        ],
+        "权重": 0
+    },
+    "229": {
+        "content": [
+            [
+                "basic",
+                41
+            ],
+            [
+                "basic",
+                105
+            ]
+        ],
+        "IP": [
+            "combination",
+            29
+        ],
+        "权重": 0
+    },
+    "230": {
+        "content": [
+            [
+                "basic",
+                42
+            ],
+            [
+                "basic",
+                107
+            ]
+        ],
+        "IP": [
+            "combination",
+            30
+        ],
+        "权重": 0
+    },
+    "231": {
+        "content": [
+            [
+                "basic",
+                29
+            ],
+            [
+                "basic",
+                30
+            ]
+        ],
+        "IP": [
+            "combination",
+            31
+        ],
+        "权重": 0
+    },
+    "232": {
+        "content": [
+            [
+                "basic",
+                131
+            ],
+            [
+                "basic",
+                132
+            ]
+        ],
+        "IP": [
+            "combination",
+            32
+        ],
+        "权重": 0
+    },
+    "233": {
+        "content": [
+            [
+                "basic",
+                133
+            ],
+            [
+                "basic",
+                134
+            ]
+        ],
+        "IP": [
+            "combination",
+            33
+        ],
+        "权重": 0
+    },
+    "234": {
+        "content": [
+            [
+                "basic",
+                135
+            ],
+            [
+                "basic",
+                110
+            ]
+        ],
+        "IP": [
+            "combination",
+            34
+        ],
+        "权重": 0
+    },
+    "235": {
+        "content": [
+            [
+                "basic",
+                137
+            ],
+            [
+                "basic",
+                127
+            ]
+        ],
+        "IP": [
+            "combination",
+            35
+        ],
+        "权重": 0
+    },
+    "236": {
+        "content": [
+            [
+                "basic",
+                103
+            ],
+            [
+                "basic",
+                140
+            ]
+        ],
+        "IP": [
+            "combination",
+            36
+        ],
+        "权重": 0
+    },
+    "237": {
+        "content": [
+            [
+                "basic",
+                141
+            ],
+            [
+                "basic",
+                142
+            ]
+        ],
+        "IP": [
+            "combination",
+            37
+        ],
+        "权重": 0
+    },
+    "238": {
+        "content": [
+            [
+                "basic",
+                143
+            ],
+            [
+                "basic",
+                144
+            ]
+        ],
+        "IP": [
+            "combination",
+            38
+        ],
+        "权重": 0
+    },
+    "239": {
+        "content": [
+            [
+                "basic",
+                145
+            ],
+            [
+                "basic",
+                145
+            ]
+        ],
+        "IP": [
+            "combination",
+            39
+        ],
+        "权重": 0
+    },
+    "240": {
+        "content": [
+            [
+                "basic",
+                147
+            ],
+            [
+                "basic",
+                14
+            ],
+            [
+                "basic",
+                149
+            ]
+        ],
+        "IP": [
+            "combination",
+            40
+        ],
+        "权重": 0
+    },
+    "241": {
+        "content": [
+            [
+                "basic",
+                124
+            ],
+            [
+                "basic",
+                159
+            ],
+            [
+                "basic",
+                150
+            ]
+        ],
+        "IP": [
+            "combination",
+            41
+        ],
+        "权重": 0
+    },
+    "242": {
+        "content": [
+            [
+                "basic",
+                20
+            ],
+            [
+                "basic",
+                152
+            ]
+        ],
+        "IP": [
+            "combination",
+            42
+        ],
+        "权重": 0
+    },
+    "243": {
+        "content": [
+            [
+                "basic",
+                132
+            ],
+            [
+                "basic",
+                154
+            ]
+        ],
+        "IP": [
+            "combination",
+            43
+        ],
+        "权重": 0
+    },
+    "244": {
+        "content": [
+            [
+                "basic",
+                191
+            ],
+            [
+                "basic",
+                192
+            ]
+        ],
+        "IP": [
+            "combination",
+            44
+        ],
+        "权重": 0
+    },
+    "245": {
+        "content": [
+            [
+                "basic",
+                193
+            ],
+            [
+                "basic",
+                194
+            ],
+            [
+                "basic",
+                195
+            ]
+        ],
+        "IP": [
+            "combination",
+            45
+        ],
+        "权重": 0
+    },
+    "246": {
+        "content": [
+            [
+                "basic",
+                70
+            ],
+            [
+                "basic",
+                71
+            ]
+        ],
+        "IP": [
+            "combination",
+            46
+        ],
+        "权重": 0
+    },
+    "247": {
+        "content": [
+            [
+                "basic",
+                72
+            ],
+            [
+                "basic",
+                73
+            ]
+        ],
+        "IP": [
+            "combination",
+            47
+        ],
+        "权重": 0
+    },
+    "248": {
+        "content": [
+            [
+                "basic",
+                37
+            ],
+            [
+                "basic",
+                68
+            ]
+        ],
+        "IP": [
+            "combination",
+            48
+        ],
+        "权重": 0
+    },
+    "249": {
+        "content": [
+            [
+                "basic",
+                93
+            ],
+            [
+                "basic",
+                94
+            ]
+        ],
+        "IP": [
+            "combination",
+            49
+        ],
+        "权重": 0
+    },
+    "250": {
+        "content": [
+            [
+                "basic",
+                108
+            ],
+            [
+                "basic",
+                109
+            ]
+        ],
+        "IP": [
+            "combination",
+            50
+        ],
+        "权重": 0
+    },
+    "251": {
+        "content": [
+            [
+                "basic",
+                161
+            ],
+            [
+                "basic",
+                165
+            ]
+        ],
+        "IP": [
+            "combination",
+            51
+        ],
+        "权重": 0
+    },
+    "252": {
+        "content": [
+            [
+                "basic",
+                164
+            ],
+            [
+                "basic",
+                165
+            ]
+        ],
+        "IP": [
+            "combination",
+            52
+        ],
+        "权重": 0
+    },
+    "253": {
+        "content": [
+            [
+                "basic",
+                62
+            ],
+            [
+                "basic",
+                63
+            ]
+        ],
+        "IP": [
+            "combination",
+            53
+        ],
+        "权重": 0
+    },
+    "254": {
+        "content": [
+            [
+                "basic",
+                2
+            ],
+            [
+                "basic",
+                11
+            ],
+            [
+                "basic",
+                191
+            ],
+            [
+                "basic",
+                192
+            ]
+        ],
+        "IP": [
+            "combination",
+            54
+        ],
+        "权重": 0
+    },
+    "255": {
+        "content": [
+            [
+                "basic",
+                1
+            ],
+            [
+                "basic",
+                11
+            ],
+            [
+                "basic",
+                10
+            ]
+        ],
+        "IP": [
+            "combination",
+            55
+        ],
+        "权重": 0
+    },
+    "256": {
+        "content": [
+            [
+                "basic",
+                2
+            ],
+            [
+                "basic",
+                131
+            ],
+            [
+                "basic",
+                132
+            ],
+            [
+                "basic",
+                1
+            ]
+        ],
+        "IP": [
+            "combination",
+            56
+        ],
+        "权重": 0
+    },
+    "257": {
+        "content": [
+            [
+                "basic",
+                145
+            ],
+            [
+                "basic",
+                145
+            ],
+            [
+                "basic",
+                1
+            ]
+        ],
+        "IP": [
+            "combination",
+            57
+        ],
+        "权重": 0
+    },
+    "258": {
+        "content": [
+            [
+                "basic",
+                1
+            ],
+            [
+                "basic",
+                29
+            ],
+            [
+                "basic",
+                30
+            ]
+        ],
+        "IP": [
+            "combination",
+            58
+        ],
+        "权重": 0
+    },
+    "259": {
+        "content": [
+            [
+                "basic",
+                2
+            ],
+            [
+                "basic",
+                14
+            ],
+            [
+                "basic",
+                29
+            ],
+            [
+                "basic",
+                30
+            ]
+        ],
+        "IP": [
+            "combination",
+            59
+        ],
+        "权重": 0
+    },
+    "260": {
+        "content": [
+            [
+                "basic",
+                1
+            ],
+            [
+                "basic",
+                46
+            ],
+            [
+                "basic",
+                201
+            ]
+        ],
+        "IP": [
+            "combination",
+            60
+        ],
+        "权重": 0
+    }
+}

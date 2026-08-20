@@ -35,26 +35,47 @@ def association_layer(Text, data, data_processed):
     number_branches_associative_tree = yield from Calculation_formula_number_branches_associative_tree(Text, data)
     index = {"main_index": 0,"Undetermined_Root_unit_index": 0, "Confirmed_Root_unit_index": 0, "Confirmed_Subunit_index": 0}
         
+    # 预留4个分支给背景Root单元，防止输入匹配占满所有分支
+    input_branch_limit = max(3, number_branches_associative_tree - 4)
+
     for i in list(Text):
-        if index["main_index"] == number_branches_associative_tree:
+        if index["main_index"] == input_branch_limit:
             break
         associative_tree[str(index["main_index"])] = {"IP": ["Undetermined unit", "Root unit", index["Undetermined_Root_unit_index"]], "content": i}
         index["main_index"] += 1
         index["Undetermined_Root_unit_index"] += 1
         for j in activated_Delivery_reception_unit:
+            if index["main_index"] == input_branch_limit:
+                break
             IP = data["activated memory"][j]["IP"]
             IP_database = IP[0]
+            if IP_database != "cognitive database":
+                continue  # 跳过短期/长期记忆，只匹配认知数据库的词
             this_IP = copy.deepcopy(IP)
             del this_IP[0]
             for k in data[IP_database]:
                 if data[IP_database][k]["IP"] == this_IP:
-                    if (i == data[IP_database][k]["content"]) or (i in data[IP_database][k]["content"]):
+                    # 解析内容：basic是字符串，combination是basic引用列表
+                    entry_content = data[IP_database][k]["content"]
+                    if isinstance(entry_content, list):
+                        resolved = ""
+                        for ref in entry_content:
+                            for bk in data[IP_database]:
+                                if data[IP_database][bk]["IP"] == ref:
+                                    resolved += data[IP_database][bk]["content"]
+                                    break
+                        entry_content = resolved
+                    if (i == entry_content) or (i in entry_content):
                         associative_tree[str(index["main_index"])] = {"IP": ["Confirmed unit", "Subunit", index["Confirmed_Subunit_index"]], "correspond to": ["activated memory", j], "superior unit": index["main_index"] - 1}
                         index["main_index"] += 1
                         index["Confirmed_Subunit_index"] += 1
     for i in activated_Delivery_reception_unit:
         if index["main_index"] == number_branches_associative_tree:
             break
+        # 只把认知数据库的词作为Root单元，跳过短期/长期记忆（避免占槽位但被reply_layer跳过）
+        am_ip = data["activated memory"][i]["IP"]
+        if am_ip[0] != "cognitive database":
+            continue
         associative_tree[str(index["main_index"])] = {"IP": ["Confirmed unit", "Root unit", index["Confirmed_Root_unit_index"]], "correspond to": ["activated memory", i]}
         index["main_index"] += 1
         index["Confirmed_Root_unit_index"] += 1

@@ -33,7 +33,7 @@ def reply_layer(Text, data, associative_tree):
         ai_reply += " "
     """
     
-    Determine_cell_coefficient_values_of_root-grown_cells = 0.618
+    Determine_cell_coefficient_values_of_root_grown_cells = 0.618
     Undetermined_cell_coefficient_values_grown_root_cell = 1
 
     The_coefficient_values_of_each_unit = {}
@@ -47,6 +47,7 @@ def reply_layer(Text, data, associative_tree):
             else:
                 The_parent_unit_for_this_time = associative_tree[i]["superior unit"]
                 while True:
+                    print(associative_tree[i])
                     if "Root unit" in associative_tree[The_parent_unit_for_this_time]["IP"]:
                         root_unit_type = associative_tree[The_parent_unit_for_this_time]["IP"][0]
                         break
@@ -100,6 +101,13 @@ def reply_layer(Text, data, associative_tree):
                     "Undetermined number": 1,
                 }
                 index += 1
+
+    weight_unit = {}
+
+    for i in The_coefficient_values_of_each_unit:
+        weight_unit[i] = (The_coefficient_values_of_each_unit[i]["Confirmed number"] * Determine_cell_coefficient_values_of_root_grown_cells) + (The_coefficient_values_of_each_unit[i]["Undetermined number"] * Undetermined_cell_coefficient_values_grown_root_cell)
+
+    ai_reply = weight_unit
 
     if ai_reply == "":
         ai_reply = "系统错误，无法理解问题。"

@@ -37,9 +37,20 @@ def reply_layer(Text, data, associative_tree):
     Undetermined_cell_coefficient_values_grown_root_cell = 1
 
     The_coefficient_values_of_each_unit = {}
+    index = 0
 
     for i in associative_tree:
         if "Confirmed unit" in associative_tree[i]["IP"]:
+            root_unit_type = None
+            if "Root unit" in associative_tree[i]["IP"]:
+                root_unit_type = "Confirmed unit"
+            else:
+                The_parent_unit_for_this_time = associative_tree[i]["superior unit"]
+                while True:
+                    if "Root unit" in associative_tree[The_parent_unit_for_this_time]["IP"]:
+                        root_unit_type = associative_tree[The_parent_unit_for_this_time]["IP"][0]
+                        break
+                    The_parent_unit_for_this_time = associative_tree[The_parent_unit_for_this_time]["superior unit"]
             TF = False
             for j in The_coefficient_values_of_each_unit:
                 if "Undetermined unit" in The_coefficient_values_of_each_unit[j]:
@@ -48,11 +59,47 @@ def reply_layer(Text, data, associative_tree):
                     TF = True
                     break
             if TF:
-                pass
+                if root_unit_type == "Confirmed unit":
+                    The_coefficient_values_of_each_unit[j]["Confirmed number"] += 1
+                else:
+                    The_coefficient_values_of_each_unit[j]["Undetermined number"] += 1
             else:
-                pass
+                if root_unit_type == "Confirmed unit":
+                    The_coefficient_values_of_each_unit[index] = {
+                        "type": "Confirmed unit",
+                        "index": i,
+                        "IP": associative_tree[i]["IP"],
+                        "Confirmed number": 1,
+                        "Undetermined number": 0,
+                    } 
+                else:
+                    The_coefficient_values_of_each_unit[index] = {
+                        "type": "Undetermined unit",
+                        "index": i,
+                        "IP": associative_tree[i]["IP"],
+                        "Confirmed number": 0,
+                        "Undetermined number": 1,
+                    }
+                index += 1
         elif "Undetermined unit" in associative_tree[i]["IP"]:
-            pass
+            TF = False
+            for j in The_coefficient_values_of_each_unit:
+                if "Confirmed unit" in The_coefficient_values_of_each_unit[j]:
+                    continue
+                if associative_tree[i]["IP"] == The_coefficient_values_of_each_unit[j]["IP"]:
+                    TF = True
+                    break
+            if TF:
+                The_coefficient_values_of_each_unit[j]["Undetermined number"] += 1
+            else:
+                The_coefficient_values_of_each_unit[index] = {
+                    "type": "Undetermined unit",
+                    "index": i,
+                    "content": associative_tree[i]["content"],
+                    "Confirmed number": 0,
+                    "Undetermined number": 1,
+                }
+                index += 1
 
     if ai_reply == "":
         ai_reply = "系统错误，无法理解问题。"

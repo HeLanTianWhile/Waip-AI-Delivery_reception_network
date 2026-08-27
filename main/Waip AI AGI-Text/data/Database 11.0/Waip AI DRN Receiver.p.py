@@ -593,6 +593,7 @@ def main():
     else:
         printf("\n")
         # 流式输出：逐步接收 yield 的消息
+        start_time = time.perf_counter()
         if hasattr(Waip_AI_DRN, 'Waip_AI_DRN'):
             gen = Waip_AI_DRN.Waip_AI_DRN(user, data)
         else:
@@ -607,8 +608,10 @@ def main():
         except StopIteration as e:
             # 获取 return 返回的值
             ai_reply, data = e.value
+        end_time = time.perf_counter()
         printf("\n")
         printf(f"{ai_name}回复：{ai_reply}")
+        printf(f"回复时间：{end_time - start_time:.10f}秒")
         update_database(data,ai_name)
         printf("数据已更新")
 

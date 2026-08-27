@@ -640,19 +640,19 @@ def Connection_layer(Text, data, associative_tree, reply):
             }
             data["other database"]["激活记忆标记数据库activate_memory_tag_database"][str(this_activatad_memory_number)] = 0
 
-    for i in associative_tree:
-        if "Root unit" in associative_tree[i]["IP"]:
-            continue
-        superior_unit = associative_tree[i]["superior unit"]
-        yield from printf(f"{i}的上级单元：{associative_tree[str(superior_unit)]}")
-        if "Undetermined unit" in associative_tree[str(superior_unit)]["IP"]:
-            pass
-        else:
-            superior_unit_all_IP = associative_tree[str(superior_unit)]["correspond to"]
-            superior_unit_IP = copy.deepcopy(superior_unit_all_IP)
-            del superior_unit_IP[0]
-            for j in data["associative network"]:
-                pass
+    #for i in associative_tree:
+    #    if "Root unit" in associative_tree[i]["IP"]:
+    #        continue
+    #    superior_unit = associative_tree[i]["superior unit"]
+    #    yield from printf(f"{i}的上级单元：{associative_tree[str(superior_unit)]}")
+    #    if "Undetermined unit" in associative_tree[str(superior_unit)]["IP"]:
+    #        pass
+    #    else:
+    #        superior_unit_all_IP = associative_tree[str(superior_unit)]["correspond to"]
+    #        superior_unit_IP = copy.deepcopy(superior_unit_all_IP)
+    #        del superior_unit_IP[0]
+    #        for j in data["associative network"]:
+    #            pass
 
 
     yield from printf(f"未录入的组合单元：{Unrecorded_combined_units}")

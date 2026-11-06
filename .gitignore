@@ -1,0 +1,27 @@
+# 依赖目录
+node_modules/
+bower_components/
+
+# 构建产物
+dist/
+build/
+out/
+
+# 可执行文件与压缩包
+*.exe
+*.msi
+*.zip
+*.7z
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

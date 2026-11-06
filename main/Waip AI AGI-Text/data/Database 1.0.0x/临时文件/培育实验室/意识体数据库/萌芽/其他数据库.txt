@@ -1,0 +1,20 @@
+{
+    "config": {
+        "language": "zh-CN",
+        "created": "2026-08-20",
+        "lab": "培育实验室",
+        "drn_version": "0.3.6"
+    },
+    "greetings": [
+        "你好",
+        "嗨",
+        "在的",
+        "你好呀"
+    ],
+    "farewells": [
+        "再见",
+        "拜拜",
+        "下次见"
+    ],
+    "激活记忆标记数据库activate_memory_tag_database": {}
+}

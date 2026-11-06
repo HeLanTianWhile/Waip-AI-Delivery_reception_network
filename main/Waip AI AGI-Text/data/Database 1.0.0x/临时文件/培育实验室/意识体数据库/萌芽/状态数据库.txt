@@ -1,0 +1,11 @@
+{
+    "多巴胺dopamine": 1000,
+    "乙酰胆碱acetylcholine": 1000,
+    "血清素serotonin": 1000,
+    "内啡肽endorphin": 1000,
+    "P物质substance P": 80000,
+    "肾上腺素epinephrine": 80000,
+    "GABA": 80000,
+    "去肾上腺素Noradrenaline": 80000,
+    "谷氨酸Glutamic acid": 80000
+}

@@ -1,0 +1,548 @@
+{
+    "0": {
+        "IP": [
+            "line",
+            "two-way line",
+            0
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                1
+            ],
+            [
+                "cognitive database",
+                "combination",
+                42
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5000
+    },
+    "1": {
+        "IP": [
+            "line",
+            "two-way line",
+            1
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                1
+            ],
+            [
+                "cognitive database",
+                "combination",
+                43
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4000
+    },
+    "2": {
+        "IP": [
+            "line",
+            "two-way line",
+            2
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                39
+            ],
+            [
+                "cognitive database",
+                "combination",
+                40
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 6000
+    },
+    "3": {
+        "IP": [
+            "line",
+            "two-way line",
+            3
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                40
+            ],
+            [
+                "cognitive database",
+                "combination",
+                41
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 7000
+    },
+    "4": {
+        "IP": [
+            "line",
+            "two-way line",
+            4
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                51
+            ],
+            [
+                "cognitive database",
+                "combination",
+                52
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5500
+    },
+    "5": {
+        "IP": [
+            "line",
+            "two-way line",
+            5
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                5
+            ],
+            [
+                "cognitive database",
+                "combination",
+                29
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5000
+    },
+    "6": {
+        "IP": [
+            "line",
+            "two-way line",
+            6
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                6
+            ],
+            [
+                "cognitive database",
+                "combination",
+                29
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4500
+    },
+    "7": {
+        "IP": [
+            "line",
+            "two-way line",
+            7
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                7
+            ],
+            [
+                "cognitive database",
+                "combination",
+                22
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5500
+    },
+    "8": {
+        "IP": [
+            "line",
+            "two-way line",
+            8
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                22
+            ],
+            [
+                "cognitive database",
+                "combination",
+                23
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 6000
+    },
+    "9": {
+        "IP": [
+            "line",
+            "two-way line",
+            9
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                24
+            ],
+            [
+                "cognitive database",
+                "combination",
+                25
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5000
+    },
+    "10": {
+        "IP": [
+            "line",
+            "two-way line",
+            10
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                29
+            ],
+            [
+                "cognitive database",
+                "combination",
+                30
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 6500
+    },
+    "11": {
+        "IP": [
+            "line",
+            "two-way line",
+            11
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                54
+            ],
+            [
+                "cognitive database",
+                "combination",
+                55
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 8000
+    },
+    "12": {
+        "IP": [
+            "line",
+            "two-way line",
+            12
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                54
+            ],
+            [
+                "cognitive database",
+                "combination",
+                45
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 6000
+    },
+    "13": {
+        "IP": [
+            "line",
+            "two-way line",
+            13
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                44
+            ],
+            [
+                "cognitive database",
+                "combination",
+                45
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5500
+    },
+    "14": {
+        "IP": [
+            "line",
+            "two-way line",
+            14
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                26
+            ],
+            [
+                "cognitive database",
+                "combination",
+                54
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4500
+    },
+    "15": {
+        "IP": [
+            "line",
+            "two-way line",
+            15
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                32
+            ],
+            [
+                "cognitive database",
+                "combination",
+                33
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5500
+    },
+    "16": {
+        "IP": [
+            "line",
+            "two-way line",
+            16
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                34
+            ],
+            [
+                "cognitive database",
+                "combination",
+                35
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5500
+    },
+    "17": {
+        "IP": [
+            "line",
+            "two-way line",
+            17
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                34
+            ],
+            [
+                "cognitive database",
+                "combination",
+                32
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4500
+    },
+    "18": {
+        "IP": [
+            "line",
+            "two-way line",
+            18
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                36
+            ],
+            [
+                "cognitive database",
+                "combination",
+                37
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4000
+    },
+    "19": {
+        "IP": [
+            "line",
+            "two-way line",
+            19
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                16
+            ],
+            [
+                "cognitive database",
+                "combination",
+                17
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5000
+    },
+    "20": {
+        "IP": [
+            "line",
+            "two-way line",
+            20
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                31
+            ],
+            [
+                "cognitive database",
+                "combination",
+                59
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5500
+    },
+    "21": {
+        "IP": [
+            "line",
+            "two-way line",
+            21
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                53
+            ],
+            [
+                "cognitive database",
+                "combination",
+                31
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4500
+    },
+    "22": {
+        "IP": [
+            "line",
+            "two-way line",
+            22
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                28
+            ],
+            [
+                "cognitive database",
+                "combination",
+                3
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 5000
+    },
+    "23": {
+        "IP": [
+            "line",
+            "two-way line",
+            23
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                46
+            ],
+            [
+                "cognitive database",
+                "combination",
+                47
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4000
+    },
+    "24": {
+        "IP": [
+            "line",
+            "two-way line",
+            24
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                46
+            ],
+            [
+                "cognitive database",
+                "combination",
+                45
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 4500
+    },
+    "25": {
+        "IP": [
+            "line",
+            "two-way line",
+            25
+        ],
+        "content": [
+            [
+                "cognitive database",
+                "combination",
+                49
+            ],
+            [
+                "cognitive database",
+                "combination",
+                50
+            ]
+        ],
+        "type": "two-way line",
+        "权重": 3500
+    }
+}

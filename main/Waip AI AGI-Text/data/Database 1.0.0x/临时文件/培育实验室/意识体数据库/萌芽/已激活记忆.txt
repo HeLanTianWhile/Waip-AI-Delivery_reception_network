@@ -1,0 +1,162 @@
+{
+    "1": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            1
+        ],
+        "权重": 13500
+    },
+    "2": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            54
+        ],
+        "权重": 13000
+    },
+    "3": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            32
+        ],
+        "权重": 12500
+    },
+    "4": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            31
+        ],
+        "权重": 12300
+    },
+    "5": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            55
+        ],
+        "权重": 12800
+    },
+    "6": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            44
+        ],
+        "权重": 12600
+    },
+    "7": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            45
+        ],
+        "权重": 12400
+    },
+    "8": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            39
+        ],
+        "权重": 12200
+    },
+    "9": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            53
+        ],
+        "权重": 12100
+    },
+    "10": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            34
+        ],
+        "权重": 12000
+    },
+    "11": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            40
+        ],
+        "权重": 11900
+    },
+    "12": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            41
+        ],
+        "权重": 11800
+    },
+    "13": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            42
+        ],
+        "权重": 11700
+    },
+    "14": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            28
+        ],
+        "权重": 11600
+    },
+    "15": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            29
+        ],
+        "权重": 11600
+    },
+    "16": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            30
+        ],
+        "权重": 11500
+    },
+    "17": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            49
+        ],
+        "权重": 11500
+    },
+    "18": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            50
+        ],
+        "权重": 11400
+    },
+    "19": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            46
+        ],
+        "权重": 11400
+    },
+    "20": {
+        "IP": [
+            "cognitive database",
+            "combination",
+            16
+        ],
+        "权重": 11300
+    }
+}

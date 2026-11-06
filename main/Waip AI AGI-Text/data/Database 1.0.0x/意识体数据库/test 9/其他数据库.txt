@@ -1,0 +1,4 @@
+{
+    激活记忆标记数据库activate_memory_tag_database: {
+    },
+}

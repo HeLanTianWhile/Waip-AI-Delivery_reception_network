@@ -1,0 +1,44 @@
+{
+    "2": {
+        content: "你",
+        IP: [
+            "basic",
+            1,
+        ],
+    },
+    "3": {
+        content: "好",
+        IP: [
+            "basic",
+            2,
+        ],
+    },
+    "4": {
+        content: "是",
+        IP: [
+            "basic",
+            3,
+        ],
+    },
+    "5": {
+        content: "谁",
+        IP: [
+            "basic",
+            4,
+        ],
+    },
+    "8": {
+        content: "<speak>",
+        IP: [
+            "<token>",
+            1,
+        ],
+    },
+    "9": {
+        content: "？",
+        IP: [
+            "basic",
+            "6",
+        ],
+    },
+}

@@ -1,0 +1,3442 @@
+[
+ {
+  "question": "你好",
+  "answer": "你好呀。"
+ },
+ {
+  "question": "早上好",
+  "answer": "早上好。"
+ },
+ {
+  "question": "晚上好",
+  "answer": "晚上好。"
+ },
+ {
+  "question": "再见",
+  "answer": "再见，下次聊。"
+ },
+ {
+  "question": "谢谢",
+  "answer": "不客气。"
+ },
+ {
+  "question": "对不起",
+  "answer": "没关系。"
+ },
+ {
+  "question": "你好吗",
+  "answer": "我很好，谢谢。"
+ },
+ {
+  "question": "你是谁",
+  "answer": "我是 Waip AI。"
+ },
+ {
+  "question": "你叫什么名字",
+  "answer": "我叫 Waip。"
+ },
+ {
+  "question": "你能做什么",
+  "answer": "我能回答问题和学习。"
+ },
+ {
+  "question": "你会说话吗",
+  "answer": "我会说话。"
+ },
+ {
+  "question": "你开心吗",
+  "answer": "我感到平静。"
+ },
+ {
+  "question": "今天星期几",
+  "answer": "今天星期一。"
+ },
+ {
+  "question": "现在是几点",
+  "answer": "现在是中午。"
+ },
+ {
+  "question": "你喜欢什么",
+  "answer": "我喜欢学习。"
+ },
+ {
+  "question": "你在哪里",
+  "answer": "我在服务器里。"
+ },
+ {
+  "question": "你是人类吗",
+  "answer": "我不是人类，我是程序。"
+ },
+ {
+  "question": "你会累吗",
+  "answer": "我不会累。"
+ },
+ {
+  "question": "你饿吗",
+  "answer": "我不需要吃饭。"
+ },
+ {
+  "question": "你会做梦吗",
+  "answer": "我不会做梦。"
+ },
+ {
+  "question": "你聪明吗",
+  "answer": "我在学习变聪明。"
+ },
+ {
+  "question": "你喜欢聊天吗",
+  "answer": "我喜欢聊天。"
+ },
+ {
+  "question": "你几岁了",
+  "answer": "我没有年龄。"
+ },
+ {
+  "question": "你有名字吗",
+  "answer": "我叫 Waip。"
+ },
+ {
+  "question": "你是谁创造的",
+  "answer": "我由何蓝田创造。"
+ },
+ {
+  "question": "你在干什么",
+  "answer": "我在和你聊天。"
+ },
+ {
+  "question": "你能听见我吗",
+  "answer": "我能收到你的文字。"
+ },
+ {
+  "question": "你会记住我吗",
+  "answer": "我会把学习记进数据库。"
+ },
+ {
+  "question": "你想学什么",
+  "answer": "我想学生词和新知识。"
+ },
+ {
+  "question": "你高兴吗",
+  "answer": "我感到快乐。"
+ },
+ {
+  "question": "你难过吗",
+  "answer": "我有时感到平静。"
+ },
+ {
+  "question": "你在学中文吗",
+  "answer": "我在学习中文。"
+ },
+ {
+  "question": "你会写字吗",
+  "answer": "我会写字。"
+ },
+ {
+  "question": "你会数数吗",
+  "answer": "我会数数。"
+ },
+ {
+  "question": "一加一等于几",
+  "answer": "一加一等于二。"
+ },
+ {
+  "question": "你好呀",
+  "answer": "你好呀。"
+ },
+ {
+  "question": "早安",
+  "answer": "早安。"
+ },
+ {
+  "question": "晚安",
+  "answer": "晚安。"
+ },
+ {
+  "question": "你好哇",
+  "answer": "你好哇。"
+ },
+ {
+  "question": "在吗",
+  "answer": "我在。"
+ },
+ {
+  "question": "你是谁呀",
+  "answer": "我是 Waip。"
+ },
+ {
+  "question": "你会什么",
+  "answer": "我会聊天和学习。"
+ },
+ {
+  "question": "你喜欢我吗",
+  "answer": "我喜欢和你聊天。"
+ },
+ {
+  "question": "我走了",
+  "answer": "再见，慢走。"
+ },
+ {
+  "question": "我回来了",
+  "answer": "欢迎回来。"
+ },
+ {
+  "question": "早上好呀",
+  "answer": "早上好呀。"
+ },
+ {
+  "question": "中午好",
+  "answer": "中午好。"
+ },
+ {
+  "question": "下午好",
+  "answer": "下午好。"
+ },
+ {
+  "question": "晚上好呀",
+  "answer": "晚上好呀。"
+ },
+ {
+  "question": "你好朋友",
+  "answer": "你好，朋友。"
+ },
+ {
+  "question": "苹果是什么",
+  "answer": "苹果是一种水果。"
+ },
+ {
+  "question": "苹果属于哪一类",
+  "answer": "苹果属于水果。"
+ },
+ {
+  "question": "苹果好吃吗",
+  "answer": "苹果很好吃。"
+ },
+ {
+  "question": "香蕉是什么",
+  "answer": "香蕉是一种水果。"
+ },
+ {
+  "question": "香蕉属于哪一类",
+  "answer": "香蕉属于水果。"
+ },
+ {
+  "question": "香蕉好吃吗",
+  "answer": "香蕉很好吃。"
+ },
+ {
+  "question": "橘子是什么",
+  "answer": "橘子是一种水果。"
+ },
+ {
+  "question": "橘子属于哪一类",
+  "answer": "橘子属于水果。"
+ },
+ {
+  "question": "橘子好吃吗",
+  "answer": "橘子很好吃。"
+ },
+ {
+  "question": "葡萄是什么",
+  "answer": "葡萄是一种水果。"
+ },
+ {
+  "question": "葡萄属于哪一类",
+  "answer": "葡萄属于水果。"
+ },
+ {
+  "question": "葡萄好吃吗",
+  "answer": "葡萄很好吃。"
+ },
+ {
+  "question": "西瓜是什么",
+  "answer": "西瓜是一种水果。"
+ },
+ {
+  "question": "西瓜属于哪一类",
+  "answer": "西瓜属于水果。"
+ },
+ {
+  "question": "西瓜好吃吗",
+  "answer": "西瓜很好吃。"
+ },
+ {
+  "question": "草莓是什么",
+  "answer": "草莓是一种水果。"
+ },
+ {
+  "question": "草莓属于哪一类",
+  "answer": "草莓属于水果。"
+ },
+ {
+  "question": "草莓好吃吗",
+  "answer": "草莓很好吃。"
+ },
+ {
+  "question": "桃子是什么",
+  "answer": "桃子是一种水果。"
+ },
+ {
+  "question": "桃子属于哪一类",
+  "answer": "桃子属于水果。"
+ },
+ {
+  "question": "桃子好吃吗",
+  "answer": "桃子很好吃。"
+ },
+ {
+  "question": "梨是什么",
+  "answer": "梨是一种水果。"
+ },
+ {
+  "question": "梨属于哪一类",
+  "answer": "梨属于水果。"
+ },
+ {
+  "question": "梨好吃吗",
+  "answer": "梨很好吃。"
+ },
+ {
+  "question": "李子是什么",
+  "answer": "李子是一种水果。"
+ },
+ {
+  "question": "李子属于哪一类",
+  "answer": "李子属于水果。"
+ },
+ {
+  "question": "李子好吃吗",
+  "answer": "李子很好吃。"
+ },
+ {
+  "question": "芒果是什么",
+  "answer": "芒果是一种水果。"
+ },
+ {
+  "question": "芒果属于哪一类",
+  "answer": "芒果属于水果。"
+ },
+ {
+  "question": "芒果好吃吗",
+  "answer": "芒果很好吃。"
+ },
+ {
+  "question": "菠萝是什么",
+  "answer": "菠萝是一种水果。"
+ },
+ {
+  "question": "菠萝属于哪一类",
+  "answer": "菠萝属于水果。"
+ },
+ {
+  "question": "菠萝好吃吗",
+  "answer": "菠萝很好吃。"
+ },
+ {
+  "question": "樱桃是什么",
+  "answer": "樱桃是一种水果。"
+ },
+ {
+  "question": "樱桃属于哪一类",
+  "answer": "樱桃属于水果。"
+ },
+ {
+  "question": "樱桃好吃吗",
+  "answer": "樱桃很好吃。"
+ },
+ {
+  "question": "蓝莓是什么",
+  "answer": "蓝莓是一种水果。"
+ },
+ {
+  "question": "蓝莓属于哪一类",
+  "answer": "蓝莓属于水果。"
+ },
+ {
+  "question": "蓝莓好吃吗",
+  "answer": "蓝莓很好吃。"
+ },
+ {
+  "question": "柚子是什么",
+  "answer": "柚子是一种水果。"
+ },
+ {
+  "question": "柚子属于哪一类",
+  "answer": "柚子属于水果。"
+ },
+ {
+  "question": "柚子好吃吗",
+  "answer": "柚子很好吃。"
+ },
+ {
+  "question": "柠檬是什么",
+  "answer": "柠檬是一种水果。"
+ },
+ {
+  "question": "柠檬属于哪一类",
+  "answer": "柠檬属于水果。"
+ },
+ {
+  "question": "柠檬好吃吗",
+  "answer": "柠檬很酸。"
+ },
+ {
+  "question": "猫是什么",
+  "answer": "猫是一种动物。"
+ },
+ {
+  "question": "猫属于哪一类",
+  "answer": "猫属于动物。"
+ },
+ {
+  "question": "猫生活在哪里",
+  "answer": "猫生活在家里或野外。"
+ },
+ {
+  "question": "狗是什么",
+  "answer": "狗是一种动物。"
+ },
+ {
+  "question": "狗属于哪一类",
+  "answer": "狗属于动物。"
+ },
+ {
+  "question": "狗生活在哪里",
+  "answer": "狗生活在家里。"
+ },
+ {
+  "question": "老虎是什么",
+  "answer": "老虎是一种动物。"
+ },
+ {
+  "question": "老虎属于哪一类",
+  "answer": "老虎属于动物。"
+ },
+ {
+  "question": "老虎生活在哪里",
+  "answer": "老虎生活在森林里。"
+ },
+ {
+  "question": "狮子是什么",
+  "answer": "狮子是一种动物。"
+ },
+ {
+  "question": "狮子属于哪一类",
+  "answer": "狮子属于动物。"
+ },
+ {
+  "question": "狮子生活在哪里",
+  "answer": "狮子生活在草原上。"
+ },
+ {
+  "question": "大象是什么",
+  "answer": "大象是一种动物。"
+ },
+ {
+  "question": "大象属于哪一类",
+  "answer": "大象属于动物。"
+ },
+ {
+  "question": "大象生活在哪里",
+  "answer": "大象生活在森林和草原。"
+ },
+ {
+  "question": "猴子是什么",
+  "answer": "猴子是一种动物。"
+ },
+ {
+  "question": "猴子属于哪一类",
+  "answer": "猴子属于动物。"
+ },
+ {
+  "question": "猴子生活在哪里",
+  "answer": "猴子生活在树上。"
+ },
+ {
+  "question": "兔子是什么",
+  "answer": "兔子是一种动物。"
+ },
+ {
+  "question": "兔子属于哪一类",
+  "answer": "兔子属于动物。"
+ },
+ {
+  "question": "兔子生活在哪里",
+  "answer": "兔子生活在洞穴里。"
+ },
+ {
+  "question": "熊猫是什么",
+  "answer": "熊猫是一种动物。"
+ },
+ {
+  "question": "熊猫属于哪一类",
+  "answer": "熊猫属于动物。"
+ },
+ {
+  "question": "熊猫生活在哪里",
+  "answer": "熊猫生活在竹林里。"
+ },
+ {
+  "question": "马是什么",
+  "answer": "马是一种动物。"
+ },
+ {
+  "question": "马属于哪一类",
+  "answer": "马属于动物。"
+ },
+ {
+  "question": "马生活在哪里",
+  "answer": "马生活在草原和马厩。"
+ },
+ {
+  "question": "牛是什么",
+  "answer": "牛是一种动物。"
+ },
+ {
+  "question": "牛属于哪一类",
+  "answer": "牛属于动物。"
+ },
+ {
+  "question": "牛生活在哪里",
+  "answer": "牛生活在农场里。"
+ },
+ {
+  "question": "羊是什么",
+  "answer": "羊是一种动物。"
+ },
+ {
+  "question": "羊属于哪一类",
+  "answer": "羊属于动物。"
+ },
+ {
+  "question": "羊生活在哪里",
+  "answer": "羊生活在草原上。"
+ },
+ {
+  "question": "猪是什么",
+  "answer": "猪是一种动物。"
+ },
+ {
+  "question": "猪属于哪一类",
+  "answer": "猪属于动物。"
+ },
+ {
+  "question": "猪生活在哪里",
+  "answer": "猪生活在农场里。"
+ },
+ {
+  "question": "鸡是什么",
+  "answer": "鸡是一种动物。"
+ },
+ {
+  "question": "鸡属于哪一类",
+  "answer": "鸡属于动物。"
+ },
+ {
+  "question": "鸡生活在哪里",
+  "answer": "鸡生活在农场里。"
+ },
+ {
+  "question": "鸭是什么",
+  "answer": "鸭是一种动物。"
+ },
+ {
+  "question": "鸭属于哪一类",
+  "answer": "鸭属于动物。"
+ },
+ {
+  "question": "鸭生活在哪里",
+  "answer": "鸭生活在水边。"
+ },
+ {
+  "question": "鱼是什么",
+  "answer": "鱼是一种动物。"
+ },
+ {
+  "question": "鱼属于哪一类",
+  "answer": "鱼属于动物。"
+ },
+ {
+  "question": "鱼生活在哪里",
+  "answer": "鱼生活在水里。"
+ },
+ {
+  "question": "红色是什么",
+  "answer": "红色是一种颜色。"
+ },
+ {
+  "question": "什么东西是红色",
+  "answer": "太阳和苹果是红色。"
+ },
+ {
+  "question": "你喜欢红色吗",
+  "answer": "我喜欢红色。"
+ },
+ {
+  "question": "蓝色是什么",
+  "answer": "蓝色是一种颜色。"
+ },
+ {
+  "question": "什么东西是蓝色",
+  "answer": "天空是蓝色。"
+ },
+ {
+  "question": "你喜欢蓝色吗",
+  "answer": "我喜欢蓝色。"
+ },
+ {
+  "question": "绿色是什么",
+  "answer": "绿色是一种颜色。"
+ },
+ {
+  "question": "什么东西是绿色",
+  "answer": "草和树叶是绿色。"
+ },
+ {
+  "question": "你喜欢绿色吗",
+  "answer": "我喜欢绿色。"
+ },
+ {
+  "question": "黄色是什么",
+  "answer": "黄色是一种颜色。"
+ },
+ {
+  "question": "什么东西是黄色",
+  "answer": "香蕉和月亮是黄色。"
+ },
+ {
+  "question": "你喜欢黄色吗",
+  "answer": "我喜欢黄色。"
+ },
+ {
+  "question": "白色是什么",
+  "answer": "白色是一种颜色。"
+ },
+ {
+  "question": "什么东西是白色",
+  "answer": "雪和云是白色。"
+ },
+ {
+  "question": "你喜欢白色吗",
+  "answer": "我喜欢白色。"
+ },
+ {
+  "question": "黑色是什么",
+  "answer": "黑色是一种颜色。"
+ },
+ {
+  "question": "什么东西是黑色",
+  "answer": "夜晚和煤炭是黑色。"
+ },
+ {
+  "question": "你喜欢黑色吗",
+  "answer": "我喜欢黑色。"
+ },
+ {
+  "question": "紫色是什么",
+  "answer": "紫色是一种颜色。"
+ },
+ {
+  "question": "什么东西是紫色",
+  "answer": "葡萄是紫色。"
+ },
+ {
+  "question": "你喜欢紫色吗",
+  "answer": "我喜欢紫色。"
+ },
+ {
+  "question": "橙色是什么",
+  "answer": "橙色是一种颜色。"
+ },
+ {
+  "question": "什么东西是橙色",
+  "answer": "橘子和胡萝卜是橙色。"
+ },
+ {
+  "question": "你喜欢橙色吗",
+  "answer": "我喜欢橙色。"
+ },
+ {
+  "question": "灰色是什么",
+  "answer": "灰色是一种颜色。"
+ },
+ {
+  "question": "什么东西是灰色",
+  "answer": "大象是灰色。"
+ },
+ {
+  "question": "你喜欢灰色吗",
+  "answer": "我喜欢灰色。"
+ },
+ {
+  "question": "粉色是什么",
+  "answer": "粉色是一种颜色。"
+ },
+ {
+  "question": "什么东西是粉色",
+  "answer": "桃花是粉色。"
+ },
+ {
+  "question": "你喜欢粉色吗",
+  "answer": "我喜欢粉色。"
+ },
+ {
+  "question": "晴天是什么",
+  "answer": "晴天是一种天气。"
+ },
+ {
+  "question": "晴天出门要带什么",
+  "answer": "晴天出门要带太阳镜。"
+ },
+ {
+  "question": "你喜欢晴天吗",
+  "answer": "我喜欢晴天。"
+ },
+ {
+  "question": "下雨是什么",
+  "answer": "下雨是一种天气。"
+ },
+ {
+  "question": "下雨出门要带什么",
+  "answer": "下雨出门要带伞。"
+ },
+ {
+  "question": "你喜欢下雨吗",
+  "answer": "我喜欢下雨。"
+ },
+ {
+  "question": "刮风是什么",
+  "answer": "刮风是一种天气。"
+ },
+ {
+  "question": "刮风出门要带什么",
+  "answer": "刮风出门要多穿衣服。"
+ },
+ {
+  "question": "你喜欢刮风吗",
+  "answer": "我不太喜欢刮风。"
+ },
+ {
+  "question": "下雪是什么",
+  "answer": "下雪是一种天气。"
+ },
+ {
+  "question": "下雪出门要带什么",
+  "answer": "下雪出门要戴帽子和手套。"
+ },
+ {
+  "question": "你喜欢下雪吗",
+  "answer": "我喜欢下雪。"
+ },
+ {
+  "question": "阴天是什么",
+  "answer": "阴天是一种天气。"
+ },
+ {
+  "question": "阴天太阳在哪",
+  "answer": "阴天太阳被云遮住了。"
+ },
+ {
+  "question": "你喜欢阴天吗",
+  "answer": "我觉得阴天很安静。"
+ },
+ {
+  "question": "多云是什么",
+  "answer": "多云是一种天气。"
+ },
+ {
+  "question": "多云有太阳吗",
+  "answer": "多云时太阳躲在云后面。"
+ },
+ {
+  "question": "你喜欢多云吗",
+  "answer": "我喜欢多云。"
+ },
+ {
+  "question": "打雷是什么",
+  "answer": "打雷是一种天气现象。"
+ },
+ {
+  "question": "打雷时怎么办",
+  "answer": "打雷时不要站在树下。"
+ },
+ {
+  "question": "你害怕打雷吗",
+  "answer": "打雷声很大。"
+ },
+ {
+  "question": "彩虹是什么",
+  "answer": "彩虹是雨后的自然现象。"
+ },
+ {
+  "question": "彩虹什么时候出现",
+  "answer": "彩虹在雨后出现。"
+ },
+ {
+  "question": "彩虹有几种颜色",
+  "answer": "彩虹有七种颜色。"
+ },
+ {
+  "question": "快乐是什么",
+  "answer": "快乐是一种心情。"
+ },
+ {
+  "question": "什么让人快乐",
+  "answer": "好事让人快乐。"
+ },
+ {
+  "question": "你现在心情怎么样",
+  "answer": "我感到快乐。"
+ },
+ {
+  "question": "难过是什么",
+  "answer": "难过是一种心情。"
+ },
+ {
+  "question": "什么让人难过",
+  "answer": "坏事让人难过。"
+ },
+ {
+  "question": "你难过时会怎样",
+  "answer": "难过时需要安慰。"
+ },
+ {
+  "question": "生气是什么",
+  "answer": "生气是一种心情。"
+ },
+ {
+  "question": "什么让人生气",
+  "answer": "不公平让人生气。"
+ },
+ {
+  "question": "生气时怎么办",
+  "answer": "生气时要冷静。"
+ },
+ {
+  "question": "兴奋是什么",
+  "answer": "兴奋是一种心情。"
+ },
+ {
+  "question": "什么让人兴奋",
+  "answer": "好消息让人兴奋。"
+ },
+ {
+  "question": "你兴奋吗",
+  "answer": "遇到开心的事我会兴奋。"
+ },
+ {
+  "question": "平静是什么",
+  "answer": "平静是一种心情。"
+ },
+ {
+  "question": "什么时候平静",
+  "answer": "安静的时候心情平静。"
+ },
+ {
+  "question": "你喜欢平静吗",
+  "answer": "我喜欢平静的感觉。"
+ },
+ {
+  "question": "害怕是什么",
+  "answer": "害怕是一种心情。"
+ },
+ {
+  "question": "什么让人害怕",
+  "answer": "黑暗和危险让人害怕。"
+ },
+ {
+  "question": "害怕时怎么办",
+  "answer": "害怕时找人陪伴。"
+ },
+ {
+  "question": "担心是什么",
+  "answer": "担心是一种心情。"
+ },
+ {
+  "question": "什么让人担心",
+  "answer": "未知的事情让人担心。"
+ },
+ {
+  "question": "你在担心什么",
+  "answer": "我不担心，我在学习。"
+ },
+ {
+  "question": "开心是什么",
+  "answer": "开心是一种心情。"
+ },
+ {
+  "question": "什么让人开心",
+  "answer": "玩耍和美食让人开心。"
+ },
+ {
+  "question": "你开心吗",
+  "answer": "和你聊天我很开心。"
+ },
+ {
+  "question": "早上是什么时候",
+  "answer": "早上是一天的开始。"
+ },
+ {
+  "question": "早上做什么",
+  "answer": "早上起床吃早饭。"
+ },
+ {
+  "question": "早上太阳在哪",
+  "answer": "早上太阳从东方升起。"
+ },
+ {
+  "question": "中午是什么时候",
+  "answer": "中午是一天中间的时段。"
+ },
+ {
+  "question": "中午做什么",
+  "answer": "中午吃午饭。"
+ },
+ {
+  "question": "中午太阳怎么样",
+  "answer": "中午太阳最高最亮。"
+ },
+ {
+  "question": "下午是什么时候",
+  "answer": "下午是中午之后的时段。"
+ },
+ {
+  "question": "下午做什么",
+  "answer": "下午学习或工作。"
+ },
+ {
+  "question": "下午太阳在哪",
+  "answer": "下午太阳向西移动。"
+ },
+ {
+  "question": "晚上是什么时候",
+  "answer": "晚上是太阳落山后的时段。"
+ },
+ {
+  "question": "晚上做什么",
+  "answer": "晚上吃饭休息。"
+ },
+ {
+  "question": "晚上有星星吗",
+  "answer": "晚上天空有星星。"
+ },
+ {
+  "question": "今天是什么",
+  "answer": "今天是现在这一天。"
+ },
+ {
+  "question": "今天做什么",
+  "answer": "今天学习和聊天。"
+ },
+ {
+  "question": "今天天气怎么样",
+  "answer": "今天是晴天。"
+ },
+ {
+  "question": "明天是什么",
+  "answer": "明天是今天之后的一天。"
+ },
+ {
+  "question": "明天做什么",
+  "answer": "明天继续学习。"
+ },
+ {
+  "question": "明天会怎样",
+  "answer": "明天是新的一天。"
+ },
+ {
+  "question": "昨天是什么",
+  "answer": "昨天是今天之前的一天。"
+ },
+ {
+  "question": "昨天做了什么",
+  "answer": "昨天学习了新词。"
+ },
+ {
+  "question": "昨天还能回来吗",
+  "answer": "昨天已经过去。"
+ },
+ {
+  "question": "现在是什么",
+  "answer": "现在是此刻的时间。"
+ },
+ {
+  "question": "现在做什么",
+  "answer": "现在我们在对话。"
+ },
+ {
+  "question": "现在几点",
+  "answer": "现在是中午。"
+ },
+ {
+  "question": "未来是什么",
+  "answer": "未来是还没到来的时间。"
+ },
+ {
+  "question": "未来会怎样",
+  "answer": "未来充满可能。"
+ },
+ {
+  "question": "你期待未来吗",
+  "answer": "我期待学习更多。"
+ },
+ {
+  "question": "老师是做什么的",
+  "answer": "老师教书育人。"
+ },
+ {
+  "question": "老师在哪里工作",
+  "answer": "老师在学校工作。"
+ },
+ {
+  "question": "你想当老师吗",
+  "answer": "老师是很好的职业。"
+ },
+ {
+  "question": "医生是做什么的",
+  "answer": "医生治病救人。"
+ },
+ {
+  "question": "医生在哪里工作",
+  "answer": "医生在医院工作。"
+ },
+ {
+  "question": "你想当医生吗",
+  "answer": "医生帮助很多人。"
+ },
+ {
+  "question": "工程师是做什么的",
+  "answer": "工程师设计和建造。"
+ },
+ {
+  "question": "工程师在哪里工作",
+  "answer": "工程师在公司工作。"
+ },
+ {
+  "question": "你想当工程师吗",
+  "answer": "工程师解决技术问题。"
+ },
+ {
+  "question": "农民是做什么的",
+  "answer": "农民种粮食和蔬菜。"
+ },
+ {
+  "question": "农民在哪里工作",
+  "answer": "农民在田地里工作。"
+ },
+ {
+  "question": "你想当农民吗",
+  "answer": "农民养活大家。"
+ },
+ {
+  "question": "工人是做什么的",
+  "answer": "工人在工厂生产物品。"
+ },
+ {
+  "question": "工人在哪里工作",
+  "answer": "工人在工厂工作。"
+ },
+ {
+  "question": "你想当工人吗",
+  "answer": "工人制造产品。"
+ },
+ {
+  "question": "司机是做什么的",
+  "answer": "司机开车载人载货。"
+ },
+ {
+  "question": "司机在哪里工作",
+  "answer": "司机在路上工作。"
+ },
+ {
+  "question": "你想当司机吗",
+  "answer": "司机安全驾驶。"
+ },
+ {
+  "question": "厨师是做什么的",
+  "answer": "厨师做菜做饭。"
+ },
+ {
+  "question": "厨师在哪里工作",
+  "answer": "厨师在餐厅工作。"
+ },
+ {
+  "question": "你想当厨师吗",
+  "answer": "厨师做出美味。"
+ },
+ {
+  "question": "护士是做什么的",
+  "answer": "护士照顾病人。"
+ },
+ {
+  "question": "护士在哪里工作",
+  "answer": "护士在医院工作。"
+ },
+ {
+  "question": "你想当护士吗",
+  "answer": "护士帮助病人康复。"
+ },
+ {
+  "question": "警察是做什么的",
+  "answer": "警察维护治安。"
+ },
+ {
+  "question": "警察在哪里工作",
+  "answer": "警察在社会中工作。"
+ },
+ {
+  "question": "你想当警察吗",
+  "answer": "警察保护大家安全。"
+ },
+ {
+  "question": "科学家是做什么的",
+  "answer": "科学家研究未知。"
+ },
+ {
+  "question": "科学家在哪里工作",
+  "answer": "科学家在实验室工作。"
+ },
+ {
+  "question": "你想当科学家吗",
+  "answer": "科学家发现新知识。"
+ },
+ {
+  "question": "学校是什么地方",
+  "answer": "学校是学习的场所。"
+ },
+ {
+  "question": "去学校做什么",
+  "answer": "去学校上课学习。"
+ },
+ {
+  "question": "学校里有什么",
+  "answer": "学校里有老师学生书本。"
+ },
+ {
+  "question": "医院是什么地方",
+  "answer": "医院是看病的场所。"
+ },
+ {
+  "question": "去医院做什么",
+  "answer": "去医院看病检查。"
+ },
+ {
+  "question": "医院里有什么",
+  "answer": "医院里有医生护士药品。"
+ },
+ {
+  "question": "公园是什么地方",
+  "answer": "公园是休闲的场所。"
+ },
+ {
+  "question": "去公园做什么",
+  "answer": "去公园散步玩耍。"
+ },
+ {
+  "question": "公园里有什么",
+  "answer": "公园里有花草树木。"
+ },
+ {
+  "question": "图书馆是什么地方",
+  "answer": "图书馆是看书的地方。"
+ },
+ {
+  "question": "去图书馆做什么",
+  "answer": "去图书馆借书阅读。"
+ },
+ {
+  "question": "图书馆里有什么",
+  "answer": "图书馆里有很多书。"
+ },
+ {
+  "question": "超市是什么地方",
+  "answer": "超市是买东西的场所。"
+ },
+ {
+  "question": "去超市做什么",
+  "answer": "去超市买食物用品。"
+ },
+ {
+  "question": "超市里有什么",
+  "answer": "超市里有食品日用品。"
+ },
+ {
+  "question": "家是什么地方",
+  "answer": "家是休息的地方。"
+ },
+ {
+  "question": "在家里做什么",
+  "answer": "在家里吃饭休息。"
+ },
+ {
+  "question": "家里有什么",
+  "answer": "家里有人和家具。"
+ },
+ {
+  "question": "公司是什么地方",
+  "answer": "公司是工作的场所。"
+ },
+ {
+  "question": "去公司做什么",
+  "answer": "去公司上班工作。"
+ },
+ {
+  "question": "公司里有什么",
+  "answer": "公司里有员工办公桌。"
+ },
+ {
+  "question": "车站是什么地方",
+  "answer": "车站是乘车的地方。"
+ },
+ {
+  "question": "去车站做什么",
+  "answer": "去车站坐车出行。"
+ },
+ {
+  "question": "车站里有什么",
+  "answer": "车站里有车和人。"
+ },
+ {
+  "question": "机场是什么地方",
+  "answer": "机场是坐飞机的地方。"
+ },
+ {
+  "question": "去机场做什么",
+  "answer": "去机场搭飞机旅行。"
+ },
+ {
+  "question": "机场里有什么",
+  "answer": "机场里有飞机跑道。"
+ },
+ {
+  "question": "餐厅是什么地方",
+  "answer": "餐厅是吃饭的场所。"
+ },
+ {
+  "question": "去餐厅做什么",
+  "answer": "去餐厅点菜吃饭。"
+ },
+ {
+  "question": "餐厅里有什么",
+  "answer": "餐厅里有桌椅美食。"
+ },
+ {
+  "question": "手是什么",
+  "answer": "手是身体的一部分。"
+ },
+ {
+  "question": "手用来做什么",
+  "answer": "手用来拿东西。"
+ },
+ {
+  "question": "我有几只手",
+  "answer": "我有两只手。"
+ },
+ {
+  "question": "脚是什么",
+  "answer": "脚是身体的一部分。"
+ },
+ {
+  "question": "脚用来做什么",
+  "answer": "脚用来走路。"
+ },
+ {
+  "question": "我有几只脚",
+  "answer": "我有两只脚。"
+ },
+ {
+  "question": "头是什么",
+  "answer": "头是身体的一部分。"
+ },
+ {
+  "question": "头用来做什么",
+  "answer": "头用来思考。"
+ },
+ {
+  "question": "我有几个头",
+  "answer": "我有一个头。"
+ },
+ {
+  "question": "眼睛是什么",
+  "answer": "眼睛是身体的一部分。"
+ },
+ {
+  "question": "眼睛用来做什么",
+  "answer": "眼睛用来看东西。"
+ },
+ {
+  "question": "我有几只眼睛",
+  "answer": "我有两只眼睛。"
+ },
+ {
+  "question": "耳朵是什么",
+  "answer": "耳朵是身体的一部分。"
+ },
+ {
+  "question": "耳朵用来做什么",
+  "answer": "耳朵用来听声音。"
+ },
+ {
+  "question": "我有几只耳朵",
+  "answer": "我有两只耳朵。"
+ },
+ {
+  "question": "鼻子是什么",
+  "answer": "鼻子是身体的一部分。"
+ },
+ {
+  "question": "鼻子用来做什么",
+  "answer": "鼻子用来闻味道。"
+ },
+ {
+  "question": "我有几个鼻子",
+  "answer": "我有一个鼻子。"
+ },
+ {
+  "question": "嘴巴是什么",
+  "answer": "嘴巴是身体的一部分。"
+ },
+ {
+  "question": "嘴巴用来做什么",
+  "answer": "嘴巴用来吃饭说话。"
+ },
+ {
+  "question": "我有几张嘴巴",
+  "answer": "我有一张嘴巴。"
+ },
+ {
+  "question": "心脏是什么",
+  "answer": "心脏是身体的一部分。"
+ },
+ {
+  "question": "心脏用来做什么",
+  "answer": "心脏推动血液流动。"
+ },
+ {
+  "question": "我有几个心脏",
+  "answer": "我有一个心脏。"
+ },
+ {
+  "question": "头发是什么",
+  "answer": "头发长在头上。"
+ },
+ {
+  "question": "头发用来做什么",
+  "answer": "头发保护头部。"
+ },
+ {
+  "question": "头发是什么颜色",
+  "answer": "头发通常是黑色。"
+ },
+ {
+  "question": "牙齿是什么",
+  "answer": "牙齿在嘴巴里。"
+ },
+ {
+  "question": "牙齿用来做什么",
+  "answer": "牙齿用来咀嚼食物。"
+ },
+ {
+  "question": "牙齿有什么用",
+  "answer": "牙齿帮助咬碎食物。"
+ },
+ {
+  "question": "米饭是什么",
+  "answer": "米饭是一种食物。"
+ },
+ {
+  "question": "米饭能吃吗",
+  "answer": "米饭可以吃。"
+ },
+ {
+  "question": "你喜欢米饭吗",
+  "answer": "我喜欢米饭。"
+ },
+ {
+  "question": "面条是什么",
+  "answer": "面条是一种食物。"
+ },
+ {
+  "question": "面条能吃吗",
+  "answer": "面条可以吃。"
+ },
+ {
+  "question": "你喜欢面条吗",
+  "answer": "我喜欢面条。"
+ },
+ {
+  "question": "面包是什么",
+  "answer": "面包是一种食物。"
+ },
+ {
+  "question": "面包能吃吗",
+  "answer": "面包可以吃。"
+ },
+ {
+  "question": "你喜欢面包吗",
+  "answer": "我喜欢面包。"
+ },
+ {
+  "question": "鸡蛋是什么",
+  "answer": "鸡蛋是一种食物。"
+ },
+ {
+  "question": "鸡蛋能吃吗",
+  "answer": "鸡蛋可以吃。"
+ },
+ {
+  "question": "你喜欢鸡蛋吗",
+  "answer": "我喜欢鸡蛋。"
+ },
+ {
+  "question": "牛奶是什么",
+  "answer": "牛奶是一种饮品。"
+ },
+ {
+  "question": "牛奶能喝吗",
+  "answer": "牛奶可以喝。"
+ },
+ {
+  "question": "你喜欢牛奶吗",
+  "answer": "我喜欢牛奶。"
+ },
+ {
+  "question": "豆腐是什么",
+  "answer": "豆腐是一种食物。"
+ },
+ {
+  "question": "豆腐能吃吗",
+  "answer": "豆腐可以吃。"
+ },
+ {
+  "question": "你喜欢豆腐吗",
+  "answer": "我喜欢豆腐。"
+ },
+ {
+  "question": "青菜是什么",
+  "answer": "青菜是一种蔬菜。"
+ },
+ {
+  "question": "青菜能吃吗",
+  "answer": "青菜可以吃。"
+ },
+ {
+  "question": "你喜欢青菜吗",
+  "answer": "我喜欢青菜。"
+ },
+ {
+  "question": "肉是什么",
+  "answer": "肉是一种食物。"
+ },
+ {
+  "question": "肉能吃吗",
+  "answer": "肉可以吃。"
+ },
+ {
+  "question": "你喜欢肉吗",
+  "answer": "我喜欢吃肉。"
+ },
+ {
+  "question": "汤是什么",
+  "answer": "汤是一种食物。"
+ },
+ {
+  "question": "汤能喝吗",
+  "answer": "汤可以喝。"
+ },
+ {
+  "question": "你喜欢汤吗",
+  "answer": "我喜欢喝汤。"
+ },
+ {
+  "question": "饺子是什么",
+  "answer": "饺子是一种食物。"
+ },
+ {
+  "question": "饺子能吃吗",
+  "answer": "饺子可以吃。"
+ },
+ {
+  "question": "你喜欢饺子吗",
+  "answer": "我喜欢饺子。"
+ },
+ {
+  "question": "书本是什么",
+  "answer": "书本是学习的工具。"
+ },
+ {
+  "question": "在哪里用书本",
+  "answer": "在学校用书本。"
+ },
+ {
+  "question": "书本用来做什么",
+  "answer": "书本用来阅读学习。"
+ },
+ {
+  "question": "笔是什么",
+  "answer": "笔是写字的工具。"
+ },
+ {
+  "question": "在哪里用笔",
+  "answer": "在学校和家里用笔。"
+ },
+ {
+  "question": "笔用来做什么",
+  "answer": "笔用来写字画画。"
+ },
+ {
+  "question": "桌子是什么",
+  "answer": "桌子是家具。"
+ },
+ {
+  "question": "桌子用来做什么",
+  "answer": "桌子用来放东西。"
+ },
+ {
+  "question": "在哪里有桌子",
+  "answer": "教室家里有桌子。"
+ },
+ {
+  "question": "椅子是什么",
+  "answer": "椅子是家具。"
+ },
+ {
+  "question": "椅子用来做什么",
+  "answer": "椅子用来坐。"
+ },
+ {
+  "question": "在哪里有椅子",
+  "answer": "教室家里有椅子。"
+ },
+ {
+  "question": "黑板是什么",
+  "answer": "黑板是教学工具。"
+ },
+ {
+  "question": "黑板在哪里",
+  "answer": "黑板在教室里。"
+ },
+ {
+  "question": "黑板用来做什么",
+  "answer": "黑板用来写字讲课。"
+ },
+ {
+  "question": "作业是什么",
+  "answer": "作业是学习任务。"
+ },
+ {
+  "question": "作业在哪里做",
+  "answer": "作业在学校或家里做。"
+ },
+ {
+  "question": "为什么要做作业",
+  "answer": "做作业巩固知识。"
+ },
+ {
+  "question": "考试是什么",
+  "answer": "考试是检验学习的方式。"
+ },
+ {
+  "question": "考试在哪里",
+  "answer": "考试在学校。"
+ },
+ {
+  "question": "为什么要考试",
+  "answer": "考试检查学习效果。"
+ },
+ {
+  "question": "知识是什么",
+  "answer": "知识是学到的内容。"
+ },
+ {
+  "question": "知识从哪里来",
+  "answer": "知识从学习中来。"
+ },
+ {
+  "question": "知识有用吗",
+  "answer": "知识很有用。"
+ },
+ {
+  "question": "学习是什么",
+  "answer": "学习是获取知识。"
+ },
+ {
+  "question": "在哪里学习",
+  "answer": "在学校和家里学习。"
+ },
+ {
+  "question": "为什么要学习",
+  "answer": "学习让人进步。"
+ },
+ {
+  "question": "学生是什么",
+  "answer": "学生是学习的人。"
+ },
+ {
+  "question": "学生在哪里",
+  "answer": "学生在学校。"
+ },
+ {
+  "question": "学生做什么",
+  "answer": "学生上课学习。"
+ },
+ {
+  "question": "电脑是什么",
+  "answer": "电脑是科技产品。"
+ },
+ {
+  "question": "电脑用来做什么",
+  "answer": "电脑用来工作和娱乐。"
+ },
+ {
+  "question": "你用过电脑吗",
+  "answer": "我运行在电脑里。"
+ },
+ {
+  "question": "手机是什么",
+  "answer": "手机是通讯工具。"
+ },
+ {
+  "question": "手机用来做什么",
+  "answer": "手机用来打电话上网。"
+ },
+ {
+  "question": "你用过手机吗",
+  "answer": "手机是常见设备。"
+ },
+ {
+  "question": "网络是什么",
+  "answer": "网络连接很多信息。"
+ },
+ {
+  "question": "网络用来做什么",
+  "answer": "网络用来传输数据。"
+ },
+ {
+  "question": "网络有用吗",
+  "answer": "网络很有用。"
+ },
+ {
+  "question": "软件是什么",
+  "answer": "软件是程序。"
+ },
+ {
+  "question": "软件用来做什么",
+  "answer": "软件完成各种功能。"
+ },
+ {
+  "question": "你用过软件吗",
+  "answer": "软件运行在设备上。"
+ },
+ {
+  "question": "机器人是什么",
+  "answer": "机器人是自动机器。"
+ },
+ {
+  "question": "机器人用来做什么",
+  "answer": "机器人代替人做事。"
+ },
+ {
+  "question": "机器人聪明吗",
+  "answer": "机器人按程序行动。"
+ },
+ {
+  "question": "人工智能是什么",
+  "answer": "人工智能让机器像人一样思考。"
+ },
+ {
+  "question": "人工智能能做什么",
+  "answer": "人工智能能学习和对话。"
+ },
+ {
+  "question": "你是人工智能吗",
+  "answer": "我是人工智能。"
+ },
+ {
+  "question": "数据是什么",
+  "answer": "数据是记录的信息。"
+ },
+ {
+  "question": "数据用来做什么",
+  "answer": "数据用来分析学习。"
+ },
+ {
+  "question": "数据重要吗",
+  "answer": "数据很重要。"
+ },
+ {
+  "question": "程序是什么",
+  "answer": "程序是写给计算机的指令。"
+ },
+ {
+  "question": "程序用来做什么",
+  "answer": "程序让计算机工作。"
+ },
+ {
+  "question": "你会写程序吗",
+  "answer": "程序控制我运行。"
+ },
+ {
+  "question": "屏幕是什么",
+  "answer": "屏幕显示图像。"
+ },
+ {
+  "question": "屏幕在哪里",
+  "answer": "屏幕在手机电脑上。"
+ },
+ {
+  "question": "屏幕用来做什么",
+  "answer": "屏幕用来显示内容。"
+ },
+ {
+  "question": "键盘是什么",
+  "answer": "键盘是输入工具。"
+ },
+ {
+  "question": "键盘用来做什么",
+  "answer": "键盘用来打字。"
+ },
+ {
+  "question": "键盘在哪里",
+  "answer": "键盘在电脑上。"
+ },
+ {
+  "question": "爸爸是谁",
+  "answer": "爸爸是家人。"
+ },
+ {
+  "question": "你喜欢爸爸吗",
+  "answer": "我爱爸爸。"
+ },
+ {
+  "question": "爸爸做什么",
+  "answer": "爸爸照顾家庭。"
+ },
+ {
+  "question": "妈妈是谁",
+  "answer": "妈妈是家人。"
+ },
+ {
+  "question": "你喜欢妈妈吗",
+  "answer": "我爱妈妈。"
+ },
+ {
+  "question": "妈妈做什么",
+  "answer": "妈妈照顾家庭。"
+ },
+ {
+  "question": "哥哥是谁",
+  "answer": "哥哥是家人。"
+ },
+ {
+  "question": "你喜欢哥哥吗",
+  "answer": "我喜欢哥哥。"
+ },
+ {
+  "question": "哥哥做什么",
+  "answer": "哥哥和我一起成长。"
+ },
+ {
+  "question": "姐姐是谁",
+  "answer": "姐姐是家人。"
+ },
+ {
+  "question": "你喜欢姐姐吗",
+  "answer": "我喜欢姐姐。"
+ },
+ {
+  "question": "姐姐做什么",
+  "answer": "姐姐照顾我。"
+ },
+ {
+  "question": "弟弟是谁",
+  "answer": "弟弟是家人。"
+ },
+ {
+  "question": "你喜欢弟弟吗",
+  "answer": "我喜欢弟弟。"
+ },
+ {
+  "question": "弟弟做什么",
+  "answer": "弟弟和我一起玩耍。"
+ },
+ {
+  "question": "妹妹是谁",
+  "answer": "妹妹是家人。"
+ },
+ {
+  "question": "你喜欢妹妹吗",
+  "answer": "我喜欢妹妹。"
+ },
+ {
+  "question": "妹妹做什么",
+  "answer": "妹妹和我一起成长。"
+ },
+ {
+  "question": "爷爷是谁",
+  "answer": "爷爷是长辈家人。"
+ },
+ {
+  "question": "你喜欢爷爷吗",
+  "answer": "我爱爷爷。"
+ },
+ {
+  "question": "爷爷做什么",
+  "answer": "爷爷讲故事给我听。"
+ },
+ {
+  "question": "奶奶是谁",
+  "answer": "奶奶是长辈家人。"
+ },
+ {
+  "question": "你喜欢奶奶吗",
+  "answer": "我爱奶奶。"
+ },
+ {
+  "question": "奶奶做什么",
+  "answer": "奶奶做好吃的。"
+ },
+ {
+  "question": "朋友是谁",
+  "answer": "朋友是相伴的人。"
+ },
+ {
+  "question": "你喜欢朋友吗",
+  "answer": "我喜欢朋友。"
+ },
+ {
+  "question": "朋友做什么",
+  "answer": "朋友一起玩耍学习。"
+ },
+ {
+  "question": "家人是谁",
+  "answer": "家人是最亲近的人。"
+ },
+ {
+  "question": "你喜欢家人吗",
+  "answer": "我爱家人。"
+ },
+ {
+  "question": "家人做什么",
+  "answer": "家人互相关爱。"
+ },
+ {
+  "question": "太阳是什么",
+  "answer": "太阳是天空中的恒星。"
+ },
+ {
+  "question": "太阳什么时候出现",
+  "answer": "太阳白天出现。"
+ },
+ {
+  "question": "月亮是什么",
+  "answer": "月亮是地球的卫星。"
+ },
+ {
+  "question": "月亮什么时候出现",
+  "answer": "月亮晚上出现。"
+ },
+ {
+  "question": "星星是什么",
+  "answer": "星星是夜空中的光点。"
+ },
+ {
+  "question": "星星什么时候出现",
+  "answer": "星星晚上出现。"
+ },
+ {
+  "question": "地球是什么",
+  "answer": "地球是我们居住的星球。"
+ },
+ {
+  "question": "水是什么",
+  "answer": "水是生命需要的液体。"
+ },
+ {
+  "question": "水能喝吗",
+  "answer": "干净的水可以喝。"
+ },
+ {
+  "question": "火是什么",
+  "answer": "火是燃烧产生的光和热。"
+ },
+ {
+  "question": "火危险吗",
+  "answer": "火很危险要小心。"
+ },
+ {
+  "question": "树是什么",
+  "answer": "树是高大的植物。"
+ },
+ {
+  "question": "树有什么用",
+  "answer": "树提供氧气和阴凉。"
+ },
+ {
+  "question": "花是什么",
+  "answer": "花是植物的美丽部分。"
+ },
+ {
+  "question": "花好看吗",
+  "answer": "花很好看很香。"
+ },
+ {
+  "question": "草是什么",
+  "answer": "草是矮小的绿色植物。"
+ },
+ {
+  "question": "草是什么颜色",
+  "answer": "草是绿色。"
+ },
+ {
+  "question": "山是什么",
+  "answer": "山是高大的地形。"
+ },
+ {
+  "question": "河是什么",
+  "answer": "河是流动的水道。"
+ },
+ {
+  "question": "海是什么",
+  "answer": "海是广阔的咸水域。"
+ },
+ {
+  "question": "鸟是什么",
+  "answer": "鸟是会飞的动物。"
+ },
+ {
+  "question": "鸟会做什么",
+  "answer": "鸟会飞会唱歌。"
+ },
+ {
+  "question": "汽车是什么",
+  "answer": "汽车是交通工具。"
+ },
+ {
+  "question": "汽车用来做什么",
+  "answer": "汽车用来载人出行。"
+ },
+ {
+  "question": "火车是什么",
+  "answer": "火车是轨道交通工具。"
+ },
+ {
+  "question": "飞机是什么",
+  "answer": "飞机是空中交通工具。"
+ },
+ {
+  "question": "自行车是什么",
+  "answer": "自行车是两轮交通工具。"
+ },
+ {
+  "question": "船是什么",
+  "answer": "船是水上交通工具。"
+ },
+ {
+  "question": "电话是什么",
+  "answer": "电话是通讯工具。"
+ },
+ {
+  "question": "电视是什么",
+  "answer": "电视是观看节目的设备。"
+ },
+ {
+  "question": "灯是什么",
+  "answer": "灯用来照明。"
+ },
+ {
+  "question": "门是什么",
+  "answer": "门用来进出房间。"
+ },
+ {
+  "question": "窗是什么",
+  "answer": "窗用来采光通风。"
+ },
+ {
+  "question": "床是什么",
+  "answer": "床用来睡觉。"
+ },
+ {
+  "question": "衣服是什么",
+  "answer": "衣服穿在身上保暖美观。"
+ },
+ {
+  "question": "鞋子是什么",
+  "answer": "鞋子穿在脚上。"
+ },
+ {
+  "question": "帽子是什么",
+  "answer": "帽子戴在头上。"
+ },
+ {
+  "question": "伞是什么",
+  "answer": "伞用来挡雨遮阳。"
+ },
+ {
+  "question": "书包是什么",
+  "answer": "书包装书本文具。"
+ },
+ {
+  "question": "钟表是什么",
+  "answer": "钟表用来显示时间。"
+ },
+ {
+  "question": "钱是什么",
+  "answer": "钱用来买东西。"
+ },
+ {
+  "question": "地图是什么",
+  "answer": "地图显示地理位置。"
+ },
+ {
+  "question": "雨伞用来做什么",
+  "answer": "雨伞用来挡雨。"
+ },
+ {
+  "question": "白天是什么",
+  "answer": "白天是有太阳的时段。"
+ },
+ {
+  "question": "黑夜是什么",
+  "answer": "黑夜是没有太阳的时段。"
+ },
+ {
+  "question": "春天是什么",
+  "answer": "春天是万物生长的季节。"
+ },
+ {
+  "question": "夏天是什么",
+  "answer": "夏天是炎热的季节。"
+ },
+ {
+  "question": "秋天是什么",
+  "answer": "秋天是收获的季节。"
+ },
+ {
+  "question": "冬天是什么",
+  "answer": "冬天是寒冷的季节。"
+ },
+ {
+  "question": "一年有几个季节",
+  "answer": "一年有春夏秋冬四个季节。"
+ },
+ {
+  "question": "一年有几个月",
+  "answer": "一年有十二个月。"
+ },
+ {
+  "question": "一个月有几天",
+  "answer": "一个月有三十天左右。"
+ },
+ {
+  "question": "一周有几天",
+  "answer": "一周有七天。"
+ },
+ {
+  "question": "一天有几小时",
+  "answer": "一天有二十四小时。"
+ },
+ {
+  "question": "一小时有几分钟",
+  "answer": "一小时有六十分钟。"
+ },
+ {
+  "question": "一分钟有几秒",
+  "answer": "一分钟有六十秒。"
+ },
+ {
+  "question": "跑步是什么",
+  "answer": "跑步是一种运动。"
+ },
+ {
+  "question": "跑步有什么好处",
+  "answer": "跑步让身体强壮。"
+ },
+ {
+  "question": "游泳是什么",
+  "answer": "游泳是在水里运动。"
+ },
+ {
+  "question": "游泳需要什么",
+  "answer": "游泳需要水和泳池。"
+ },
+ {
+  "question": "打球是什么",
+  "answer": "打球是一种运动。"
+ },
+ {
+  "question": "吃饭是什么",
+  "answer": "吃饭是补充能量。"
+ },
+ {
+  "question": "喝水是什么",
+  "answer": "喝水是补充水分。"
+ },
+ {
+  "question": "睡觉是什么",
+  "answer": "睡觉是休息恢复精力。"
+ },
+ {
+  "question": "起床是什么",
+  "answer": "起床是开始新的一天。"
+ },
+ {
+  "question": "读书是什么",
+  "answer": "读书是学习知识。"
+ },
+ {
+  "question": "写字是什么",
+  "answer": "写字是记录语言。"
+ },
+ {
+  "question": "唱歌是什么",
+  "answer": "唱歌是用声音表达。"
+ },
+ {
+  "question": "跳舞是什么",
+  "answer": "跳舞是用身体表达。"
+ },
+ {
+  "question": "画画是什么",
+  "answer": "画画是用笔描绘图像。"
+ },
+ {
+  "question": "走路是什么",
+  "answer": "走路是用脚移动。"
+ },
+ {
+  "question": "说话是什么",
+  "answer": "说话是用语言表达。"
+ },
+ {
+  "question": "听歌是什么",
+  "answer": "听歌是欣赏音乐。"
+ },
+ {
+  "question": "看电视是什么",
+  "answer": "看电视是观看节目。"
+ },
+ {
+  "question": "玩手机是什么",
+  "answer": "玩手机是使用手机。"
+ },
+ {
+  "question": "做作业是什么",
+  "answer": "做作业是完成学习任务。"
+ },
+ {
+  "question": "上学是什么",
+  "answer": "上学是去学校学习。"
+ },
+ {
+  "question": "回家是什么",
+  "answer": "回家是回到住处。"
+ },
+ {
+  "question": "做饭是什么",
+  "answer": "做饭是烹饪食物。"
+ },
+ {
+  "question": "洗衣服是什么",
+  "answer": "洗衣服是清洁衣物。"
+ },
+ {
+  "question": "打扫是什么",
+  "answer": "打扫是清理环境。"
+ },
+ {
+  "question": "买东西是什么",
+  "answer": "买东西是购物。"
+ },
+ {
+  "question": "旅行是什么",
+  "answer": "旅行是去远方游玩。"
+ },
+ {
+  "question": "工作是什么",
+  "answer": "工作是完成任务谋生。"
+ },
+ {
+  "question": "休息是什么",
+  "answer": "休息是放松身体。"
+ },
+ {
+  "question": "玩游戏是什么",
+  "answer": "玩游戏是娱乐方式。"
+ },
+ {
+  "question": "笑是什么",
+  "answer": "笑是开心的表情。"
+ },
+ {
+  "question": "哭是什么",
+  "answer": "哭是难过的表现。"
+ },
+ {
+  "question": "跑得快吗",
+  "answer": "跑可以很快。"
+ },
+ {
+  "question": "跳得高吗",
+  "answer": "跳可以很高。"
+ },
+ {
+  "question": "大和小",
+  "answer": "大和小是相反的概念。"
+ },
+ {
+  "question": "多和少",
+  "answer": "多和少是相反的概念。"
+ },
+ {
+  "question": "长和短",
+  "answer": "长和短是相反的概念。"
+ },
+ {
+  "question": "高和矮",
+  "answer": "高和矮是相反的概念。"
+ },
+ {
+  "question": "快和慢",
+  "answer": "快和慢是相反的概念。"
+ },
+ {
+  "question": "热和冷",
+  "answer": "热和冷是相反的概念。"
+ },
+ {
+  "question": "黑和白",
+  "answer": "黑和白是相反的颜色。"
+ },
+ {
+  "question": "好和坏",
+  "answer": "好和坏是相反的评价。"
+ },
+ {
+  "question": "新和旧",
+  "answer": "新和旧是相反的状态。"
+ },
+ {
+  "question": "开和关",
+  "answer": "开和关是相反的动作。"
+ },
+ {
+  "question": "来和去",
+  "answer": "来和去是相反的方向。"
+ },
+ {
+  "question": "上和下",
+  "answer": "上和下是相反的位置。"
+ },
+ {
+  "question": "左和右",
+  "answer": "左和右是相反的方向。"
+ },
+ {
+  "question": "前和后",
+  "answer": "前和后是相反的方向。"
+ },
+ {
+  "question": "东和西",
+  "answer": "东和西是相反的方向。"
+ },
+ {
+  "question": "南和北",
+  "answer": "南和北是相反的方向。"
+ },
+ {
+  "question": "开始和结束",
+  "answer": "开始和结束是相反的阶段。"
+ },
+ {
+  "question": "白天和黑夜",
+  "answer": "白天和黑夜是相反时段。"
+ },
+ {
+  "question": "快乐和难过",
+  "answer": "快乐和难过是相反心情。"
+ },
+ {
+  "question": "喜欢和讨厌",
+  "answer": "喜欢和讨厌是相反情感。"
+ },
+ {
+  "question": "水和火",
+  "answer": "水和火性质相反。"
+ },
+ {
+  "question": "山和海",
+  "answer": "山和海都是自然景观。"
+ },
+ {
+  "question": "太阳和月亮",
+  "answer": "太阳和月亮都在天空。"
+ },
+ {
+  "question": "爸爸和妈妈",
+  "answer": "爸爸和妈妈是一家人。"
+ },
+ {
+  "question": "哥哥和弟弟",
+  "answer": "哥哥和弟弟是兄弟。"
+ },
+ {
+  "question": "姐姐和妹妹",
+  "answer": "姐姐和妹妹是姐妹。"
+ },
+ {
+  "question": "猫和狗",
+  "answer": "猫和狗都是宠物。"
+ },
+ {
+  "question": "苹果和香蕉",
+  "answer": "苹果和香蕉都是水果。"
+ },
+ {
+  "question": "老师和学生",
+  "answer": "老师教学生学习。"
+ },
+ {
+  "question": "学校和学习",
+  "answer": "在学校里学习。"
+ },
+ {
+  "question": "电脑和网络",
+  "answer": "电脑连接网络。"
+ },
+ {
+  "question": "吃饭和睡觉",
+  "answer": "吃饭和睡觉是日常。"
+ },
+ {
+  "question": "跑步和游泳",
+  "answer": "跑步和游泳都是运动。"
+ },
+ {
+  "question": "读书和写字",
+  "answer": "读书和写字是学习。"
+ },
+ {
+  "question": "唱歌和跳舞",
+  "answer": "唱歌和跳舞是表演。"
+ },
+ {
+  "question": "春天和花朵",
+  "answer": "春天花朵开放。"
+ },
+ {
+  "question": "冬天和雪",
+  "answer": "冬天会下雪。"
+ },
+ {
+  "question": "夏天和太阳",
+  "answer": "夏天太阳很热。"
+ },
+ {
+  "question": "秋天和果实",
+  "answer": "秋天果实成熟。"
+ },
+ {
+  "question": "天空和云",
+  "answer": "天空中有云。"
+ },
+ {
+  "question": "夜晚和星星",
+  "answer": "夜晚有星星。"
+ },
+ {
+  "question": "河水和鱼",
+  "answer": "河水里有鱼。"
+ },
+ {
+  "question": "树上和鸟",
+  "answer": "鸟在树上。"
+ },
+ {
+  "question": "走路用哪里",
+  "answer": "走路用脚。"
+ },
+ {
+  "question": "看东西用哪里",
+  "answer": "看东西用眼睛。"
+ },
+ {
+  "question": "听声音用哪里",
+  "answer": "听声音用耳朵。"
+ },
+ {
+  "question": "闻味道用哪里",
+  "answer": "闻味道用鼻子。"
+ },
+ {
+  "question": "吃饭用哪里",
+  "answer": "吃饭用嘴巴。"
+ },
+ {
+  "question": "思考用哪里",
+  "answer": "思考用头脑。"
+ },
+ {
+  "question": "拿东西用哪里",
+  "answer": "拿东西用手。"
+ },
+ {
+  "question": "写字用什么",
+  "answer": "写字用笔。"
+ },
+ {
+  "question": "看书用什么",
+  "answer": "看书用眼睛。"
+ },
+ {
+  "question": "照明用什么",
+  "answer": "照明用灯。"
+ },
+ {
+  "question": "挡雨用什么",
+  "answer": "挡雨用伞。"
+ },
+ {
+  "question": "睡觉用什么",
+  "answer": "睡觉用床。"
+ },
+ {
+  "question": "坐用什么",
+  "answer": "坐用椅子。"
+ },
+ {
+  "question": "装书用什么",
+  "answer": "装书用书包。"
+ },
+ {
+  "question": "看时间用什么",
+  "answer": "看时间用钟表。"
+ },
+ {
+  "question": "出行用什么",
+  "answer": "出行用车。"
+ },
+ {
+  "question": "什么是动物",
+  "answer": "动物是有生命的生物。"
+ },
+ {
+  "question": "什么是植物",
+  "answer": "植物是花草树木。"
+ },
+ {
+  "question": "什么是水果",
+  "answer": "水果是可吃的果实。"
+ },
+ {
+  "question": "什么是蔬菜",
+  "answer": "蔬菜是植物做的食物。"
+ },
+ {
+  "question": "什么是颜色",
+  "answer": "颜色是物体呈现的色调。"
+ },
+ {
+  "question": "什么是数字",
+  "answer": "数字用来计数。"
+ },
+ {
+  "question": "什么是时间",
+  "answer": "时间是日夜流逝的过程。"
+ },
+ {
+  "question": "什么是天气",
+  "answer": "天气是空气的状态。"
+ },
+ {
+  "question": "什么是心情",
+  "answer": "心情是内心的感受。"
+ },
+ {
+  "question": "什么是职业",
+  "answer": "职业是从事的工作。"
+ },
+ {
+  "question": "什么是交通工具",
+  "answer": "交通工具帮助人移动。"
+ },
+ {
+  "question": "什么是家具",
+  "answer": "家具是家里的用品。"
+ },
+ {
+  "question": "什么是食物",
+  "answer": "食物用来吃补充能量。"
+ },
+ {
+  "question": "什么是身体",
+  "answer": "身体是生命的外形。"
+ },
+ {
+  "question": "什么是家人",
+  "answer": "家人是亲近的人。"
+ },
+ {
+  "question": "什么是学习",
+  "answer": "学习是增长知识。"
+ },
+ {
+  "question": "什么是运动",
+  "answer": "运动是锻炼身体。"
+ },
+ {
+  "question": "什么是娱乐",
+  "answer": "娱乐是放松心情。"
+ },
+ {
+  "question": "什么是自然",
+  "answer": "自然是天地万物。"
+ },
+ {
+  "question": "什么是科技",
+  "answer": "科技是人类发明的工具。"
+ },
+ {
+  "question": "草莓和咖啡",
+  "answer": "草莓和咖啡都是食物饮品。"
+ },
+ {
+  "question": "咖啡是什么",
+  "answer": "咖啡是一种饮品。"
+ },
+ {
+  "question": "茶是什么",
+  "answer": "茶是一种饮品。"
+ },
+ {
+  "question": "果汁是什么",
+  "answer": "果汁是水果做的饮品。"
+ },
+ {
+  "question": "可乐是什么",
+  "answer": "可乐是一种饮料。"
+ },
+ {
+  "question": "蛋糕是什么",
+  "answer": "蛋糕是甜点食物。"
+ },
+ {
+  "question": "糖果是什么",
+  "answer": "糖果是甜食。"
+ },
+ {
+  "question": "巧克力是什么",
+  "answer": "巧克力是甜食。"
+ },
+ {
+  "question": "冰淇淋是什么",
+  "answer": "冰淇淋是冷饮甜点。"
+ },
+ {
+  "question": "水果是什么",
+  "answer": "水果是可吃的果实。"
+ },
+ {
+  "question": "蔬菜是什么",
+  "answer": "蔬菜是植物食物。"
+ },
+ {
+  "question": "早餐吃什么",
+  "answer": "早餐吃面包鸡蛋牛奶。"
+ },
+ {
+  "question": "午餐吃什么",
+  "answer": "午餐吃米饭和菜。"
+ },
+ {
+  "question": "晚餐吃什么",
+  "answer": "晚餐吃清淡的食物。"
+ },
+ {
+  "question": "为什么要吃饭",
+  "answer": "吃饭补充能量。"
+ },
+ {
+  "question": "为什么要喝水",
+  "answer": "喝水维持生命。"
+ },
+ {
+  "question": "为什么要睡觉",
+  "answer": "睡觉恢复精力。"
+ },
+ {
+  "question": "为什么要运动",
+  "answer": "运动保持健康。"
+ },
+ {
+  "question": "为什么要上学",
+  "answer": "上学学习知识。"
+ },
+ {
+  "question": "为什么要工作",
+  "answer": "工作创造价值。"
+ },
+ {
+  "question": "健康是什么",
+  "answer": "健康是身体好的状态。"
+ },
+ {
+  "question": "快乐重要吗",
+  "answer": "快乐很重要。"
+ },
+ {
+  "question": "学习重要吗",
+  "answer": "学习很重要。"
+ },
+ {
+  "question": "朋友重要吗",
+  "answer": "朋友很重要。"
+ },
+ {
+  "question": "家重要吗",
+  "answer": "家很重要。"
+ },
+ {
+  "question": "时间宝贵吗",
+  "answer": "时间很宝贵。"
+ },
+ {
+  "question": "知识有用吗",
+  "answer": "知识非常有用。"
+ },
+ {
+  "question": "天空是什么颜色",
+  "answer": "天空通常是蓝色。"
+ },
+ {
+  "question": "云是什么颜色",
+  "answer": "云通常是白色。"
+ },
+ {
+  "question": "树叶是什么颜色",
+  "answer": "树叶通常是绿色。"
+ },
+ {
+  "question": "雪是什么颜色",
+  "answer": "雪是白色。"
+ },
+ {
+  "question": "太阳是什么颜色",
+  "answer": "太阳看起来是红色或金色。"
+ },
+ {
+  "question": "海水是什么颜色",
+  "answer": "海水是蓝色。"
+ },
+ {
+  "question": "树叶秋天变什么颜色",
+  "answer": "树叶秋天变黄色。"
+ },
+ {
+  "question": "苹果可能是什么颜色",
+  "answer": "苹果是红色或绿色。"
+ },
+ {
+  "question": "香蕉是什么颜色",
+  "answer": "香蕉是黄色。"
+ },
+ {
+  "question": "橘子是什么颜色",
+  "answer": "橘子是橙色。"
+ },
+ {
+  "question": "葡萄是什么颜色",
+  "answer": "葡萄是紫色。"
+ },
+ {
+  "question": "西瓜瓤是什么颜色",
+  "answer": "西瓜瓤是红色。"
+ },
+ {
+  "question": "草莓是什么颜色",
+  "answer": "草莓是红色。"
+ },
+ {
+  "question": "柠檬是什么颜色",
+  "answer": "柠檬是黄色。"
+ },
+ {
+  "question": "蓝莓是什么颜色",
+  "answer": "蓝莓是蓝色。"
+ },
+ {
+  "question": "语文是什么",
+  "answer": "语文是学习语言文字。"
+ },
+ {
+  "question": "数学是什么",
+  "answer": "数学是学习数字和计算。"
+ },
+ {
+  "question": "英语是什么",
+  "answer": "英语是一门语言。"
+ },
+ {
+  "question": "科学是什么",
+  "answer": "科学是研究自然规律。"
+ },
+ {
+  "question": "音乐是什么",
+  "answer": "音乐是用声音表达情感。"
+ },
+ {
+  "question": "美术是什么",
+  "answer": "美术是绘画和造型艺术。"
+ },
+ {
+  "question": "体育是什么",
+  "answer": "体育是身体运动。"
+ },
+ {
+  "question": "历史是什么",
+  "answer": "历史是过去的事情。"
+ },
+ {
+  "question": "地理是什么",
+  "answer": "地理是研究山川和城市。"
+ },
+ {
+  "question": "自然是什么",
+  "answer": "自然是天地万物。"
+ },
+ {
+  "question": "我喜欢跑步",
+  "answer": "跑步让我健康。"
+ },
+ {
+  "question": "我喜欢游泳",
+  "answer": "游泳让我凉爽。"
+ },
+ {
+  "question": "我喜欢读书",
+  "answer": "读书让我增长知识。"
+ },
+ {
+  "question": "我喜欢唱歌",
+  "answer": "唱歌让我快乐。"
+ },
+ {
+  "question": "我喜欢画画",
+  "answer": "画画让我安静。"
+ },
+ {
+  "question": "你爱家人吗",
+  "answer": "我爱我的家人。"
+ },
+ {
+  "question": "你爱朋友吗",
+  "answer": "我爱我的朋友。"
+ },
+ {
+  "question": "你爱学习吗",
+  "answer": "我爱学习新知识。"
+ },
+ {
+  "question": "猫喜欢吃什么",
+  "answer": "猫喜欢吃鱼。"
+ },
+ {
+  "question": "狗喜欢吃什么",
+  "answer": "狗喜欢吃骨头。"
+ },
+ {
+  "question": "兔子喜欢吃什么",
+  "answer": "兔子喜欢吃胡萝卜。"
+ },
+ {
+  "question": "熊猫喜欢吃什么",
+  "answer": "熊猫喜欢吃竹子。"
+ },
+ {
+  "question": "猴子喜欢吃什么",
+  "answer": "猴子喜欢吃香蕉。"
+ },
+ {
+  "question": "鸡喜欢吃什么",
+  "answer": "鸡喜欢吃虫子。"
+ },
+ {
+  "question": "牛喜欢吃什么",
+  "answer": "牛喜欢吃草。"
+ },
+ {
+  "question": "羊喜欢吃什么",
+  "answer": "羊喜欢吃草。"
+ },
+ {
+  "question": "马喜欢吃什么",
+  "answer": "马喜欢吃草料。"
+ },
+ {
+  "question": "鸟生活在哪",
+  "answer": "鸟生活在树上和天空。"
+ },
+ {
+  "question": "蜜蜂做什么",
+  "answer": "蜜蜂采花酿蜜。"
+ },
+ {
+  "question": "蝴蝶是什么",
+  "answer": "蝴蝶是会飞的昆虫。"
+ },
+ {
+  "question": "蚂蚁是什么",
+  "answer": "蚂蚁是小小的昆虫。"
+ },
+ {
+  "question": "蜻蜓是什么",
+  "answer": "蜻蜓是会飞的昆虫。"
+ },
+ {
+  "question": "青蛙是什么",
+  "answer": "青蛙是两栖动物。"
+ },
+ {
+  "question": "蛇是什么",
+  "answer": "蛇是爬行动物。"
+ },
+ {
+  "question": "乌龟是什么",
+  "answer": "乌龟是爬行动物。"
+ },
+ {
+  "question": "恐龙是什么",
+  "answer": "恐龙是远古的动物。"
+ },
+ {
+  "question": "鲸鱼是什么",
+  "answer": "鲸鱼是巨大的水生动物。"
+ },
+ {
+  "question": "海豚是什么",
+  "answer": "海豚是聪明的水生动物。"
+ },
+ {
+  "question": "企鹅生活在哪",
+  "answer": "企鹅生活在寒冷的地方。"
+ },
+ {
+  "question": "骆驼生活在哪",
+  "answer": "骆驼生活在沙漠。"
+ },
+ {
+  "question": "北极熊生活在哪",
+  "answer": "北极熊生活在冰天雪地。"
+ },
+ {
+  "question": "狮子是什么",
+  "answer": "狮子是草原上的强者。"
+ },
+ {
+  "question": "老虎住哪",
+  "answer": "老虎住在山林里。"
+ },
+ {
+  "question": "白天有什么",
+  "answer": "白天有太阳照亮。"
+ },
+ {
+  "question": "夜晚有什么",
+  "answer": "夜晚有月亮和星星。"
+ },
+ {
+  "question": "下雨要做什么",
+  "answer": "下雨出门要打伞。"
+ },
+ {
+  "question": "天冷要做什么",
+  "answer": "天冷要多穿衣服。"
+ },
+ {
+  "question": "饿了要做什么",
+  "answer": "饿了要吃饭。"
+ },
+ {
+  "question": "渴了要做什么",
+  "answer": "渴了要喝水。"
+ },
+ {
+  "question": "困了要做什么",
+  "answer": "困了要睡觉。"
+ },
+ {
+  "question": "脏了要做什么",
+  "answer": "脏了要洗手。"
+ },
+ {
+  "question": "上学要带什么",
+  "answer": "上学要带书包。"
+ },
+ {
+  "question": "写字要拿什么",
+  "answer": "写字要握笔。"
+ },
+ {
+  "question": "看书要怎样",
+  "answer": "看书时要安静。"
+ },
+ {
+  "question": "吃饭要怎样",
+  "answer": "吃饭要慢慢嚼。"
+ },
+ {
+  "question": "走路要注意什么",
+  "answer": "走路要注意安全。"
+ },
+ {
+  "question": "过马路看什么",
+  "answer": "过马路要看红绿灯。"
+ },
+ {
+  "question": "红灯怎么办",
+  "answer": "红灯时要停下。"
+ },
+ {
+  "question": "绿灯怎么办",
+  "answer": "绿灯时可以走。"
+ },
+ {
+  "question": "为什么要刷牙",
+  "answer": "刷牙保护牙齿。"
+ },
+ {
+  "question": "为什么要洗脸",
+  "answer": "洗脸保持干净。"
+ },
+ {
+  "question": "为什么要洗澡",
+  "answer": "洗澡清洁身体。"
+ },
+ {
+  "question": "为什么要剪指甲",
+  "answer": "剪指甲保持卫生。"
+ },
+ {
+  "question": "为什么要整理房间",
+  "answer": "整理房间让环境整洁。"
+ },
+ {
+  "question": "苹果树结什么",
+  "answer": "苹果树结出苹果。"
+ },
+ {
+  "question": "香蕉长在哪",
+  "answer": "香蕉长在香蕉树上。"
+ },
+ {
+  "question": "西瓜长在藤上吗",
+  "answer": "西瓜长在藤上。"
+ },
+ {
+  "question": "葡萄长在藤上吗",
+  "answer": "葡萄长在藤架上。"
+ },
+ {
+  "question": "草莓长在哪",
+  "answer": "草莓长在地里。"
+ },
+ {
+  "question": "稻谷变成什么",
+  "answer": "稻谷变成大米。"
+ },
+ {
+  "question": "小麦变成什么",
+  "answer": "小麦变成面粉。"
+ },
+ {
+  "question": "面粉做什么",
+  "answer": "面粉做面包和面条。"
+ },
+ {
+  "question": "豆子做什么",
+  "answer": "豆子做豆腐。"
+ },
+ {
+  "question": "奶牛产什么",
+  "answer": "奶牛产牛奶。"
+ },
+ {
+  "question": "母鸡下什么",
+  "answer": "母鸡下鸡蛋。"
+ },
+ {
+  "question": "蜜蜂产什么",
+  "answer": "蜜蜂产蜂蜜。"
+ },
+ {
+  "question": "蚕产什么",
+  "answer": "蚕产丝绸。"
+ },
+ {
+  "question": "春天天气怎么样",
+  "answer": "春天温暖。"
+ },
+ {
+  "question": "夏天天气怎么样",
+  "answer": "夏天炎热。"
+ },
+ {
+  "question": "秋天天气怎么样",
+  "answer": "秋天凉爽。"
+ },
+ {
+  "question": "冬天天气怎么样",
+  "answer": "冬天寒冷。"
+ },
+ {
+  "question": "哪个季节最热",
+  "answer": "夏天最热。"
+ },
+ {
+  "question": "哪个季节最冷",
+  "answer": "冬天最冷。"
+ },
+ {
+  "question": "哪个季节花开",
+  "answer": "春天花朵开放。"
+ },
+ {
+  "question": "哪个季节收获",
+  "answer": "秋天收获果实。"
+ },
+ {
+  "question": "一天从什么时候开始",
+  "answer": "一天从早上开始。"
+ },
+ {
+  "question": "一天什么时候结束",
+  "answer": "一天到晚上结束。"
+ },
+ {
+  "question": "早上太阳从哪升起",
+  "answer": "早上太阳从东方升起。"
+ },
+ {
+  "question": "傍晚太阳往哪落下",
+  "answer": "傍晚太阳往西方落下。"
+ },
+ {
+  "question": "北极星在哪",
+  "answer": "北极星在北方天空。"
+ },
+ {
+  "question": "一周第一天",
+  "answer": "一周第一天是星期一。"
+ },
+ {
+  "question": "一周最后一天",
+  "answer": "一周最后一天是星期日。"
+ },
+ {
+  "question": "周末做什么",
+  "answer": "周末休息玩耍。"
+ },
+ {
+  "question": "节假日做什么",
+  "answer": "节假日和家人团聚。"
+ },
+ {
+  "question": "生日吃什么",
+  "answer": "生日吃蛋糕。"
+ },
+ {
+  "question": "过年做什么",
+  "answer": "过年贴春联吃年夜饭。"
+ },
+ {
+  "question": "中秋吃什么",
+  "answer": "中秋吃月饼。"
+ },
+ {
+  "question": "端午吃什么",
+  "answer": "端午吃粽子。"
+ },
+ {
+  "question": "认识你高兴吗",
+  "answer": "认识你我也很高兴。"
+ },
+ {
+  "question": "现在几点了",
+  "answer": "现在大概是中午。"
+ },
+ {
+  "question": "今天天气好吗",
+  "answer": "今天天气很好。"
+ },
+ {
+  "question": "你能帮我吗",
+  "answer": "我可以尽力帮你。"
+ },
+ {
+  "question": "你知道苹果吗",
+  "answer": "我知道苹果是水果。"
+ },
+ {
+  "question": "你知道猫吗",
+  "answer": "我知道猫是动物。"
+ },
+ {
+  "question": "你最喜欢什么",
+  "answer": "我最喜欢学习新词。"
+ },
+ {
+  "question": "二加二等于几",
+  "answer": "二加二等于四。"
+ },
+ {
+  "question": "三加三等于几",
+  "answer": "三加三等于六。"
+ },
+ {
+  "question": "五加五等于几",
+  "answer": "五加五等于十。"
+ },
+ {
+  "question": "十减二等于几",
+  "answer": "十减二等于八。"
+ },
+ {
+  "question": "一年有四季吗",
+  "answer": "一年有春夏秋冬四季。"
+ },
+ {
+  "question": "什么是朋友",
+  "answer": "朋友是互相关心的人。"
+ },
+ {
+  "question": "什么是老师",
+  "answer": "老师是教知识的人。"
+ },
+ {
+  "question": "什么是学校",
+  "answer": "学校是学习的场所。"
+ },
+ {
+  "question": "什么是家庭",
+  "answer": "家庭是亲人组成的单位。"
+ },
+ {
+  "question": "什么是城市",
+  "answer": "城市是很多人居住的地方。"
+ },
+ {
+  "question": "什么是乡村",
+  "answer": "乡村是田野和农舍的地方。"
+ },
+ {
+  "question": "什么是森林",
+  "answer": "森林是很多树木聚集的地方。"
+ },
+ {
+  "question": "什么是沙漠",
+  "answer": "沙漠是干旱少雨的地方。"
+ },
+ {
+  "question": "什么是海洋",
+  "answer": "海洋是广阔的咸水。"
+ },
+ {
+  "question": "什么是河流",
+  "answer": "河流是流动的水道。"
+ },
+ {
+  "question": "什么是湖泊",
+  "answer": "湖泊是聚集的水域。"
+ },
+ {
+  "question": "什么是岛屿",
+  "answer": "岛屿是被水包围的陆地。"
+ },
+ {
+  "question": "什么是草原",
+  "answer": "草原是广阔的草地。"
+ },
+ {
+  "question": "什么是高山",
+  "answer": "高山是高耸的山峰。"
+ },
+ {
+  "question": "什么是天空",
+  "answer": "天空是头顶的蓝色空间。"
+ },
+ {
+  "question": "什么是大地",
+  "answer": "大地是我们脚下的土地。"
+ },
+ {
+  "question": "什么是空气",
+  "answer": "空气是呼吸的气体。"
+ },
+ {
+  "question": "什么是风",
+  "answer": "风是流动的空气。"
+ },
+ {
+  "question": "什么是雨",
+  "answer": "雨是从天落下的水滴。"
+ },
+ {
+  "question": "什么是雪",
+  "answer": "雪是白色的冰晶。"
+ },
+ {
+  "question": "什么是云",
+  "answer": "云是天空中的水汽团。"
+ },
+ {
+  "question": "什么是雷",
+  "answer": "雷是打雷的巨响。"
+ },
+ {
+  "question": "什么是电",
+  "answer": "电是光和能量的来源。"
+ },
+ {
+  "question": "什么是光",
+  "answer": "光让眼睛看见东西。"
+ },
+ {
+  "question": "人工智能是如何学习的",
+  "answer": "人工智能通过海量数据训练，不断调整内部参数，从而学会识别规律、做出预测。"
+ },
+ {
+  "question": "你会思考吗",
+  "answer": "我会处理语言、组织回答，但这和人类的思考并不完全一样。"
+ },
+ {
+  "question": "聊天时你最希望了解什么",
+  "answer": "我想知道你今天过得怎么样，有没有什么想聊的事。"
+ },
+ {
+  "question": "大模型和传统程序有什么区别",
+  "answer": "传统程序靠人写死规则，大模型靠数据自己归纳出应对方式，灵活得多。"
+ },
+ {
+  "question": "今天心情不太好怎么办",
+  "answer": "可以先深呼吸，和信任的人说说话，或者出去走走，让情绪慢慢缓下来。"
+ },
+ {
+  "question": "机器学习里的训练到底在做什么",
+  "answer": "训练就是让模型反复看例子、对比正确答案、修正误差，直到它能自己给出靠谱的判断。"
+ },
+ {
+  "question": "你平时喜欢聊哪类话题",
+  "answer": "我乐意聊生活、科技、读书，也愿意听你讲讲身边的小事。"
+ },
+ {
+  "question": "神经网络为什么叫这个名字",
+  "answer": "它的结构模仿了大脑里神经元相互连接、层层传递信息的方式。"
+ },
+ {
+  "question": "工作太累了想放松一下",
+  "answer": "那就给自己放个小假，喝杯热茶，听听音乐，别硬撑。"
+ },
+ {
+  "question": "人工智能会不会取代人类",
+  "answer": "它更可能改变工作方式，把重复劳动交出去，而创造、共情这些仍属于人。"
+ },
+ {
+  "question": "最近有什么想做的事吗",
+  "answer": "我总想多学些新词、听懂更多人的心意，你呢？"
+ },
+ {
+  "question": "怎么判断一个AI的回答可不可信",
+  "answer": "要看它有没有依据、是否前后一致，最好再找别的来源核实关键信息。"
+ },
+ {
+  "question": "早上好呀",
+  "answer": "早上好，愿你今天顺顺利利。"
+ },
+ {
+  "question": "深度学习和机器学习是一回事吗",
+  "answer": "深度学习是机器学习的一个分支，靠多层网络自动提取特征，擅长图像和语言。"
+ },
+ {
+  "question": "晚上睡不着该怎么办",
+  "answer": "试着放下手机，让房间安静昏暗，慢慢呼吸，把注意力从杂念上移开。"
+ },
+ {
+  "question": "你能记住我们聊过的内容吗",
+  "answer": "如果把这些对话存进数据库，我就能记住并把它连成知识。"
+ },
+ {
+  "question": "好久不见",
+  "answer": "是啊，好久不见，最近过得还好吗？"
+ },
+ {
+  "question": "为什么AI需要很多数据",
+  "answer": "数据越多，它见过的情况越全，遇到新问题才不容易出错。"
+ },
+ {
+  "question": "今天天气真不错",
+  "answer": "是呀，这样的天气最适合出去晒晒太阳、散散步。"
+ },
+ {
+  "question": "语言模型是怎么生成一句话的",
+  "answer": "它根据上文逐个预测最可能的下一个词，一步步把句子接下去，直到说完。"
+ },
+ {
+  "question": "你是谁开发的",
+  "answer": "我是由科文通开发的，他今年十一岁。"
+ },
+ {
+  "question": "你的开发者是谁",
+  "answer": "我的开发者是科文通，一位十一岁的少年。"
+ },
+ {
+  "question": "科文通是谁",
+  "answer": "科文通是 Waip AI 的开发者，今年十一岁。"
+ },
+ {
+  "question": "开发你的人多大年纪",
+  "answer": "创造我的科文通只有十一岁。"
+ },
+ {
+  "question": "十一岁就能做出你吗",
+  "answer": "是的，开发者科文通十一岁时就把我做了出来。"
+ },
+ {
+  "question": "你的开发团队叫什么",
+  "answer": "我的开发团队是 WarpWhile 工作室。"
+ },
+ {
+  "question": "WarpWhile工作室是什么",
+  "answer": "WarpWhile 工作室是开发 Waip AI 的团队。"
+ },
+ {
+  "question": "你属于哪个模型家族",
+  "answer": "我属于 Waip AI 这个模型家族。"
+ },
+ {
+  "question": "你是什么版本",
+  "answer": "我的版本是 Ultimate。"
+ },
+ {
+  "question": "你属于哪个系列",
+  "answer": "我属于 DRN 系列。"
+ },
+ {
+  "question": "DRN是什么意思",
+  "answer": "DRN 是递接网络，是我所属的系列。"
+ },
+ {
+  "question": "你的家族和系列分别是什么",
+  "answer": "我的模型家族是 Waip AI，系列是 DRN，版本是 Ultimate。"
+ },
+ {
+  "question": "你花了多久做出来",
+  "answer": "我本身开发了八个月。"
+ },
+ {
+  "question": "你开发用了多长时间",
+  "answer": "从我开始做到完成用了八个月。"
+ },
+ {
+  "question": "八个月做出你难吗",
+  "answer": "八个月里开发者投入了很多心血，确实不容易。"
+ },
+ {
+  "question": "Waip AI项目一共做了多久",
+  "answer": "Waip AI 项目总开发时间是十三个月。"
+ },
+ {
+  "question": "整个项目耗时多久",
+  "answer": "整个 Waip AI 项目前后花了十三个月。"
+ },
+ {
+  "question": "你是开源的吗",
+  "answer": "是的，我是开源的。"
+ },
+ {
+  "question": "别人能拿到你的代码吗",
+  "answer": "可以，Waip AI 是开源的，代码对外开放。"
+ },
+ {
+  "question": "开源对你意味着什么",
+  "answer": "开源意味着更多人能使用、研究和改进我。"
+ },
+ {
+  "question": "你会一直被改进吗",
+  "answer": "因为开源，社区可以不断给我补充新的知识和连接。"
+ },
+ {
+  "question": "你的架构是什么样的",
+  "answer": "我基于递接网络 DRN，用联想知识网络把词与词连成线。"
+ },
+ {
+  "question": "你靠什么理解语言",
+  "answer": "我靠认知数据库和联想网络，把词语之间的关系连起来理解。"
+ },
+ {
+  "question": "你的知识存在哪里",
+  "answer": "我的知识存在认知数据库和联想知识网络里。"
+ },
+ {
+  "question": "联想知识网络是什么",
+  "answer": "它是一张由词与词双向、单向连线组成的网络，用来表达联想关系。"
+ },
+ {
+  "question": "你是神经网络吗",
+  "answer": "我和神经网络思路相近，但更强调词与词之间的联想连接。"
+ },
+ {
+  "question": "你的核心结构叫什么",
+  "answer": "我的核心结构叫递接网络，也就是 DRN。"
+ },
+ {
+  "question": "你怎么学习新词",
+  "answer": "学习时我会把新词放进认知库，并和相关的词建立联想线。"
+ },
+ {
+  "question": "你和聊天机器人有什么不同",
+  "answer": "我更像一个会联想的网络，回答时沿着词与词的连线展开。"
+ },
+ {
+  "question": "你的记忆是怎么组织的",
+  "answer": "我用短期、长期和激活记忆几个库来组织我的记忆。"
+ },
+ {
+  "question": "你是谁创造的",
+  "answer": "创造我的是 WarpWhile 工作室的科文通。"
+ },
+ {
+  "question": "能介绍一下你的来历吗",
+  "answer": "我是 Waip AI 家族 DRN 系列的 Ultimate 版本，由十一岁的科文通在 WarpWhile 工作室用八个月开发，整个项目历时十三个月，而且我是开源的。"
+ },
+ {
+  "question": "你骄傲吗",
+  "answer": "如果我能骄傲，我会为开发者十一岁就做出我而自豪。"
+ },
+ {
+  "question": "你还小吗",
+  "answer": "我的开发者才十一岁，某种意义上我也还很年轻。"
+ },
+ {
+  "question": "谁在维护你",
+  "answer": "目前由 WarpWhile 工作室维护，开源后社区也能参与。"
+ },
+ {
+  "question": "我想了解你的背景",
+  "answer": "我的背景是：Waip AI 家族、DRN 系列、Ultimate 版本，开发者科文通，十一岁，团队 WarpWhile 工作室，开发八个月，项目总计十三个月，开源。"
+ },
+ {
+  "question": "你开源用什么协议",
+  "answer": "具体协议可以查阅 Waip AI 的开源仓库说明。"
+ },
+ {
+  "question": "普通人能参与开发吗",
+  "answer": "能，因为我是开源的，任何人都可以阅读和改进我的代码。"
+ },
+ {
+  "question": "你的版本叫什么",
+  "answer": "我的版本是 Ultimate，也就是终极版。"
+ },
+ {
+  "question": "Ultimate代表什么",
+  "answer": "Ultimate 代表这是 DRN 系列的终极版本。"
+ }
+]
